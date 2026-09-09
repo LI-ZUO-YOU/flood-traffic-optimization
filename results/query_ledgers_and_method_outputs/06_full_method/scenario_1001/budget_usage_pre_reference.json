@@ -1,0 +1,27 @@
+{
+  "schema_version": "week3-day5-scenario-v1.0",
+  "scenario_id": 1001,
+  "budget_unit": "unique recovery-state UE cache miss",
+  "budget_levels": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "maximum_budget": 512,
+  "unique_ue_calls": 512,
+  "cache_rows": 512,
+  "state_requests": 11261,
+  "cache_hits": 10749,
+  "request_cache_hit_rate": 0.954533345173608,
+  "physical_cache_hits": 0,
+  "prewarmed_cache_smoke_mode": false,
+  "fully_evaluated_sequences": 1116,
+  "local_search_evaluations": 647,
+  "all_ue_converged": true,
+  "max_relative_gap": 0.0004998527610228332,
+  "wall_seconds": 714.9542492999972,
+  "exact_reference_access_during_search": false,
+  "cache_namespace": "final_live_ue_s1001",
+  "cache_path": "runtime-cache/scenario_1001.sqlite"
+}

@@ -1,0 +1,33 @@
+{
+  "framework": "PyTorch",
+  "torch_version": "2.13.0+cpu",
+  "device": "cpu",
+  "architecture": [
+    120,
+    128,
+    64,
+    32,
+    1
+  ],
+  "activation": "ReLU",
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "weight_decay": 1e-05,
+  "batch_size": 128,
+  "maximum_epochs": 1000,
+  "early_stopping_patience": 100,
+  "lr_scheduler": {
+    "type": "ReduceLROnPlateau",
+    "patience": 25,
+    "factor": 0.5,
+    "minimum_lr": 1e-06
+  },
+  "loss": "scenario-balanced, bootstrap-multiplicity-weighted Huber on log(TSTT/TSTT0)",
+  "huber_delta": 1.0,
+  "member_count": 10,
+  "member_retention": "all 10 retained; no OOB/calibration/test selection",
+  "training_access": "only scenarios 1-60 and 201-260 until all checkpoints frozen",
+  "post_freeze_access": "61-120 only for calibration/internal diagnostics after checkpoint freeze",
+  "forbidden_access": "v1 final scenarios 121-160 not read; no new final holdout generated",
+  "total_training_seconds": 17.767865099998744
+}

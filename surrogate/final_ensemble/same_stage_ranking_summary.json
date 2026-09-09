@@ -1,0 +1,30 @@
+{
+  "train": {
+    "eligible_group_count": 356,
+    "median_same_stage_spearman": 0.6794340463458111,
+    "q25_same_stage_spearman": 0.4732843137254902,
+    "median_pairwise_accuracy": 0.7619047619047619,
+    "q25_pairwise_accuracy": 0.6666666666666666
+  },
+  "calibration": {
+    "eligible_group_count": 53,
+    "median_same_stage_spearman": 0.39999999999999997,
+    "q25_same_stage_spearman": 0.0,
+    "median_pairwise_accuracy": 0.6666666666666666,
+    "q25_pairwise_accuracy": 0.5
+  },
+  "internal_id": {
+    "eligible_group_count": 50,
+    "median_same_stage_spearman": 0.33571428571428574,
+    "q25_same_stage_spearman": 0.023809523809523815,
+    "median_pairwise_accuracy": 0.6035714285714285,
+    "q25_pairwise_accuracy": 0.5
+  },
+  "internal_severe": {
+    "eligible_group_count": 72,
+    "median_same_stage_spearman": 0.9999999999999999,
+    "q25_same_stage_spearman": -0.9999999999999999,
+    "median_pairwise_accuracy": 1.0,
+    "q25_pairwise_accuracy": 0.0
+  }
+}

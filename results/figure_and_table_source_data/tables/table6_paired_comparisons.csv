@@ -1,0 +1,6 @@
+﻿Baseline,Median improvement (pp),95% bootstrap interval (pp),Wins / 10,Holm-adjusted sign-test p
+No local search,3.967680366981905,"[0.0568, 9.6683]",9 / 10,0.0107421875
+Random + UE,6.913692512925657,"[2.3781, 10.6315]",10 / 10,0.0048828125
+Proxy Top-k + UE,7.41200084523622,"[0.1157, 13.1261]",10 / 10,0.0048828125
+Traditional heuristic,10.02279370722038,"[4.0199, 19.3108]",10 / 10,0.0048828125
+Surrogate only,16.41996633435604,"[5.0299, 40.2054]",10 / 10,0.0048828125

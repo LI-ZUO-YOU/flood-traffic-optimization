@@ -1,0 +1,5 @@
+﻿scenario_id,method,ue_budget,unique_ue_calls,complete_sequence_count,best_sequence,best_sequence_id,best_ue_objective,best_completion_budget,best_origin,best_screening_tier,best_channel,best_primary_source
+1004,random_ue,64,63,8,33|5|35|30|32|27|2|20|21|7,a3c6cd43f39cfeee291f3990ef3f697b4b0faad26308e49d2351a342069b1fe8,148.36442669240145,35,candidate_ue_reranking,local_search,local_search,local_search
+1004,random_ue,128,128,18,33|5|35|30|32|27|2|20|21|7,a3c6cd43f39cfeee291f3990ef3f697b4b0faad26308e49d2351a342069b1fe8,148.36442669240145,35,candidate_ue_reranking,local_search,local_search,local_search
+1004,random_ue,256,256,42,5|20|35|27|2|30|7|32|33|21,050249a1b993d5035c1179a136159abd59452ea0cf8f6f2826eaf8f22cd7b8ba,147.97328756565398,252,candidate_ue_reranking,local_search,local_search,local_search
+1004,random_ue,512,512,114,5|33|32|20|27|7|35|30|2|21,2ab458d64f7612114fddd966b0edaf827be9ebcbebda55888e6835dc15a527ce,143.9413391892143,416,candidate_ue_reranking,local_search,local_search,local_search

@@ -1,0 +1,22 @@
+﻿check,passed,severity,detail
+node_count,True,error,rows=24
+directed_link_count,True,error,rows=76
+physical_link_count,True,error,rows=38
+directed_to_physical_mapping,True,error,all directed arcs map to 38 physical links
+od_nonzero_pairs,True,error,positive_pairs=528
+od_total,True,error,total=360600.000000
+od_nonnegative,True,error,min=0.000000
+od_matrix_total,True,error,numeric_total=360600.000000
+scenario_count,True,error,rows=120
+scenario_split_one_to_one,True,error,rows=120
+scenario_split_counts,True,error,"{""('calibration', 'mild')"": 10, ""('calibration', 'moderate')"": 10, ""('test_id', 'mild')"": 10, ""('test_id', 'moderate')"": 10, ""('test_severe', 'severe')"": 20, ""('train', 'mild')"": 30, ""('train', 'moderate')"": 30}"
+scenario_physical_shape,True,error,rows=4560
+scenario_arc_shape,True,error,rows=9120
+depth_nonnegative,True,error,"range=[0.000000,0.567833]"
+closure_threshold_consistency,True,error,is_closed equals depth>=0.30 m
+passable_multiplier_finite,True,error,passable_rows=3977
+closed_multiplier_infinite,True,error,closed_rows=583
+connected_flag,True,error,all 120 scenarios marked connectivity constrained
+bidirectional_flood_consistency,True,error,both directions share depth and closure state
+severe_joint_critical_failures,True,warning,18/20 severe scenarios close at least two top-quartile flow/betweenness links
+benchmark_solves_converged,True,error,20/20 converged at gap<=0.0005

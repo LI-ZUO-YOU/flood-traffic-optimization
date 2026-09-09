@@ -1,0 +1,5 @@
+﻿scenario_id,method,ue_budget,unique_ue_calls,complete_sequence_count,best_sequence,best_sequence_id,best_ue_objective,best_completion_budget,best_origin,best_screening_tier,best_channel,best_primary_source
+1003,random_ue,64,64,8,14|28|9|29|27|7|11|8|17|26,d5d38a36644ce2c4da47636733c04231e2642dd0c5681dfcd22ee5f273bc0b0b,89.01850671835552,64,candidate_ue_reranking,structural_reserve,hierarchical_prefix_reserve,random
+1003,random_ue,128,128,18,29|28|8|7|14|27|9|17|26|11,7967b68f9bc433c9f0129c30cf1857a7d0f5398fe190a7416962c7a93c741e8f,85.46419708193694,95,candidate_ue_reranking,local_search,local_search,local_search
+1003,random_ue,256,256,43,28|17|14|27|29|9|11|7|26|8,5beaaf500edc899a9aa1a211aac3d2a9eff68994837bf3da2ec645c3157e9acd,82.61239653930245,182,candidate_ue_reranking,structural_reserve,hierarchical_prefix_reserve,random
+1003,random_ue,512,512,115,29|11|28|27|26|17|8|14|7|9,21a213071b52ea753af58582cf22d9a5e71281a05a06854a06e8daa923af5b70,75.09777050748025,377,candidate_ue_reranking,local_search,local_search,local_search

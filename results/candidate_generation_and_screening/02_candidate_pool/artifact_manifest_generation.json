@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.1",
+  "files": {
+    "candidate_generation_config.json": {
+      "sha256": "7a4f4c682ee04595d11514b8d2f3cb3fef0f2be78a366175c6e579a99dd5437e",
+      "bytes": 2937
+    },
+    "candidate_pool.csv.gz": {
+      "sha256": "1da4d48a7af88b230b55a62203cba4f21068f0d3ea66ba2528c8a98e41a927b7",
+      "bytes": 53714504
+    },
+    "candidate_uniqueness_report.json": {
+      "sha256": "9eb5575ef7510465ede637b847ff2b0c3f6f9b3d63373b9990ae3e5e885adf4c",
+      "bytes": 7138
+    },
+    "generation_freeze_record.json": {
+      "sha256": "8c9d8d0395448607d448676e7c7a01130c7e51eff914dd18c4497ecd58246be1",
+      "bytes": 399
+    },
+    "scripts/generate_candidate_pool.py": {
+      "sha256": "91b607f9e610e6ffd464e8d082e17d7ab7811198ba74d5362d4d7391c4994576",
+      "bytes": 22592
+    },
+    "结果说明.txt": {
+      "sha256": "3d03520d3944469246c8d986ad8471f2b523a9bac8f92e25274c15d5e729ee37",
+      "bytes": 309
+    }
+  }
+}

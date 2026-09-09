@@ -1,0 +1,32 @@
+{
+  "schema_version": "final-live-controls-aggregate-freeze-v1.0",
+  "scenario_id": 1009,
+  "methods": {
+    "traditional_heuristic_ue": {
+      "path": "traditional_heuristic_ue_freeze.json",
+      "sha256": "67579d7879cbc8cbb8598771add6ea9a8f6fa4bc5b92dec7168634e492fb515e"
+    },
+    "surrogate_only": {
+      "path": "surrogate_only_freeze.json",
+      "sha256": "3ec5ce618fd4376a5a29965cee381fa62dc74fd42ab96eeee79d975ac37c3876"
+    },
+    "random_ue": {
+      "path": "random_ue_freeze.json",
+      "sha256": "a570f0ec8475a8aea7e4a1e481bf440d8d8cfa7327d95356067763b18f6754d4"
+    },
+    "proxy_topk_ue": {
+      "path": "proxy_topk_ue_freeze.json",
+      "sha256": "60b18c6050c7959dd6b18b7a5b63f97c4495e4eba2c2c6fead39b47ab3fc328d"
+    },
+    "no_local_search": {
+      "path": "no_local_search_freeze.json",
+      "sha256": "a42c82794ff5a71ca6be1e51b6c9a8b3d157ab66e764b948de4941a4b4fa4872"
+    }
+  },
+  "all_five_controls_frozen": true,
+  "aggregate_results_sha256": "7af8854768ea138b95a9d42783590a4654da65148badac5d756a4ece69632ca0",
+  "physical_ue_request_audit_sha256": "52b257ffbb7e8841072c77e4e51267f69627872c2906296df31231191a327235",
+  "complete_subset_cost_table_read": false,
+  "exact_dp_solution_read": false,
+  "next_authorized_action": "exact reference may run only after full-method freeze is also verified"
+}

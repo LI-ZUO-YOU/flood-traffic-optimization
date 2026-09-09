@@ -1,0 +1,71 @@
+{
+  "schema_version": "week4-final-scenario-freeze-v1.0",
+  "protocol_sha256": "090eab7400f4e82ad9564db1f2860f84d8b056e77fa048128d45fa3cce9859d0",
+  "seed": 2026080701,
+  "scenario_ids": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+  ],
+  "accepted_count": 10,
+  "draw_count": 12,
+  "rejected_count": 2,
+  "all_closed_counts_at_least_10": true,
+  "zero_overlap_with_prior_scenarios": true,
+  "prior_sources": [
+    {
+      "path": "source-reference/flood_scenarios_physical_links.csv",
+      "sha256": "ec4c416149e70c703a23346ba36d4fab6ec5fb14c88b9b39ccf313d769837f70",
+      "scenario_count": 120
+    },
+    {
+      "path": "source-reference/flood_scenarios_physical_links.csv",
+      "sha256": "0dcabcd1eb286b6fcce64f93c0d682c6d4583646ccbbb4153899c8530becded2",
+      "scenario_count": 120
+    },
+    {
+      "path": "source-reference/flood_scenarios_physical_links.csv",
+      "sha256": "ec4c416149e70c703a23346ba36d4fab6ec5fb14c88b9b39ccf313d769837f70",
+      "scenario_count": 120
+    },
+    {
+      "path": "source-reference/flood_scenarios_physical_links.csv",
+      "sha256": "0cb38e8653ab2c58f5cf202fbb920ebacd929602cecf85cc9e1278e6f7a700b0",
+      "scenario_count": 60
+    },
+    {
+      "path": "source-reference/flood_scenarios_physical_links.csv",
+      "sha256": "08810201b2365389b476ad1c9cc897977cbdd1576970da1e76d0f28758aca780",
+      "scenario_count": 40
+    }
+  ],
+  "source_physical_links": {
+    "path": "code/model_backend/data_src/SiouxFalls_flood_benchmark/processed/physical_links.csv",
+    "sha256": "e8b3c02d9076a500ac7f8baf08c5d224f4794173a2d682998df50f103d52f6fc"
+  },
+  "outputs": {
+    "final_scenarios_physical_links.csv": {
+      "sha256": "4c96f6cc4e414de87d75c8d6282ef37222a6057c96ab32487757bd7b8b336af4",
+      "bytes": 54031
+    },
+    "final_scenario_summary.csv": {
+      "sha256": "3dff662f2b5a1dd5ef26c552baf51bffb4ace0d21a496b1d4b818d4d14e69926",
+      "bytes": 3857
+    },
+    "final_scenario_rejection_log.csv": {
+      "sha256": "fccf1340e998854b8f4b281883c2095beaf6e4effe2f8bf69414b01a26faf48d",
+      "bytes": 2767
+    },
+    "final_scenario_hashes.json": {
+      "sha256": "1225dcd59dc1aa3ed27c7e3bb4ad138576861377d8f1eb913119ff2abc08e044",
+      "bytes": 2943
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "scenario_id": 1003,
+  "seed": 2026082003,
+  "budget": 256,
+  "queried_states": 256,
+  "best_objective": 72.06068421304317,
+  "exact_objective": 72.06068421304316,
+  "relative_regret_pct": 1.9720676913347714e-14,
+  "best_sequence_bits": [
+    2,
+    6,
+    4,
+    0,
+    9,
+    3,
+    1,
+    8,
+    7,
+    5
+  ],
+  "exact_sequence_bits": [
+    2,
+    6,
+    4,
+    0,
+    9,
+    3,
+    1,
+    8,
+    7,
+    5
+  ],
+  "iterations_completed": 1371,
+  "accepted_moves": 147,
+  "configuration": {
+    "initial_temperature_ratio": 0.0025,
+    "cooling_rate": 0.995,
+    "adjacent_probability": 0.7,
+    "insertion_probability": 0.15,
+    "max_stalled_proposals": 1000
+  }
+}

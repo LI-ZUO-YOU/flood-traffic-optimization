@@ -1,0 +1,10 @@
+﻿Claim ID,Manuscript claim,Location/formula,Evidence,Citation,Boundary/status
+D7-C01,Formal objective uses R0–R9; R10 weight is zero,Eq. in Methods 3.4,Frozen protocol,Not citation-dependent,Supported
+D7-C02,Flood depth modifies speed and closes roads at 0.30 m,Eq. in Methods 3.2,Week-1 frozen code,Pregnolato et al. [1],Supported within implemented model
+D7-C03,UE uses BPR and Frank–Wolfe with RG≤5×10⁻⁴,Eqs. in Methods 3.3,"Frozen UE code and 10,240-state audit","Wardrop [2], Beckmann [3], LeBlanc [4], BPR [5]",Supported
+D7-C04,Surrogate supports exploration but not direct final ranking,Methods 3.5; Discussion 5.1,V2 point/ranking diagnostics; B=256 baselines,"Jin [9], Queipo [10], Lakshminarayanan et al. [11]",Supported; disagreement is auxiliary only
+D7-C05,B=256 median/P90/max regrets are 0.0381/0.4589/1.6916%,Results 4.2,Day5 exact-reference statistics,Not citation-dependent,Supported on 10 final scenarios
+D7-C06,Full method beats four named controls in all 10 scenarios,Results 4.4; Table S1,Day5 paired table,Not citation-dependent,Supported on fixed final scenarios
+D7-C07,Local search improves 9/10 scenarios with median 3.9677 pp,Results 4.4; Figure S2,Day5 local-search table,Not citation-dependent,Supported overall; not monotonic
+D7-C08,"B=256 uses 25% of exact state information, a 75% query reduction",Results 4.6,"256/1,024 per scenario",Not citation-dependent,Information volume only; no runtime claim
+D7-C09,General superiority across cities or large networks,Not claimed,No external validation,Not applicable,Unsupported and excluded

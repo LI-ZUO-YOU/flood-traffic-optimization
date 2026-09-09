@@ -1,0 +1,10 @@
+﻿check,passed,detail
+exact_split_counts,True,"{""calibration"": 300, ""test_id"": 300, ""test_severe"": 300, ""train"": 1500}"
+scenario_level_no_leakage,True,cross_split_scenario_intersections=0
+unique_state_hashes,True,"unique=2400, rows=2400"
+unique_state_ids,True,"unique=2400, rows=2400"
+all_results_present,True,"results=2400, manifest=2400"
+all_ue_converged,True,converged=2400/2400
+gap_within_target,True,max_gap=0.00049998252
+restored_subset_of_initial_closed,True,every restored flag belongs to an initially closed road
+finite_labels,True,TSTT-derived labels are finite

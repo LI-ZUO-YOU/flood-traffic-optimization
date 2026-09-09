@@ -1,0 +1,5 @@
+﻿gate_id,predeclared_rule,observed_value,threshold_or_comparator,margin_pct_points,result
+G1,Median regret of full method at B=256 <= 3%,0.0380771773543886,3.0,2.9619228226456116,PASS
+G2,P90 regret of full method at B=256 <= 5%,0.4588866089357311,5.0,4.541113391064269,PASS
+G3,Full median regret at B=256 < Random + UE median,0.0380771773543886,6.929469865197111,6.891392687842723,PASS
+G4,Full median regret at B=256 < Proxy Top-k + UE median,0.0380771773543886,8.25781873395163,8.219741556597242,PASS

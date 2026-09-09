@@ -1,0 +1,14 @@
+{
+  "schema_version": "final-live-control-method-freeze-v1.0",
+  "scenario_id": 1003,
+  "method": "proxy_topk_ue",
+  "results_sha256": "b5a3348eae982101460e792976183fc284dc54498fe337b82a0dc87a5545daa2",
+  "query_ledger_sha256": "a7827ad01d796541d1dfcc59b7e311380aefe59a69106c263b723e378a471e9b",
+  "candidate_pool_sha256": "1da4d48a7af88b230b55a62203cba4f21068f0d3ea66ba2528c8a98e41a927b7",
+  "screened_candidates_sha256": "f06f4b3eed381dcdbc9dc6b8c52b7a63e70a8842ce657840ce7b359b35894198",
+  "scenario_physical_sha256": "4c96f6cc4e414de87d75c8d6282ef37222a6057c96ab32487757bd7b8b336af4",
+  "scenario_metadata_sha256": "f58858918a0cfb2e600860ec66a33323e63a14f5d188481b4dfc4123265ad9da",
+  "exact_reference_read": false,
+  "method_output_frozen_before_exact_reference": true,
+  "wall_seconds": 78.62789780000094
+}

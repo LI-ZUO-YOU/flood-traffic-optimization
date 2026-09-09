@@ -1,0 +1,106 @@
+{
+  "status": "pass",
+  "global_checks": {
+    "scenario_count_matches_cli": true,
+    "all_engineering_checks_pass": true,
+    "screening_does_not_read_exact_reference": true,
+    "frozen_scenario_inputs_only": true
+  },
+  "scenario_checks": {
+    "1001": {
+      "primary_count_60": true,
+      "primary_channel_quotas_exact": true,
+      "reserve_count": 2630,
+      "reserve_at_least_2000": true,
+      "ten_prefix2_clusters_present": true,
+      "combined_candidate_ids_unique": true,
+      "all_candidates_from_frozen_pool": true
+    },
+    "1002": {
+      "primary_count_60": true,
+      "primary_channel_quotas_exact": true,
+      "reserve_count": 2770,
+      "reserve_at_least_2000": true,
+      "ten_prefix2_clusters_present": true,
+      "combined_candidate_ids_unique": true,
+      "all_candidates_from_frozen_pool": true
+    },
+    "1003": {
+      "primary_count_60": true,
+      "primary_channel_quotas_exact": true,
+      "reserve_count": 2820,
+      "reserve_at_least_2000": true,
+      "ten_prefix2_clusters_present": true,
+      "combined_candidate_ids_unique": true,
+      "all_candidates_from_frozen_pool": true
+    },
+    "1004": {
+      "primary_count_60": true,
+      "primary_channel_quotas_exact": true,
+      "reserve_count": 2752,
+      "reserve_at_least_2000": true,
+      "ten_prefix2_clusters_present": true,
+      "combined_candidate_ids_unique": true,
+      "all_candidates_from_frozen_pool": true
+    },
+    "1005": {
+      "primary_count_60": true,
+      "primary_channel_quotas_exact": true,
+      "reserve_count": 2707,
+      "reserve_at_least_2000": true,
+      "ten_prefix2_clusters_present": true,
+      "combined_candidate_ids_unique": true,
+      "all_candidates_from_frozen_pool": true
+    },
+    "1006": {
+      "primary_count_60": true,
+      "primary_channel_quotas_exact": true,
+      "reserve_count": 2664,
+      "reserve_at_least_2000": true,
+      "ten_prefix2_clusters_present": true,
+      "combined_candidate_ids_unique": true,
+      "all_candidates_from_frozen_pool": true
+    },
+    "1007": {
+      "primary_count_60": true,
+      "primary_channel_quotas_exact": true,
+      "reserve_count": 2725,
+      "reserve_at_least_2000": true,
+      "ten_prefix2_clusters_present": true,
+      "combined_candidate_ids_unique": true,
+      "all_candidates_from_frozen_pool": true
+    },
+    "1008": {
+      "primary_count_60": true,
+      "primary_channel_quotas_exact": true,
+      "reserve_count": 2745,
+      "reserve_at_least_2000": true,
+      "ten_prefix2_clusters_present": true,
+      "combined_candidate_ids_unique": true,
+      "all_candidates_from_frozen_pool": true
+    },
+    "1009": {
+      "primary_count_60": true,
+      "primary_channel_quotas_exact": true,
+      "reserve_count": 2713,
+      "reserve_at_least_2000": true,
+      "ten_prefix2_clusters_present": true,
+      "combined_candidate_ids_unique": true,
+      "all_candidates_from_frozen_pool": true
+    },
+    "1010": {
+      "primary_count_60": true,
+      "primary_channel_quotas_exact": true,
+      "reserve_count": 2745,
+      "reserve_at_least_2000": true,
+      "ten_prefix2_clusters_present": true,
+      "combined_candidate_ids_unique": true,
+      "all_candidates_from_frozen_pool": true
+    }
+  },
+  "total_primary_candidates": 600,
+  "total_structural_reserve": 27271,
+  "total_day5_eligible_sequences": 27871,
+  "scientific_quality_status": "pending_posthoc_frozen_screen_evaluation",
+  "day5_permitted": false
+}

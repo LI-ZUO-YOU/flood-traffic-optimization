@@ -1,0 +1,37 @@
+{
+  "schema_version": "week4-day4-regret-evaluation-freeze-v1.0",
+  "created_at_utc": "2026-08-08T11:24:20.176260+00:00",
+  "status": "pass",
+  "row_count": 240,
+  "methods": [
+    "full_method",
+    "no_local_search",
+    "proxy_topk_ue",
+    "random_ue",
+    "surrogate_only",
+    "traditional_heuristic_ue"
+  ],
+  "budgets": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "files": {
+    "method_regret_detailed.csv": "fd990e2d529fd3da4750101ce23e492296c48df0fe4537aa1d7fa6027b8c987f",
+    "method_objective_independent_recheck.csv": "94bc4d69b966623099246a73496740880f3a458bb69db4123f98842aa46a8e13",
+    "regret_summary_by_method_budget.csv": "d49ed51a6048b101e30ad55d5bf4f1629ec3206e9ae0c82b5089da979f95cf59",
+    "exact_solution_summary.csv": "ca7165aa1a5ef2066875a5cd7f326f988829ebee2f21e4a66b84bdcbaa57137e"
+  },
+  "exact_reference_freeze_sha256": "176a6cd2921b8d8d8017046a6ee2eff592c71b89d6b9aa16363c42783dd071e0",
+  "day3_method_outputs_freeze_sha256": "21bc0c4b18dbc562554df72a3089745977a44ef296f5d3fc57b80a8c63c5c0f6",
+  "all_method_objectives_independently_reproduced": true,
+  "primary_budget_descriptive_snapshot": {
+    "method": "full_method",
+    "ue_budget": 256,
+    "median_regret_pct": 0.038077177354388606,
+    "p90_regret_pct": 0.45888660893573113,
+    "max_regret_pct": 1.6916357774308226
+  },
+  "interpretation_deferred_to_day5": true
+}

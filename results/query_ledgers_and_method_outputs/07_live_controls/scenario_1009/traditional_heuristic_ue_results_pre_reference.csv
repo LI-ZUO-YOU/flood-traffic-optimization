@@ -1,0 +1,5 @@
+﻿scenario_id,method,ue_budget,unique_ue_calls,complete_sequence_count,best_sequence,best_sequence_id,best_ue_objective,best_completion_budget,best_origin,best_screening_tier,best_channel,best_primary_source
+1009,traditional_heuristic_ue,64,60,7,16|17|20|21|15|23|6|27|25|9,95ddac696d5e702d580cb61464dbd4a41de11580c8ca5add1205c5ef5b8586e5,65.15779828384755,43,candidate_ue_reranking,primary_shortlist,heuristic,sequence_diversity
+1009,traditional_heuristic_ue,128,79,10,16|17|20|21|15|23|6|27|25|9,95ddac696d5e702d580cb61464dbd4a41de11580c8ca5add1205c5ef5b8586e5,65.15779828384755,43,candidate_ue_reranking,primary_shortlist,heuristic,sequence_diversity
+1009,traditional_heuristic_ue,256,79,10,16|17|20|21|15|23|6|27|25|9,95ddac696d5e702d580cb61464dbd4a41de11580c8ca5add1205c5ef5b8586e5,65.15779828384755,43,candidate_ue_reranking,primary_shortlist,heuristic,sequence_diversity
+1009,traditional_heuristic_ue,512,79,10,16|17|20|21|15|23|6|27|25|9,95ddac696d5e702d580cb61464dbd4a41de11580c8ca5add1205c5ef5b8586e5,65.15779828384755,43,candidate_ue_reranking,primary_shortlist,heuristic,sequence_diversity

@@ -1,0 +1,10 @@
+{
+  "schema_version": "final-exact-reference-freeze-v1.0",
+  "method_outputs_were_frozen_first": true,
+  "scenario_physical_sha256": "4c96f6cc4e414de87d75c8d6282ef37222a6057c96ab32487757bd7b8b336af4",
+  "scenario_metadata_sha256": "f58858918a0cfb2e600860ec66a33323e63a14f5d188481b4dfc4123265ad9da",
+  "subset_ue_costs_sha256": "891668910963528cc954b21a0e550ad233f65f85a9450d19c5f3e8c5cc7f7080",
+  "exact_dp_solution_sha256": "d794cdb241ac96fb50470e14027f29e5f5b63a3db043b598c0bf1f62220e9ccc",
+  "exact_dp_path_sha256": "19454255de9a0653b02b81fd6259ca761c3e6c4f7a1a4ef1e59123335708b4a7",
+  "verification_report_sha256": "ecbb5481256b15fdb74268c06402b06ff34a424f1e5a5f59a0e91574d7ebdabf"
+}

@@ -1,0 +1,5 @@
+﻿scenario_id,method,ue_budget,unique_ue_calls,validation_state_queries,complete_sequence_count,best_sequence,best_sequence_id,best_ue_objective,best_completion_budget,best_origin
+1008,surrogate_only,64,0,10,1,16|17|10|9|20|18|14|24|6|7,82098303979fdd1028f3c71b766a49d890a6f822beaf125a40499e6b0009893a,229.29153027024086,0,proxy_rank_1_frozen_before_ue_validation
+1008,surrogate_only,128,0,10,1,16|17|10|9|20|18|14|24|6|7,82098303979fdd1028f3c71b766a49d890a6f822beaf125a40499e6b0009893a,229.29153027024086,0,proxy_rank_1_frozen_before_ue_validation
+1008,surrogate_only,256,0,10,1,16|17|10|9|20|18|14|24|6|7,82098303979fdd1028f3c71b766a49d890a6f822beaf125a40499e6b0009893a,229.29153027024086,0,proxy_rank_1_frozen_before_ue_validation
+1008,surrogate_only,512,0,10,1,16|17|10|9|20|18|14|24|6|7,82098303979fdd1028f3c71b766a49d890a6f822beaf125a40499e6b0009893a,229.29153027024086,0,proxy_rank_1_frozen_before_ue_validation

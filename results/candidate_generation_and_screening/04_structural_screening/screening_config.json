@@ -1,0 +1,44 @@
+{
+  "schema_version": "week3-day4-v1.1",
+  "revision_reason": "post-freeze development diagnosis showed that proxy-only compression from 30000 to 60 discarded all candidates within 1.5% true regret",
+  "hierarchical_screening": {
+    "primary_shortlist_per_scenario": 60,
+    "primary_channel_quotas": {
+      "proxy_top": 15,
+      "ensemble_disagreement": 10,
+      "sequence_diversity": 15,
+      "heuristic": 10,
+      "random": 10
+    },
+    "structural_reserve": {
+      "top_prefix2_clusters_by_minimum_proxy_rank": 10,
+      "all_prefix3_groups_within_each_selected_prefix2": true,
+      "source_stratification": "primary_source",
+      "proxy_rank_quantiles_per_source_prefix3": 10,
+      "role": "remain eligible for Day 5 adaptive UE-state-budget search; not all sequences are fully UE-evaluated"
+    }
+  },
+  "ue_budget_unchanged": {
+    "unit": "unique UE state cache miss",
+    "levels": [
+      64,
+      128,
+      256,
+      512
+    ],
+    "screened_sequence_count_does_not_consume_ue_budget": true
+  },
+  "information_boundary": {
+    "screening_reads_posthoc_true_quality": false,
+    "screening_reads_exact_dp_solution": false,
+    "screening_reads_subset_ue_costs": false,
+    "screening_reads_exact_reference_cache": false,
+    "quality_evaluation_runs_only_after_screened_file_hash_freeze": true,
+    "frozen_scenario_inputs_only": true
+  },
+  "source_sha256": {
+    "candidate_pool": "1da4d48a7af88b230b55a62203cba4f21068f0d3ea66ba2528c8a98e41a927b7",
+    "candidate_generation_freeze": "8c9d8d0395448607d448676e7c7a01130c7e51eff914dd18c4497ecd58246be1",
+    "primary_shortlist": "db72025f0e2ede8d1df62fd1060199326b91f5fe11ca81367f8d107c0445a67c"
+  }
+}

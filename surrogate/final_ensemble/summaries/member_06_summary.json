@@ -1,0 +1,18 @@
+{
+  "member_id": "member_06",
+  "bootstrap_seed": 2026081106,
+  "initialization_seed": 2026081216,
+  "unique_inbag_scenarios": 81,
+  "oob_scenarios": 39,
+  "unique_inbag_rows": 2062,
+  "oob_rows": 1116,
+  "epochs_completed": 127,
+  "best_epoch": 27,
+  "best_train_weighted_huber": 0.03343593795852208,
+  "best_oob_weighted_huber": 0.11497726995842474,
+  "best_oob_rmse_log": 0.6334751455762175,
+  "oob_r2_log": 0.7750294079560084,
+  "training_time_seconds": 2.075975700001436,
+  "model_hash_sha256": "98229a9b0125079a00ab5813a9660fd9736aa3da718f82b76c16d45a7e62307f",
+  "retained": true
+}

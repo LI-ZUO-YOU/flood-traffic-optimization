@@ -1,0 +1,86 @@
+{
+  "status": "pass",
+  "checks": {
+    "combined_training_rows_3178": true,
+    "combined_training_scenarios_120": true,
+    "training_has_15_severe_scenarios": true,
+    "unique_training_state_hashes": true,
+    "input_dimension_120": true,
+    "model_files_10": true,
+    "unique_model_hashes_10": true,
+    "all_checkpoints_reload": true,
+    "all_members_retained": true,
+    "nonfinite_predictions_zero": true,
+    "prediction_rows_4078": true,
+    "forbidden_v1_final_absent": true,
+    "new_final_holdout_not_generated": true
+  },
+  "training_summary": {
+    "oob_rmse_log_range": [
+      0.5794977945914936,
+      0.9156192705088417
+    ],
+    "oob_r2_log_range": [
+      0.5845408596297605,
+      0.8162987914785564
+    ],
+    "total_training_seconds": 17.767865099998744
+  },
+  "internal_point_metrics": {
+    "train": {
+      "n": 3178,
+      "r2_log": 0.8882227764312253,
+      "rmse_log": 0.4361012530594566,
+      "mae_log": 0.2946473356998707
+    },
+    "calibration": {
+      "n": 300,
+      "r2_log": 0.7650043703954988,
+      "rmse_log": 0.5424500173521642,
+      "mae_log": 0.3324059743573304
+    },
+    "internal_id": {
+      "n": 300,
+      "r2_log": 0.8317983932518489,
+      "rmse_log": 0.5010610548069346,
+      "mae_log": 0.31271887186954395
+    },
+    "internal_severe": {
+      "n": 300,
+      "r2_log": 0.8120795867756123,
+      "rmse_log": 0.7474500953419,
+      "mae_log": 0.5144603583256615
+    }
+  },
+  "same_stage_ranking": {
+    "train": {
+      "eligible_group_count": 356,
+      "median_same_stage_spearman": 0.6794340463458111,
+      "q25_same_stage_spearman": 0.4732843137254902,
+      "median_pairwise_accuracy": 0.7619047619047619,
+      "q25_pairwise_accuracy": 0.6666666666666666
+    },
+    "calibration": {
+      "eligible_group_count": 53,
+      "median_same_stage_spearman": 0.39999999999999997,
+      "q25_same_stage_spearman": 0.0,
+      "median_pairwise_accuracy": 0.6666666666666666,
+      "q25_pairwise_accuracy": 0.5
+    },
+    "internal_id": {
+      "eligible_group_count": 50,
+      "median_same_stage_spearman": 0.33571428571428574,
+      "q25_same_stage_spearman": 0.023809523809523815,
+      "median_pairwise_accuracy": 0.6035714285714285,
+      "q25_pairwise_accuracy": 0.5
+    },
+    "internal_severe": {
+      "eligible_group_count": 72,
+      "median_same_stage_spearman": 0.9999999999999999,
+      "q25_same_stage_spearman": -0.9999999999999999,
+      "median_pairwise_accuracy": 1.0,
+      "q25_pairwise_accuracy": 0.0
+    }
+  },
+  "interpretation": "Internal metrics are development diagnostics, not untouched final evidence."
+}

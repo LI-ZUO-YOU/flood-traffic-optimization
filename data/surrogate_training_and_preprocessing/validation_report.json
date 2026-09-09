@@ -1,0 +1,356 @@
+{
+  "all_passed": true,
+  "check_count": 70,
+  "checks": [
+    {
+      "check": "manifest_qc",
+      "passed": true,
+      "detail": "qc=58"
+    },
+    {
+      "check": "feature_dimension",
+      "passed": true,
+      "detail": "114"
+    },
+    {
+      "check": "bootstrap_members",
+      "passed": true,
+      "detail": "10 members"
+    },
+    {
+      "check": "bootstrap_oob",
+      "passed": true,
+      "detail": "all non-empty"
+    },
+    {
+      "check": "train_shape",
+      "passed": true,
+      "detail": "(1500, 114)"
+    },
+    {
+      "check": "train_X_reproduction",
+      "passed": true,
+      "detail": "exact float32 match"
+    },
+    {
+      "check": "train_y_reproduction",
+      "passed": true,
+      "detail": "max diff < 1e-12"
+    },
+    {
+      "check": "train_state_order",
+      "passed": true,
+      "detail": "row order preserved"
+    },
+    {
+      "check": "calibration_shape",
+      "passed": true,
+      "detail": "(300, 114)"
+    },
+    {
+      "check": "calibration_X_reproduction",
+      "passed": true,
+      "detail": "exact float32 match"
+    },
+    {
+      "check": "calibration_y_reproduction",
+      "passed": true,
+      "detail": "max diff < 1e-12"
+    },
+    {
+      "check": "calibration_state_order",
+      "passed": true,
+      "detail": "row order preserved"
+    },
+    {
+      "check": "test_id_shape",
+      "passed": true,
+      "detail": "(300, 114)"
+    },
+    {
+      "check": "test_id_X_reproduction",
+      "passed": true,
+      "detail": "exact float32 match"
+    },
+    {
+      "check": "test_id_y_reproduction",
+      "passed": true,
+      "detail": "max diff < 1e-12"
+    },
+    {
+      "check": "test_id_state_order",
+      "passed": true,
+      "detail": "row order preserved"
+    },
+    {
+      "check": "test_severe_shape",
+      "passed": true,
+      "detail": "(300, 114)"
+    },
+    {
+      "check": "test_severe_X_reproduction",
+      "passed": true,
+      "detail": "exact float32 match"
+    },
+    {
+      "check": "test_severe_y_reproduction",
+      "passed": true,
+      "detail": "max diff < 1e-12"
+    },
+    {
+      "check": "test_severe_state_order",
+      "passed": true,
+      "detail": "row order preserved"
+    },
+    {
+      "check": "scenario_disjoint",
+      "passed": true,
+      "detail": "all six pairwise intersections empty"
+    },
+    {
+      "check": "training_weight_sum",
+      "passed": true,
+      "detail": "sum=1500"
+    },
+    {
+      "check": "scenario_equal_weight",
+      "passed": true,
+      "detail": "each scenario total=25"
+    },
+    {
+      "check": "frozen_hash::input_validation/benchmark_solves.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::input_validation/checks.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::input_validation/critical_links.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::input_validation/hashes.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::input_validation/severe_critical.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::input_validation/tolerance_stability_check.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::models/__init__.py",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::models/flood_mapping.py",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::models/scenario_adapter.py",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::models/spatial_flood_field.py",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::models/ue_static.py",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::README_CN.md",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::recovery_dataset_config.json",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::recovery_dataset_quality_checks.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::recovery_dataset_summary.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::recovery_state_features.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::recovery_state_manifest.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::recovery_state_results_checkpoint.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::recovery_states_all.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::recovery_states_calibration.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::recovery_states_test_id.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::recovery_states_test_severe.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::recovery_states_train.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::scripts/check_tolerance_stability.py",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::scripts/generate_recovery_dataset.py",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::scripts/inspect_inputs.py",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "frozen_hash::数据质量与划分报告.md",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::preprocessor.pkl",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::feature_config.json",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::bootstrap_scenarios.json",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::processed/bootstrap_summary.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::scripts/freeze_and_preprocess.py",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::scripts/scenario_bootstrap.py",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::processed/preprocessed_calibration.csv.gz",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::processed/preprocessed_calibration.npz",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::processed/preprocessed_test_id.csv.gz",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::processed/preprocessed_test_id.npz",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::processed/preprocessed_test_severe.csv.gz",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::processed/preprocessed_test_severe.npz",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::processed/preprocessed_train.csv.gz",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::processed/preprocessed_train.npz",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::processed/split_summary.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::processed/feature_statistics.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::processed/scenario_equal_weights.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::processed/qc_checks.csv",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::README_CN.md",
+      "passed": true,
+      "detail": "SHA-256 match"
+    },
+    {
+      "check": "artifact_hash::scripts/validate_day1.py",
+      "passed": true,
+      "detail": "SHA-256 match"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "final-recoverable-road-selection-freeze-v1.0",
+  "scenario_physical_sha256": "4c96f6cc4e414de87d75c8d6282ef37222a6057c96ab32487757bd7b8b336af4",
+  "scenario_generation_freeze_sha256": "0295866234c1937a861a1d26f38d9d223e743f409658e3e578fe39ce516ed0ae",
+  "surrogate_preprocessor_sha256": "771e6f0124ea19d74b2752d97f5bf05545cbfc575d5627aae1f455e45e82174c",
+  "protocol_sha256": "090eab7400f4e82ad9564db1f2860f84d8b056e77fa048128d45fa3cce9859d0",
+  "final_scenarios_sha256": "f58858918a0cfb2e600860ec66a33323e63a14f5d188481b4dfc4123265ad9da",
+  "candidate_road_selection_audit_sha256": "3e40ca5b3a9ee6ecc687fa317ad74407780690594b5cad6492c9726cfa229506",
+  "scenario_count": 10,
+  "ten_selected_per_scenario": true,
+  "all_selected_roads_initially_closed": true,
+  "proxy_or_ue_outcomes_read": false
+}

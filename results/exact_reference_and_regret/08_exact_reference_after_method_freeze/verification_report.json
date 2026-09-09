@@ -1,0 +1,173 @@
+{
+  "schema_version": "final-exact-reference-verification-v1.0",
+  "status": "pass",
+  "method_freezes_verified_before_exact_reference": [
+    {
+      "path": "results/query_ledgers_and_method_outputs/06_full_method/scenario_1001/full_method_output_freeze.json",
+      "sha256": "f608981799afb7271952e6382862d8f306ceb40d38c5d8af3b6a3f8cf1e211b2",
+      "scenario_id": 1001
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/07_live_controls/scenario_1001/controls_output_freeze.json",
+      "sha256": "4f842373a62c0f1f0595b665c6f73ddc26875389985f0d06a7d9194a2c9e395f",
+      "scenario_id": 1001
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/06_full_method/scenario_1002/full_method_output_freeze.json",
+      "sha256": "bb8d5aa2973911de53cb8405c51cdd40430610ff69463b071409442926ca8b76",
+      "scenario_id": 1002
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/07_live_controls/scenario_1002/controls_output_freeze.json",
+      "sha256": "6f287742aea605e3a0856f4c28d94689ff3f2322d41d42b5e0938721d99f5974",
+      "scenario_id": 1002
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/06_full_method/scenario_1003/full_method_output_freeze.json",
+      "sha256": "a34dd31173046f4af90f110956a41cef3c89283587452847a11341096591f7cf",
+      "scenario_id": 1003
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/07_live_controls/scenario_1003/controls_output_freeze.json",
+      "sha256": "b75779a3e0b87841a18ad2c36dd60ba668c913b448bd3a2366835387179b653c",
+      "scenario_id": 1003
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/06_full_method/scenario_1004/full_method_output_freeze.json",
+      "sha256": "cc472e64ec4f1e436cc0b34cf5d703ad7180616bb57fe80a5af7fcb86b164b82",
+      "scenario_id": 1004
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/07_live_controls/scenario_1004/controls_output_freeze.json",
+      "sha256": "873c774476d9771e5492609d5ed130162859c52df3cf65c70be9c6a53037aced",
+      "scenario_id": 1004
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/06_full_method/scenario_1005/full_method_output_freeze.json",
+      "sha256": "a0efe5914dd0683befa5c4e615e8b14f4899961efac6f936f66139bc242733d9",
+      "scenario_id": 1005
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/07_live_controls/scenario_1005/controls_output_freeze.json",
+      "sha256": "272f197a0caa332668d98600a7d4e715ea97bb28b09d9c9957c5dc3e22e9c815",
+      "scenario_id": 1005
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/06_full_method/scenario_1006/full_method_output_freeze.json",
+      "sha256": "580da65696f976919f5cf15ad96e01fee84c9642f55a37d9a5bf2ae7e35f1fc5",
+      "scenario_id": 1006
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/07_live_controls/scenario_1006/controls_output_freeze.json",
+      "sha256": "b1296ca520158711391745356943a990b198cae2a80642e81b0c835967cc6c62",
+      "scenario_id": 1006
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/06_full_method/scenario_1007/full_method_output_freeze.json",
+      "sha256": "5d24eaff61d0d0a4ea9603da3f295384fe1119591043d3e6d924515202221c21",
+      "scenario_id": 1007
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/07_live_controls/scenario_1007/controls_output_freeze.json",
+      "sha256": "e4838ac018ec55572b84d0f0e07942de0303e6f05c9b4c84468a9d70dc520fa0",
+      "scenario_id": 1007
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/06_full_method/scenario_1008/full_method_output_freeze.json",
+      "sha256": "2182916599a42fbce21778d4bad15ac96cac01eff40dd5b2d5b98f695ff2b0b7",
+      "scenario_id": 1008
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/07_live_controls/scenario_1008/controls_output_freeze.json",
+      "sha256": "3a886de5fe1a86dfab2ab96a40f266a4d84edb06debe5c1bc30acd38714b337c",
+      "scenario_id": 1008
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/06_full_method/scenario_1009/full_method_output_freeze.json",
+      "sha256": "82547ea34eac3df27e7e1c2b9b5c59b3ec4c7b4aa523b840bad7c90d6358c2d5",
+      "scenario_id": 1009
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/07_live_controls/scenario_1009/controls_output_freeze.json",
+      "sha256": "3c1230fef998f36ce7e82ab6ed38d0e0a61c527baaccb608d81d4a5179a94a55",
+      "scenario_id": 1009
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/06_full_method/scenario_1010/full_method_output_freeze.json",
+      "sha256": "c632d6814e2e44a73209f181ab9a25f1e9cc68ce32eaad0762252374203cb585",
+      "scenario_id": 1010
+    },
+    {
+      "path": "results/query_ledgers_and_method_outputs/07_live_controls/scenario_1010/controls_output_freeze.json",
+      "sha256": "6919be586e6c77e54cbd23021deeaf264f972c7cd604dca1a3d80ac67c477b98",
+      "scenario_id": 1010
+    }
+  ],
+  "state_count": 10240,
+  "scenario_checks": {
+    "1001": {
+      "rows_1024": true,
+      "all_converged": true,
+      "max_relative_gap": 0.0004999768552495375,
+      "exact_objective_finite": true
+    },
+    "1002": {
+      "rows_1024": true,
+      "all_converged": true,
+      "max_relative_gap": 0.0004999976841772467,
+      "exact_objective_finite": true
+    },
+    "1003": {
+      "rows_1024": true,
+      "all_converged": true,
+      "max_relative_gap": 0.0004999529499824405,
+      "exact_objective_finite": true
+    },
+    "1004": {
+      "rows_1024": true,
+      "all_converged": true,
+      "max_relative_gap": 0.0004999904387006039,
+      "exact_objective_finite": true
+    },
+    "1005": {
+      "rows_1024": true,
+      "all_converged": true,
+      "max_relative_gap": 0.0004999670399186345,
+      "exact_objective_finite": true
+    },
+    "1006": {
+      "rows_1024": true,
+      "all_converged": true,
+      "max_relative_gap": 0.0004999824387419046,
+      "exact_objective_finite": true
+    },
+    "1007": {
+      "rows_1024": true,
+      "all_converged": true,
+      "max_relative_gap": 0.0004999764394033954,
+      "exact_objective_finite": true
+    },
+    "1008": {
+      "rows_1024": true,
+      "all_converged": true,
+      "max_relative_gap": 0.0004999866877209582,
+      "exact_objective_finite": true
+    },
+    "1009": {
+      "rows_1024": true,
+      "all_converged": true,
+      "max_relative_gap": 0.0004999902160961349,
+      "exact_objective_finite": true
+    },
+    "1010": {
+      "rows_1024": true,
+      "all_converged": true,
+      "max_relative_gap": 0.0004999610155427415,
+      "exact_objective_finite": true
+    }
+  },
+  "all_converged": true,
+  "max_relative_gap": 0.0004999976841772467,
+  "preexisting_cache_hits": 8192,
+  "wall_seconds": 2586.926232900001
+}

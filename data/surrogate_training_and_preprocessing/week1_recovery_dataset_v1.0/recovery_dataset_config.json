@@ -1,0 +1,22 @@
+{
+  "random_seeds": {
+    "train": 202608031,
+    "calibration": 202608032,
+    "test_id": 202608033,
+    "test_severe": 202608034
+  },
+  "requested_counts": {
+    "train": 1500,
+    "calibration": 300,
+    "test_id": 300,
+    "test_severe": 300
+  },
+  "ue_method": "Frank-Wolfe",
+  "ue_target_relative_gap": 0.0005,
+  "ue_max_iterations": 1000,
+  "ue_retry_max_iterations": 3000,
+  "baseline_tstt": 7480225.3449211195,
+  "restoration_semantics": "Restored initially-closed physical links return to dry baseline free-flow time and capacity; non-closed wet links retain the scenario background disruption.",
+  "split_rule": "All states from one scenario_id remain in exactly one split.",
+  "feature_definition": "x=[d,r], where d contains 38 physical-link flood depths and closure flags, and r contains 38 restoration flags."
+}

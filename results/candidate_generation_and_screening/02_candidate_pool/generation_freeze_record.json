@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "candidate_pool_sha256": "1da4d48a7af88b230b55a62203cba4f21068f0d3ea66ba2528c8a98e41a927b7",
+  "candidate_pool_bytes": 53714504,
+  "candidate_count": 300000,
+  "generator_script_sha256": "91b607f9e610e6ffd464e8d082e17d7ab7811198ba74d5362d4d7391c4994576",
+  "exact_reference_access_before_freeze": false,
+  "quality_evaluation_allowed_after_this_record": true
+}

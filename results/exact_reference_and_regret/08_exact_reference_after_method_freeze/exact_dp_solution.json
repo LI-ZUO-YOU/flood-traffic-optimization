@@ -1,0 +1,316 @@
+{
+  "schema_version": "final-exact-reference-v1.0",
+  "objective": "mean loss R0..R9; R10 zero weight",
+  "scenarios": {
+    "1001": {
+      "candidate_roads": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "optimal_sequence": [
+        30,
+        17,
+        26,
+        15,
+        18,
+        31,
+        24,
+        29,
+        21,
+        19
+      ],
+      "exact_objective": 181.62090624844552,
+      "dp_sum_loss_R0_to_R9": 1816.2090624844552,
+      "terminal_state_loss_R10_zero_weight": 2.7903742252617953,
+      "conditional_optimum": true,
+      "scenario_id": 1001
+    },
+    "1002": {
+      "candidate_roads": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "optimal_sequence": [
+        31,
+        37,
+        27,
+        19,
+        26,
+        25,
+        5,
+        35,
+        30,
+        24
+      ],
+      "exact_objective": 167.79241836931996,
+      "dp_sum_loss_R0_to_R9": 1677.9241836931997,
+      "terminal_state_loss_R10_zero_weight": 2.1471892514621143,
+      "conditional_optimum": true,
+      "scenario_id": 1002
+    },
+    "1003": {
+      "candidate_roads": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "optimal_sequence": [
+        29,
+        26,
+        11,
+        17,
+        28,
+        9,
+        27,
+        8,
+        7,
+        14
+      ],
+      "exact_objective": 72.06068421304316,
+      "dp_sum_loss_R0_to_R9": 720.6068421304316,
+      "terminal_state_loss_R10_zero_weight": 2.975618251564627,
+      "conditional_optimum": true,
+      "scenario_id": 1003
+    },
+    "1004": {
+      "candidate_roads": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "optimal_sequence": [
+        5,
+        27,
+        33,
+        30,
+        35,
+        21,
+        7,
+        2,
+        32,
+        20
+      ],
+      "exact_objective": 139.31226298870507,
+      "dp_sum_loss_R0_to_R9": 1393.1226298870508,
+      "terminal_state_loss_R10_zero_weight": 2.695281377502846,
+      "conditional_optimum": true,
+      "scenario_id": 1004
+    },
+    "1005": {
+      "candidate_roads": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "optimal_sequence": [
+        35,
+        22,
+        6,
+        5,
+        29,
+        11,
+        37,
+        10,
+        3,
+        14
+      ],
+      "exact_objective": 36.76731229134714,
+      "dp_sum_loss_R0_to_R9": 367.6731229134714,
+      "terminal_state_loss_R10_zero_weight": 2.507109305232692,
+      "conditional_optimum": true,
+      "scenario_id": 1005
+    },
+    "1006": {
+      "candidate_roads": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "optimal_sequence": [
+        5,
+        16,
+        28,
+        18,
+        6,
+        9,
+        13,
+        14,
+        4,
+        19
+      ],
+      "exact_objective": 24.09394950104949,
+      "dp_sum_loss_R0_to_R9": 240.9394950104949,
+      "terminal_state_loss_R10_zero_weight": 2.1117975787240537,
+      "conditional_optimum": true,
+      "scenario_id": 1006
+    },
+    "1007": {
+      "candidate_roads": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "optimal_sequence": [
+        15,
+        16,
+        17,
+        5,
+        20,
+        6,
+        4,
+        18,
+        24,
+        11
+      ],
+      "exact_objective": 95.47325264554425,
+      "dp_sum_loss_R0_to_R9": 954.7325264554426,
+      "terminal_state_loss_R10_zero_weight": 1.8757920753567348,
+      "conditional_optimum": true,
+      "scenario_id": 1007
+    },
+    "1008": {
+      "candidate_roads": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "optimal_sequence": [
+        17,
+        10,
+        16,
+        20,
+        18,
+        9,
+        6,
+        24,
+        7,
+        14
+      ],
+      "exact_objective": 192.75605182007268,
+      "dp_sum_loss_R0_to_R9": 1927.5605182007268,
+      "terminal_state_loss_R10_zero_weight": 2.580049965132749,
+      "conditional_optimum": true,
+      "scenario_id": 1008
+    },
+    "1009": {
+      "candidate_roads": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "optimal_sequence": [
+        16,
+        23,
+        21,
+        20,
+        25,
+        15,
+        17,
+        9,
+        6,
+        27
+      ],
+      "exact_objective": 63.46234006312672,
+      "dp_sum_loss_R0_to_R9": 634.6234006312671,
+      "terminal_state_loss_R10_zero_weight": 2.1811217751505425,
+      "conditional_optimum": true,
+      "scenario_id": 1009
+    },
+    "1010": {
+      "candidate_roads": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "optimal_sequence": [
+        6,
+        8,
+        7,
+        36,
+        35,
+        37,
+        11,
+        13,
+        3,
+        38
+      ],
+      "exact_objective": 58.698139332234135,
+      "dp_sum_loss_R0_to_R9": 586.9813933223413,
+      "terminal_state_loss_R10_zero_weight": 3.5510397392111255,
+      "conditional_optimum": true,
+      "scenario_id": 1010
+    }
+  }
+}

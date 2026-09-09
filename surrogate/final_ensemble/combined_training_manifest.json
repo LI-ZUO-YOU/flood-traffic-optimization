@@ -1,0 +1,46 @@
+{
+  "row_count": 3178,
+  "scenario_count": 120,
+  "scenario_id_ranges": [
+    "1-60",
+    "201-260"
+  ],
+  "severity_scenarios": {
+    "mild": 50,
+    "moderate": 55,
+    "severe": 15
+  },
+  "severity_rows": {
+    "mild": 236,
+    "moderate": 2042,
+    "severe": 900
+  },
+  "unique_state_hashes": 3178,
+  "source_files": {
+    "train_original": {
+      "path": "data/surrogate_training_and_preprocessing/week1_recovery_dataset_v1.0/recovery_states_train.csv",
+      "sha256": "a51cd4a202621bd6dcb8bc50f5cc9d692120f1cc7e079d2391b7e6e2c3977887"
+    },
+    "train_expansion": {
+      "path": "source-reference/v2_new_training_states.csv.gz",
+      "sha256": "9a28716e9db7058d3176af48dbf904d2caf6434cdde3511582a139e5832c9fd6"
+    },
+    "calibration": {
+      "path": "data/surrogate_training_and_preprocessing/week1_recovery_dataset_v1.0/recovery_states_calibration.csv",
+      "sha256": "098987f27c9dbc22557e3542f72af862190debb210f7e1a19ac57f33493f09a8"
+    },
+    "internal_id": {
+      "path": "data/surrogate_training_and_preprocessing/week1_recovery_dataset_v1.0/recovery_states_test_id.csv",
+      "sha256": "623a89dcb3ce5f9190e197dc406f796454cfd0a53670c624664600315864e8ab"
+    },
+    "internal_severe": {
+      "path": "data/surrogate_training_and_preprocessing/week1_recovery_dataset_v1.0/recovery_states_test_severe.csv",
+      "sha256": "798173f1b61c160d163420b70fef56e0addb303ed192069e3d65aa07e67781a4"
+    }
+  },
+  "critical_links": {
+    "path": "data/surrogate_training_and_preprocessing/week1_recovery_dataset_v1.0/input_validation/critical_links.csv",
+    "sha256": "840336ebe738af53d0b879f94dd4048cfdd48878aa5874facab1039a609424a0"
+  },
+  "preprocessor_sha256": "771e6f0124ea19d74b2752d97f5bf05545cbfc575d5627aae1f455e45e82174c"
+}

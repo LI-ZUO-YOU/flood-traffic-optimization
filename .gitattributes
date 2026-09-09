@@ -1,0 +1,2 @@
+# Preserve byte-for-byte artifact contents so MANIFEST.sha256 remains valid.
+* -text

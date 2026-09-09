@@ -1,0 +1,5 @@
+﻿scenario_id,method,ue_budget,unique_ue_calls,complete_sequence_count,best_sequence,best_sequence_id,best_ue_objective,best_completion_budget,best_origin,best_screening_tier,best_channel,best_primary_source
+1003,traditional_heuristic_ue,64,63,8,14|28|11|29|8|9|26|7|17|27,476a7ee2f913c3675c7968be079808a497a2a4692e10a74beaa20cd8deb6134c,94.40066169620313,56,candidate_ue_reranking,primary_shortlist,heuristic,proxy_ga_local
+1003,traditional_heuristic_ue,128,74,10,14|28|11|29|8|9|26|7|17|27,476a7ee2f913c3675c7968be079808a497a2a4692e10a74beaa20cd8deb6134c,94.40066169620313,56,candidate_ue_reranking,primary_shortlist,heuristic,proxy_ga_local
+1003,traditional_heuristic_ue,256,74,10,14|28|11|29|8|9|26|7|17|27,476a7ee2f913c3675c7968be079808a497a2a4692e10a74beaa20cd8deb6134c,94.40066169620313,56,candidate_ue_reranking,primary_shortlist,heuristic,proxy_ga_local
+1003,traditional_heuristic_ue,512,74,10,14|28|11|29|8|9|26|7|17|27,476a7ee2f913c3675c7968be079808a497a2a4692e10a74beaa20cd8deb6134c,94.40066169620313,56,candidate_ue_reranking,primary_shortlist,heuristic,proxy_ga_local

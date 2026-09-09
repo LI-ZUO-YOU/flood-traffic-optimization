@@ -1,0 +1,7 @@
+﻿Predeclared gate,Requirement,Observed result,Decision
+Median regret,≤ 3%,0.0381%,Pass
+P90 regret,≤ 5%,0.4589%,Pass
+Median regret vs Random + UE,Lower,0.0381% vs 6.9295%,Pass
+Median regret vs Proxy Top-k + UE,Lower,0.0381% vs 8.2578%,Pass
+UE convergence,All requested and reference states,"10,240/10,240",Pass
+Scenario completeness,All 10 final scenarios,10/10,Pass

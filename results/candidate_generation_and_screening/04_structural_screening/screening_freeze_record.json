@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "screened_candidates_sha256": "f06f4b3eed381dcdbc9dc6b8c52b7a63e70a8842ce657840ce7b359b35894198",
+  "screened_candidates_bytes": 9864515,
+  "primary_shortlist_sha256": "68dde6d6bdfda5a8f6a130dfac0f2c5ae94291461137a4948f35b873812bf68d",
+  "structural_reserve_sha256": "c3d94ec71f964410ee3453112f1574e70142e627a297be6f098808ecf82b5d7c",
+  "exact_reference_access_before_freeze": false,
+  "posthoc_quality_evaluation_allowed": true
+}

@@ -1,0 +1,5 @@
+scenario_id,ue_budget,complete_sequence_count,best_sequence_id,best_sequence,best_ue_objective,best_screening_tier,best_primary_source,best_evaluation_phase,best_completion_budget
+1009,64,53,13a64413020f752d67b0d13fa5dde333a4bb543562d29116ea673ea51e15cfa8,16|23|17|27|15|21|25|9|6|20,65.53338696404025,local_search,local_search,D_local_search,58
+1009,128,283,db7ccda2656116532f151d381ad785fe467f7f3d1bae502b2b246053dc62d5a5,16|23|17|27|21|20|15|25|9|6,64.4431634104052,local_search,local_search,D_local_search,128
+1009,256,818,26dbc964d101a607035dc514402767ced35e39bc79d9d8cce8aaa8fb8b42397e,16|23|17|20|21|25|15|9|6|27,63.66663452456747,local_search,local_search,D_local_search,254
+1009,512,2204,ce41aaa2e1e0f786b10c53365cd29cef29fb7d57f6ab796eb48368e3312dd5a4,16|23|21|20|25|15|17|9|6|27,63.462340063126724,local_search,local_search,D_local_search,384

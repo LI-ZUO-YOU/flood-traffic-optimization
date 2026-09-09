@@ -1,0 +1,388 @@
+{
+  "dataset_version": "week1_recovery_dataset_v1.0",
+  "schema_version": "1.0",
+  "created_at": "2026-08-03T21:02:11.601280+08:00",
+  "source_dataset_path": "source-reference/week1_recovery_dataset",
+  "frozen_dataset_relative_path": "week1_recovery_dataset_v1.0",
+  "freeze_method": "byte-for-byte copy plus SHA-256 manifest; original first-week files were not modified",
+  "python_version": "3.12.13",
+  "numpy_version": "2.3.5",
+  "pandas_version": "3.0.1",
+  "preprocessor_implementation": "NumPy training-only mean and population standard deviation",
+  "baseline_tstt": 7480225.3449211195,
+  "splits": {
+    "train": {
+      "file": "recovery_states_train.csv",
+      "sample_count": 1500,
+      "scenario_count": 60,
+      "scenario_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "allowed_use": "fit model weights and training-only preprocessing"
+    },
+    "calibration": {
+      "file": "recovery_states_calibration.csv",
+      "sample_count": 300,
+      "scenario_count": 20,
+      "scenario_ids": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "allowed_use": "fit normalized split-conformal calibration parameters only"
+    },
+    "test_id": {
+      "file": "recovery_states_test_id.csv",
+      "sample_count": 300,
+      "scenario_count": 20,
+      "scenario_ids": [
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "allowed_use": "frozen in-distribution evaluation only"
+    },
+    "test_severe": {
+      "file": "recovery_states_test_severe.csv",
+      "sample_count": 300,
+      "scenario_count": 20,
+      "scenario_ids": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "allowed_use": "frozen OOD stress evaluation only; no tuning or recalibration"
+    }
+  },
+  "cross_split_scenario_intersections": {
+    "train__calibration": [],
+    "train__test_id": [],
+    "train__test_severe": [],
+    "calibration__test_id": [],
+    "calibration__test_severe": [],
+    "test_id__test_severe": []
+  },
+  "feature_dimension": 114,
+  "target_formula": "ln(tstt / baseline_tstt)",
+  "preprocessing_fit_split": "train",
+  "max_log_label_difference_vs_week1": 1.3322676295501878e-15,
+  "preprocessing_metrics": {
+    "train_depth_transformed_max_abs_mean": 1.7289873236829103e-16,
+    "train_depth_zero_variance_feature_count": 0,
+    "train_depth_nonzero_variance_std_max_abs_error_from_one": 2.220446049250313e-16,
+    "scenario_total_weight_min": 25.0,
+    "scenario_total_weight_max": 25.0,
+    "training_row_weight_sum": 1500.0
+  },
+  "bootstrap": {
+    "n_members": 10,
+    "sampling_unit": "scenario_id",
+    "draws_per_member": 60,
+    "with_replacement": true,
+    "oob_used_for": "member-specific validation and early stopping"
+  },
+  "all_qc_passed": true,
+  "qc_check_count": 58,
+  "frozen_file_hashes": {
+    "input_validation/benchmark_solves.csv": {
+      "sha256": "5c90f471193b451093d83c805a511c326e5a635f883232f37c7fe67cf204dc08",
+      "bytes": 1519
+    },
+    "input_validation/checks.csv": {
+      "sha256": "a99bcd9be0e531b37fd8d4f5188a7487a9d02499904b5f746b8f4b54f1932c38",
+      "bytes": 1449
+    },
+    "input_validation/critical_links.csv": {
+      "sha256": "840336ebe738af53d0b879f94dd4048cfdd48878aa5874facab1039a609424a0",
+      "bytes": 2219
+    },
+    "input_validation/hashes.csv": {
+      "sha256": "3a4f1fb47252465b9ee54ca2f06003806d74225d95a3078642935471ce2c5bf4",
+      "bytes": 1202
+    },
+    "input_validation/severe_critical.csv": {
+      "sha256": "602dc2f0d98ebf1ad75cea3cdec9aabc21ccc7a164ef2a1dd9d80db2282d4221",
+      "bytes": 237
+    },
+    "input_validation/tolerance_stability_check.csv": {
+      "sha256": "2045027c7a1f082de97be2ebf0ee11003e9a7430d0157469ae803a5bc7a4b3ed",
+      "bytes": 996
+    },
+    "models/__init__.py": {
+      "sha256": "fb1123d0ee8388dbc99d84b1ccc5b27542c35c3f67e55b609253d2c386880baa",
+      "bytes": 316
+    },
+    "models/flood_mapping.py": {
+      "sha256": "fb2ba16883ac6c7af0760440e61fbf8dc924d8071b5918f982e6ad4db8542e30",
+      "bytes": 1778
+    },
+    "models/scenario_adapter.py": {
+      "sha256": "8699e9fe874e54fa373436bcd2a3de62ef3cb2c79dfb4a940a6973d2267e7d3c",
+      "bytes": 1493
+    },
+    "models/spatial_flood_field.py": {
+      "sha256": "fbb0a8202f8d51a11ad9866d57d6605693691333cec6cd0bf4ac2e6496dc88bd",
+      "bytes": 4142
+    },
+    "models/ue_static.py": {
+      "sha256": "3e6fcb48dadedf45fe93599f51e4fdbba63f1e26943088e5921b9eeae43a31ee",
+      "bytes": 11790
+    },
+    "README_CN.md": {
+      "sha256": "b5932145a247e87d1c647568b746dc6ef87811c6d95661c9d2718e67baa0ed23",
+      "bytes": 3827
+    },
+    "recovery_dataset_config.json": {
+      "sha256": "f512c48d2256e973ea4f551fbbde3022f1c1895cf8e6663820add53788f20ea7",
+      "bytes": 847
+    },
+    "recovery_dataset_quality_checks.csv": {
+      "sha256": "649fa678c43e09bc56e5f2bcfaa5b7361c1ffa69f82d36641ccb3fd922f3ae08",
+      "bytes": 591
+    },
+    "recovery_dataset_summary.csv": {
+      "sha256": "d1b2b7624c1735f0ce93629a39943f0ab6f9fb2aadd15cf7367e554a7b70b4d0",
+      "bytes": 1207
+    },
+    "recovery_state_features.csv": {
+      "sha256": "27ac9ed4ccc666b0c00dff53f62b742f48de44779f95f465e2b46516997b4259",
+      "bytes": 1344006
+    },
+    "recovery_state_manifest.csv": {
+      "sha256": "429ef68e9ae59bbd2e99820ff2b13759d9f6ff02c7ff7e23918aca804f66b5a0",
+      "bytes": 497322
+    },
+    "recovery_state_results_checkpoint.csv": {
+      "sha256": "b693d75a35d692ad39489f912befb74b77feef987cb6fcc5ecc7506e00fd3c9e",
+      "bytes": 398237
+    },
+    "recovery_states_all.csv": {
+      "sha256": "7adcf89c8424dd364d509cf1dd80d66f48924ff1d006e49b68e11d4b4f61735a",
+      "bytes": 2144770
+    },
+    "recovery_states_calibration.csv": {
+      "sha256": "098987f27c9dbc22557e3542f72af862190debb210f7e1a19ac57f33493f09a8",
+      "bytes": 257653
+    },
+    "recovery_states_test_id.csv": {
+      "sha256": "623a89dcb3ce5f9190e197dc406f796454cfd0a53670c624664600315864e8ab",
+      "bytes": 261642
+    },
+    "recovery_states_test_severe.csv": {
+      "sha256": "798173f1b61c160d163420b70fef56e0addb303ed192069e3d65aa07e67781a4",
+      "bytes": 323709
+    },
+    "recovery_states_train.csv": {
+      "sha256": "a51cd4a202621bd6dcb8bc50f5cc9d692120f1cc7e079d2391b7e6e2c3977887",
+      "bytes": 1308417
+    },
+    "scripts/check_tolerance_stability.py": {
+      "sha256": "90441d27d6931313af1dad7c747ae9afcadeb2b559adb523830f35c59f895072",
+      "bytes": 2429
+    },
+    "scripts/generate_recovery_dataset.py": {
+      "sha256": "6a9e920b5ee731552a5a87a90782b1b20940d8ecc04d03aaa26f01e9734b3ee2",
+      "bytes": 20340
+    },
+    "scripts/inspect_inputs.py": {
+      "sha256": "7c02625ee060c5395e166b6ef616d0905a5fba83d265c1d945fc20efe2d989da",
+      "bytes": 10946
+    },
+    "数据质量与划分报告.md": {
+      "sha256": "cf4c9995579d9b97309e8580b90a7bf02b351b0642b3835b6b2b462b0d0adbb7",
+      "bytes": 4855
+    }
+  },
+  "generated_artifact_hashes": {
+    "preprocessor.pkl": {
+      "sha256": "0fd454ce9fed2945846611af5b6518b564d08ee8a93fb6b8d16c6c62891fbc6b",
+      "bytes": 5459
+    },
+    "feature_config.json": {
+      "sha256": "4e5036d6a605a2c3d3a1755de0c4068a41adb1937dfb73e1e33d77b158593da7",
+      "bytes": 10265
+    },
+    "bootstrap_scenarios.json": {
+      "sha256": "b88f695c6d10103f90aaec5b42d3e2b91c9699d1803f1a1e9a1eb5828fc6c3da",
+      "bytes": 22473
+    },
+    "processed/bootstrap_summary.csv": {
+      "sha256": "ff6da8d2d070ea2506adcb05bd21b5cc801a62e83cb32183f680c5593a822b7a",
+      "bytes": 1336
+    },
+    "scripts/freeze_and_preprocess.py": {
+      "sha256": "6441ee548120ac83ca4e4580135381e7661788a2706b58092407e6addaca4127",
+      "bytes": 28595
+    },
+    "scripts/scenario_bootstrap.py": {
+      "sha256": "9b83d18b1c42c9d4a7a68e3a29bde649cbeb9625290cf058159e7506511e17f7",
+      "bytes": 4048
+    },
+    "processed/preprocessed_calibration.csv.gz": {
+      "sha256": "c7778a291a2d4b26724e8b5f55a7b3bf8cbe834f2104240d86a8bafeac6764d4",
+      "bytes": 12596
+    },
+    "processed/preprocessed_calibration.npz": {
+      "sha256": "73c13268865d73ce225480f0c17fb8a8a4d68726e4028217b0b36f6c6977abbb",
+      "bytes": 11401
+    },
+    "processed/preprocessed_test_id.csv.gz": {
+      "sha256": "f252a35960b4a90bae6607a665ac5ea54c872f91c9aee4955f3c6c6c10f832b2",
+      "bytes": 12668
+    },
+    "processed/preprocessed_test_id.npz": {
+      "sha256": "e2684043e0452cb31fba1f8c2280d42e703690863500feca35f54856fc70cdb1",
+      "bytes": 11423
+    },
+    "processed/preprocessed_test_severe.csv.gz": {
+      "sha256": "bb439972cd5fdccaa63a13b10d7d46c5981d79eeab123fe0d1ce24bde119d76a",
+      "bytes": 14143
+    },
+    "processed/preprocessed_test_severe.npz": {
+      "sha256": "4ec62b28e54bce4a896625757fa404e2a70d6ad05c334a11d14f9f44da74ff3e",
+      "bytes": 12882
+    },
+    "processed/preprocessed_train.csv.gz": {
+      "sha256": "a71e1f2e98dd1dd5446e52561e223b89d69566dd6ecd99a844f8e99312ed468e",
+      "bytes": 56507
+    },
+    "processed/preprocessed_train.npz": {
+      "sha256": "9ea4f98ca617a27ddbdc7c85bf4018efcc01fa3c37bd0ecd175b9f5b8d2cf127",
+      "bytes": 41696
+    },
+    "processed/split_summary.csv": {
+      "sha256": "99ae4f7db8e46ab38b40d39db131f3f3a7e6fe055c1c5da6e46b2d5cf4dcb1c9",
+      "bytes": 661
+    },
+    "processed/feature_statistics.csv": {
+      "sha256": "4fcb6ecd861c229255fa11168f337d764d3e345e4d15ff9cfab34dbaeeef2851",
+      "bytes": 15297
+    },
+    "processed/scenario_equal_weights.csv": {
+      "sha256": "65a77dc6c2d3f0fa092a799b7632ed6a39c7c5180116547f630a0770e12f528b",
+      "bytes": 2392
+    },
+    "processed/qc_checks.csv": {
+      "sha256": "0bffa01911d7e6ab101d953f699dce1d0a80c40344872fa9db519b0654764bbe",
+      "bytes": 3018
+    },
+    "README_CN.md": {
+      "sha256": "1a93cc610fbbbc4b9f3180165dd9b1079695d84840218141f690f2bcad799475",
+      "bytes": 1716
+    },
+    "scripts/validate_day1.py": {
+      "sha256": "c68c9a22335305759cafc630d754418cadcc0ddc5c3a7295f622402cdfb4e07d",
+      "bytes": 4758
+    }
+  }
+}

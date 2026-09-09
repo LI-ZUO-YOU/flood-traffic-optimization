@@ -1,0 +1,7 @@
+﻿item,value,unit,interpretation
+Full method B=256 method-specific information queries,2560.0,unique scenario-state UE queries across 10 scenarios,256 per scenario; 25% of each 1024-state exact space
+Information-query reduction relative to complete exact state tables,75.0,percent,query-volume reduction only; not a wall-time claim
+"Full-method formal run wall time, summed over scenario jobs",6566.57171700001,seconds,includes all four nested budgets and search overhead; not attributable to B=256 alone
+Full-method median wall time per scenario job,613.3738320500015,seconds,includes all four nested budgets
+Day3 full-method plus controls observed parallel wall time,4217.575958400001,seconds,3 parallel scenario workers; proposed and control methods combined
+Day4 exact-reference completion wall time,2586.926,seconds,offline benchmark completion for 2048 missing states only; not proposed-method runtime

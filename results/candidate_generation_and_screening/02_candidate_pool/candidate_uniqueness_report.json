@@ -1,0 +1,212 @@
+{
+  "status": "pass",
+  "global_checks": {
+    "exactly_30000_per_scenario": true,
+    "all_sequences_unique": true,
+    "all_candidate_ids_unique": true,
+    "source_quotas_exact": true,
+    "complete_prefix1_coverage": true,
+    "complete_prefix2_coverage": true,
+    "complete_prefix3_coverage": true,
+    "complete_prefix4_coverage": true,
+    "all_proxy_outputs_finite": true,
+    "exact_reference_not_read_during_generation": true,
+    "scenario_count_matches_cli": true
+  },
+  "scenario_reports": {
+    "1001": {
+      "candidate_count": 30000,
+      "unique_sequences": 30000,
+      "unique_candidate_ids": 30000,
+      "primary_source_counts": {
+        "prefix_stratified": 16000,
+        "proxy_ga_local": 3000,
+        "proxy_subset_dp": 4000,
+        "random": 5000,
+        "sequence_diversity": 2000
+      },
+      "ordered_prefix_1_coverage": 10,
+      "ordered_prefix_2_coverage": 90,
+      "ordered_prefix_3_coverage": 720,
+      "ordered_prefix_4_coverage": 5040,
+      "all_proxy_outputs_finite": true,
+      "best_proxy_objective": 300.4945574739358,
+      "median_proxy_objective": 340.9101864726383
+    },
+    "1002": {
+      "candidate_count": 30000,
+      "unique_sequences": 30000,
+      "unique_candidate_ids": 30000,
+      "primary_source_counts": {
+        "prefix_stratified": 16000,
+        "proxy_ga_local": 3000,
+        "proxy_subset_dp": 4000,
+        "random": 5000,
+        "sequence_diversity": 2000
+      },
+      "ordered_prefix_1_coverage": 10,
+      "ordered_prefix_2_coverage": 90,
+      "ordered_prefix_3_coverage": 720,
+      "ordered_prefix_4_coverage": 5040,
+      "all_proxy_outputs_finite": true,
+      "best_proxy_objective": 47.953085028803926,
+      "median_proxy_objective": 51.98893778174592
+    },
+    "1003": {
+      "candidate_count": 30000,
+      "unique_sequences": 30000,
+      "unique_candidate_ids": 30000,
+      "primary_source_counts": {
+        "prefix_stratified": 16000,
+        "proxy_ga_local": 3000,
+        "proxy_subset_dp": 4000,
+        "random": 5000,
+        "sequence_diversity": 2000
+      },
+      "ordered_prefix_1_coverage": 10,
+      "ordered_prefix_2_coverage": 90,
+      "ordered_prefix_3_coverage": 720,
+      "ordered_prefix_4_coverage": 5040,
+      "all_proxy_outputs_finite": true,
+      "best_proxy_objective": 327.1229629282648,
+      "median_proxy_objective": 359.06275711485074
+    },
+    "1004": {
+      "candidate_count": 30000,
+      "unique_sequences": 30000,
+      "unique_candidate_ids": 30000,
+      "primary_source_counts": {
+        "prefix_stratified": 16000,
+        "proxy_ga_local": 3000,
+        "proxy_subset_dp": 4000,
+        "random": 5000,
+        "sequence_diversity": 2000
+      },
+      "ordered_prefix_1_coverage": 10,
+      "ordered_prefix_2_coverage": 90,
+      "ordered_prefix_3_coverage": 720,
+      "ordered_prefix_4_coverage": 5040,
+      "all_proxy_outputs_finite": true,
+      "best_proxy_objective": 70.86526870918075,
+      "median_proxy_objective": 82.13259017271469
+    },
+    "1005": {
+      "candidate_count": 30000,
+      "unique_sequences": 30000,
+      "unique_candidate_ids": 30000,
+      "primary_source_counts": {
+        "prefix_stratified": 16000,
+        "proxy_ga_local": 3000,
+        "proxy_subset_dp": 4000,
+        "random": 5000,
+        "sequence_diversity": 2000
+      },
+      "ordered_prefix_1_coverage": 10,
+      "ordered_prefix_2_coverage": 90,
+      "ordered_prefix_3_coverage": 720,
+      "ordered_prefix_4_coverage": 5040,
+      "all_proxy_outputs_finite": true,
+      "best_proxy_objective": 59.24731749040264,
+      "median_proxy_objective": 77.38662443273623
+    },
+    "1006": {
+      "candidate_count": 30000,
+      "unique_sequences": 30000,
+      "unique_candidate_ids": 30000,
+      "primary_source_counts": {
+        "prefix_stratified": 16000,
+        "proxy_ga_local": 3000,
+        "proxy_subset_dp": 4000,
+        "random": 5000,
+        "sequence_diversity": 2000
+      },
+      "ordered_prefix_1_coverage": 10,
+      "ordered_prefix_2_coverage": 90,
+      "ordered_prefix_3_coverage": 720,
+      "ordered_prefix_4_coverage": 5040,
+      "all_proxy_outputs_finite": true,
+      "best_proxy_objective": 96.57124748232438,
+      "median_proxy_objective": 115.5279751926443
+    },
+    "1007": {
+      "candidate_count": 30000,
+      "unique_sequences": 30000,
+      "unique_candidate_ids": 30000,
+      "primary_source_counts": {
+        "prefix_stratified": 16000,
+        "proxy_ga_local": 3000,
+        "proxy_subset_dp": 4000,
+        "random": 5000,
+        "sequence_diversity": 2000
+      },
+      "ordered_prefix_1_coverage": 10,
+      "ordered_prefix_2_coverage": 90,
+      "ordered_prefix_3_coverage": 720,
+      "ordered_prefix_4_coverage": 5040,
+      "all_proxy_outputs_finite": true,
+      "best_proxy_objective": 120.39682189123138,
+      "median_proxy_objective": 141.61225737376088
+    },
+    "1008": {
+      "candidate_count": 30000,
+      "unique_sequences": 30000,
+      "unique_candidate_ids": 30000,
+      "primary_source_counts": {
+        "prefix_stratified": 16000,
+        "proxy_ga_local": 3000,
+        "proxy_subset_dp": 4000,
+        "random": 5000,
+        "sequence_diversity": 2000
+      },
+      "ordered_prefix_1_coverage": 10,
+      "ordered_prefix_2_coverage": 90,
+      "ordered_prefix_3_coverage": 720,
+      "ordered_prefix_4_coverage": 5040,
+      "all_proxy_outputs_finite": true,
+      "best_proxy_objective": 446.90853113572973,
+      "median_proxy_objective": 549.8970603010018
+    },
+    "1009": {
+      "candidate_count": 30000,
+      "unique_sequences": 30000,
+      "unique_candidate_ids": 30000,
+      "primary_source_counts": {
+        "prefix_stratified": 16000,
+        "proxy_ga_local": 3000,
+        "proxy_subset_dp": 4000,
+        "random": 5000,
+        "sequence_diversity": 2000
+      },
+      "ordered_prefix_1_coverage": 10,
+      "ordered_prefix_2_coverage": 90,
+      "ordered_prefix_3_coverage": 720,
+      "ordered_prefix_4_coverage": 5040,
+      "all_proxy_outputs_finite": true,
+      "best_proxy_objective": 97.19068027512988,
+      "median_proxy_objective": 111.7904707550552
+    },
+    "1010": {
+      "candidate_count": 30000,
+      "unique_sequences": 30000,
+      "unique_candidate_ids": 30000,
+      "primary_source_counts": {
+        "prefix_stratified": 16000,
+        "proxy_ga_local": 3000,
+        "proxy_subset_dp": 4000,
+        "random": 5000,
+        "sequence_diversity": 2000
+      },
+      "ordered_prefix_1_coverage": 10,
+      "ordered_prefix_2_coverage": 90,
+      "ordered_prefix_3_coverage": 720,
+      "ordered_prefix_4_coverage": 5040,
+      "all_proxy_outputs_finite": true,
+      "best_proxy_objective": 30.598232637666342,
+      "median_proxy_objective": 35.15251135949855
+    }
+  },
+  "total_candidates": 300000,
+  "generation_elapsed_seconds": 40.71569830000044,
+  "scientific_quality_status": "pending_posthoc_frozen_pool_evaluation",
+  "day4_permitted": false
+}

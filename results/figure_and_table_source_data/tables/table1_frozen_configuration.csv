@@ -1,0 +1,12 @@
+﻿Component,Frozen specification
+Network,"Sioux Falls: 24 nodes, 76 directed links (38 physical roads), 528 nonzero OD pairs"
+Demand and baseline,"Total demand 360,600; baseline UE TSTT = 7,480,225.3449"
+Flood closure,Road closed at water depth ≥ 0.30 m; otherwise free-flow time adjusted by depth–speed relation
+Decision scope,10 preselected recoverable roads; other initially closed roads remain closed
+Objective,Mean normalized excess true-UE TSTT over R0–R9; R10 weight = 0
+Candidate pool,"30,000 unique sequences per scenario from five frozen sources"
+Primary screening,"60 sequences: proxy 15, disagreement 10, diversity 15, heuristic 10, random 10"
+Full method,Structured exploration + budgeted true-UE reranking + true-UE local correction
+UE budgets,"64, 128, 256 (primary), and 512 method-specific unique restored-subset queries"
+Final holdout,"10 untouched severe scenarios, IDs 1001–1010; no replacement or exclusion"
+Exact reference,"Post-freeze 1,024-state enumeration and conditional exact dynamic programming"

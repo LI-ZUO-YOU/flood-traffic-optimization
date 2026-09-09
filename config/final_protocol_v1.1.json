@@ -1,0 +1,253 @@
+{
+  "schema_version": "final-untouched-optimization-protocol-v1.1",
+  "created_at_utc": "2026-08-08T06:24:19.498084+00:00",
+  "status": "FROZEN_BEFORE_FINAL_SCENARIO_GENERATION",
+  "research_method_name_cn": "代理引导的结构化候选探索—预算约束UE重排序—局部校正框架",
+  "claim_boundary": {
+    "core": [
+      "结构化候选探索",
+      "真实UE预算重排序",
+      "真实UE局部校正"
+    ],
+    "auxiliary_only": [
+      "集成成员分歧候选通道",
+      "序列多样性候选通道"
+    ],
+    "forbidden_claims": [
+      "将成员分歧直接解释为认知风险",
+      "宣称每个辅助通道均有独立正贡献",
+      "宣称候选筛选能够直接召回精确最优序列"
+    ]
+  },
+  "formal_code": {
+    "manifest": "formal_code_manifest.json",
+    "manifest_sha256": "ba2d6930bd8af8066a0ab7319c8ac4841fd48a7f1b4f06588a77a8de99f6e3c6",
+    "final_scenario_generation": "formal_code/generate_final_holdout.py",
+    "recoverable_road_selection": "formal_code/select_final_recoverable_roads.py",
+    "candidate_generation": "formal_code/generate_candidate_pool.py",
+    "primary_screening": "formal_code/screen_primary.py",
+    "structural_screening": "formal_code/screen_structural_reserve.py",
+    "full_method_live_ue": "formal_code/run_final_full_method_live_ue.py",
+    "five_controls_live_ue": "formal_code/run_final_controls_live_ue.py",
+    "exact_reference_after_freeze": "formal_code/run_exact_reference_after_method_freeze.py",
+    "full_pipeline": "formal_code/run_final_pipeline.py",
+    "pipeline_verification": "formal_code/verify_final_pipeline.py",
+    "source_change_after_freeze_forbidden": true
+  },
+  "optimization_scope": {
+    "severity": "severe only",
+    "recoverable_road_count": 10,
+    "conditional_optimum": "over the preselected ten recoverable roads; other initially closed roads remain closed",
+    "equal_repair_duration": true,
+    "stage_objective": "mean true-UE normalized excess TSTT over R0..R9; R10 has zero weight",
+    "baseline_tstt": 7480225.3449211195
+  },
+  "final_scenario_generation": {
+    "generate_on_day7": false,
+    "formal_final_scenario_count": 10,
+    "severity": "severe",
+    "scenario_id_range": [
+      1001,
+      1010
+    ],
+    "scenario_seed": 2026080701,
+    "generator": "NumPy Generator(PCG64), seed 2026080701, implemented by frozen formal_code/generate_final_holdout.py",
+    "acceptance_before_id_assignment": [
+      "exactly 38 unique physical_link_id values 1..38",
+      "at least 10 initially closed physical roads",
+      "finite physically valid open-road factors and frozen closed-road sentinels",
+      "unique rounded-depth vector and unique closed mask",
+      "no scenario hash overlap with any prior scenario"
+    ],
+    "rejection_policy": "reject and resample using the same RNG stream before assigning the next scenario_id; record every rejected draw and reason",
+    "outcome_adaptive_replacement_forbidden": true,
+    "ordinary_scenarios": "not part of the formal optimization holdout because the frozen optimization scope is severe scenarios with >=10 initially closed roads",
+    "count_note": "Day7验收建议可增至20个以增强统计稳定性；为避免冻结后改变研究口径，v1.1保留预注册的10个。"
+  },
+  "candidate_road_selection": {
+    "eligible_set": "initially closed physical roads only",
+    "flow_score": "(n-rank_desc_min(physical_flow))/(n-1), or 1 when n=1",
+    "betweenness_score": "(n-rank_desc_min(betweenness))/(n-1), or 1 when n=1",
+    "combined_score": "0.5*flow_score + 0.5*betweenness_score",
+    "selection": "top 10",
+    "tie_breakers": [
+      "higher physical_flow",
+      "higher betweenness",
+      "lower physical_link_id"
+    ],
+    "selection_before_proxy_or_ue_outcomes": true
+  },
+  "candidate_pool": {
+    "unique_sequences_per_scenario": 30000,
+    "source_quotas": {
+      "prefix_stratified": 16000,
+      "random": 5000,
+      "proxy_subset_dp": 4000,
+      "proxy_ga_local": 3000,
+      "sequence_diversity": 2000
+    },
+    "candidate_seed_rule": "2026080702 + scenario_id",
+    "proxy_ga_operationalization": "mutate proxy-best candidates from the already frozen prefix/random/proxy-subset-DP registry",
+    "validity": "each sequence is a length-10 permutation of the selected roads; candidate_id and sequence unique within scenario",
+    "true_ue_access": false
+  },
+  "screening": {
+    "primary_shortlist_count": 60,
+    "primary_channel_quotas": {
+      "proxy_top": 15,
+      "ensemble_disagreement": 10,
+      "sequence_diversity": 15,
+      "heuristic": 10,
+      "random": 10
+    },
+    "screening_seed_rule": "2026080703 + scenario_id",
+    "structural_reserve": {
+      "prefix2_clusters": 10,
+      "cluster_order": "ascending minimum proxy rank, then lexical prefix",
+      "prefix3": "all third-road extensions within selected prefix2 clusters",
+      "stratification": "primary_source x prefix3",
+      "proxy_rank_quantiles_per_group": 10
+    },
+    "true_ue_access": false
+  },
+  "formal_full_method": {
+    "prefix_exploration": "evaluate common R0 and the ten selected prefix2 clusters; expand all eight prefix3 extensions for the four best true-UE prefix2 clusters before budget64 and the remaining six before budget128",
+    "sequence_queue": "source and proxy-rank-quantile stratified; no global proxy-rank scan",
+    "budget_schedule": [
+      64,
+      128,
+      256,
+      512
+    ],
+    "seed_share_by_interval": {
+      "64": 0.55,
+      "128": 0.5,
+      "256": 0.5,
+      "512": 0.5
+    },
+    "local_search": {
+      "parents": "current best five fully evaluated sequences by true-UE objective",
+      "moves": [
+        "all 9 adjacent swaps",
+        "arbitrary swaps whose first index is in positions 1..5 and second is at least two later",
+        "insertions whose source index is in positions 1..5"
+      ],
+      "priority": "fewest missing UE states, adjacent before non-adjacent, lower indices, better parent objective",
+      "stop": "two consecutive rounds with no evaluation or <0.1% global-best improvement, or current budget reached"
+    },
+    "primary_budget": 256,
+    "sensitivity_budgets": [
+      64,
+      128,
+      512
+    ],
+    "new_intermediate_budgets_forbidden": true
+  },
+  "formal_controls": {
+    "count": 5,
+    "methods": {
+      "traditional_heuristic_ue": "ten frozen heuristic-channel sequences; UE reranking; no local search",
+      "surrogate_only": "proxy-rank-1 sequence; no UE feedback during selection; objective added only after method-output freeze",
+      "random_ue": "fixed random-source candidate order using seed 2026080704+scenario_id; UE reranking; no local search",
+      "proxy_topk_ue": "ascending proxy rank; UE reranking; no local search",
+      "no_local_search": "full primary plus structural reserve and prefix exploration, but no neighborhood moves"
+    },
+    "same_information_budget": true,
+    "development_only_ablations_not_repeated": [
+      "no_structural_reserve",
+      "no_disagreement_channel",
+      "no_diversity_channel"
+    ]
+  },
+  "ue_and_cache": {
+    "information_budget_unit": "method-specific unique restored-subset query; repeated requests within a method are hits",
+    "physical_compute_cache": "may be shared across methods only after each method independently requests the state; cache contents are never enumerable by a method",
+    "relative_gap_target": 0.0005,
+    "max_iteration_safeguard": [
+      1000,
+      3000,
+      10000
+    ],
+    "gap_relaxation_forbidden": true,
+    "failed_or_nonfinite_result": "do not cache, do not score, stop formal run and report failure",
+    "state_hash": "SHA-256 of round(depth_m,9) concatenated with 38-bit restored mask",
+    "fresh_namespace_rule": "正式最终运行必须使用新的场景专属空缓存；旧场景冒烟可显式启用warm-cache且必须标注smoke-test。"
+  },
+  "mandatory_execution_order": [
+    "generate new scenarios and freeze input hashes",
+    "select ten roads and freeze road/candidate/screening hashes",
+    "run full method and five controls through live UE query interface",
+    "freeze every method output and method-specific query ledger",
+    "only then enumerate remaining states to complete 1024-state exact reference",
+    "run exact dynamic programming and calculate regret",
+    "publish all scenarios, including failures, without replacement"
+  ],
+  "information_firewall": {
+    "before_method_output_freeze_forbidden": [
+      "complete subset-cost table",
+      "exact DP sequence",
+      "unqueried-state loss",
+      "posthoc regret",
+      "scenario replacement"
+    ],
+    "operator_may_inspect": [
+      "input validity",
+      "candidate counts/hashes",
+      "UE convergence logs for requested states",
+      "budget/query integrity"
+    ]
+  },
+  "final_metrics": [
+    "relative_regret_pct at 64/128/256/512",
+    "median/p90/max regret",
+    "exact-sequence hit rate",
+    "within-1.5% and within-3% rates",
+    "method-specific unique UE queries",
+    "physical UE solves and request-cache hits reported separately",
+    "complete sequences",
+    "wall time",
+    "all-UE convergence"
+  ],
+  "predeclared_final_gates": {
+    "primary_full_median_regret_256_pct_max": 3.0,
+    "primary_full_p90_regret_256_pct_max": 5.0,
+    "full_median_regret_256_lower_than_random": true,
+    "full_median_regret_256_lower_than_proxy_topk": true,
+    "all_requested_and_exact_reference_ue_converged": true,
+    "all_ten_scenarios_reported": true,
+    "interpretation": "project-level gates, not universal journal standards; failure must be reported and cannot trigger replacement of this holdout"
+  },
+  "post_freeze_rules": {
+    "may_generate_final_scenarios_after_this_protocol_hash": true,
+    "tuning_from_final_results": false,
+    "same_holdout_reuse_after_any_method_change": false,
+    "delete_or_replace_bad_scenario": false,
+    "add_budget_384_or_416": false,
+    "remove_auxiliary_channel_before_final_run": false
+  },
+  "day7_v1_1_completion": {
+    "later_acceptance_report_overrides_earlier_self_check": true,
+    "five_blockers_closed": [
+      "独立最终场景生成器与拒绝日志",
+      "最终10条可恢复道路确定器",
+      "候选与筛选脚本全部参数化",
+      "五类对照改为实时UE按需查询并独立冻结账本",
+      "完整方法及全部对照冻结后才允许构造1024态精确参考"
+    ],
+    "final_scenarios_generated": false,
+    "old_scenario_smoke_test": {
+      "scenario_id": 146,
+      "status": "pass",
+      "warm_cache_only": true,
+      "reason": "Day6已验证旧场景状态用于工程贯通测试，不作为最终性能证据",
+      "pipeline_freeze_sha256": "034500843891107358b0e0374c0f16d46befeaadd72780d129015d3f47762931"
+    }
+  },
+  "protocol_lineage": {
+    "day7_v1_0_protocol_sha256_recorded_by_warm_smoke": "ca546a353c63eacf4b9b39329621ad104ea9f950fc6eaf0db033075cc22c6404",
+    "pre_archive_v1_1_sha256": "37f77684ab7c75c1b59c70c5b69a150e76cfbfa3e8637e0ab7cf98134f98f585",
+    "change_reason": "在生成任何最终场景前补齐正式入口、清单命名、独立验证器和完整归档结构；候选、筛选、预算、局部搜索、道路规则、目标函数、对照与门槛均未改变。",
+    "scientific_method_changed": false,
+    "final_scenario_data_seen": false
+  }
+}

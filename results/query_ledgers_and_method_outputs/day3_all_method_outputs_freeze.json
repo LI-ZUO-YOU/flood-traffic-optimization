@@ -1,0 +1,177 @@
+{
+  "schema_version": "week4-day3-all-method-outputs-freeze-v1.0",
+  "created_at_utc": "2026-08-08T10:15:40.679928+00:00",
+  "status": "frozen_before_exact_reference",
+  "scenario_ids": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+  ],
+  "full_method_freeze_count": 10,
+  "formal_control_method_freeze_count": 50,
+  "control_aggregate_freeze_count": 10,
+  "entries": {
+    "1001": {
+      "full_method": {
+        "path": "06_full_method/scenario_1001/full_method_output_freeze.json",
+        "sha256": "f608981799afb7271952e6382862d8f306ceb40d38c5d8af3b6a3f8cf1e211b2"
+      },
+      "five_controls_aggregate": {
+        "path": "07_live_controls/scenario_1001/controls_output_freeze.json",
+        "sha256": "4f842373a62c0f1f0595b665c6f73ddc26875389985f0d06a7d9194a2c9e395f"
+      },
+      "shared_physical_cache": {
+        "path": "05_shared_physical_cache/scenario_1001.sqlite",
+        "sha256": "b78f1ba7fa1e6d4c2346d66072b91993967eb3a9c4e2be75760e16710234687e",
+        "rows": 811
+      }
+    },
+    "1002": {
+      "full_method": {
+        "path": "06_full_method/scenario_1002/full_method_output_freeze.json",
+        "sha256": "bb8d5aa2973911de53cb8405c51cdd40430610ff69463b071409442926ca8b76"
+      },
+      "five_controls_aggregate": {
+        "path": "07_live_controls/scenario_1002/controls_output_freeze.json",
+        "sha256": "6f287742aea605e3a0856f4c28d94689ff3f2322d41d42b5e0938721d99f5974"
+      },
+      "shared_physical_cache": {
+        "path": "05_shared_physical_cache/scenario_1002.sqlite",
+        "sha256": "3eef81491ad602305f49fae8083b91f287a622dc39fca57f2fa3e67c264cd608",
+        "rows": 828
+      }
+    },
+    "1003": {
+      "full_method": {
+        "path": "06_full_method/scenario_1003/full_method_output_freeze.json",
+        "sha256": "a34dd31173046f4af90f110956a41cef3c89283587452847a11341096591f7cf"
+      },
+      "five_controls_aggregate": {
+        "path": "07_live_controls/scenario_1003/controls_output_freeze.json",
+        "sha256": "b75779a3e0b87841a18ad2c36dd60ba668c913b448bd3a2366835387179b653c"
+      },
+      "shared_physical_cache": {
+        "path": "05_shared_physical_cache/scenario_1003.sqlite",
+        "sha256": "56cf53ad253a80ce5f5edd919301960be4b5c55e3e303bb611f191669b22940b",
+        "rows": 854
+      }
+    },
+    "1004": {
+      "full_method": {
+        "path": "06_full_method/scenario_1004/full_method_output_freeze.json",
+        "sha256": "cc472e64ec4f1e436cc0b34cf5d703ad7180616bb57fe80a5af7fcb86b164b82"
+      },
+      "five_controls_aggregate": {
+        "path": "07_live_controls/scenario_1004/controls_output_freeze.json",
+        "sha256": "873c774476d9771e5492609d5ed130162859c52df3cf65c70be9c6a53037aced"
+      },
+      "shared_physical_cache": {
+        "path": "05_shared_physical_cache/scenario_1004.sqlite",
+        "sha256": "96a4513c41248febbddde3e55192fd66229d491b3bb25943f78d487b65fb02e0",
+        "rows": 822
+      }
+    },
+    "1005": {
+      "full_method": {
+        "path": "06_full_method/scenario_1005/full_method_output_freeze.json",
+        "sha256": "a0efe5914dd0683befa5c4e615e8b14f4899961efac6f936f66139bc242733d9"
+      },
+      "five_controls_aggregate": {
+        "path": "07_live_controls/scenario_1005/controls_output_freeze.json",
+        "sha256": "272f197a0caa332668d98600a7d4e715ea97bb28b09d9c9957c5dc3e22e9c815"
+      },
+      "shared_physical_cache": {
+        "path": "05_shared_physical_cache/scenario_1005.sqlite",
+        "sha256": "f26327714b6d7561ce47b91bbe14bd6342db05958d99eba3c3766783a91b11a6",
+        "rows": 779
+      }
+    },
+    "1006": {
+      "full_method": {
+        "path": "06_full_method/scenario_1006/full_method_output_freeze.json",
+        "sha256": "580da65696f976919f5cf15ad96e01fee84c9642f55a37d9a5bf2ae7e35f1fc5"
+      },
+      "five_controls_aggregate": {
+        "path": "07_live_controls/scenario_1006/controls_output_freeze.json",
+        "sha256": "b1296ca520158711391745356943a990b198cae2a80642e81b0c835967cc6c62"
+      },
+      "shared_physical_cache": {
+        "path": "05_shared_physical_cache/scenario_1006.sqlite",
+        "sha256": "4702ec2a23ace1ed4b71f1b68d49bf0e235b765a8c07404cda4676fd96831547",
+        "rows": 857
+      }
+    },
+    "1007": {
+      "full_method": {
+        "path": "06_full_method/scenario_1007/full_method_output_freeze.json",
+        "sha256": "5d24eaff61d0d0a4ea9603da3f295384fe1119591043d3e6d924515202221c21"
+      },
+      "five_controls_aggregate": {
+        "path": "07_live_controls/scenario_1007/controls_output_freeze.json",
+        "sha256": "e4838ac018ec55572b84d0f0e07942de0303e6f05c9b4c84468a9d70dc520fa0"
+      },
+      "shared_physical_cache": {
+        "path": "05_shared_physical_cache/scenario_1007.sqlite",
+        "sha256": "8011f084a88004d9b1adb12ea38f4439a5b74eb10bb47fbb6ca255c4e4e53566",
+        "rows": 827
+      }
+    },
+    "1008": {
+      "full_method": {
+        "path": "06_full_method/scenario_1008/full_method_output_freeze.json",
+        "sha256": "2182916599a42fbce21778d4bad15ac96cac01eff40dd5b2d5b98f695ff2b0b7"
+      },
+      "five_controls_aggregate": {
+        "path": "07_live_controls/scenario_1008/controls_output_freeze.json",
+        "sha256": "3a886de5fe1a86dfab2ab96a40f266a4d84edb06debe5c1bc30acd38714b337c"
+      },
+      "shared_physical_cache": {
+        "path": "05_shared_physical_cache/scenario_1008.sqlite",
+        "sha256": "9edad31d97e0220ef1afa3c0d6d1278aeb53719fe103ae1edb2e290a8787fcd7",
+        "rows": 788
+      }
+    },
+    "1009": {
+      "full_method": {
+        "path": "06_full_method/scenario_1009/full_method_output_freeze.json",
+        "sha256": "82547ea34eac3df27e7e1c2b9b5c59b3ec4c7b4aa523b840bad7c90d6358c2d5"
+      },
+      "five_controls_aggregate": {
+        "path": "07_live_controls/scenario_1009/controls_output_freeze.json",
+        "sha256": "3c1230fef998f36ce7e82ab6ed38d0e0a61c527baaccb608d81d4a5179a94a55"
+      },
+      "shared_physical_cache": {
+        "path": "05_shared_physical_cache/scenario_1009.sqlite",
+        "sha256": "36c8bbf8cdb5dcffb94f9ee68ae3ce99937853d3cbd23a8424b1e9088430db74",
+        "rows": 812
+      }
+    },
+    "1010": {
+      "full_method": {
+        "path": "06_full_method/scenario_1010/full_method_output_freeze.json",
+        "sha256": "c632d6814e2e44a73209f181ab9a25f1e9cc68ce32eaad0762252374203cb585"
+      },
+      "five_controls_aggregate": {
+        "path": "07_live_controls/scenario_1010/controls_output_freeze.json",
+        "sha256": "6919be586e6c77e54cbd23021deeaf264f972c7cd604dca1a3d80ac67c477b98"
+      },
+      "shared_physical_cache": {
+        "path": "05_shared_physical_cache/scenario_1010.sqlite",
+        "sha256": "de7a906e4cece191b3303b2b5d67c7b77acfb83da0c5ae42401d2d05637091db",
+        "rows": 814
+      }
+    }
+  },
+  "all_method_outputs_frozen": true,
+  "exact_reference_run": false,
+  "exact_dp_run": false,
+  "regret_calculated": false,
+  "day4_rule": "copy, never mutate, the Day3 caches before completing unrequested states"
+}

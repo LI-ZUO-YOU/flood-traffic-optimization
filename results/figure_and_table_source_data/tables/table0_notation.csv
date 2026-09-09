@@ -1,0 +1,11 @@
+﻿Symbol,Definition,Unit or domain
+"G=(N,A)",Directed road network with node set N and link set A,—
+h; w,Road water depth; w=1000h,m; mm
+v(w),Flood-affected speed before clipping,km/h
+xₐ; cₐ,Flow and capacity of link a,veh/time
+tₐ⁰; tₐᶠ; tₐ(xₐ),Dry free-flow time; flood-adjusted free-flow time; congested travel time,time
+TSTT; TSTT₀,Total system travel time in a state; dry-network baseline,veh·time
+π; Rₖ(π),Reopening sequence; state after the first k roads are reopened,permutation; state
+JUE(π); J*,True-UE sequence objective; conditional exact optimum,dimensionless
+B,Method-specific budget of unique restored-subset UE queries,states
+Regret,100%×(J−J*)/J*,%

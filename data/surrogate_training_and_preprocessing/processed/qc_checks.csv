@@ -1,0 +1,59 @@
+﻿check,passed,detail
+train_row_count,True,observed=1500
+train_split_column,True,values=['train']
+train_scenario_count,True,observed=60
+calibration_row_count,True,observed=300
+calibration_split_column,True,values=['calibration']
+calibration_scenario_count,True,observed=20
+test_id_row_count,True,observed=300
+test_id_split_column,True,values=['test_id']
+test_id_scenario_count,True,observed=20
+test_severe_row_count,True,observed=300
+test_severe_split_column,True,values=['test_severe']
+test_severe_scenario_count,True,observed=20
+train_same_feature_schema,True,114 features aligned
+train_finite_depth,True,all finite
+train_nonnegative_depth,True,min=0
+train_binary_closed,True,"values=[0.0, 1.0]"
+train_binary_restored,True,"values=[0.0, 1.0]"
+train_restored_subset,True,r <= c
+train_positive_finite_tstt,True,"range=[8.28185e+06,1.71707e+09]"
+train_ue_converged,True,converged=1500/1500
+train_gap_within_target,True,max=0.000499982516715
+calibration_same_feature_schema,True,114 features aligned
+calibration_finite_depth,True,all finite
+calibration_nonnegative_depth,True,min=0
+calibration_binary_closed,True,"values=[0.0, 1.0]"
+calibration_binary_restored,True,"values=[0.0, 1.0]"
+calibration_restored_subset,True,r <= c
+calibration_positive_finite_tstt,True,"range=[9.41396e+06,1.19254e+09]"
+calibration_ue_converged,True,converged=300/300
+calibration_gap_within_target,True,max=0.000499943327401
+test_id_same_feature_schema,True,114 features aligned
+test_id_finite_depth,True,all finite
+test_id_nonnegative_depth,True,min=0
+test_id_binary_closed,True,"values=[0.0, 1.0]"
+test_id_binary_restored,True,"values=[0.0, 1.0]"
+test_id_restored_subset,True,r <= c
+test_id_positive_finite_tstt,True,"range=[9.18986e+06,1.59906e+09]"
+test_id_ue_converged,True,converged=300/300
+test_id_gap_within_target,True,max=0.000499859984601
+test_severe_same_feature_schema,True,114 features aligned
+test_severe_finite_depth,True,all finite
+test_severe_nonnegative_depth,True,min=0
+test_severe_binary_closed,True,"values=[0.0, 1.0]"
+test_severe_binary_restored,True,"values=[0.0, 1.0]"
+test_severe_restored_subset,True,r <= c
+test_severe_positive_finite_tstt,True,"range=[1.66058e+07,3.16965e+10]"
+test_severe_ue_converged,True,converged=300/300
+test_severe_gap_within_target,True,max=0.000499979258562
+scenario_level_no_leakage,True,"{""train__calibration"": [], ""train__test_id"": [], ""train__test_severe"": [], ""calibration__test_id"": [], ""calibration__test_severe"": [], ""test_id__test_severe"": []}"
+unique_state_id,True,unique=2400
+unique_state_hash,True,unique=2400
+total_rows,True,observed=2400
+log_label_reproduction,True,max_abs_difference=1.332e-15
+input_dimension_114,True,38 standardized depth + 38 closed + 38 restored
+training_depth_centered,True,max_abs_mean=1.729e-16
+training_depth_scaled,True,max_abs_std_error=2.220e-16
+scenario_equal_total_weight,True,total_per_scenario=25
+bootstrap_oob_available,True,all 10 members have non-empty OOB scenarios

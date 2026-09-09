@@ -1,0 +1,32 @@
+{
+  "schema_version": "day7-formal-code-manifest-v1.1",
+  "created_at_utc": "2026-08-08T05:32:03.061644+00:00",
+  "entry_points": {
+    "final_scenario_generation": "formal_code/generate_final_holdout.py",
+    "recoverable_road_selection": "formal_code/select_final_recoverable_roads.py",
+    "end_to_end_pipeline": "formal_code/run_final_pipeline.py",
+    "full_method_live_ue": "formal_code/run_full_method_live_ue.py",
+    "five_controls_live_ue": "formal_code/run_final_controls_live_ue.py",
+    "exact_after_method_freeze": "formal_code/run_exact_reference_after_method_freeze.py"
+  },
+  "files": {
+    "formal_code/generate_candidate_pool.py": "91b607f9e610e6ffd464e8d082e17d7ab7811198ba74d5362d4d7391c4994576",
+    "formal_code/generate_connected_flood_dataset.py": "0ad4a33d23cb0bc9c1679e3a085d15cd73d7ae943cd653caad95147a07349514",
+    "formal_code/generate_final_holdout.py": "7479102c7931a8b5acde6fc64e7e0647d3c078f4cd0bf48b61119005f702b53b",
+    "formal_code/interfaces_week3.py": "078f2fe2762c394a140d3711a01e7a3e1766fe2df458271f2c1129bc71ac5ae5",
+    "formal_code/run_controls_reference.py": "97be7a911e4a87afa69c84809369123837457a6a617b90332342fe3c9f7d1ddf",
+    "formal_code/run_exact_reference_after_method_freeze.py": "7391c849ad83f3cc8db2a298b2ecd8dea8c4bbfa224d00c9033589698fc066fc",
+    "formal_code/run_final_controls_live_ue.py": "960476cbbbfb2373e65ac2498e99526f443842972b40c70f16e974268f76a46d",
+    "formal_code/run_final_pipeline.py": "60ce7bbb3e53c3c654ce4c2fd8ffb5fe8474133e23e4eb9ccd62c5f31b93918b",
+    "formal_code/run_full_method_live_ue.py": "05dca573bc2f2f6b0a455469055e798e1a63aa6b61198a87a0923017e08031b4",
+    "formal_code/screen_primary.py": "dc9a4e80636ad9ca5d5561c12b1d3030ee3d802aca926e7c6627816eead83952",
+    "formal_code/screen_structural_reserve.py": "51ea8cd2efd8f6b201571dcf73b299ee17a99bbf79b1cde4be28f4e9e9d49cc4",
+    "formal_code/select_final_recoverable_roads.py": "e71a8c5361f0db263f2f125add4ff3912334f60265a93d226239ecc7e97e8816"
+  },
+  "all_paths_relative_to_package": true,
+  "public_sanitization": {
+    "release": "v1.0.1",
+    "scope": "workstation-specific path defaults only",
+    "numerical_logic_changed": false
+  }
+}

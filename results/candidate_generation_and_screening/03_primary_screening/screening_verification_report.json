@@ -1,0 +1,155 @@
+{
+  "status": "pass",
+  "global_checks": {
+    "scenario_count_matches_cli": true,
+    "total_screened_candidates_exact": true,
+    "global_candidate_ids_unique": true,
+    "all_scenario_checks_pass": true,
+    "unconditional_high_disagreement_not_used": true,
+    "exact_reference_not_read": true,
+    "frozen_scenario_inputs_only": true
+  },
+  "scenario_checks": {
+    "1001": {
+      "selected_count_60": true,
+      "candidate_ids_unique_60": true,
+      "channel_counts": {
+        "proxy_top": 15,
+        "sequence_diversity": 15,
+        "ensemble_disagreement": 10,
+        "heuristic": 10,
+        "random": 10
+      },
+      "channel_quotas_exact": true,
+      "all_disagreement_candidates_proxy_top30pct": true,
+      "all_sequences_from_frozen_pool": true
+    },
+    "1002": {
+      "selected_count_60": true,
+      "candidate_ids_unique_60": true,
+      "channel_counts": {
+        "proxy_top": 15,
+        "sequence_diversity": 15,
+        "ensemble_disagreement": 10,
+        "heuristic": 10,
+        "random": 10
+      },
+      "channel_quotas_exact": true,
+      "all_disagreement_candidates_proxy_top30pct": true,
+      "all_sequences_from_frozen_pool": true
+    },
+    "1003": {
+      "selected_count_60": true,
+      "candidate_ids_unique_60": true,
+      "channel_counts": {
+        "proxy_top": 15,
+        "sequence_diversity": 15,
+        "ensemble_disagreement": 10,
+        "heuristic": 10,
+        "random": 10
+      },
+      "channel_quotas_exact": true,
+      "all_disagreement_candidates_proxy_top30pct": true,
+      "all_sequences_from_frozen_pool": true
+    },
+    "1004": {
+      "selected_count_60": true,
+      "candidate_ids_unique_60": true,
+      "channel_counts": {
+        "proxy_top": 15,
+        "sequence_diversity": 15,
+        "ensemble_disagreement": 10,
+        "heuristic": 10,
+        "random": 10
+      },
+      "channel_quotas_exact": true,
+      "all_disagreement_candidates_proxy_top30pct": true,
+      "all_sequences_from_frozen_pool": true
+    },
+    "1005": {
+      "selected_count_60": true,
+      "candidate_ids_unique_60": true,
+      "channel_counts": {
+        "proxy_top": 15,
+        "sequence_diversity": 15,
+        "ensemble_disagreement": 10,
+        "heuristic": 10,
+        "random": 10
+      },
+      "channel_quotas_exact": true,
+      "all_disagreement_candidates_proxy_top30pct": true,
+      "all_sequences_from_frozen_pool": true
+    },
+    "1006": {
+      "selected_count_60": true,
+      "candidate_ids_unique_60": true,
+      "channel_counts": {
+        "proxy_top": 15,
+        "sequence_diversity": 15,
+        "ensemble_disagreement": 10,
+        "heuristic": 10,
+        "random": 10
+      },
+      "channel_quotas_exact": true,
+      "all_disagreement_candidates_proxy_top30pct": true,
+      "all_sequences_from_frozen_pool": true
+    },
+    "1007": {
+      "selected_count_60": true,
+      "candidate_ids_unique_60": true,
+      "channel_counts": {
+        "proxy_top": 15,
+        "sequence_diversity": 15,
+        "ensemble_disagreement": 10,
+        "heuristic": 10,
+        "random": 10
+      },
+      "channel_quotas_exact": true,
+      "all_disagreement_candidates_proxy_top30pct": true,
+      "all_sequences_from_frozen_pool": true
+    },
+    "1008": {
+      "selected_count_60": true,
+      "candidate_ids_unique_60": true,
+      "channel_counts": {
+        "proxy_top": 15,
+        "sequence_diversity": 15,
+        "ensemble_disagreement": 10,
+        "heuristic": 10,
+        "random": 10
+      },
+      "channel_quotas_exact": true,
+      "all_disagreement_candidates_proxy_top30pct": true,
+      "all_sequences_from_frozen_pool": true
+    },
+    "1009": {
+      "selected_count_60": true,
+      "candidate_ids_unique_60": true,
+      "channel_counts": {
+        "proxy_top": 15,
+        "sequence_diversity": 15,
+        "ensemble_disagreement": 10,
+        "heuristic": 10,
+        "random": 10
+      },
+      "channel_quotas_exact": true,
+      "all_disagreement_candidates_proxy_top30pct": true,
+      "all_sequences_from_frozen_pool": true
+    },
+    "1010": {
+      "selected_count_60": true,
+      "candidate_ids_unique_60": true,
+      "channel_counts": {
+        "proxy_top": 15,
+        "sequence_diversity": 15,
+        "ensemble_disagreement": 10,
+        "heuristic": 10,
+        "random": 10
+      },
+      "channel_quotas_exact": true,
+      "all_disagreement_candidates_proxy_top30pct": true,
+      "all_sequences_from_frozen_pool": true
+    }
+  },
+  "day5_permitted_after_workbook_verification": true
+}

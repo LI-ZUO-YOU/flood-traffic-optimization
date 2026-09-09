@@ -1,0 +1,5 @@
+﻿scenario_id,method,ue_budget,unique_ue_calls,complete_sequence_count,best_sequence,best_sequence_id,best_ue_objective,best_completion_budget,best_origin,best_screening_tier,best_channel,best_primary_source
+1010,traditional_heuristic_ue,64,64,8,6|36|11|8|7|37|3|13|35|38,b72131edc5367dde2f02012295a1e351f643d7114321174adfae420085be8897,62.08658377292967,10,candidate_ue_reranking,primary_shortlist,heuristic,prefix_stratified
+1010,traditional_heuristic_ue,128,70,10,6|36|11|8|7|37|3|13|35|38,b72131edc5367dde2f02012295a1e351f643d7114321174adfae420085be8897,62.08658377292967,10,candidate_ue_reranking,primary_shortlist,heuristic,prefix_stratified
+1010,traditional_heuristic_ue,256,70,10,6|36|11|8|7|37|3|13|35|38,b72131edc5367dde2f02012295a1e351f643d7114321174adfae420085be8897,62.08658377292967,10,candidate_ue_reranking,primary_shortlist,heuristic,prefix_stratified
+1010,traditional_heuristic_ue,512,70,10,6|36|11|8|7|37|3|13|35|38,b72131edc5367dde2f02012295a1e351f643d7114321174adfae420085be8897,62.08658377292967,10,candidate_ue_reranking,primary_shortlist,heuristic,prefix_stratified

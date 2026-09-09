@@ -1,0 +1,5 @@
+﻿scenario_id,method,ue_budget,unique_ue_calls,complete_sequence_count,best_sequence,best_sequence_id,best_ue_objective,best_completion_budget,best_origin,best_screening_tier,best_channel,best_primary_source
+1008,proxy_topk_ue,64,64,410,16|17|10|20|18|9|6|24|7|14,2266f21d3d5953be422b4b40165d0495c1b73319da03253daf71421f4fa4603d,228.41728617803614,60,candidate_ue_reranking,structural_reserve,hierarchical_prefix_reserve,proxy_subset_dp
+1008,proxy_topk_ue,128,128,1026,16|17|20|10|18|9|6|7|14|24,182ce7d77d0124de6d7148c3c4866ed821ae6aa998b05c31ca1ad5af69a4e9e4,227.49423070470024,117,candidate_ue_reranking,structural_reserve,hierarchical_prefix_reserve,proxy_ga_local
+1008,proxy_topk_ue,256,256,2842,16|20|17|10|9|18|14|6|7|24,288e3e6086263a2095787e830c859c07ca21eee45a4cf6c60cb650c720131ae3,213.5497970470281,254,candidate_ue_reranking,structural_reserve,hierarchical_prefix_reserve,proxy_subset_dp
+1008,proxy_topk_ue,512,512,7180,17|10|16|20|18|9|6|14|24|7,05e85b4eb81812d3bee9e76005b63359d30a4efe07979a5e3eb336f1e95ee0be,192.7798503007412,501,candidate_ue_reranking,local_search,local_search,local_search

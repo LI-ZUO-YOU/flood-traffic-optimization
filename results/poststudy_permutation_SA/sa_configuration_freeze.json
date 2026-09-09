@@ -1,0 +1,36 @@
+{
+  "budget": 256,
+  "budget_definition": "method-specific unique high-fidelity restored-subset queries",
+  "development_scenarios": [
+    246,
+    247,
+    249
+  ],
+  "development_table": "source-reference/subset_ue_costs.csv",
+  "final_run_policy": "one run per final scenario; no retuning; all outcomes reported",
+  "final_scenarios": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+  ],
+  "final_table": "source-reference/subset_ue_costs.csv",
+  "logical_firewall": "The physical exact table is used as a deterministic UE-result cache. The SA search can access a state's loss only through the logical oracle after requesting its subset mask.",
+  "method": "budget-constrained permutation simulated annealing",
+  "seed_rule": "2026081000 + scenario_id",
+  "selected_config_id": "742ec3e18494",
+  "selected_configuration": {
+    "adjacent_probability": 0.7,
+    "cooling_rate": 0.995,
+    "initial_temperature_ratio": 0.0025,
+    "insertion_probability": 0.15,
+    "max_stalled_proposals": 1000
+  },
+  "status": "additional post-study comparator configured using development scenarios only"
+}

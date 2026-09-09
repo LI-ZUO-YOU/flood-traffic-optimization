@@ -1,0 +1,63 @@
+{
+  "schema_version": "week4-day5-final-statistics-v1.0",
+  "status": "pass",
+  "input_rows": 240,
+  "scenario_count": 10,
+  "methods": [
+    "full_method",
+    "no_local_search",
+    "random_ue",
+    "proxy_topk_ue",
+    "traditional_heuristic_ue",
+    "surrogate_only"
+  ],
+  "budgets": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "bootstrap": {
+    "type": "paired nonparametric percentile bootstrap",
+    "resamples": 100000,
+    "confidence_level": 0.95,
+    "deterministic_seed_family": "20260808-based",
+    "scope": "empirical uncertainty across the 10 fixed final holdout scenarios; exploratory, not population-universal"
+  },
+  "paired_tests": {
+    "sign_test": "one-sided exact paired sign test, H1 baseline regret > full-method regret",
+    "signed_rank": "one-sided exact sign-permutation of average absolute-difference ranks",
+    "multiplicity": "Holm adjustment across five B=256 baseline comparisons",
+    "role": "supporting exploratory inference; predeclared gates are descriptive project-level rules"
+  },
+  "predeclared_final_gates": {
+    "G1": "PASS",
+    "G2": "PASS",
+    "G3": "PASS",
+    "G4": "PASS"
+  },
+  "all_four_scientific_gates_pass": true,
+  "all_requested_and_exact_reference_ue_converged": true,
+  "all_ten_scenarios_reported": true,
+  "primary_B256": {
+    "median_regret_pct": 0.0380771773543886,
+    "p90_regret_pct": 0.4588866089357311,
+    "max_regret_pct": 1.6916357774308226,
+    "exact_sequence_hit_rate": 0.4,
+    "exact_objective_hit_rate": 0.4,
+    "within_1_5_pct_rate": 0.9,
+    "within_3_pct_rate": 1.0,
+    "method_information_queries": 2560,
+    "state_space_fraction": 0.25,
+    "information_query_reduction_vs_exact": 0.75
+  },
+  "local_search_B256": {
+    "full_better_scenarios": 9,
+    "ties": 0,
+    "full_worse_scenarios": 1,
+    "median_paired_improvement_pp": 3.967680366981905
+  },
+  "method_parameters_changed": false,
+  "scientific_runs_performed": 0,
+  "scenario_replacement_or_exclusion": false
+}

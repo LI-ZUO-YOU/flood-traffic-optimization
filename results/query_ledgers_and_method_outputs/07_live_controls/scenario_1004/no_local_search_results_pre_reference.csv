@@ -1,0 +1,5 @@
+﻿scenario_id,method,ue_budget,unique_ue_calls,complete_sequence_count,best_sequence,best_sequence_id,best_ue_objective,best_completion_budget,best_origin,best_screening_tier,best_channel,best_primary_source
+1004,no_local_search,64,64,10,5|27|33|35|30|21|2|7|20|32,d351db29adf4324bab55ca08723e0c46c6248d42f8498dd0ec263ca5e8c00747,139.3415174878688,41,stratified_candidate,structural_reserve,hierarchical_prefix_reserve,proxy_subset_dp
+1004,no_local_search,128,128,28,5|27|33|35|30|21|2|7|20|32,d351db29adf4324bab55ca08723e0c46c6248d42f8498dd0ec263ca5e8c00747,139.3415174878688,41,stratified_candidate,structural_reserve,hierarchical_prefix_reserve,proxy_subset_dp
+1004,no_local_search,256,256,174,5|27|33|35|30|21|2|7|20|32,d351db29adf4324bab55ca08723e0c46c6248d42f8498dd0ec263ca5e8c00747,139.3415174878688,41,stratified_candidate,structural_reserve,hierarchical_prefix_reserve,proxy_subset_dp
+1004,no_local_search,512,512,2280,5|27|33|35|30|21|2|7|20|32,d351db29adf4324bab55ca08723e0c46c6248d42f8498dd0ec263ca5e8c00747,139.3415174878688,41,stratified_candidate,structural_reserve,hierarchical_prefix_reserve,proxy_subset_dp

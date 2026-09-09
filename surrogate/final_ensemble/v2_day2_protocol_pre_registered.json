@@ -1,0 +1,30 @@
+{
+  "version": "v2-day2-frozen-before-fitting",
+  "method": "10-member deep ensemble with scenario bootstrap and scenario-balanced Huber loss",
+  "training_scenario_ids": "1-60 and 201-260",
+  "post_freeze_only": {
+    "calibration": "61-80",
+    "internal_id": "81-100",
+    "internal_severe": "101-120"
+  },
+  "permanently_excluded_final_v1": "121-160",
+  "new_final_holdout_generated": false,
+  "architecture": [
+    120,
+    128,
+    64,
+    32,
+    1
+  ],
+  "aggregate_features": [
+    "remaining closed link count",
+    "restored link count",
+    "total depth",
+    "initially closed depth sum",
+    "remaining closed baseline flow",
+    "remaining closed betweenness"
+  ],
+  "huber_delta": 1.0,
+  "hyperparameter_search": false,
+  "member_selection": false
+}

@@ -1,0 +1,7 @@
+﻿Method,Exact-objective hit rate,Regret ≤ 1.5%,Regret ≤ 3%
+Full method,0.4,0.9,1.0
+No local search,0.0,0.4,0.5
+Random + UE,0.0,0.0,0.3
+Proxy Top-k + UE,0.0,0.3,0.4
+Traditional heuristic,0.0,0.0,0.2
+Surrogate only,0.0,0.0,0.1

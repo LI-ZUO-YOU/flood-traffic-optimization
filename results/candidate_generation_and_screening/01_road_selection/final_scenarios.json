@@ -1,0 +1,330 @@
+{
+  "schema_version": "final-recoverable-road-selection-v1.0",
+  "selected_scenario_ids": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+  ],
+  "scenarios": [
+    {
+      "scenario_id": 1001,
+      "severity": "severe",
+      "initially_closed_roads": [
+        15,
+        17,
+        18,
+        19,
+        21,
+        24,
+        26,
+        29,
+        30,
+        31,
+        34
+      ],
+      "selected_recoverable_roads": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "unselected_closed_roads_remain_closed": true
+    },
+    {
+      "scenario_id": 1002,
+      "severity": "severe",
+      "initially_closed_roads": [
+        5,
+        19,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        35,
+        37
+      ],
+      "selected_recoverable_roads": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "unselected_closed_roads_remain_closed": true
+    },
+    {
+      "scenario_id": 1003,
+      "severity": "severe",
+      "initially_closed_roads": [
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        17,
+        19,
+        26,
+        27,
+        28,
+        29
+      ],
+      "selected_recoverable_roads": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "unselected_closed_roads_remain_closed": true
+    },
+    {
+      "scenario_id": 1004,
+      "severity": "severe",
+      "initially_closed_roads": [
+        2,
+        5,
+        7,
+        20,
+        21,
+        27,
+        30,
+        32,
+        33,
+        34,
+        35
+      ],
+      "selected_recoverable_roads": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "unselected_closed_roads_remain_closed": true
+    },
+    {
+      "scenario_id": 1005,
+      "severity": "severe",
+      "initially_closed_roads": [
+        3,
+        5,
+        6,
+        10,
+        11,
+        14,
+        22,
+        29,
+        34,
+        35,
+        37,
+        38
+      ],
+      "selected_recoverable_roads": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "unselected_closed_roads_remain_closed": true
+    },
+    {
+      "scenario_id": 1006,
+      "severity": "severe",
+      "initially_closed_roads": [
+        4,
+        5,
+        6,
+        9,
+        13,
+        14,
+        16,
+        18,
+        19,
+        28
+      ],
+      "selected_recoverable_roads": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "unselected_closed_roads_remain_closed": true
+    },
+    {
+      "scenario_id": 1007,
+      "severity": "severe",
+      "initially_closed_roads": [
+        4,
+        5,
+        6,
+        8,
+        11,
+        15,
+        16,
+        17,
+        18,
+        20,
+        24
+      ],
+      "selected_recoverable_roads": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "unselected_closed_roads_remain_closed": true
+    },
+    {
+      "scenario_id": 1008,
+      "severity": "severe",
+      "initially_closed_roads": [
+        6,
+        7,
+        9,
+        10,
+        13,
+        14,
+        16,
+        17,
+        18,
+        20,
+        24,
+        28
+      ],
+      "selected_recoverable_roads": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "unselected_closed_roads_remain_closed": true
+    },
+    {
+      "scenario_id": 1009,
+      "severity": "severe",
+      "initially_closed_roads": [
+        6,
+        9,
+        15,
+        16,
+        17,
+        20,
+        21,
+        23,
+        25,
+        27,
+        38
+      ],
+      "selected_recoverable_roads": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "unselected_closed_roads_remain_closed": true
+    },
+    {
+      "scenario_id": 1010,
+      "severity": "severe",
+      "initially_closed_roads": [
+        3,
+        6,
+        7,
+        8,
+        11,
+        13,
+        35,
+        36,
+        37,
+        38
+      ],
+      "selected_recoverable_roads": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "unselected_closed_roads_remain_closed": true
+    }
+  ],
+  "selection_rule": {
+    "eligible_set": "initially closed physical roads only",
+    "flow_score": "(n-rank_desc_min(physical_flow))/(n-1), or 1 when n=1",
+    "betweenness_score": "(n-rank_desc_min(betweenness))/(n-1), or 1 when n=1",
+    "combined_score": "0.5*flow_score + 0.5*betweenness_score",
+    "selection": "top 10",
+    "tie_breakers": [
+      "higher physical_flow",
+      "higher betweenness",
+      "lower physical_link_id"
+    ],
+    "selection_before_proxy_or_ue_outcomes": true
+  }
+}

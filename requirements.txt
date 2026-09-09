@@ -1,0 +1,7 @@
+numpy==2.3.5
+pandas==3.0.1
+scipy
+torch==2.13.0
+Pillow
+openpyxl
+

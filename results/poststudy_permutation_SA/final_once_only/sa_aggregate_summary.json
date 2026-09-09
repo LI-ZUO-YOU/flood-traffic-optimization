@@ -1,0 +1,16 @@
+{
+  "n_final_scenarios": 10,
+  "budget": 256,
+  "median_regret_pct": 1.8329645266426825e-14,
+  "p90_regret_pct_numpy_linear": 0.8154496901500267,
+  "max_regret_pct": 3.5116641909390056,
+  "exact_objective_hit_count_tolerance_1e-9": 6,
+  "within_1_5_pct_count": 9,
+  "within_3_pct_count": 9,
+  "query_counts": [
+    209,
+    229,
+    256
+  ],
+  "selected_config_id": "742ec3e18494"
+}

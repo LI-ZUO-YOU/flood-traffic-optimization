@@ -1,0 +1,17 @@
+{
+  "schema_version": "final-full-method-output-freeze-v1.0",
+  "scenario_id": 1005,
+  "method": "full_method",
+  "method_output_frozen_before_exact_reference": true,
+  "files": {
+    "budget_snapshots_pre_reference.csv": "360b77e29176caf3dabe21c01b5cb6ca997b271db8460c9dc14ee3383a85d956",
+    "ue_reranking_results.csv": "30bde018921ca80b39193c28bcfef71757df14e71bf7c20069d5a25e367bffc8",
+    "local_search_history.csv": "518ab64283204394410500b1e5e7eb2076f17677baa4ca847ae8be76108b5883",
+    "ue_state_audit_log.csv.gz": "bae506f2ce441696c62b66796ee2c71b1354596d49a572ac83a38a8b4b87806a",
+    "budget_usage_pre_reference.json": "9ecffee4ab60abda0cf2fe0c4c5732de680d31dc70164142c50f930149adf674"
+  },
+  "screened_candidates_sha256": "f06f4b3eed381dcdbc9dc6b8c52b7a63e70a8842ce657840ce7b359b35894198",
+  "scenario_physical_sha256": "4c96f6cc4e414de87d75c8d6282ef37222a6057c96ab32487757bd7b8b336af4",
+  "scenario_metadata_sha256": "f58858918a0cfb2e600860ec66a33323e63a14f5d188481b4dfc4123265ad9da",
+  "exact_reference_read": false
+}

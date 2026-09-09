@@ -1,0 +1,45 @@
+{
+  "schema_version": "week3-day4-v1.0",
+  "random_seed_base": 2026080703,
+  "total_candidates_per_scenario": 60,
+  "channel_priority": [
+    "proxy_top",
+    "ensemble_disagreement",
+    "sequence_diversity",
+    "heuristic",
+    "random"
+  ],
+  "channel_quotas": {
+    "proxy_top": 15,
+    "ensemble_disagreement": 10,
+    "sequence_diversity": 15,
+    "heuristic": 10,
+    "random": 10
+  },
+  "duplicate_policy": "earlier-priority channel keeps candidate; later channel fills from next eligible candidate",
+  "ensemble_disagreement_rule": {
+    "unconditional_top_disagreement_forbidden": true,
+    "eligible_proxy_fraction": 0.3,
+    "selection": "highest disagreement, then lower proxy objective and candidate_id"
+  },
+  "sequence_diversity_rule": {
+    "distance": "normalized Kendall discordant-pair count over 45 road pairs",
+    "selection": "greedy max-min relative to candidates already selected",
+    "eligible_proxy_fraction": 0.5
+  },
+  "heuristic_rule": "nearest candidate by Kendall distance to ten frozen flow/betweenness/depth ranking rules",
+  "random_rule": "fixed-seed uniform sampling from candidates whose primary_source is random",
+  "information_boundary": {
+    "posthoc_candidate_quality_not_read": true,
+    "exact_dp_solution_not_read": true,
+    "subset_ue_costs_not_read": true,
+    "exact_reference_cache_not_read": true,
+    "frozen_scenario_inputs_only": true
+  },
+  "source_sha256": {
+    "candidate_pool": "1da4d48a7af88b230b55a62203cba4f21068f0d3ea66ba2528c8a98e41a927b7",
+    "candidate_generation_freeze": "8c9d8d0395448607d448676e7c7a01130c7e51eff914dd18c4497ecd58246be1",
+    "scenario_metadata": "f58858918a0cfb2e600860ec66a33323e63a14f5d188481b4dfc4123265ad9da",
+    "candidate_road_selection_audit": "3e40ca5b3a9ee6ecc687fa317ad74407780690594b5cad6492c9726cfa229506"
+  }
+}
