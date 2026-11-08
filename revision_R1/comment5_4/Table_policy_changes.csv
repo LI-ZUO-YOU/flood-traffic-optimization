@@ -1,0 +1,8 @@
+level,allocation,independent_scenarios,first_road_changed,first3_changed,full_order_changed,first_change_fraction,full_order_change_fraction,near_tie_count,first_road_near_tie_count,minimum_first_road_alternative_gap
+uniform,uniform,10,0,0,0,0,0,0,0,0.086258746468416803
+moderate,depth_rank,10,8,10,10,0.80000000000000004,1,0,0,0.53352505482133239
+moderate,permutation_seed_1,10,8,9,9,0.80000000000000004,0.90000000000000002,0,0,0.17711696697938351
+moderate,permutation_seed_2,10,6,9,10,0.59999999999999998,1,0,0,0.43168716189097012
+strong,depth_rank,10,8,10,10,0.80000000000000004,1,0,0,1.0760385174613987
+strong,permutation_seed_1,10,8,10,10,0.80000000000000004,1,0,0,0.41935228089251098
+strong,permutation_seed_2,10,7,10,10,0.69999999999999996,1,0,0,0.4712816308818546

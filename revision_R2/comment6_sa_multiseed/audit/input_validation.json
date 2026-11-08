@@ -1,0 +1,653 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "4.2_accepted",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "solver_authority_ue_solver.py",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "solver_authority_path_ue.py",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1001_1024_masks",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1001_RG",
+      "status": "PASS",
+      "actual": 9.999929553518407e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1001_finite",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1001_normalizer",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1001_reference_path_value_without_DP",
+      "status": "PASS",
+      "actual": 181.35696108357047,
+      "expected": 181.35696108357047
+    },
+    {
+      "check": "1001_road_bit_order",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1001_B256_snapshot_frozen_path",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1001_Proposed_prefix256_unique",
+      "status": "PASS",
+      "actual": 256,
+      "expected": 256
+    },
+    {
+      "check": "1001_Proposed_output_authorized",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1001_Proposed_highprecision_reeval",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1002_1024_masks",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1002_RG",
+      "status": "PASS",
+      "actual": 9.999824317445352e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1002_finite",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1002_normalizer",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1002_reference_path_value_without_DP",
+      "status": "PASS",
+      "actual": 167.6541005915403,
+      "expected": 167.65410059154033
+    },
+    {
+      "check": "1002_road_bit_order",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1002_B256_snapshot_frozen_path",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1002_Proposed_prefix256_unique",
+      "status": "PASS",
+      "actual": 256,
+      "expected": 256
+    },
+    {
+      "check": "1002_Proposed_output_authorized",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1002_Proposed_highprecision_reeval",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1003_1024_masks",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1003_RG",
+      "status": "PASS",
+      "actual": 9.991999352987638e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1003_finite",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1003_normalizer",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1003_reference_path_value_without_DP",
+      "status": "PASS",
+      "actual": 71.98699708770137,
+      "expected": 71.98699708770138
+    },
+    {
+      "check": "1003_road_bit_order",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1003_B256_snapshot_frozen_path",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1003_Proposed_prefix256_unique",
+      "status": "PASS",
+      "actual": 256,
+      "expected": 256
+    },
+    {
+      "check": "1003_Proposed_output_authorized",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1003_Proposed_highprecision_reeval",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1004_1024_masks",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1004_RG",
+      "status": "PASS",
+      "actual": 9.998118121378444e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1004_finite",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1004_normalizer",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1004_reference_path_value_without_DP",
+      "status": "PASS",
+      "actual": 139.12359521236297,
+      "expected": 139.12359521236297
+    },
+    {
+      "check": "1004_road_bit_order",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1004_B256_snapshot_frozen_path",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1004_Proposed_prefix256_unique",
+      "status": "PASS",
+      "actual": 256,
+      "expected": 256
+    },
+    {
+      "check": "1004_Proposed_output_authorized",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1004_Proposed_highprecision_reeval",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1005_1024_masks",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1005_RG",
+      "status": "PASS",
+      "actual": 9.996814881240857e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1005_finite",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1005_normalizer",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1005_reference_path_value_without_DP",
+      "status": "PASS",
+      "actual": 36.71763468014352,
+      "expected": 36.717634680143526
+    },
+    {
+      "check": "1005_road_bit_order",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1005_B256_snapshot_frozen_path",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1005_Proposed_prefix256_unique",
+      "status": "PASS",
+      "actual": 256,
+      "expected": 256
+    },
+    {
+      "check": "1005_Proposed_output_authorized",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1005_Proposed_highprecision_reeval",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1006_1024_masks",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1006_RG",
+      "status": "PASS",
+      "actual": 9.99750493387611e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1006_finite",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1006_normalizer",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1006_reference_path_value_without_DP",
+      "status": "PASS",
+      "actual": 24.063173569160547,
+      "expected": 24.063173569160547
+    },
+    {
+      "check": "1006_road_bit_order",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1006_B256_snapshot_frozen_path",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1006_Proposed_prefix256_unique",
+      "status": "PASS",
+      "actual": 256,
+      "expected": 256
+    },
+    {
+      "check": "1006_Proposed_output_authorized",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1006_Proposed_highprecision_reeval",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1007_1024_masks",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1007_RG",
+      "status": "PASS",
+      "actual": 9.998708172440678e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1007_finite",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1007_normalizer",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1007_reference_path_value_without_DP",
+      "status": "PASS",
+      "actual": 95.3115938915703,
+      "expected": 95.3115938915703
+    },
+    {
+      "check": "1007_road_bit_order",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1007_B256_snapshot_frozen_path",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1007_Proposed_prefix256_unique",
+      "status": "PASS",
+      "actual": 256,
+      "expected": 256
+    },
+    {
+      "check": "1007_Proposed_output_authorized",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1007_Proposed_highprecision_reeval",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1008_1024_masks",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1008_RG",
+      "status": "PASS",
+      "actual": 9.998165843602305e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1008_finite",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1008_normalizer",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1008_reference_path_value_without_DP",
+      "status": "PASS",
+      "actual": 192.54026783879365,
+      "expected": 192.54026783879362
+    },
+    {
+      "check": "1008_road_bit_order",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1008_B256_snapshot_frozen_path",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1008_Proposed_prefix256_unique",
+      "status": "PASS",
+      "actual": 256,
+      "expected": 256
+    },
+    {
+      "check": "1008_Proposed_output_authorized",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1008_Proposed_highprecision_reeval",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1009_1024_masks",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1009_RG",
+      "status": "PASS",
+      "actual": 9.994461187239219e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1009_finite",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1009_normalizer",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1009_reference_path_value_without_DP",
+      "status": "PASS",
+      "actual": 63.371228611855145,
+      "expected": 63.371228611855145
+    },
+    {
+      "check": "1009_road_bit_order",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1009_B256_snapshot_frozen_path",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1009_Proposed_prefix256_unique",
+      "status": "PASS",
+      "actual": 256,
+      "expected": 256
+    },
+    {
+      "check": "1009_Proposed_output_authorized",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1009_Proposed_highprecision_reeval",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1010_1024_masks",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1010_RG",
+      "status": "PASS",
+      "actual": 9.997463873482716e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1010_finite",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1010_normalizer",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1010_reference_path_value_without_DP",
+      "status": "PASS",
+      "actual": 58.617206352825384,
+      "expected": 58.617206352825384
+    },
+    {
+      "check": "1010_road_bit_order",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1010_B256_snapshot_frozen_path",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1010_Proposed_prefix256_unique",
+      "status": "PASS",
+      "actual": 256,
+      "expected": 256
+    },
+    {
+      "check": "1010_Proposed_output_authorized",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "1010_Proposed_highprecision_reeval",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "100_seeds_unique",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "new30_querycap_only",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "new30_proposed_300",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "new30_sa_original_300",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "new30_sa_restart_300",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    }
+  ]
+}

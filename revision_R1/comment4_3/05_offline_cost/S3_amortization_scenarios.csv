@@ -1,0 +1,6 @@
+﻿comparator,offline_cost_component_estimate,mean_online_saving_comparator_minus_Proposed,arithmetic_mean_crossover_scenarios,crossover_from_CI_high_saving,crossover_from_CI_low_saving,finite_crossover_supported_by_positive_CI_low,no_finite_positive_mean_crossover,cost_scope,quality_matched_comparison,resources
+enum_serial,80.400406399741769,8.3618127744075732,10,8,13,True,False,same-host measured components using original labels; not confirmed end-to-end new-label training,False,single-core both
+enum_within_scenario_4core,80.400406399741769,-4.273568200040609,,,,False,True,same-host measured components using original labels; not confirmed end-to-end new-label training,False,four-core comparator vs single-core Proposed
+greedy_ils,80.400406399741769,-6.6959404878473539,,,,False,True,same-host measured components using original labels; not confirmed end-to-end new-label training,False,single-core both
+sa_original,80.400406399741769,-6.9190682833703843,,,,False,True,same-host measured components using original labels; not confirmed end-to-end new-label training,False,single-core both
+ue_bibeam,80.400406399741769,-6.7806308022441559,,,,False,True,same-host measured components using original labels; not confirmed end-to-end new-label training,False,single-core both

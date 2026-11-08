@@ -1,0 +1,711 @@
+{
+  "all_run_results.csv": {
+    "source": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\正式模拟_v2\\analysis_round2\\4.1数值结果_第二轮及最后收尾_20261028.zip",
+    "actual_member": "03_原正式比较数值表/all_run_results.csv",
+    "rows": 2250,
+    "columns": [
+      {
+        "name": "scenario_id",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "phase",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "method",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "label",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "replicate",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "objective",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "exact_objective",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "relative_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "numerical_equivalent_hit",
+        "dtype": "bool",
+        "missing": 0
+      },
+      {
+        "name": "within_1_5_pct",
+        "dtype": "bool",
+        "missing": 0
+      },
+      {
+        "name": "within_3_pct",
+        "dtype": "bool",
+        "missing": 0
+      },
+      {
+        "name": "queries",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "physical_requested_states",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "logical_requests",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "search_wall_seconds",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "online_total_seconds",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "fresh_end_to_end_seconds",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "time_cap_seconds",
+        "dtype": "float64",
+        "missing": 1590
+      },
+      {
+        "name": "candidate_seconds",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "surrogate_inference_seconds",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "physical_UE_seconds",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "cpu_core",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "late_results_discarded",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "deadline_overrun_seconds",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "UE_seconds_scope",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "equivalence_objective_epsilon",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "termination",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "source_file",
+        "dtype": "str",
+        "missing": 0
+      }
+    ],
+    "phase_counts": {
+      "query_cap": 1590,
+      "time_cap": 660
+    },
+    "method_counts": {
+      "greedy_ils": 600,
+      "sa_restart": 600,
+      "proposed": 330,
+      "random_ls": 300,
+      "sa_original": 300,
+      "ue_bibeam": 60,
+      "greedy_ls": 30,
+      "ue_beam": 30
+    },
+    "all_columns_preserved": true
+  },
+  "scenario_seed_summaries.csv": {
+    "source": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\正式模拟_v2\\analysis_round2\\4.1数值结果_第二轮及最后收尾_20261028.zip",
+    "actual_member": "03_原正式比较数值表/scenario_seed_summaries.csv",
+    "rows": 360,
+    "columns": [
+      {
+        "name": "phase",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "scenario_id",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "method",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "label",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "replicates",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "mean_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "median_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "seed_std_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "min_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "max_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "seed_IQR_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "equivalent_hit_rate",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "within_1_5_rate",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "within_3_rate",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "mean_queries",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "mean_wall_seconds",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "mean_online_seconds_shared_cache",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "mean_candidate_seconds",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "mean_UE_seconds",
+        "dtype": "float64",
+        "missing": 0
+      }
+    ],
+    "phase_counts": {
+      "query_cap": 240,
+      "time_cap": 120
+    },
+    "method_counts": {
+      "greedy_ils": 60,
+      "proposed": 60,
+      "sa_restart": 60,
+      "ue_bibeam": 60,
+      "greedy_ls": 30,
+      "random_ls": 30,
+      "sa_original": 30,
+      "ue_beam": 30
+    },
+    "all_columns_preserved": true
+  },
+  "Table_R2_method_summary.csv": {
+    "source": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\正式模拟_v2\\analysis_round2\\4.1数值结果_第二轮及最后收尾_20261028.zip",
+    "actual_member": "03_原正式比较数值表/Table_R2_method_summary.csv",
+    "rows": 12,
+    "columns": [
+      {
+        "name": "phase",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "method",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "label",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "independent_scenarios",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "runs",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "replicates_per_scenario",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "mean_scenario_mean_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "median_scenario_mean_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "P90_scenario_mean_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "max_scenario_mean_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "P90_scenario_worst_seed_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "max_single_run_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "mean_seed_std_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "equivalent_objective_hit_rate",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "within_1_5_rate",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "within_3_rate",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "mean_queries",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "mean_fresh_wall_seconds",
+        "dtype": "float64",
+        "missing": 8
+      },
+      {
+        "name": "mean_execution_seconds_shared_cache",
+        "dtype": "float64",
+        "missing": 4
+      },
+      {
+        "name": "p90_scenario_mean_ci_low",
+        "dtype": "float64",
+        "missing": 4
+      },
+      {
+        "name": "p90_scenario_mean_ci_high",
+        "dtype": "float64",
+        "missing": 4
+      },
+      {
+        "name": "p90_scenario_worst_ci_low",
+        "dtype": "float64",
+        "missing": 4
+      },
+      {
+        "name": "p90_scenario_worst_ci_high",
+        "dtype": "float64",
+        "missing": 4
+      }
+    ],
+    "phase_counts": {
+      "query_cap": 8,
+      "time_cap": 4
+    },
+    "method_counts": {
+      "greedy_ils": 2,
+      "proposed": 2,
+      "sa_restart": 2,
+      "ue_bibeam": 2,
+      "greedy_ls": 1,
+      "random_ls": 1,
+      "sa_original": 1,
+      "ue_beam": 1
+    },
+    "all_columns_preserved": true
+  },
+  "Table_R3_primary_paired_comparisons.csv": {
+    "source": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\正式模拟_v2\\analysis_round2\\4.1数值结果_第二轮及最后收尾_20261028.zip",
+    "actual_member": "03_原正式比较数值表/Table_R3_primary_paired_comparisons.csv",
+    "rows": 3,
+    "columns": [
+      {
+        "name": "comparator",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "label",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "independent_scenarios",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "effect_definition",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "mean_paired_improvement_pp",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "median_paired_improvement_pp",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "proposed_wins",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "ties_by_empirical_epsilon",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "proposed_losses",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "one_sided_exact_sign_p",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "mean_ci_low",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "mean_ci_high",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "median_ci_low",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "median_ci_high",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "holm_adjusted_sign_p",
+        "dtype": "int64",
+        "missing": 0
+      }
+    ],
+    "phase_counts": null,
+    "method_counts": null,
+    "all_columns_preserved": true
+  },
+  "scenario_paired_differences.csv": {
+    "source": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\正式模拟_v2\\analysis_round2\\4.1数值结果_第二轮及最后收尾_20261028.zip",
+    "actual_member": "03_原正式比较数值表/scenario_paired_differences.csv",
+    "rows": 90,
+    "columns": [
+      {
+        "name": "scenario_id",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "comparator",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "paired_difference_pp",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "equivalence_tolerance_pp",
+        "dtype": "float64",
+        "missing": 0
+      }
+    ],
+    "phase_counts": null,
+    "method_counts": null,
+    "all_columns_preserved": true
+  },
+  "S2_original_paths_revalued.csv": {
+    "source": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\4.2数值结果_原十情景与支持性核验_20261028.zip",
+    "actual_member": "02_original_method_path_reevaluation/S2_original_paths_revalued.csv",
+    "rows": 154,
+    "columns": [
+      {
+        "name": "scenario_id",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "path_label",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "precision_tier",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "sequence",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "original_seed",
+        "dtype": "float64",
+        "missing": 134
+      },
+      {
+        "name": "objective",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "reference_objective",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "strict_objective_difference",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "absolute_objective_difference",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "raw_signed_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "sequence_hit_canonical_DP",
+        "dtype": "bool",
+        "missing": 0
+      },
+      {
+        "name": "sequence_hit_original_published_DP",
+        "dtype": "bool",
+        "missing": 0
+      },
+      {
+        "name": "bitwise_objective_equal",
+        "dtype": "bool",
+        "missing": 0
+      },
+      {
+        "name": "historical_absolute_1e9_hit",
+        "dtype": "bool",
+        "missing": 0
+      },
+      {
+        "name": "numerically_equivalent_hit",
+        "dtype": "bool",
+        "missing": 0
+      },
+      {
+        "name": "frozen_epsilon",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "old_recorded_hit",
+        "dtype": "object",
+        "missing": 137
+      },
+      {
+        "name": "old_recorded_objective",
+        "dtype": "float64",
+        "missing": 127
+      },
+      {
+        "name": "old_recorded_regret_pct",
+        "dtype": "float64",
+        "missing": 127
+      },
+      {
+        "name": "old_hit_provenance",
+        "dtype": "str",
+        "missing": 0
+      }
+    ],
+    "phase_counts": null,
+    "method_counts": null,
+    "all_columns_preserved": true
+  },
+  "S2_old10_regret_summary.csv": {
+    "source": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\4.2数值结果_原十情景与支持性核验_20261028.zip",
+    "actual_member": "02_original_method_path_reevaluation/S2_old10_regret_summary.csv",
+    "rows": 4,
+    "columns": [
+      {
+        "name": "method",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "precision_tier",
+        "dtype": "str",
+        "missing": 0
+      },
+      {
+        "name": "scenarios",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "mean_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "median_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "P90_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "max_regret_pct",
+        "dtype": "float64",
+        "missing": 0
+      },
+      {
+        "name": "historical_1e9_hit_count",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "empirical_hit_count",
+        "dtype": "int64",
+        "missing": 0
+      },
+      {
+        "name": "canonical_sequence_hit_count",
+        "dtype": "int64",
+        "missing": 0
+      }
+    ],
+    "phase_counts": null,
+    "method_counts": {
+      "Proposed_B256": 2,
+      "SA_original_fixed_seed": 2
+    },
+    "all_columns_preserved": true
+  }
+}

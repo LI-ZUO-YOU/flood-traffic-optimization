@@ -1,0 +1,12 @@
+{
+  "frozen_at": "2026-10-29T13:53:12.042781+08:00",
+  "m10_calibration_wall_seconds": [
+    5.842277300078422,
+    8.27050910005346,
+    6.454985199961811
+  ],
+  "max_preprocessing_seconds": 64.54985199961811,
+  "factor": 10,
+  "before_extended_component_results": true,
+  "scope": "candidate preparation only; export excluded from deadline; process tree RSS limit independently enforced"
+}

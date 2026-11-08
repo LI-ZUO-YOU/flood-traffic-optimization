@@ -1,0 +1,57 @@
+{
+  "original_source": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\初稿\\Frontiers_Submission_Package_P1_v2.2\\reproducibility\\p1_revision_tools\\run_permutation_sa.py",
+  "source_sha256": "3da1b9ff7c6b53f8153d49796d4e80d3ea991561c45ffe76bc32293606295272",
+  "snapshot_sha256": "3da1b9ff7c6b53f8153d49796d4e80d3ea991561c45ffe76bc32293606295272",
+  "configuration": {
+    "budget": 256,
+    "budget_definition": "method-specific unique high-fidelity restored-subset queries",
+    "development_scenarios": [
+      246,
+      247,
+      249
+    ],
+    "development_table": "D:\\sci-jcr2区交付\\第三周工作\\day2_exact_dp_baseline_v1.1\\subset_ue_costs.csv",
+    "final_run_policy": "one run per final scenario; no retuning; all outcomes reported",
+    "final_scenarios": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010
+    ],
+    "final_table": "D:\\sci-jcr2区交付\\第四周工作\\day4_exact_reference_regret_v1.0\\08_exact_reference_after_method_freeze\\subset_ue_costs.csv",
+    "logical_firewall": "The physical exact table is used as a deterministic UE-result cache. The SA search can access a state's loss only through the logical oracle after requesting its subset mask.",
+    "method": "budget-constrained permutation simulated annealing",
+    "seed_rule": "2026081000 + scenario_id",
+    "selected_config_id": "742ec3e18494",
+    "selected_configuration": {
+      "adjacent_probability": 0.7,
+      "cooling_rate": 0.995,
+      "initial_temperature_ratio": 0.0025,
+      "insertion_probability": 0.15,
+      "max_stalled_proposals": 1000
+    },
+    "status": "additional post-study comparator configured using development scenarios only"
+  },
+  "search_AST": {
+    "original_source_sha256": "3da1b9ff7c6b53f8153d49796d4e80d3ea991561c45ffe76bc32293606295272",
+    "search_body_AST_sha256": "57518d16da00af43ce59af10cba211c0b4efd7625e23b77e9e10bd0b0a56d9d3",
+    "original_search_lines": [
+      122,
+      186
+    ],
+    "excluded_after_search_line": 187,
+    "changes": "Only function name/return packaging and a passive oracle subclass; original search statements/propose retained verbatim",
+    "DP_calls_in_search": 0,
+    "UE_solver_imports": 0,
+    "training_imports": 0,
+    "source_code_unmodified": true
+  },
+  "original_read_loader": "unmodified tables_by_scenario pd.read_csv default for historical replay; explicit round_trip for accepted HP tables",
+  "no_previous_strictly_reusable_holdout_multiseed_runs": true
+}

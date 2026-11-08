@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scenarios": 10,
+  "models": 4,
+  "common_states_each": 1024,
+  "common_F0_pools": 30,
+  "candidate_records_per_model": 900000,
+  "ensemble_anchors": 30,
+  "single_is_frozen_member01": true,
+  "training_tuning_or_optimization": 0,
+  "common_primary": "score-only diagnostic;25/0/15/10/10,no UE correction",
+  "state_and_pool_points_not_independent_replicates": true
+}

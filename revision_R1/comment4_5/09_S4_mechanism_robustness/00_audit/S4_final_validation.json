@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "at": "2026-10-30T01:37:20.893655+08:00",
+  "frozen_v2_sha256": "dc7602d9d6819805b0fc402f77bd1e96fc742c11fb2c2444b41db82dd176808e",
+  "original_330_output_seal_sha256": "01ffa7c27dce1515504316c6298e4d1495fd25809562cfdc9af497cb28680351",
+  "immutable_sources_and_330_runs_rechecked": true,
+  "all_analysis_input_hashes_unchanged": 86,
+  "formal_optimization_outputs": 330,
+  "main_scenarios": 10,
+  "reference_states": 10240,
+  "S4_new_operations": {
+    "UE_solves": 0,
+    "optimization_runs": 0,
+    "new_scenarios": 0,
+    "training_or_tuning_runs": 0
+  },
+  "retrospective_runs": 0,
+  "new_archives": 0,
+  "scenario_method_rows": 110,
+  "LOSO_rows": 110,
+  "frozen_paired_bootstrap_repetitions": 10000,
+  "frozen_paired_bootstrap_seed": 2026102906,
+  "diagnostic_common_pools": 30,
+  "diagnostic_predictors": 4,
+  "phase_query_and_complete_count_crosschecks": true,
+  "figures": 4,
+  "figures_QA": "rendered checks PASS; single-panel alignment N/A; source TIFF-format warning reviewed",
+  "response_readiness": "draft_with_placeholders",
+  "manuscript_edited": false,
+  "stop_after_delivery": true
+}

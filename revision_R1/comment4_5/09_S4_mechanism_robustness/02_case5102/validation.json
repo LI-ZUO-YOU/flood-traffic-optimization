@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "compared_runs": 21,
+  "firstroad_reference_from_existing_table": true,
+  "static_LS_entry_inventory_only": true,
+  "new_optimizer_runs": 0,
+  "new_UE_solves": 0,
+  "F0_F3_all3_trace_identity": true,
+  "cache_hit_prefix_requests_retained": true
+}

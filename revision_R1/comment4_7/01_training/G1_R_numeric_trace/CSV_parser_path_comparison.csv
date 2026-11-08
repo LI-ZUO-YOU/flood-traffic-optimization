@@ -1,0 +1,4 @@
+﻿member_id,default_vs_literal_different_elements,default_vs_literal_max_abs_difference,B_vs_literal_different_elements,B_vs_literal_max_abs_difference,literal_vs_pandas_round_trip_bitwise_equal,raw_CSV_sha256,definition
+member_05,578,8.881784197001252e-16,0,0.0,True,2b05b9b480a444ab44a045e1c9ffbe57e81e0ceeb6316c6e8f9aa827dfba4767,Python float(raw decimal string) and pandas float_precision=round_trip; no numerical tolerance
+member_10,569,8.881784197001252e-16,0,0.0,True,2b05b9b480a444ab44a045e1c9ffbe57e81e0ceeb6316c6e8f9aa827dfba4767,Python float(raw decimal string) and pandas float_precision=round_trip; no numerical tolerance
+member_06,561,8.881784197001252e-16,0,0.0,True,2b05b9b480a444ab44a045e1c9ffbe57e81e0ceeb6316c6e8f9aa827dfba4767,Python float(raw decimal string) and pandas float_precision=round_trip; no numerical tolerance

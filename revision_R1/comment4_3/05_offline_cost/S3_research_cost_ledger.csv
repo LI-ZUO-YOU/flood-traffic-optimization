@@ -1,0 +1,11 @@
+﻿activity,count,unit,elapsed_wall,role,note
+4.1 confirmatory searches,2250,"algorithm runs, query and historical time-cap groups",,research validation,not2250 independent flood scenarios; includes shared cache; not extra deployment cost
+4.1 full primary tables,30720,state rows,,research reference,"may reuse search states, do not add as extra physical solves"
+4.1 round2 replay,300,deterministic table-only replays,,research diagnosis,zero fresh UE solves
+4.1 round2 isolated enumeration batches,61440,actual production UE solves,,research timing,serial and four-scenario concurrent modes; prior batch boundaries differ
+4.1 round2 training-state cost passes,6356,actual UE solves over3178 distinct training states,,research timing,two complete passes retained; not unique additional training data
+4.2 minimal missing strict states,41,actual UE solves,,research precision audit,"153strict states reused, no algorithm rerun"
+4.3 primary serial run set,450,controlled timing tasks,4369.973460899666,research timing,includes90enumeration tasks and360B256 algorithm tasks
+4.3 within-scenario4core enumeration,90,one-scenario timing tasks,568.59438760019839,research timing,4coreswithin one scenario; not4 simultaneous scenarios
+4.3 cold process checks,5,fixed-scenario process supplements,55.354982400778681,research timing,"one prescribed scenario only, not a new12s cap experiment"
+4.3 offline timing replication,3178,unique original training states plus ten temporary members,80.702364199794829,cost-component measurement,"current labels timed; model training uses archived labels, official weights unchanged"

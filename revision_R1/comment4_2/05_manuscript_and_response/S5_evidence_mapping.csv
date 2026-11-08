@@ -1,0 +1,6 @@
+﻿item,status,evidence,manuscript_integration
+legacy paired full state tables,VERIFIED_DONE,S0_data_inventory.csv; S1_state_precision_comparison.csv,pending
+independent DP and fixed paths,VERIFIED_DONE,S1_DP_compare_1001_1010.csv; S2_original_paths_revalued.csv,pending
+case1004 and strict refinement,VERIFIED_DONE,S2_case1004_precision_values.csv; S3_critical_path_precision.csv,pending
+new30 supporting check,VERIFIED_DONE,S4_new30_precision_summary.csv,pending SI
+wording audit and replacement paragraphs,DRAFT_WITH_PLACEHOLDERS,S5_exactness_wording_audit.csv; S5_正文替换段落与中文核对.md,Word not edited

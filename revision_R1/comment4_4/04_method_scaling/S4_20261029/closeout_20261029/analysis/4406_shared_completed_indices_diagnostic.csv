@@ -1,0 +1,3 @@
+﻿scenario_id,replicate,Proposed_J,Greedy_ILS_J,Proposed_outcome,epsilon,scope
+4406,0,393.13450337815357,391.84169310369413,loss,0.00011071174329471812,"all shared completed seed indices; diagnostic only, not a replacement primary sample"
+4406,2,393.90751460476707,391.84169310369413,loss,0.00011092943321953871,"all shared completed seed indices; diagnostic only, not a replacement primary sample"

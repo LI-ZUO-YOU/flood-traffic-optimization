@@ -1,0 +1,11 @@
+﻿scenario_id,Jstar_old,Jstar_new,DP_sequence_equal,DP_objective_levels_within_empirical_epsilon,Proposed_regret_old_pct,Proposed_historical_1e9_hit_old,Proposed_empirical_hit_old,Proposed_regret_new_pct,Proposed_historical_1e9_hit_new,Proposed_empirical_hit_new,SA_regret_old_pct,SA_historical_1e9_hit_old,SA_empirical_hit_old,SA_regret_new_pct,SA_historical_1e9_hit_new,SA_empirical_hit_new,method_rank_old,method_rank_new
+1001,181.62090624844552,181.35696108357047,True,False,0.044599650165884019,False,False,0.045318729743130809,False,False,0,True,True,0,True,True,SA_better,SA_better
+1002,167.79241836931996,167.65410059154033,True,False,0,True,True,0,True,True,0,True,True,0,True,True,tie,tie
+1003,72.06068421304316,71.986997087701383,True,False,1.6916357774308424,False,False,1.6909827171013367,False,False,0,True,True,0,True,True,SA_better,SA_better
+1004,139.31226298870507,139.12359521236297,True,False,0,True,True,0,True,True,8.892771019007916e-05,False,False,0.00021432372476764869,False,False,Proposed_better,Proposed_better
+1005,36.767312291347139,36.717634680143526,True,False,0.031554704542928164,False,False,0.031403811278429547,False,False,0,True,True,0,True,True,SA_better,SA_better
+1006,24.09394950104949,24.063173569160547,True,False,0.22836701394801368,False,False,0.22690789311185486,False,False,0.51587030117347465,False,False,0.51707465480776649,False,False,Proposed_better,Proposed_better
+1007,95.47325264554425,95.311593891570297,True,False,0,True,True,0,True,True,0,True,True,0,True,True,tie,tie
+1008,192.75605182007268,192.54026783879362,True,False,0,True,True,0,True,True,3.511664190938991,False,False,3.5070691370953884,False,False,Proposed_better,Proposed_better
+1009,63.462340063126717,63.371228611855145,True,False,0.32191447910296611,False,False,0.32555606343476545,False,False,0,True,True,0,True,True,SA_better,SA_better
+1010,58.698139332234135,58.617206352825384,True,False,0.08252608010167406,False,False,0.08311449077164193,False,False,0.012691911874387339,False,False,0.01324894856821077,False,False,SA_better,SA_better

@@ -1,0 +1,9 @@
+﻿item,status,reason,source
+独立运行时calibration/internal访问先后,UNVERIFIED,未保存系统文件访问轨迹；只能由已绑定源码顺序和归档资产支持。不得声称取得了独立运行时防火墙证明。,E:\jcr2区意见\老家\sci-jcr2区交付\第二周工作\v2_day2_huber_ensemble\scripts\run_v2_day2_huber_ensemble.py
+逐epoch网络预测或权重快照,UNVERIFIED,history逐epoch只有损失/计数/LR，不能从每epoch原预测重新算损失或重建每epoch权重。可独立重算早停决策，并用归档最佳模型预测复算最终OOB损失。,E:\jcr2区意见\老家\sci-jcr2区交付\第二周工作\v2_day2_huber_ensemble\histories
+scheduler独立运行时传参及完整state_dict,UNVERIFIED,checkpoint未保存scheduler/optimizer state或逐次step参数轨迹；源码可确认step(oob_loss)，日志可确认LR缩减因子。,E:\jcr2区意见\老家\sci-jcr2区交付\第二周工作\v2_day2_huber_ensemble\scripts\run_v2_day2_huber_ensemble.py
+min_lr=1e-6运行时触底,UNVERIFIED,记录中的LR最小值是否触底将逐成员列出；未触底时不能由日志验证下限真的生效。配置与源码参数另标STATIC_VERIFIED。,E:\jcr2区意见\老家\sci-jcr2区交付\第二周工作\v2_day2_huber_ensemble\histories
+历史holdout完全未被任何程序读取的绝对声明,SCOPE_CLARIFICATION,扩展生成脚本在状态标签完成后读取121—160的物理洪水表用于重复签名检查；不读取这些情景的UE标签/预测参与训练。ensemble训练源码不读121—160。,E:\jcr2区意见\老家\sci-jcr2区交付\第二周工作\v2_day1_training_expansion\run_v2_day1_training_expansion.py
+归档最终预测Huber严格复算存在微差,NUMERIC_DISCREPANCY_STRICT_CHECK_FAILED,numeric_discrepancy_register.csv保留全部20项实际值、差值及来源哈希。1e-12绝对/相对容差原样保留，未提高容差或把失败改成通过。部分差异可能与原源码对inbag/OOB子矩阵预测与冻结后对全部训练矩阵预测的浮点运算有关，但没有新推断运行，原因尚未独立证实。checkpoint与summary本身、最佳epoch、停止过程仍分别检查。,E:\jcr2区意见\老家\sci-jcr2区交付\第二周工作\v2_day2_huber_ensemble\ensemble_predictions_raw_v2.csv.gz
+原标签精确生成时间,UNVERIFIED,归档协议/种子和生产背景指向2026年8月初；复制到本机后的mtime不用于证明原生成时刻，未取得可信逐状态UTC访问/生成日志。,E:\jcr2区意见\老家\sci-jcr2区交付\第二周工作\v2_day1_training_expansion\v2_day1_protocol_pre_registered.json
+G0开放来源身份问题,INHERITED_G0_OPEN_ITEMS,两份原投稿Word身份、部分阶段目录非自包含等G0项继续保留；G1没有修改或选择Word主稿。,E:\jcr2区意见\返稿\revision_4_7_reproducibility\00_audit\version_conflicts.csv

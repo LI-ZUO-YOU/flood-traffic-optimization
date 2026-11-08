@@ -1,0 +1,6 @@
+﻿comparator,mean_paired_difference_using_repeat_means,mean_paired_difference_using_repeat_medians,same_direction,cases_Proposed_faster_using_repeat_median,observations_removed,scope
+enum_serial,8.3618127744075732,8.377456396616374,True,30,0,secondary descriptive sensitivity; primary remains mean of all3
+enum_within_scenario_4core,-4.273568200040609,-4.1810783700396614,True,3,0,secondary descriptive sensitivity; primary remains mean of all3
+greedy_ils,-6.6959404878473539,-6.5755406967674697,True,0,0,secondary descriptive sensitivity; primary remains mean of all3
+sa_original,-6.9190682833703843,-6.7832417799935989,True,0,0,secondary descriptive sensitivity; primary remains mean of all3
+ue_bibeam,-6.7806308022441559,-6.668206153313319,True,0,0,secondary descriptive sensitivity; primary remains mean of all3

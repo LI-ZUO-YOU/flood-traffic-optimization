@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "failure_case_runs_audited": 20,
+  "proxy_duplicate_pairs_full_request_match": 300,
+  "query_cap_start_control_ledgers_audited": 630,
+  "initialization_charged_to_cap": true,
+  "same_LS_function_and_policy": true,
+  "identical_LS_entry_information": false,
+  "strict_permutation_only_causal_effect_claimed": false,
+  "UE_solves": 0,
+  "optimization_runs": 0,
+  "new_scenarios": 0,
+  "retrained_models": 0,
+  "original_frozen_files_unchanged": 9743,
+  "previous_round2_files_unchanged": 5681,
+  "algorithm_development": "closed for this revealed ten-road benchmark",
+  "reply_readiness": "draft_with_placeholders",
+  "full_word_manuscript_integrated": false,
+  "reviewer_separation": "PASS",
+  "quoted_conclusion_consistency": "PASS"
+}

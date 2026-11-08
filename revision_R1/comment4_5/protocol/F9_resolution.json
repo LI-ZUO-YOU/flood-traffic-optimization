@@ -1,0 +1,10 @@
+{
+  "status": "RESOLVED",
+  "at": "2026-10-29T21:58:29.735421+08:00",
+  "source": "direct user reply to clarification",
+  "selected": "retain true UE prefix ranking; randomize surrogate-dependent parts only",
+  "F9_model_loads": 0,
+  "F9_surrogate_inference_calls": 0,
+  "F9_surrogate_DP_calls": 0,
+  "C_D_LS_source": "unchanged original correction engine"
+}

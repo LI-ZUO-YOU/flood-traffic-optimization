@@ -1,0 +1,8 @@
+{
+  "Python": "3.11.15 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:12:53) [MSC v.1942 64 bit (AMD64)]",
+  "NumPy": "2.4.6",
+  "pandas": "3.0.3",
+  "matplotlib": "3.11.2",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "forbidden_scientific_modules_imported": []
+}

@@ -1,0 +1,14 @@
+factor,level,validity_status,n_scenarios
+correlation,3.0,VALID,10
+correlation,6.0,VALID,10
+correlation,original,VALID,10
+depth,0.9,VALID,10
+depth,0.95,VALID,10
+depth,1.0,VALID,10
+depth,1.05,NOT_UE_FEASIBLE,2
+depth,1.05,VALID,8
+depth,1.1,NOT_UE_FEASIBLE,10
+threshold,0.28,NOT_UE_FEASIBLE,7
+threshold,0.28,VALID,3
+threshold,0.3,VALID,10
+threshold,0.32,VALID,10

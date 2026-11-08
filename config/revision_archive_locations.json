@@ -1,0 +1,14 @@
+{
+  "schema": "revision-artifact-locations/1",
+  "repository": "https://github.com/LI-ZUO-YOU/flood-traffic-optimization",
+  "original_version_doi": "10.5281/zenodo.22669165",
+  "concept_doi": "10.5281/zenodo.22664565",
+  "new_revision_version_doi": null,
+  "new_revision_availability": "UNCONFIRMED_UNTIL_NEW_VERSION_DOI_IS_ENTERED_AND_VERIFIED",
+  "original_doi_contains_revision_data": false,
+  "complete_archive_relative_layout": "public_release root",
+  "archive_manifest_sha256": "ca4b22a02cb5812aec4ae28128b8af59598184edf7a07d6bd3612aa28c3d4e8e",
+  "github_is_selected_increment": true,
+  "large_raw_outputs_location": "Zenodo revision artifact; use exact new version once confirmed",
+  "frozen_algorithms_modified": false
+}

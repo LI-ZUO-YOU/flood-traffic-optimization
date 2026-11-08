@@ -1,0 +1,489 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "4.2 accepted",
+      "pass_": true,
+      "actual": "PASS",
+      "expected": "PASS"
+    },
+    {
+      "check": "formal generator identity",
+      "pass_": true,
+      "actual": "7479102c7931a8b5acde6fc64e7e0647d3c078f4cd0bf48b61119005f702b53b",
+      "expected": "7479102c7931a8b5acde6fc64e7e0647d3c078f4cd0bf48b61119005f702b53b"
+    },
+    {
+      "check": "scenario_physical_sha256",
+      "pass_": true,
+      "actual": "4c96f6cc4e414de87d75c8d6282ef37222a6057c96ab32487757bd7b8b336af4",
+      "expected": "4c96f6cc4e414de87d75c8d6282ef37222a6057c96ab32487757bd7b8b336af4"
+    },
+    {
+      "check": "surrogate_preprocessor_sha256",
+      "pass_": true,
+      "actual": "771e6f0124ea19d74b2752d97f5bf05545cbfc575d5627aae1f455e45e82174c",
+      "expected": "771e6f0124ea19d74b2752d97f5bf05545cbfc575d5627aae1f455e45e82174c"
+    },
+    {
+      "check": "1001 38 depth authority",
+      "pass_": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "1001 selection",
+      "pass_": true,
+      "actual": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "expected": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ]
+    },
+    {
+      "check": "1001 1024 RG",
+      "pass_": true,
+      "actual": 9.999929553518407e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1001 baseline DP",
+      "pass_": true,
+      "actual": 181.35696108357047,
+      "expected": 181.35696108357047
+    },
+    {
+      "check": "1002 38 depth authority",
+      "pass_": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "1002 selection",
+      "pass_": true,
+      "actual": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "expected": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ]
+    },
+    {
+      "check": "1002 1024 RG",
+      "pass_": true,
+      "actual": 9.999824317445352e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1002 baseline DP",
+      "pass_": true,
+      "actual": 167.65410059154033,
+      "expected": 167.65410059154033
+    },
+    {
+      "check": "1003 38 depth authority",
+      "pass_": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "1003 selection",
+      "pass_": true,
+      "actual": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "expected": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ]
+    },
+    {
+      "check": "1003 1024 RG",
+      "pass_": true,
+      "actual": 9.991999352987638e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1003 baseline DP",
+      "pass_": true,
+      "actual": 71.98699708770138,
+      "expected": 71.98699708770138
+    },
+    {
+      "check": "1004 38 depth authority",
+      "pass_": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "1004 selection",
+      "pass_": true,
+      "actual": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "expected": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ]
+    },
+    {
+      "check": "1004 1024 RG",
+      "pass_": true,
+      "actual": 9.998118121378444e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1004 baseline DP",
+      "pass_": true,
+      "actual": 139.12359521236297,
+      "expected": 139.12359521236297
+    },
+    {
+      "check": "1005 38 depth authority",
+      "pass_": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "1005 selection",
+      "pass_": true,
+      "actual": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "expected": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ]
+    },
+    {
+      "check": "1005 1024 RG",
+      "pass_": true,
+      "actual": 9.996814881240857e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1005 baseline DP",
+      "pass_": true,
+      "actual": 36.717634680143526,
+      "expected": 36.717634680143526
+    },
+    {
+      "check": "1006 38 depth authority",
+      "pass_": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "1006 selection",
+      "pass_": true,
+      "actual": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "expected": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ]
+    },
+    {
+      "check": "1006 1024 RG",
+      "pass_": true,
+      "actual": 9.99750493387611e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1006 baseline DP",
+      "pass_": true,
+      "actual": 24.063173569160547,
+      "expected": 24.063173569160547
+    },
+    {
+      "check": "1007 38 depth authority",
+      "pass_": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "1007 selection",
+      "pass_": true,
+      "actual": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "expected": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ]
+    },
+    {
+      "check": "1007 1024 RG",
+      "pass_": true,
+      "actual": 9.998708172440678e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1007 baseline DP",
+      "pass_": true,
+      "actual": 95.3115938915703,
+      "expected": 95.3115938915703
+    },
+    {
+      "check": "1008 38 depth authority",
+      "pass_": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "1008 selection",
+      "pass_": true,
+      "actual": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "expected": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ]
+    },
+    {
+      "check": "1008 1024 RG",
+      "pass_": true,
+      "actual": 9.998165843602305e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1008 baseline DP",
+      "pass_": true,
+      "actual": 192.54026783879362,
+      "expected": 192.54026783879362
+    },
+    {
+      "check": "1009 38 depth authority",
+      "pass_": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "1009 selection",
+      "pass_": true,
+      "actual": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "expected": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ]
+    },
+    {
+      "check": "1009 1024 RG",
+      "pass_": true,
+      "actual": 9.994461187239219e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1009 baseline DP",
+      "pass_": true,
+      "actual": 63.371228611855145,
+      "expected": 63.371228611855145
+    },
+    {
+      "check": "1010 38 depth authority",
+      "pass_": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "1010 selection",
+      "pass_": true,
+      "actual": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "expected": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ]
+    },
+    {
+      "check": "1010 1024 RG",
+      "pass_": true,
+      "actual": 9.997463873482716e-10,
+      "expected": 1e-09
+    },
+    {
+      "check": "1010 baseline DP",
+      "pass_": true,
+      "actual": 58.617206352825384,
+      "expected": 58.617206352825384
+    }
+  ]
+}

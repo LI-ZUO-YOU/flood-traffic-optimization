@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": {
+    "original_frozen_files_unchanged": 9743,
+    "source_faithful_bitwise_replays": 300,
+    "replay_query_budgets_verified": 300,
+    "post_hoc_start_controls_within_budget": 600,
+    "candidate_oracle_rows": 9000000,
+    "fresh_enumeration_batches": 60,
+    "production_UE_states": 61440,
+    "max_production_relative_gap": 9.999981730504165e-10,
+    "training_cost_measurements_retained": 6356,
+    "training_source_and_weight_provenance": "PASS",
+    "figure_automatic_and_visual_review": "PASS: two figures; source, PDF text, collision, final exported PNG",
+    "reviewer_separation_and_conclusion_consistency": "PASS",
+    "syntax_checked_round2_scripts": 9
+  },
+  "S0": "verified complete",
+  "S1": "verified complete; post hoc",
+  "S2": "verified complete; timing scopes and retries disclosed",
+  "S3": "decision documented; no algorithm development",
+  "S4": "replacement passages and reply drafts supplied; final locations and complete Word integration pending",
+  "full_word_manuscript_integrated": false
+}

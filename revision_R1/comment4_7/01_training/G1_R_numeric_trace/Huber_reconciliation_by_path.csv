@@ -1,0 +1,34 @@
+﻿member_id,subset,path,loss,calculation_dtype,difference_from_summary,strict_abs_tolerance,strict_rel_tolerance,reference,comparison_tolerance,source,difference_from_history_float32
+member_05,inbag,A_subset_predict_float64_Huber,0.04829287077690618,"float64 original predict; y,w float32",0.0,1e-12,1e-12,,,,
+member_05,inbag,B_full_predict_then_subset_float64_Huber,0.048292870682371196,"float64 original predict; y,w float32",-9.45349840075771e-11,1e-12,1e-12,,,,
+member_05,inbag,CSV_literal_roundtrip_prediction_Huber,0.048292870682371196,"float64 literal values; y,w float32",-9.45349840075771e-11,1e-12,1e-12,,,,
+member_05,inbag,existing_frozen_summary_final_loss,0.04829287077690618,float64 summary,0.0,1e-12,1e-12,,,,
+member_05,OOB,A_subset_predict_float64_Huber,0.16051857589830168,"float64 original predict; y,w float32",0.0,1e-12,1e-12,,,,
+member_05,OOB,B_full_predict_then_subset_float64_Huber,0.16051857582270457,"float64 original predict; y,w float32",-7.559711190374685e-11,1e-12,1e-12,,,,
+member_05,OOB,CSV_literal_roundtrip_prediction_Huber,0.16051857582270457,"float64 literal values; y,w float32",-7.559711190374685e-11,1e-12,1e-12,,,,
+member_05,OOB,existing_frozen_summary_final_loss,0.16051857589830168,float64 summary,0.0,1e-12,1e-12,,,,
+member_05,OOB,existing_history_OOB_float32_monitor,0.1605186015367508,Torch float32,,,,history float32 monitor; NOT float64 summary equality,,E:\jcr2区意见\老家\sci-jcr2区交付\第二周工作\v2_day2_huber_ensemble\histories\member_05_training_history.csv,0.0
+member_05,OOB,new_A_prediction_float32_monitor_Huber,0.1605186015367508,Torch float32,,,,history float32 monitor; NOT float64 summary equality,,[weighted_huber_torch](<E:/jcr2区意见/老家/sci-jcr2区交付/第二周工作/v2_day2_huber_ensemble/scripts/run_v2_day2_huber_ensemble.py:222>),0.0
+member_05,OOB,new_B_prediction_float32_monitor_Huber,0.1605186015367508,Torch float32,,,,history float32 monitor; NOT float64 summary equality,,[weighted_huber_torch](<E:/jcr2区意见/老家/sci-jcr2区交付/第二周工作/v2_day2_huber_ensemble/scripts/run_v2_day2_huber_ensemble.py:222>),0.0
+member_10,inbag,A_subset_predict_float64_Huber,0.05169778245140489,"float64 original predict; y,w float32",0.0,1e-12,1e-12,,,,
+member_10,inbag,B_full_predict_then_subset_float64_Huber,0.051697782457224686,"float64 original predict; y,w float32",5.8197960339789745e-12,1e-12,1e-12,,,,
+member_10,inbag,CSV_literal_roundtrip_prediction_Huber,0.051697782457224686,"float64 literal values; y,w float32",5.8197960339789745e-12,1e-12,1e-12,,,,
+member_10,inbag,existing_frozen_summary_final_loss,0.05169778245140489,float64 summary,0.0,1e-12,1e-12,,,,
+member_10,OOB,A_subset_predict_float64_Huber,0.18257557763129206,"float64 original predict; y,w float32",0.0,1e-12,1e-12,,,,
+member_10,OOB,B_full_predict_then_subset_float64_Huber,0.18257557739220404,"float64 original predict; y,w float32",-2.390880271541107e-10,1e-12,1e-12,,,,
+member_10,OOB,CSV_literal_roundtrip_prediction_Huber,0.18257557739220404,"float64 literal values; y,w float32",-2.390880271541107e-10,1e-12,1e-12,,,,
+member_10,OOB,existing_frozen_summary_final_loss,0.18257557763129206,float64 summary,0.0,1e-12,1e-12,,,,
+member_10,OOB,existing_history_OOB_float32_monitor,0.18257556855678558,Torch float32,,,,history float32 monitor; NOT float64 summary equality,,E:\jcr2区意见\老家\sci-jcr2区交付\第二周工作\v2_day2_huber_ensemble\histories\member_10_training_history.csv,0.0
+member_10,OOB,new_A_prediction_float32_monitor_Huber,0.18257556855678558,Torch float32,,,,history float32 monitor; NOT float64 summary equality,,[weighted_huber_torch](<E:/jcr2区意见/老家/sci-jcr2区交付/第二周工作/v2_day2_huber_ensemble/scripts/run_v2_day2_huber_ensemble.py:222>),0.0
+member_10,OOB,new_B_prediction_float32_monitor_Huber,0.18257556855678558,Torch float32,,,,history float32 monitor; NOT float64 summary equality,,[weighted_huber_torch](<E:/jcr2区意见/老家/sci-jcr2区交付/第二周工作/v2_day2_huber_ensemble/scripts/run_v2_day2_huber_ensemble.py:222>),0.0
+member_06,inbag,A_subset_predict_float64_Huber,0.03343593795852208,"float64 original predict; y,w float32",0.0,1e-12,1e-12,,,,
+member_06,inbag,B_full_predict_then_subset_float64_Huber,0.03343593795852208,"float64 original predict; y,w float32",0.0,1e-12,1e-12,,,,
+member_06,inbag,CSV_literal_roundtrip_prediction_Huber,0.03343593795852208,"float64 literal values; y,w float32",0.0,1e-12,1e-12,,,,
+member_06,inbag,existing_frozen_summary_final_loss,0.03343593795852208,float64 summary,0.0,1e-12,1e-12,,,,
+member_06,OOB,A_subset_predict_float64_Huber,0.11497726995842474,"float64 original predict; y,w float32",0.0,1e-12,1e-12,,,,
+member_06,OOB,B_full_predict_then_subset_float64_Huber,0.11497726995842474,"float64 original predict; y,w float32",0.0,1e-12,1e-12,,,,
+member_06,OOB,CSV_literal_roundtrip_prediction_Huber,0.11497726995842474,"float64 literal values; y,w float32",0.0,1e-12,1e-12,,,,
+member_06,OOB,existing_frozen_summary_final_loss,0.11497726995842474,float64 summary,0.0,1e-12,1e-12,,,,
+member_06,OOB,existing_history_OOB_float32_monitor,0.11497726291418076,Torch float32,,,,history float32 monitor; NOT float64 summary equality,,E:\jcr2区意见\老家\sci-jcr2区交付\第二周工作\v2_day2_huber_ensemble\histories\member_06_training_history.csv,0.0
+member_06,OOB,new_A_prediction_float32_monitor_Huber,0.11497726291418076,Torch float32,,,,history float32 monitor; NOT float64 summary equality,,[weighted_huber_torch](<E:/jcr2区意见/老家/sci-jcr2区交付/第二周工作/v2_day2_huber_ensemble/scripts/run_v2_day2_huber_ensemble.py:222>),0.0
+member_06,OOB,new_B_prediction_float32_monitor_Huber,0.11497726291418076,Torch float32,,,,history float32 monitor; NOT float64 summary equality,,[weighted_huber_torch](<E:/jcr2区意见/老家/sci-jcr2区交付/第二周工作/v2_day2_huber_ensemble/scripts/run_v2_day2_huber_ensemble.py:222>),0.0

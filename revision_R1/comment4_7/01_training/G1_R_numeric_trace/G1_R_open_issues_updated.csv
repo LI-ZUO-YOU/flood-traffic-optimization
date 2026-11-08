@@ -1,0 +1,7 @@
+﻿id,status,evidence
+G1_STRICT_HUBER_NUMERIC_CAUSE,CLOSURE_RECOMMENDATION_FOR_SELECTED_THREE,same weights/input; A exactly reproduces summary; B bitwise reproduces raw CSV values; path loss deltas reproduce G1 register; 9 forward arrays hash-verified
+CSV_DEFAULT_PARSE_ROUNDING,EXPLAINED_BY_RAW_DECIMAL_ROUNDTRIP,Python float(token) == pandas round_trip == B arrays bitwise; default conversion differs <=8.89e-16
+OFFICIAL_G1_STATUS,UNCHANGED_FAIL_NUMERIC_RECONCILIATION_PENDING,E:\jcr2区意见\返稿\revision_4_7_reproducibility\01_training\G1_validation.json
+OTHER_SEVEN_MEMBERS,NOT_INFERRED_IN_THIS_SCOPE,No extrapolation that all 10 have undergone A/B inference
+RUNTIME_FILE_ACCESS_SCHEDULER,OPEN_UNVERIFIED_INHERITED,E:\jcr2区意见\返稿\revision_4_7_reproducibility\01_training\G1_缺失证据与限制.md
+G0_PROVENANCE_AND_OLD_HARDWARE,OPEN_INHERITED,G0 Word identity items unchanged; original CPU/BLAS not independently recorded

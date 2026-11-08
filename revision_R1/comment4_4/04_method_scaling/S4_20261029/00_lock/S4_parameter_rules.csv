@@ -1,0 +1,22 @@
+﻿parameter,rule_m10_m12_m14,changed_after_freeze
+candidate_count,30000,False
+source_quotas,16000/5000/4000/3000/2000,False
+prefix_m10,original exhaustive 5040 prefixes,False
+prefix_m12_m14,same S3 cyclic balanced orbit sampling; partial last prefix,False
+primary_channels,15/10/15/10/10; total60,False
+reserve_prefix2,10,False
+reserve_quantiles_per_source_prefix3,max10,False
+seed_share,0.55/0.50/0.50,False
+LS_early_window,positions1-5,False
+LS_parents,5,False
+LS_stop,2 rounds with relative gain<0.001,False
+checkpoints,64/128/256; missing complete sequence recorded,False
+B,"256 unique states, all initialization included",False
+SA_temperature_cooling,0.0025/0.995; original natural stop1000,False
+Greedy_ILS_perturb_swaps,2,False
+Beam_initial_width,2; original progressive multipliers1/2/4/8/16,False
+target_objective,"mean R0..R(m-1), terminal zero",False
+normalizer,7480225.3449211195,False
+UE_target,"1e-9, unchanged4.2 path solver; no flow warm starts",False
+equivalence_kappa,2.816128890834728e-07,False
+task_cap_s,128.81961927800955,False

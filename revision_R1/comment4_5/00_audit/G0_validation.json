@@ -1,0 +1,15 @@
+{
+  "gate": "G0",
+  "status": "PASS",
+  "at": "2026-10-29T21:48:44.434767+08:00",
+  "source_files": 1037,
+  "training_rows": 3178,
+  "training_features": 120,
+  "table_scenarios": 30,
+  "table_states": 30720,
+  "online_unique_rows_bitwise_compared": 76800,
+  "new_UE_solves": 0,
+  "new_scenarios_generated": 0,
+  "precision_conflict": false,
+  "original_files_changed": false
+}

@@ -1,0 +1,1423 @@
+{
+  "status": "FROZEN_BEFORE_FIRST_HIGHPRECISION_SA_RUN",
+  "created_utc": "2026-11-03T12:32:38.335545+00:00",
+  "git": {
+    "HEAD": "49706099d1804f13a037310bd3456285e2d4f96c",
+    "branch": "main"
+  },
+  "SA_source_sha256": "3da1b9ff7c6b53f8153d49796d4e80d3ea991561c45ffe76bc32293606295272",
+  "configuration": {
+    "adjacent_probability": 0.7,
+    "cooling_rate": 0.995,
+    "initial_temperature_ratio": 0.0025,
+    "insertion_probability": 0.15,
+    "max_stalled_proposals": 1000
+  },
+  "config_id": "742ec3e18494",
+  "scenario_ids": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+  ],
+  "runs": [
+    {
+      "scenario_id": 1001,
+      "replicate": 0,
+      "seed": 2026082001,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "original frozen seed"
+    },
+    {
+      "scenario_id": 1001,
+      "replicate": 1,
+      "seed": 2026182001,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1001,
+      "replicate": 2,
+      "seed": 2026282001,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1001,
+      "replicate": 3,
+      "seed": 2026382001,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1001,
+      "replicate": 4,
+      "seed": 2026482001,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1001,
+      "replicate": 5,
+      "seed": 2026582001,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1001,
+      "replicate": 6,
+      "seed": 2026682001,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1001,
+      "replicate": 7,
+      "seed": 2026782001,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1001,
+      "replicate": 8,
+      "seed": 2026882001,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1001,
+      "replicate": 9,
+      "seed": 2026982001,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1002,
+      "replicate": 0,
+      "seed": 2026082002,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "original frozen seed"
+    },
+    {
+      "scenario_id": 1002,
+      "replicate": 1,
+      "seed": 2026182002,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1002,
+      "replicate": 2,
+      "seed": 2026282002,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1002,
+      "replicate": 3,
+      "seed": 2026382002,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1002,
+      "replicate": 4,
+      "seed": 2026482002,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1002,
+      "replicate": 5,
+      "seed": 2026582002,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1002,
+      "replicate": 6,
+      "seed": 2026682002,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1002,
+      "replicate": 7,
+      "seed": 2026782002,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1002,
+      "replicate": 8,
+      "seed": 2026882002,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1002,
+      "replicate": 9,
+      "seed": 2026982002,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1003,
+      "replicate": 0,
+      "seed": 2026082003,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "original frozen seed"
+    },
+    {
+      "scenario_id": 1003,
+      "replicate": 1,
+      "seed": 2026182003,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1003,
+      "replicate": 2,
+      "seed": 2026282003,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1003,
+      "replicate": 3,
+      "seed": 2026382003,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1003,
+      "replicate": 4,
+      "seed": 2026482003,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1003,
+      "replicate": 5,
+      "seed": 2026582003,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1003,
+      "replicate": 6,
+      "seed": 2026682003,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1003,
+      "replicate": 7,
+      "seed": 2026782003,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1003,
+      "replicate": 8,
+      "seed": 2026882003,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1003,
+      "replicate": 9,
+      "seed": 2026982003,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1004,
+      "replicate": 0,
+      "seed": 2026082004,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "original frozen seed"
+    },
+    {
+      "scenario_id": 1004,
+      "replicate": 1,
+      "seed": 2026182004,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1004,
+      "replicate": 2,
+      "seed": 2026282004,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1004,
+      "replicate": 3,
+      "seed": 2026382004,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1004,
+      "replicate": 4,
+      "seed": 2026482004,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1004,
+      "replicate": 5,
+      "seed": 2026582004,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1004,
+      "replicate": 6,
+      "seed": 2026682004,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1004,
+      "replicate": 7,
+      "seed": 2026782004,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1004,
+      "replicate": 8,
+      "seed": 2026882004,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1004,
+      "replicate": 9,
+      "seed": 2026982004,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1005,
+      "replicate": 0,
+      "seed": 2026082005,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "original frozen seed"
+    },
+    {
+      "scenario_id": 1005,
+      "replicate": 1,
+      "seed": 2026182005,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1005,
+      "replicate": 2,
+      "seed": 2026282005,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1005,
+      "replicate": 3,
+      "seed": 2026382005,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1005,
+      "replicate": 4,
+      "seed": 2026482005,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1005,
+      "replicate": 5,
+      "seed": 2026582005,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1005,
+      "replicate": 6,
+      "seed": 2026682005,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1005,
+      "replicate": 7,
+      "seed": 2026782005,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1005,
+      "replicate": 8,
+      "seed": 2026882005,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1005,
+      "replicate": 9,
+      "seed": 2026982005,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1006,
+      "replicate": 0,
+      "seed": 2026082006,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "original frozen seed"
+    },
+    {
+      "scenario_id": 1006,
+      "replicate": 1,
+      "seed": 2026182006,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1006,
+      "replicate": 2,
+      "seed": 2026282006,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1006,
+      "replicate": 3,
+      "seed": 2026382006,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1006,
+      "replicate": 4,
+      "seed": 2026482006,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1006,
+      "replicate": 5,
+      "seed": 2026582006,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1006,
+      "replicate": 6,
+      "seed": 2026682006,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1006,
+      "replicate": 7,
+      "seed": 2026782006,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1006,
+      "replicate": 8,
+      "seed": 2026882006,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1006,
+      "replicate": 9,
+      "seed": 2026982006,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1007,
+      "replicate": 0,
+      "seed": 2026082007,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "original frozen seed"
+    },
+    {
+      "scenario_id": 1007,
+      "replicate": 1,
+      "seed": 2026182007,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1007,
+      "replicate": 2,
+      "seed": 2026282007,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1007,
+      "replicate": 3,
+      "seed": 2026382007,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1007,
+      "replicate": 4,
+      "seed": 2026482007,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1007,
+      "replicate": 5,
+      "seed": 2026582007,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1007,
+      "replicate": 6,
+      "seed": 2026682007,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1007,
+      "replicate": 7,
+      "seed": 2026782007,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1007,
+      "replicate": 8,
+      "seed": 2026882007,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1007,
+      "replicate": 9,
+      "seed": 2026982007,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1008,
+      "replicate": 0,
+      "seed": 2026082008,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "original frozen seed"
+    },
+    {
+      "scenario_id": 1008,
+      "replicate": 1,
+      "seed": 2026182008,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1008,
+      "replicate": 2,
+      "seed": 2026282008,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1008,
+      "replicate": 3,
+      "seed": 2026382008,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1008,
+      "replicate": 4,
+      "seed": 2026482008,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1008,
+      "replicate": 5,
+      "seed": 2026582008,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1008,
+      "replicate": 6,
+      "seed": 2026682008,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1008,
+      "replicate": 7,
+      "seed": 2026782008,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1008,
+      "replicate": 8,
+      "seed": 2026882008,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1008,
+      "replicate": 9,
+      "seed": 2026982008,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1009,
+      "replicate": 0,
+      "seed": 2026082009,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "original frozen seed"
+    },
+    {
+      "scenario_id": 1009,
+      "replicate": 1,
+      "seed": 2026182009,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1009,
+      "replicate": 2,
+      "seed": 2026282009,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1009,
+      "replicate": 3,
+      "seed": 2026382009,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1009,
+      "replicate": 4,
+      "seed": 2026482009,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1009,
+      "replicate": 5,
+      "seed": 2026582009,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1009,
+      "replicate": 6,
+      "seed": 2026682009,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1009,
+      "replicate": 7,
+      "seed": 2026782009,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1009,
+      "replicate": 8,
+      "seed": 2026882009,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1009,
+      "replicate": 9,
+      "seed": 2026982009,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1010,
+      "replicate": 0,
+      "seed": 2026082010,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "original frozen seed"
+    },
+    {
+      "scenario_id": 1010,
+      "replicate": 1,
+      "seed": 2026182010,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1010,
+      "replicate": 2,
+      "seed": 2026282010,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1010,
+      "replicate": 3,
+      "seed": 2026382010,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1010,
+      "replicate": 4,
+      "seed": 2026482010,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1010,
+      "replicate": 5,
+      "seed": 2026582010,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1010,
+      "replicate": 6,
+      "seed": 2026682010,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1010,
+      "replicate": 7,
+      "seed": 2026782010,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1010,
+      "replicate": 8,
+      "seed": 2026882010,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    },
+    {
+      "scenario_id": 1010,
+      "replicate": 9,
+      "seed": 2026982010,
+      "B": 256,
+      "precision": "accepted_path_solver_RG1e-9",
+      "seed_role": "fixed supplementary seed"
+    }
+  ],
+  "B": 256,
+  "seed_rule": "2026081000+scenario_id+100000*replicate; replicate0 original",
+  "TSTT0_raw": 7480225.3449211195,
+  "Q": 360600.0,
+  "hit_rule": "abs(J-Jstar)<=1e-9*max(1,abs(Jstar)); same for SA and Proposed; report strict float zero separately; existing frozen R1 empirical tests unchanged",
+  "regret_rule": "100*(J-Jstar)/Jstar; retain raw signed roundoff; no clipping",
+  "quantiles": "NumPy linear; sampleSD ddof1; first aggregate seeds within scenario, then ten scenarios",
+  "no_best_of10_same_budget": true,
+  "highprecision_tables": [
+    {
+      "scenario_id": 1001,
+      "table": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1001_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "5eb43a704bd716caa4fdfc013098b8595c1622f06ad864892d35885a03f5a8f8",
+      "road_bit_order": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "J_star": 181.35696108357047,
+      "max_RG": 9.999929553518407e-10
+    },
+    {
+      "scenario_id": 1002,
+      "table": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1002_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "98d8fb38ab6dd048edcd5bb2e1394268f1572f1f0ecafa0b23613a1b8876ca4b",
+      "road_bit_order": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "J_star": 167.65410059154033,
+      "max_RG": 9.999824317445352e-10
+    },
+    {
+      "scenario_id": 1003,
+      "table": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1003_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "70e429b5a8f063220efecc77698eec58cacba4c2a353f86c0d7cfe7c28669f33",
+      "road_bit_order": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "J_star": 71.98699708770138,
+      "max_RG": 9.991999352987638e-10
+    },
+    {
+      "scenario_id": 1004,
+      "table": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1004_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "d3c72348cf2a9070e753a7aef633d85c569133c58949b1fbfc6fcc199c62fb61",
+      "road_bit_order": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "J_star": 139.12359521236297,
+      "max_RG": 9.998118121378444e-10
+    },
+    {
+      "scenario_id": 1005,
+      "table": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1005_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "b53479ba9c4305997d05a9835c9abf46eabc5d5dfc7f29b27ddd2e7177f3974f",
+      "road_bit_order": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "J_star": 36.717634680143526,
+      "max_RG": 9.996814881240857e-10
+    },
+    {
+      "scenario_id": 1006,
+      "table": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1006_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "c569f13176258635f285599171c6e4498ae6ea465c3209392efce5486ec4abde",
+      "road_bit_order": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "J_star": 24.063173569160547,
+      "max_RG": 9.99750493387611e-10
+    },
+    {
+      "scenario_id": 1007,
+      "table": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1007_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "071f7488fbdddda17671534c0df6071e8d23837efc22db6dc5d4a726950088c7",
+      "road_bit_order": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "J_star": 95.3115938915703,
+      "max_RG": 9.998708172440678e-10
+    },
+    {
+      "scenario_id": 1008,
+      "table": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1008_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "ed7ba8b43c5e2c58770923ea2a6af35b34c1dceb2926ef43e2ff652235afe7ef",
+      "road_bit_order": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "J_star": 192.54026783879362,
+      "max_RG": 9.998165843602305e-10
+    },
+    {
+      "scenario_id": 1009,
+      "table": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1009_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "926d6092624dde0db6395ec739ee3c0c3269d6f90be0c0efa46e36c50d074c06",
+      "road_bit_order": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "J_star": 63.371228611855145,
+      "max_RG": 9.994461187239219e-10
+    },
+    {
+      "scenario_id": 1010,
+      "table": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1010_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "001fbca4e262f62c3f2b66f36038d64b20877d1360eb7adaf4b6a5adf802a9a7",
+      "road_bit_order": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "J_star": 58.617206352825384,
+      "max_RG": 9.997463873482716e-10
+    }
+  ],
+  "critical_sources": [
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\初稿\\Frontiers_Submission_Package_P1_v2.2\\reproducibility\\p1_revision_tools\\run_permutation_sa.py",
+      "sha256": "3da1b9ff7c6b53f8153d49796d4e80d3ea991561c45ffe76bc32293606295272"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\正式模拟_v2\\source_snapshot\\legacy_sa\\run_permutation_sa.py",
+      "sha256": "3da1b9ff7c6b53f8153d49796d4e80d3ea991561c45ffe76bc32293606295272"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\sa_configuration_freeze.json",
+      "sha256": "b114381e28d23d5a9761bfcccc922b080d10835c8475807d71bb40a0f1add5e1"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\sa_configuration_freeze_hash.txt",
+      "sha256": "0ee5304d1906f1bbaa6bc0c4163a908cf69aa151d51b5bcefdc96e008b4b346f"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day4_exact_reference_regret_v1.0\\08_exact_reference_after_method_freeze\\subset_ue_costs.csv",
+      "sha256": "891668910963528cc954b21a0e550ad233f65f85a9450d19c5f3e8c5cc7f7080"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\completion_check.json",
+      "sha256": "5b415f4cd20a501c7fb7c43c7f38b666aa58d5ea481c8ac013a9fa91e251275e"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\00_protocol_and_input_audit\\S0_input_manifest.csv",
+      "sha256": "a4f8a414468445f4eb9690ad48b52ae304e3972d2af540c0dceef8cd5e3dfa39"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\independent_references.json",
+      "sha256": "310e85f69bf1b9da6444a5a2448999057db77b9658a8176b806234e6e342416d"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\02_original_method_path_reevaluation\\frozen_paths.json",
+      "sha256": "b91fb4093cc7dae98a7061d73efaa6663b7198c3a5d108c4890f701346125f6b"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\02_original_method_path_reevaluation\\S2_original_paths_revalued.csv",
+      "sha256": "b9468f39bcce968102c64ea93bef1a8f7e9673aafe99ace29ef6403e7fd1390a"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\revision_4_6_tail_inference\\02_new30\\new30_run_level.csv",
+      "sha256": "720d59db1769b481e34b5bf75f2ba2089dc154474829748237e077343a3f1702"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\revision_4_6_tail_inference\\02_new30\\new30_scenario_level.csv",
+      "sha256": "1c892c828f8d9e09a08e396e6355a378fc860675f2bb12ed388d45aedd7ddb67"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\revision_4_6_tail_inference\\00_audit\\archived_Table_R2_method_summary.csv",
+      "sha256": "45bc0728a4d869082b14137ed885e33c39b0827a12627c2a4a8208304b27c821"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\正式模拟_v2\\code\\experiment.py",
+      "sha256": "992ab9a888373cc4db7813dc63281b15b5edafcbbdf4c5ac86a13c0703fceb0b"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\正式模拟_v2\\source_snapshot\\config\\final_protocol_v1.1.json",
+      "sha256": "090eab7400f4e82ad9564db1f2860f84d8b056e77fa048128d45fa3cce9859d0"
+    },
+    {
+      "path": "C:\\Users\\Wuzeqian.PC-20220914MSMS\\Downloads\\Reviewer2_Comment6_SA多种子最小补充_Codex指令.md",
+      "sha256": "fe4ccf6af41cb3201c4e3edae90686d39d9a7187ea980e8cf65f0747c0ac01fc"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1001_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "5eb43a704bd716caa4fdfc013098b8595c1622f06ad864892d35885a03f5a8f8"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1002_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "98d8fb38ab6dd048edcd5bb2e1394268f1572f1f0ecafa0b23613a1b8876ca4b"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1003_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "70e429b5a8f063220efecc77698eec58cacba4c2a353f86c0d7cfe7c28669f33"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1004_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "d3c72348cf2a9070e753a7aef633d85c569133c58949b1fbfc6fcc199c62fb61"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1005_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "b53479ba9c4305997d05a9835c9abf46eabc5d5dfc7f29b27ddd2e7177f3974f"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1006_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "c569f13176258635f285599171c6e4498ae6ea465c3209392efce5486ec4abde"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1007_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "071f7488fbdddda17671534c0df6071e8d23837efc22db6dc5d4a726950088c7"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1008_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "ed7ba8b43c5e2c58770923ea2a6af35b34c1dceb2926ef43e2ff652235afe7ef"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1009_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "926d6092624dde0db6395ec739ee3c0c3269d6f90be0c0efa46e36c50d074c06"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1010_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "001fbca4e262f62c3f2b66f36038d64b20877d1360eb7adaf4b6a5adf802a9a7"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\sa_configuration_freeze.json",
+      "sha256": "b114381e28d23d5a9761bfcccc922b080d10835c8475807d71bb40a0f1add5e1"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\sa_aggregate_summary.json",
+      "sha256": "d12729da9fbc25ae934de2ca292bc64224605da4fd7adfbb5a3b908e388daa83"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1001\\result.json",
+      "sha256": "858a6689df6734ec51be5e2d136c84f1e519624ffdb1a5c96d86eb7de15f3a10"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1002\\result.json",
+      "sha256": "8af4270898c2620f1d4c54ce86916a17fc596d979eeacff30e2acea786e92a7f"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1003\\result.json",
+      "sha256": "f1d64a011690cdb8da9abb9fbdd0597a64f600240e0c7cbb571dddf06a8c0faa"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1004\\result.json",
+      "sha256": "830f2f3f2ffa443e389bc4f6d978ac8729e10eb01c0667bd21896ee7b512e484"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1005\\result.json",
+      "sha256": "3ebffa804f9c1884f8473300090bdd2e1f270a8e3b775002b623d96e6db0e5ef"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1006\\result.json",
+      "sha256": "0d187cb3ad042a9c7238be23a3e7f2a13dd87c87949df97f2b9da761777de60f"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1007\\result.json",
+      "sha256": "67bdcf881c813c631a0373eddd464a8e40e8b6920657cb50b2019b8c461faddf"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1008\\result.json",
+      "sha256": "d1189efe854e0f12d06efcbdfb29f5290cf7e359510da0515148953ca8f1e733"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1009\\result.json",
+      "sha256": "0d8a48dacdb78812c3b127a1688cb34583dd0d43a8863c9c38ea2c9ccf62a251"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1010\\result.json",
+      "sha256": "f08371bbb05c8884e22ba4e198f59c84dcdd3d83da75ff70d30d924db4a8d756"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\development_tuning\\all_configuration_runs.csv",
+      "sha256": "eed66de35fd85b5b3d743df33b70b9d4476e9cdddd2dd6a28bd5515d2e12e3f4"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\development_tuning\\configuration_summary.csv",
+      "sha256": "93fb9c0df34701dae48e95e354e4041489ad434ed5c5b1df3f526569f1f5aee5"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\sa_final_results.csv",
+      "sha256": "ea37946a919ead0dfb9394e38640619705f2887e35752972450a2b44cf2b885e"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1001\\logical_ue_query_ledger.csv",
+      "sha256": "7ec97ea0f57e5dfda5e12683ea4e9f913cb6cd60216733877ca2a13da0a3a767"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1001\\sa_history.csv",
+      "sha256": "e563cd4934103f84dd151dacde4c80cfb7cbb7b51e9e607228fc9925111da59a"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1002\\logical_ue_query_ledger.csv",
+      "sha256": "76b305b4a0e7221577caeb09407cf846e56fd8b7cf1fcff52b909df80e4cfac9"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1002\\sa_history.csv",
+      "sha256": "0509f2b3def48077ce0befc7e6cc9a3a36077ccfc359e433b8b6a736d9e11aaf"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1003\\logical_ue_query_ledger.csv",
+      "sha256": "b4a3f9f91cdf70f5513ad0acdb6435d75b1632e7af8e9f92376d40cfacc47503"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1003\\sa_history.csv",
+      "sha256": "a038b49d17b93dd9aa7a579ff2e08a6d3869567533ea35895c2fb1299ec1feb5"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1004\\logical_ue_query_ledger.csv",
+      "sha256": "aec420607e904458bd9155dde96d53e667cca22b97e1f6ef86f39af8888c4abd"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1004\\sa_history.csv",
+      "sha256": "ef1dddd462a8f8d8e606c29684bdffad58738422be277648922ad9f236db16e1"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1005\\logical_ue_query_ledger.csv",
+      "sha256": "704af7fd6aed468e7b1d7b873e1325e7ee3d86def1d7ea9f10051d3bcc8d8395"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1005\\sa_history.csv",
+      "sha256": "172047669df1d4ae846bbc1618c075d5889891c342e6cca50592edc0e733f283"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1006\\logical_ue_query_ledger.csv",
+      "sha256": "5c1f4961dd6485cd16d4f9298838bf652839aac1e4bafe02b6bc51e58f374bd0"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1006\\sa_history.csv",
+      "sha256": "212a99c014ce51c6de26db5e924f8b83c097612496818bba31129e37f2cfbd9b"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1007\\logical_ue_query_ledger.csv",
+      "sha256": "e5f8039d401db13f0d1a2fd762da064b8955d8746ecc86809e30062a21e7fcfa"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1007\\sa_history.csv",
+      "sha256": "cdc8a9690b164248a1d76309d1c78872718512f1cd3547e0f929b1945cd7c68f"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1008\\logical_ue_query_ledger.csv",
+      "sha256": "bcbb1fae605e7007b0de1df97e929b4f3b512475dff3cf99fb5292537e1806bb"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1008\\sa_history.csv",
+      "sha256": "54a4f2af822a9a061fc3627671c518d96f9ac856ebdc3bfcac6f438ab6d1fa17"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1009\\logical_ue_query_ledger.csv",
+      "sha256": "68630591d969cc49ae1179c39b7755556d9d978c6415521f9a51941f53189dd1"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1009\\sa_history.csv",
+      "sha256": "a7615867438e52d5802f5d918b2a3786bb8e5beec58f41d962ba590552e3c960"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1010\\logical_ue_query_ledger.csv",
+      "sha256": "4702a2d8afd429659ee03220f02c186407efc6d81e8b59fff1f2cb91556ac454"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\P1_poststudy_permutation_SA_v1.0\\final_once_only\\scenario_1010\\sa_history.csv",
+      "sha256": "033d5873186961fb8b7f0552947915bd6ff26b8ad9c2ba3c7bfc971f25059448"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1001\\budget_snapshots_pre_reference.csv",
+      "sha256": "c90d0907af77ed325e740613f0c5d82a1e18e05a89cfd1a5ebe1b0d61565296f"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1001\\budget_usage_pre_reference.json",
+      "sha256": "075d94ee444b3f6128948777c36252e2e94759160ad3e1542d66d771d4f3e8f5"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1001\\ue_state_audit_log.csv.gz",
+      "sha256": "2a7c2317dca8bfefde925e8dc5790c5bb50335e23da7c41c6bc53ab506997761"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1002\\budget_snapshots_pre_reference.csv",
+      "sha256": "bd2570d0e45114e2c43127e28c36b175200debc50addbac7f8970aaa5613a105"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1002\\budget_usage_pre_reference.json",
+      "sha256": "36465e7530451918e7be16b1703abc94da8b96d17bfa6c5957b296c63f0927ea"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1002\\ue_state_audit_log.csv.gz",
+      "sha256": "a465d6214ee1eda31382b2e2d88717ad0e172600cd3d48f4c8dd4792f0677904"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1003\\budget_snapshots_pre_reference.csv",
+      "sha256": "41713378fa443b6a856448a59fb833c8084abbb3296b47d0332403455ce29c2f"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1003\\budget_usage_pre_reference.json",
+      "sha256": "8e80b9a374f76d6ee6b1ae7d400cb6f312f8da18407949ef5fc6c5cbc898cac7"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1003\\ue_state_audit_log.csv.gz",
+      "sha256": "be3a8be5e4a3560e73d01a257320f40129224546876bb0adaaf59f5b1a60c2d0"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1004\\budget_snapshots_pre_reference.csv",
+      "sha256": "56d06280e99ec39b6d182b99b39c0828b8c21f57bda741d94132ff75c1fab854"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1004\\budget_usage_pre_reference.json",
+      "sha256": "3404b860ca6d7d4ee34c3cd76c74108d8c566f09fe865e70734cfd144165ce15"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1004\\ue_state_audit_log.csv.gz",
+      "sha256": "2985b30ba09789d527992a0924849177004e3dd05311968d9c997c46358fab19"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1005\\budget_snapshots_pre_reference.csv",
+      "sha256": "360b77e29176caf3dabe21c01b5cb6ca997b271db8460c9dc14ee3383a85d956"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1005\\budget_usage_pre_reference.json",
+      "sha256": "9ecffee4ab60abda0cf2fe0c4c5732de680d31dc70164142c50f930149adf674"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1005\\ue_state_audit_log.csv.gz",
+      "sha256": "bae506f2ce441696c62b66796ee2c71b1354596d49a572ac83a38a8b4b87806a"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1006\\budget_snapshots_pre_reference.csv",
+      "sha256": "97ff9354142f3f768af65b3c06a330d4aa2036b039d5a572bc8e077c061bb65d"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1006\\budget_usage_pre_reference.json",
+      "sha256": "dd8d09469f95dc6b0144ce6a4309bcbade12b5fea54e543d14b2db0e9f10cc1e"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1006\\ue_state_audit_log.csv.gz",
+      "sha256": "272e99dcbbe3584959590c78e5eb37ed4de20aa0a8ab2c72cbbdb86c37186605"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1007\\budget_snapshots_pre_reference.csv",
+      "sha256": "b00881b16ad6945e8d0e6ead2f550465e826513775864235ae982838ffe044b2"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1007\\budget_usage_pre_reference.json",
+      "sha256": "14b93d8a24c8f1d44d115812d7ab6c1e657ad92e51d8655dca3a1afae9865e27"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1007\\ue_state_audit_log.csv.gz",
+      "sha256": "66a18256cc263abac23a2faba0a062bb320cd6b5cc45324b54f91991e0e03ecf"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1008\\budget_snapshots_pre_reference.csv",
+      "sha256": "1ebca711e9b6697d5386f37e4ca1ab2ed40ea2f6738b9e08bd2ed2baae7ce05e"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1008\\budget_usage_pre_reference.json",
+      "sha256": "fe55f10101ea3db1643b8d599f36c27aabe34cc37523685a2b480da3f3bfe7e9"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1008\\ue_state_audit_log.csv.gz",
+      "sha256": "edb3422b5cb65ce9d319408677533513614ddf4d974f006bae922883b36a2a37"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1009\\budget_snapshots_pre_reference.csv",
+      "sha256": "b2384f36c64091cb8e23d2bea4ac9eb82ff0409f82074888130ed24b2bd56bff"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1009\\budget_usage_pre_reference.json",
+      "sha256": "cd9a52eae1cc28c4be1ee4d85020400b277df3cc15c3c5b0e26126218795ecef"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1009\\ue_state_audit_log.csv.gz",
+      "sha256": "4b57cf665c1ee2dc9730d66670e11b82c3d914b6ca15e1fc138a56388358b1f8"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1010\\budget_snapshots_pre_reference.csv",
+      "sha256": "6d8767be3d36855feb9520f24e22b00879c0c8f47b30e6541ec81865c51f844e"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1010\\budget_usage_pre_reference.json",
+      "sha256": "99b870ae3dcc93962ff75ff838fe7c1a9f8f79d734141993f5b5579e9db91e72"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day3_live_ue_methods_v1.0\\06_full_method\\scenario_1010\\ue_state_audit_log.csv.gz",
+      "sha256": "a97b40e8b20ac01faf20f363a72e177ba3f58743f7a224657b0f28276260b7c9"
+    }
+  ],
+  "frozen_scripts": [
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R2\\comment6_sa_multiseed\\scripts\\common.py",
+      "sha256": "094b0c58aee1154721dccd5566dde636d4128de07da1a6cea3f24ab1b903e6d8"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R2\\comment6_sa_multiseed\\scripts\\prepare_run.py",
+      "sha256": "cfd9ede7d2541dfefdf70931135f04716f26e0e293ada361023047ad4dc0e804"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R2\\comment6_sa_multiseed\\scripts\\replay_legacy.py",
+      "sha256": "548b9f73590850f37db99c49764cdb9db09589963fb9a066126e7ad2192129e7"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R2\\comment6_sa_multiseed\\scripts\\sa_kernel.py",
+      "sha256": "0d94dfc1c640b82f6afee13cae369fd4fff0794440802551358a34931c7d1626"
+    }
+  ],
+  "seeds_sha256": "04df175447b07b61a6a0177a01ed38060a1a835c8857e26797a36bc107af3f2a",
+  "search_AST_sha256": "57518d16da00af43ce59af10cba211c0b4efd7625e23b77e9e10bd0b0a56d9d3",
+  "new_real_UE_calls": 0,
+  "DP_recalculations": 0,
+  "original_Full_reruns": 0,
+  "SA_restart_reruns": 0,
+  "highprecision_historical_feedback_asymmetry": "SA rerun on HP oracle; Proposed original lowprecision-selected B256 path reevaluated on same HP costs; do not claim both were rerun under identical HP feedback",
+  "timing_scope": "sealed lookup search CPU and wall only; no online UE timing or offline state-table generation cost included"
+}

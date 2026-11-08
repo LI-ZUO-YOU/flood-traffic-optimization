@@ -1,0 +1,15 @@
+{
+  "frozen_at": "2026-10-29T13:52:38.145227+08:00",
+  "before_calibration_and_extended_results": true,
+  "sha256": {
+    "E:\\jcr2区意见\\返稿\\revision_4_4_scaling\\code\\candidate_generalized.py": "11e4e2e8e25428b4e75b9ba15f034221d3c30cb49cd62ee977550cf7484fe085",
+    "E:\\jcr2区意见\\返稿\\revision_4_4_scaling\\code\\common44.py": "998ce86a292d45c0f5f6dec757176a0d5d9d81809b84c05e8a27883b616bab0f",
+    "E:\\jcr2区意见\\返稿\\revision_4_4_scaling\\code\\components44.py": "3bf5ef25f8cfdc694d949542cb6148c81bfc90a82cc21d85db5a4d1148793112",
+    "E:\\jcr2区意见\\返稿\\revision_4_4_scaling\\code\\methods_generalized.py": "8e4042d048c72386550b50b91765fc49e72f9f5cf1a33981f53d87f64a084e07",
+    "E:\\jcr2区意见\\返稿\\revision_4_4_scaling\\code\\profile_worker44.py": "2f0ab15cad28f6e8a63bb7ad032470af0289392c6455c6a60a7003a75f45eb80",
+    "E:\\jcr2区意见\\返稿\\revision_4_4_scaling\\code\\regression44.py": "aaf997396d14507431813a6033a4a1aa79d3ee96e7cff80c807593876b02292d",
+    "E:\\jcr2区意见\\返稿\\revision_4_4_scaling\\code\\run_components44.py": "1476e52fcfc1d60cfe5d4e37e05a5543593ce43269e3ad532cde2ee7398568f2",
+    "E:\\jcr2区意见\\返稿\\revision_4_4_scaling\\code\\setup44.py": "47e88825ac76050e089154cf7a45c02635e1d7287194ade90078f1027a7c3688"
+  },
+  "scenario_manifest_SHA": "04d301a519610b44f89bfe00b08e42247a2c8b0c6dbf93c798a8b373ea0dda59"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "states": 1024,
+  "failed_masks": [],
+  "wall_seconds": 17.378109000157565,
+  "UE_kernel_seconds": 16.665574301034212,
+  "fresh_independent_reference_solves": 1024,
+  "started_after_all_method_outputs_frozen": true,
+  "all_330_outputs_seal_sha256": "01ffa7c27dce1515504316c6298e4d1495fd25809562cfdc9af497cb28680351",
+  "at": "2026-10-30T00:09:15.605638+08:00"
+}

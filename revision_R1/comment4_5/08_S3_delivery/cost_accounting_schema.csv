@@ -1,0 +1,10 @@
+﻿field,meaning
+fresh_online_seconds,real new UE calls + candidate preparation + search bookkeeping; excludes disk exports/input loading/model warmup/training
+candidate_prepare_seconds,includes surrogate_inference_seconds; do not add nested inference twice
+UE_network_call_seconds,"includes solver kernel, state setup and checks; UE_kernel_seconds nested"
+LS_non_UE_seconds,LS wall minus its UE network calls; UE is already in total network time
+search_other_bookkeeping_seconds,search wall minus total network UE time minus LS nonUE
+sealed lookup replay,S0-S2 only; absent from S3 runtime summaries
+training,"S3 retraining calls0; reusable original ensemble has prior training cost, not zero lifetime cost; first-batch cheap fits separately measured"
+delta regret,variant minus F0 in percentage points; positive favors F0
+unit,scenario after averaging three seeds; ten independent synthetic scenarios; exploratory descriptive results only

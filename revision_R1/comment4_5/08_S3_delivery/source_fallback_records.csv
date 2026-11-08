@@ -1,0 +1,481 @@
+﻿scenario_id,variant_id,seed_index,source,random_completion_count,count_kind,mutation_attempts
+5101,F0_FULL,0,prefix_stratified,0,accepted supplemental candidates,
+5101,F1_NO_RESERVE,0,prefix_stratified,0,accepted supplemental candidates,
+5101,F2_NO_PREFIX,0,prefix_stratified,0,accepted supplemental candidates,
+5101,F3_NO_DISAG,0,prefix_stratified,0,accepted supplemental candidates,
+5101,F4_NO_PROXY_SOURCES,0,prefix_stratified,0,accepted supplemental candidates,
+5101,F5_RANDOM_POOL,0,prefix_stratified,0,accepted supplemental candidates,
+5101,F6_SINGLE_MLP,0,prefix_stratified,898,accepted supplemental candidates,
+5101,F6_SINGLE_MLP,0,proxy_subset_dp,0,,23410
+5101,F6_SINGLE_MLP,0,proxy_ga_local,0,,3796
+5101,F7_RIDGE,0,prefix_stratified,893,accepted supplemental candidates,
+5101,F7_RIDGE,0,proxy_subset_dp,0,,29266
+5101,F7_RIDGE,0,proxy_ga_local,0,,3791
+5101,F8_TREE,0,prefix_stratified,906,accepted supplemental candidates,
+5101,F8_TREE,0,proxy_subset_dp,0,,24032
+5101,F8_TREE,0,proxy_ga_local,0,,3714
+5101,F9_NO_SURROGATE,0,prefix_stratified,0,accepted supplemental candidates,
+5101,F1_NO_RESERVE,1,prefix_stratified,0,accepted supplemental candidates,
+5101,F2_NO_PREFIX,1,prefix_stratified,0,accepted supplemental candidates,
+5101,F3_NO_DISAG,1,prefix_stratified,0,accepted supplemental candidates,
+5101,F4_NO_PROXY_SOURCES,1,prefix_stratified,0,accepted supplemental candidates,
+5101,F5_RANDOM_POOL,1,prefix_stratified,0,accepted supplemental candidates,
+5101,F6_SINGLE_MLP,1,prefix_stratified,895,accepted supplemental candidates,
+5101,F6_SINGLE_MLP,1,proxy_subset_dp,0,,23077
+5101,F6_SINGLE_MLP,1,proxy_ga_local,0,,3819
+5101,F7_RIDGE,1,prefix_stratified,899,accepted supplemental candidates,
+5101,F7_RIDGE,1,proxy_subset_dp,0,,28784
+5101,F7_RIDGE,1,proxy_ga_local,0,,3853
+5101,F8_TREE,1,prefix_stratified,900,accepted supplemental candidates,
+5101,F8_TREE,1,proxy_subset_dp,0,,24119
+5101,F8_TREE,1,proxy_ga_local,0,,3667
+5101,F9_NO_SURROGATE,1,prefix_stratified,0,accepted supplemental candidates,
+5101,F0_FULL,1,prefix_stratified,0,accepted supplemental candidates,
+5101,F2_NO_PREFIX,2,prefix_stratified,0,accepted supplemental candidates,
+5101,F3_NO_DISAG,2,prefix_stratified,0,accepted supplemental candidates,
+5101,F4_NO_PROXY_SOURCES,2,prefix_stratified,0,accepted supplemental candidates,
+5101,F5_RANDOM_POOL,2,prefix_stratified,0,accepted supplemental candidates,
+5101,F6_SINGLE_MLP,2,prefix_stratified,903,accepted supplemental candidates,
+5101,F6_SINGLE_MLP,2,proxy_subset_dp,0,,22964
+5101,F6_SINGLE_MLP,2,proxy_ga_local,0,,3786
+5101,F7_RIDGE,2,prefix_stratified,899,accepted supplemental candidates,
+5101,F7_RIDGE,2,proxy_subset_dp,0,,29030
+5101,F7_RIDGE,2,proxy_ga_local,0,,3783
+5101,F8_TREE,2,prefix_stratified,904,accepted supplemental candidates,
+5101,F8_TREE,2,proxy_subset_dp,0,,23625
+5101,F8_TREE,2,proxy_ga_local,0,,3711
+5101,F9_NO_SURROGATE,2,prefix_stratified,0,accepted supplemental candidates,
+5101,F0_FULL,2,prefix_stratified,0,accepted supplemental candidates,
+5101,F1_NO_RESERVE,2,prefix_stratified,0,accepted supplemental candidates,
+5102,F1_NO_RESERVE,0,prefix_stratified,0,accepted supplemental candidates,
+5102,F2_NO_PREFIX,0,prefix_stratified,0,accepted supplemental candidates,
+5102,F3_NO_DISAG,0,prefix_stratified,0,accepted supplemental candidates,
+5102,F4_NO_PROXY_SOURCES,0,prefix_stratified,0,accepted supplemental candidates,
+5102,F5_RANDOM_POOL,0,prefix_stratified,0,accepted supplemental candidates,
+5102,F6_SINGLE_MLP,0,prefix_stratified,901,accepted supplemental candidates,
+5102,F6_SINGLE_MLP,0,proxy_subset_dp,0,,25394
+5102,F6_SINGLE_MLP,0,proxy_ga_local,0,,3778
+5102,F7_RIDGE,0,prefix_stratified,902,accepted supplemental candidates,
+5102,F7_RIDGE,0,proxy_subset_dp,0,,28199
+5102,F7_RIDGE,0,proxy_ga_local,0,,3833
+5102,F8_TREE,0,prefix_stratified,907,accepted supplemental candidates,
+5102,F8_TREE,0,proxy_subset_dp,0,,23845
+5102,F8_TREE,0,proxy_ga_local,0,,3735
+5102,F9_NO_SURROGATE,0,prefix_stratified,0,accepted supplemental candidates,
+5102,F0_FULL,0,prefix_stratified,0,accepted supplemental candidates,
+5102,F2_NO_PREFIX,1,prefix_stratified,0,accepted supplemental candidates,
+5102,F3_NO_DISAG,1,prefix_stratified,0,accepted supplemental candidates,
+5102,F4_NO_PROXY_SOURCES,1,prefix_stratified,0,accepted supplemental candidates,
+5102,F5_RANDOM_POOL,1,prefix_stratified,0,accepted supplemental candidates,
+5102,F6_SINGLE_MLP,1,prefix_stratified,906,accepted supplemental candidates,
+5102,F6_SINGLE_MLP,1,proxy_subset_dp,0,,25058
+5102,F6_SINGLE_MLP,1,proxy_ga_local,0,,3785
+5102,F7_RIDGE,1,prefix_stratified,907,accepted supplemental candidates,
+5102,F7_RIDGE,1,proxy_subset_dp,0,,27254
+5102,F7_RIDGE,1,proxy_ga_local,0,,3778
+5102,F8_TREE,1,prefix_stratified,902,accepted supplemental candidates,
+5102,F8_TREE,1,proxy_subset_dp,0,,23419
+5102,F8_TREE,1,proxy_ga_local,0,,3780
+5102,F9_NO_SURROGATE,1,prefix_stratified,0,accepted supplemental candidates,
+5102,F0_FULL,1,prefix_stratified,0,accepted supplemental candidates,
+5102,F1_NO_RESERVE,1,prefix_stratified,0,accepted supplemental candidates,
+5102,F3_NO_DISAG,2,prefix_stratified,0,accepted supplemental candidates,
+5102,F4_NO_PROXY_SOURCES,2,prefix_stratified,0,accepted supplemental candidates,
+5102,F5_RANDOM_POOL,2,prefix_stratified,0,accepted supplemental candidates,
+5102,F6_SINGLE_MLP,2,prefix_stratified,895,accepted supplemental candidates,
+5102,F6_SINGLE_MLP,2,proxy_subset_dp,0,,24577
+5102,F6_SINGLE_MLP,2,proxy_ga_local,0,,3759
+5102,F7_RIDGE,2,prefix_stratified,902,accepted supplemental candidates,
+5102,F7_RIDGE,2,proxy_subset_dp,0,,26363
+5102,F7_RIDGE,2,proxy_ga_local,0,,3845
+5102,F8_TREE,2,prefix_stratified,911,accepted supplemental candidates,
+5102,F8_TREE,2,proxy_subset_dp,0,,22900
+5102,F8_TREE,2,proxy_ga_local,0,,3754
+5102,F9_NO_SURROGATE,2,prefix_stratified,0,accepted supplemental candidates,
+5102,F0_FULL,2,prefix_stratified,0,accepted supplemental candidates,
+5102,F1_NO_RESERVE,2,prefix_stratified,0,accepted supplemental candidates,
+5102,F2_NO_PREFIX,2,prefix_stratified,0,accepted supplemental candidates,
+5103,F2_NO_PREFIX,0,prefix_stratified,0,accepted supplemental candidates,
+5103,F3_NO_DISAG,0,prefix_stratified,0,accepted supplemental candidates,
+5103,F4_NO_PROXY_SOURCES,0,prefix_stratified,0,accepted supplemental candidates,
+5103,F5_RANDOM_POOL,0,prefix_stratified,0,accepted supplemental candidates,
+5103,F6_SINGLE_MLP,0,prefix_stratified,909,accepted supplemental candidates,
+5103,F6_SINGLE_MLP,0,proxy_subset_dp,0,,22423
+5103,F6_SINGLE_MLP,0,proxy_ga_local,0,,3745
+5103,F7_RIDGE,0,prefix_stratified,898,accepted supplemental candidates,
+5103,F7_RIDGE,0,proxy_subset_dp,0,,29049
+5103,F7_RIDGE,0,proxy_ga_local,0,,3795
+5103,F8_TREE,0,prefix_stratified,897,accepted supplemental candidates,
+5103,F8_TREE,0,proxy_subset_dp,0,,26233
+5103,F8_TREE,0,proxy_ga_local,0,,3802
+5103,F9_NO_SURROGATE,0,prefix_stratified,0,accepted supplemental candidates,
+5103,F0_FULL,0,prefix_stratified,0,accepted supplemental candidates,
+5103,F1_NO_RESERVE,0,prefix_stratified,0,accepted supplemental candidates,
+5103,F3_NO_DISAG,1,prefix_stratified,0,accepted supplemental candidates,
+5103,F4_NO_PROXY_SOURCES,1,prefix_stratified,0,accepted supplemental candidates,
+5103,F5_RANDOM_POOL,1,prefix_stratified,0,accepted supplemental candidates,
+5103,F6_SINGLE_MLP,1,prefix_stratified,902,accepted supplemental candidates,
+5103,F6_SINGLE_MLP,1,proxy_subset_dp,0,,21331
+5103,F6_SINGLE_MLP,1,proxy_ga_local,0,,3756
+5103,F7_RIDGE,1,prefix_stratified,894,accepted supplemental candidates,
+5103,F7_RIDGE,1,proxy_subset_dp,0,,26734
+5103,F7_RIDGE,1,proxy_ga_local,0,,3864
+5103,F8_TREE,1,prefix_stratified,894,accepted supplemental candidates,
+5103,F8_TREE,1,proxy_subset_dp,0,,24529
+5103,F8_TREE,1,proxy_ga_local,0,,3781
+5103,F9_NO_SURROGATE,1,prefix_stratified,0,accepted supplemental candidates,
+5103,F0_FULL,1,prefix_stratified,0,accepted supplemental candidates,
+5103,F1_NO_RESERVE,1,prefix_stratified,0,accepted supplemental candidates,
+5103,F2_NO_PREFIX,1,prefix_stratified,0,accepted supplemental candidates,
+5103,F4_NO_PROXY_SOURCES,2,prefix_stratified,0,accepted supplemental candidates,
+5103,F5_RANDOM_POOL,2,prefix_stratified,0,accepted supplemental candidates,
+5103,F6_SINGLE_MLP,2,prefix_stratified,902,accepted supplemental candidates,
+5103,F6_SINGLE_MLP,2,proxy_subset_dp,0,,22057
+5103,F6_SINGLE_MLP,2,proxy_ga_local,0,,3753
+5103,F7_RIDGE,2,prefix_stratified,906,accepted supplemental candidates,
+5103,F7_RIDGE,2,proxy_subset_dp,0,,28211
+5103,F7_RIDGE,2,proxy_ga_local,0,,3820
+5103,F8_TREE,2,prefix_stratified,901,accepted supplemental candidates,
+5103,F8_TREE,2,proxy_subset_dp,0,,25872
+5103,F8_TREE,2,proxy_ga_local,0,,3775
+5103,F9_NO_SURROGATE,2,prefix_stratified,0,accepted supplemental candidates,
+5103,F0_FULL,2,prefix_stratified,0,accepted supplemental candidates,
+5103,F1_NO_RESERVE,2,prefix_stratified,0,accepted supplemental candidates,
+5103,F2_NO_PREFIX,2,prefix_stratified,0,accepted supplemental candidates,
+5103,F3_NO_DISAG,2,prefix_stratified,0,accepted supplemental candidates,
+5104,F3_NO_DISAG,0,prefix_stratified,0,accepted supplemental candidates,
+5104,F4_NO_PROXY_SOURCES,0,prefix_stratified,0,accepted supplemental candidates,
+5104,F5_RANDOM_POOL,0,prefix_stratified,0,accepted supplemental candidates,
+5104,F6_SINGLE_MLP,0,prefix_stratified,898,accepted supplemental candidates,
+5104,F6_SINGLE_MLP,0,proxy_subset_dp,0,,22735
+5104,F6_SINGLE_MLP,0,proxy_ga_local,0,,3749
+5104,F7_RIDGE,0,prefix_stratified,893,accepted supplemental candidates,
+5104,F7_RIDGE,0,proxy_subset_dp,0,,27373
+5104,F7_RIDGE,0,proxy_ga_local,0,,3767
+5104,F8_TREE,0,prefix_stratified,901,accepted supplemental candidates,
+5104,F8_TREE,0,proxy_subset_dp,0,,27157
+5104,F8_TREE,0,proxy_ga_local,0,,3763
+5104,F9_NO_SURROGATE,0,prefix_stratified,0,accepted supplemental candidates,
+5104,F0_FULL,0,prefix_stratified,0,accepted supplemental candidates,
+5104,F1_NO_RESERVE,0,prefix_stratified,0,accepted supplemental candidates,
+5104,F2_NO_PREFIX,0,prefix_stratified,0,accepted supplemental candidates,
+5104,F4_NO_PROXY_SOURCES,1,prefix_stratified,0,accepted supplemental candidates,
+5104,F5_RANDOM_POOL,1,prefix_stratified,0,accepted supplemental candidates,
+5104,F6_SINGLE_MLP,1,prefix_stratified,902,accepted supplemental candidates,
+5104,F6_SINGLE_MLP,1,proxy_subset_dp,0,,23844
+5104,F6_SINGLE_MLP,1,proxy_ga_local,0,,3786
+5104,F7_RIDGE,1,prefix_stratified,894,accepted supplemental candidates,
+5104,F7_RIDGE,1,proxy_subset_dp,0,,28558
+5104,F7_RIDGE,1,proxy_ga_local,0,,3778
+5104,F8_TREE,1,prefix_stratified,900,accepted supplemental candidates,
+5104,F8_TREE,1,proxy_subset_dp,0,,28253
+5104,F8_TREE,1,proxy_ga_local,0,,3723
+5104,F9_NO_SURROGATE,1,prefix_stratified,0,accepted supplemental candidates,
+5104,F0_FULL,1,prefix_stratified,0,accepted supplemental candidates,
+5104,F1_NO_RESERVE,1,prefix_stratified,0,accepted supplemental candidates,
+5104,F2_NO_PREFIX,1,prefix_stratified,0,accepted supplemental candidates,
+5104,F3_NO_DISAG,1,prefix_stratified,0,accepted supplemental candidates,
+5104,F5_RANDOM_POOL,2,prefix_stratified,0,accepted supplemental candidates,
+5104,F6_SINGLE_MLP,2,prefix_stratified,895,accepted supplemental candidates,
+5104,F6_SINGLE_MLP,2,proxy_subset_dp,0,,24095
+5104,F6_SINGLE_MLP,2,proxy_ga_local,0,,3790
+5104,F7_RIDGE,2,prefix_stratified,900,accepted supplemental candidates,
+5104,F7_RIDGE,2,proxy_subset_dp,0,,28787
+5104,F7_RIDGE,2,proxy_ga_local,0,,3783
+5104,F8_TREE,2,prefix_stratified,898,accepted supplemental candidates,
+5104,F8_TREE,2,proxy_subset_dp,0,,28428
+5104,F8_TREE,2,proxy_ga_local,0,,3771
+5104,F9_NO_SURROGATE,2,prefix_stratified,0,accepted supplemental candidates,
+5104,F0_FULL,2,prefix_stratified,0,accepted supplemental candidates,
+5104,F1_NO_RESERVE,2,prefix_stratified,0,accepted supplemental candidates,
+5104,F2_NO_PREFIX,2,prefix_stratified,0,accepted supplemental candidates,
+5104,F3_NO_DISAG,2,prefix_stratified,0,accepted supplemental candidates,
+5104,F4_NO_PROXY_SOURCES,2,prefix_stratified,0,accepted supplemental candidates,
+5105,F4_NO_PROXY_SOURCES,0,prefix_stratified,0,accepted supplemental candidates,
+5105,F5_RANDOM_POOL,0,prefix_stratified,0,accepted supplemental candidates,
+5105,F6_SINGLE_MLP,0,prefix_stratified,895,accepted supplemental candidates,
+5105,F6_SINGLE_MLP,0,proxy_subset_dp,0,,25492
+5105,F6_SINGLE_MLP,0,proxy_ga_local,0,,3819
+5105,F7_RIDGE,0,prefix_stratified,900,accepted supplemental candidates,
+5105,F7_RIDGE,0,proxy_subset_dp,0,,27339
+5105,F7_RIDGE,0,proxy_ga_local,0,,3795
+5105,F8_TREE,0,prefix_stratified,910,accepted supplemental candidates,
+5105,F8_TREE,0,proxy_subset_dp,0,,21483
+5105,F8_TREE,0,proxy_ga_local,0,,3706
+5105,F9_NO_SURROGATE,0,prefix_stratified,0,accepted supplemental candidates,
+5105,F0_FULL,0,prefix_stratified,0,accepted supplemental candidates,
+5105,F1_NO_RESERVE,0,prefix_stratified,0,accepted supplemental candidates,
+5105,F2_NO_PREFIX,0,prefix_stratified,0,accepted supplemental candidates,
+5105,F3_NO_DISAG,0,prefix_stratified,0,accepted supplemental candidates,
+5105,F5_RANDOM_POOL,1,prefix_stratified,0,accepted supplemental candidates,
+5105,F6_SINGLE_MLP,1,prefix_stratified,906,accepted supplemental candidates,
+5105,F6_SINGLE_MLP,1,proxy_subset_dp,0,,25557
+5105,F6_SINGLE_MLP,1,proxy_ga_local,0,,3839
+5105,F7_RIDGE,1,prefix_stratified,901,accepted supplemental candidates,
+5105,F7_RIDGE,1,proxy_subset_dp,0,,27729
+5105,F7_RIDGE,1,proxy_ga_local,0,,3821
+5105,F8_TREE,1,prefix_stratified,897,accepted supplemental candidates,
+5105,F8_TREE,1,proxy_subset_dp,0,,21342
+5105,F8_TREE,1,proxy_ga_local,0,,3654
+5105,F9_NO_SURROGATE,1,prefix_stratified,0,accepted supplemental candidates,
+5105,F0_FULL,1,prefix_stratified,0,accepted supplemental candidates,
+5105,F1_NO_RESERVE,1,prefix_stratified,0,accepted supplemental candidates,
+5105,F2_NO_PREFIX,1,prefix_stratified,0,accepted supplemental candidates,
+5105,F3_NO_DISAG,1,prefix_stratified,0,accepted supplemental candidates,
+5105,F4_NO_PROXY_SOURCES,1,prefix_stratified,0,accepted supplemental candidates,
+5105,F6_SINGLE_MLP,2,prefix_stratified,906,accepted supplemental candidates,
+5105,F6_SINGLE_MLP,2,proxy_subset_dp,0,,25137
+5105,F6_SINGLE_MLP,2,proxy_ga_local,0,,3824
+5105,F7_RIDGE,2,prefix_stratified,899,accepted supplemental candidates,
+5105,F7_RIDGE,2,proxy_subset_dp,0,,26768
+5105,F7_RIDGE,2,proxy_ga_local,0,,3858
+5105,F8_TREE,2,prefix_stratified,905,accepted supplemental candidates,
+5105,F8_TREE,2,proxy_subset_dp,0,,21262
+5105,F8_TREE,2,proxy_ga_local,0,,3757
+5105,F9_NO_SURROGATE,2,prefix_stratified,0,accepted supplemental candidates,
+5105,F0_FULL,2,prefix_stratified,0,accepted supplemental candidates,
+5105,F1_NO_RESERVE,2,prefix_stratified,0,accepted supplemental candidates,
+5105,F2_NO_PREFIX,2,prefix_stratified,0,accepted supplemental candidates,
+5105,F3_NO_DISAG,2,prefix_stratified,0,accepted supplemental candidates,
+5105,F4_NO_PROXY_SOURCES,2,prefix_stratified,0,accepted supplemental candidates,
+5105,F5_RANDOM_POOL,2,prefix_stratified,0,accepted supplemental candidates,
+5106,F5_RANDOM_POOL,0,prefix_stratified,0,accepted supplemental candidates,
+5106,F6_SINGLE_MLP,0,prefix_stratified,902,accepted supplemental candidates,
+5106,F6_SINGLE_MLP,0,proxy_subset_dp,0,,25053
+5106,F6_SINGLE_MLP,0,proxy_ga_local,0,,3770
+5106,F7_RIDGE,0,prefix_stratified,905,accepted supplemental candidates,
+5106,F7_RIDGE,0,proxy_subset_dp,0,,29006
+5106,F7_RIDGE,0,proxy_ga_local,0,,3756
+5106,F8_TREE,0,prefix_stratified,901,accepted supplemental candidates,
+5106,F8_TREE,0,proxy_subset_dp,0,,24324
+5106,F8_TREE,0,proxy_ga_local,0,,3745
+5106,F9_NO_SURROGATE,0,prefix_stratified,0,accepted supplemental candidates,
+5106,F0_FULL,0,prefix_stratified,0,accepted supplemental candidates,
+5106,F1_NO_RESERVE,0,prefix_stratified,0,accepted supplemental candidates,
+5106,F2_NO_PREFIX,0,prefix_stratified,0,accepted supplemental candidates,
+5106,F3_NO_DISAG,0,prefix_stratified,0,accepted supplemental candidates,
+5106,F4_NO_PROXY_SOURCES,0,prefix_stratified,0,accepted supplemental candidates,
+5106,F6_SINGLE_MLP,1,prefix_stratified,905,accepted supplemental candidates,
+5106,F6_SINGLE_MLP,1,proxy_subset_dp,0,,23659
+5106,F6_SINGLE_MLP,1,proxy_ga_local,0,,3825
+5106,F7_RIDGE,1,prefix_stratified,899,accepted supplemental candidates,
+5106,F7_RIDGE,1,proxy_subset_dp,0,,27447
+5106,F7_RIDGE,1,proxy_ga_local,0,,3817
+5106,F8_TREE,1,prefix_stratified,904,accepted supplemental candidates,
+5106,F8_TREE,1,proxy_subset_dp,0,,22876
+5106,F8_TREE,1,proxy_ga_local,0,,3704
+5106,F9_NO_SURROGATE,1,prefix_stratified,0,accepted supplemental candidates,
+5106,F0_FULL,1,prefix_stratified,0,accepted supplemental candidates,
+5106,F1_NO_RESERVE,1,prefix_stratified,0,accepted supplemental candidates,
+5106,F2_NO_PREFIX,1,prefix_stratified,0,accepted supplemental candidates,
+5106,F3_NO_DISAG,1,prefix_stratified,0,accepted supplemental candidates,
+5106,F4_NO_PROXY_SOURCES,1,prefix_stratified,0,accepted supplemental candidates,
+5106,F5_RANDOM_POOL,1,prefix_stratified,0,accepted supplemental candidates,
+5106,F7_RIDGE,2,prefix_stratified,892,accepted supplemental candidates,
+5106,F7_RIDGE,2,proxy_subset_dp,0,,27025
+5106,F7_RIDGE,2,proxy_ga_local,0,,3820
+5106,F8_TREE,2,prefix_stratified,902,accepted supplemental candidates,
+5106,F8_TREE,2,proxy_subset_dp,0,,22919
+5106,F8_TREE,2,proxy_ga_local,0,,3712
+5106,F9_NO_SURROGATE,2,prefix_stratified,0,accepted supplemental candidates,
+5106,F0_FULL,2,prefix_stratified,0,accepted supplemental candidates,
+5106,F1_NO_RESERVE,2,prefix_stratified,0,accepted supplemental candidates,
+5106,F2_NO_PREFIX,2,prefix_stratified,0,accepted supplemental candidates,
+5106,F3_NO_DISAG,2,prefix_stratified,0,accepted supplemental candidates,
+5106,F4_NO_PROXY_SOURCES,2,prefix_stratified,0,accepted supplemental candidates,
+5106,F5_RANDOM_POOL,2,prefix_stratified,0,accepted supplemental candidates,
+5106,F6_SINGLE_MLP,2,prefix_stratified,898,accepted supplemental candidates,
+5106,F6_SINGLE_MLP,2,proxy_subset_dp,0,,23667
+5106,F6_SINGLE_MLP,2,proxy_ga_local,0,,3841
+5107,F6_SINGLE_MLP,0,prefix_stratified,899,accepted supplemental candidates,
+5107,F6_SINGLE_MLP,0,proxy_subset_dp,0,,23495
+5107,F6_SINGLE_MLP,0,proxy_ga_local,0,,3742
+5107,F7_RIDGE,0,prefix_stratified,896,accepted supplemental candidates,
+5107,F7_RIDGE,0,proxy_subset_dp,0,,27094
+5107,F7_RIDGE,0,proxy_ga_local,0,,3757
+5107,F8_TREE,0,prefix_stratified,904,accepted supplemental candidates,
+5107,F8_TREE,0,proxy_subset_dp,0,,25418
+5107,F8_TREE,0,proxy_ga_local,0,,3735
+5107,F9_NO_SURROGATE,0,prefix_stratified,0,accepted supplemental candidates,
+5107,F0_FULL,0,prefix_stratified,0,accepted supplemental candidates,
+5107,F1_NO_RESERVE,0,prefix_stratified,0,accepted supplemental candidates,
+5107,F2_NO_PREFIX,0,prefix_stratified,0,accepted supplemental candidates,
+5107,F3_NO_DISAG,0,prefix_stratified,0,accepted supplemental candidates,
+5107,F4_NO_PROXY_SOURCES,0,prefix_stratified,0,accepted supplemental candidates,
+5107,F5_RANDOM_POOL,0,prefix_stratified,0,accepted supplemental candidates,
+5107,F7_RIDGE,1,prefix_stratified,904,accepted supplemental candidates,
+5107,F7_RIDGE,1,proxy_subset_dp,0,,27242
+5107,F7_RIDGE,1,proxy_ga_local,0,,3765
+5107,F8_TREE,1,prefix_stratified,901,accepted supplemental candidates,
+5107,F8_TREE,1,proxy_subset_dp,0,,25560
+5107,F8_TREE,1,proxy_ga_local,0,,3725
+5107,F9_NO_SURROGATE,1,prefix_stratified,0,accepted supplemental candidates,
+5107,F0_FULL,1,prefix_stratified,0,accepted supplemental candidates,
+5107,F1_NO_RESERVE,1,prefix_stratified,0,accepted supplemental candidates,
+5107,F2_NO_PREFIX,1,prefix_stratified,0,accepted supplemental candidates,
+5107,F3_NO_DISAG,1,prefix_stratified,0,accepted supplemental candidates,
+5107,F4_NO_PROXY_SOURCES,1,prefix_stratified,0,accepted supplemental candidates,
+5107,F5_RANDOM_POOL,1,prefix_stratified,0,accepted supplemental candidates,
+5107,F6_SINGLE_MLP,1,prefix_stratified,896,accepted supplemental candidates,
+5107,F6_SINGLE_MLP,1,proxy_subset_dp,0,,23070
+5107,F6_SINGLE_MLP,1,proxy_ga_local,0,,3804
+5107,F8_TREE,2,prefix_stratified,897,accepted supplemental candidates,
+5107,F8_TREE,2,proxy_subset_dp,0,,26877
+5107,F8_TREE,2,proxy_ga_local,0,,3748
+5107,F9_NO_SURROGATE,2,prefix_stratified,0,accepted supplemental candidates,
+5107,F0_FULL,2,prefix_stratified,0,accepted supplemental candidates,
+5107,F1_NO_RESERVE,2,prefix_stratified,0,accepted supplemental candidates,
+5107,F2_NO_PREFIX,2,prefix_stratified,0,accepted supplemental candidates,
+5107,F3_NO_DISAG,2,prefix_stratified,0,accepted supplemental candidates,
+5107,F4_NO_PROXY_SOURCES,2,prefix_stratified,0,accepted supplemental candidates,
+5107,F5_RANDOM_POOL,2,prefix_stratified,0,accepted supplemental candidates,
+5107,F6_SINGLE_MLP,2,prefix_stratified,909,accepted supplemental candidates,
+5107,F6_SINGLE_MLP,2,proxy_subset_dp,0,,24705
+5107,F6_SINGLE_MLP,2,proxy_ga_local,0,,3781
+5107,F7_RIDGE,2,prefix_stratified,892,accepted supplemental candidates,
+5107,F7_RIDGE,2,proxy_subset_dp,0,,28135
+5107,F7_RIDGE,2,proxy_ga_local,0,,3736
+5108,F7_RIDGE,0,prefix_stratified,899,accepted supplemental candidates,
+5108,F7_RIDGE,0,proxy_subset_dp,0,,26682
+5108,F7_RIDGE,0,proxy_ga_local,0,,3840
+5108,F8_TREE,0,prefix_stratified,906,accepted supplemental candidates,
+5108,F8_TREE,0,proxy_subset_dp,0,,23142
+5108,F8_TREE,0,proxy_ga_local,0,,3745
+5108,F9_NO_SURROGATE,0,prefix_stratified,0,accepted supplemental candidates,
+5108,F0_FULL,0,prefix_stratified,0,accepted supplemental candidates,
+5108,F1_NO_RESERVE,0,prefix_stratified,0,accepted supplemental candidates,
+5108,F2_NO_PREFIX,0,prefix_stratified,0,accepted supplemental candidates,
+5108,F3_NO_DISAG,0,prefix_stratified,0,accepted supplemental candidates,
+5108,F4_NO_PROXY_SOURCES,0,prefix_stratified,0,accepted supplemental candidates,
+5108,F5_RANDOM_POOL,0,prefix_stratified,0,accepted supplemental candidates,
+5108,F6_SINGLE_MLP,0,prefix_stratified,906,accepted supplemental candidates,
+5108,F6_SINGLE_MLP,0,proxy_subset_dp,0,,22322
+5108,F6_SINGLE_MLP,0,proxy_ga_local,0,,3750
+5108,F8_TREE,1,prefix_stratified,896,accepted supplemental candidates,
+5108,F8_TREE,1,proxy_subset_dp,0,,23729
+5108,F8_TREE,1,proxy_ga_local,0,,3765
+5108,F9_NO_SURROGATE,1,prefix_stratified,0,accepted supplemental candidates,
+5108,F0_FULL,1,prefix_stratified,0,accepted supplemental candidates,
+5108,F1_NO_RESERVE,1,prefix_stratified,0,accepted supplemental candidates,
+5108,F2_NO_PREFIX,1,prefix_stratified,0,accepted supplemental candidates,
+5108,F3_NO_DISAG,1,prefix_stratified,0,accepted supplemental candidates,
+5108,F4_NO_PROXY_SOURCES,1,prefix_stratified,0,accepted supplemental candidates,
+5108,F5_RANDOM_POOL,1,prefix_stratified,0,accepted supplemental candidates,
+5108,F6_SINGLE_MLP,1,prefix_stratified,892,accepted supplemental candidates,
+5108,F6_SINGLE_MLP,1,proxy_subset_dp,0,,22785
+5108,F6_SINGLE_MLP,1,proxy_ga_local,0,,3748
+5108,F7_RIDGE,1,prefix_stratified,899,accepted supplemental candidates,
+5108,F7_RIDGE,1,proxy_subset_dp,0,,27219
+5108,F7_RIDGE,1,proxy_ga_local,0,,3825
+5108,F9_NO_SURROGATE,2,prefix_stratified,0,accepted supplemental candidates,
+5108,F0_FULL,2,prefix_stratified,0,accepted supplemental candidates,
+5108,F1_NO_RESERVE,2,prefix_stratified,0,accepted supplemental candidates,
+5108,F2_NO_PREFIX,2,prefix_stratified,0,accepted supplemental candidates,
+5108,F3_NO_DISAG,2,prefix_stratified,0,accepted supplemental candidates,
+5108,F4_NO_PROXY_SOURCES,2,prefix_stratified,0,accepted supplemental candidates,
+5108,F5_RANDOM_POOL,2,prefix_stratified,0,accepted supplemental candidates,
+5108,F6_SINGLE_MLP,2,prefix_stratified,901,accepted supplemental candidates,
+5108,F6_SINGLE_MLP,2,proxy_subset_dp,0,,23218
+5108,F6_SINGLE_MLP,2,proxy_ga_local,0,,3803
+5108,F7_RIDGE,2,prefix_stratified,903,accepted supplemental candidates,
+5108,F7_RIDGE,2,proxy_subset_dp,0,,28376
+5108,F7_RIDGE,2,proxy_ga_local,0,,3838
+5108,F8_TREE,2,prefix_stratified,898,accepted supplemental candidates,
+5108,F8_TREE,2,proxy_subset_dp,0,,24273
+5108,F8_TREE,2,proxy_ga_local,0,,3738
+5109,F8_TREE,0,prefix_stratified,899,accepted supplemental candidates,
+5109,F8_TREE,0,proxy_subset_dp,0,,25367
+5109,F8_TREE,0,proxy_ga_local,0,,3751
+5109,F9_NO_SURROGATE,0,prefix_stratified,0,accepted supplemental candidates,
+5109,F0_FULL,0,prefix_stratified,0,accepted supplemental candidates,
+5109,F1_NO_RESERVE,0,prefix_stratified,0,accepted supplemental candidates,
+5109,F2_NO_PREFIX,0,prefix_stratified,0,accepted supplemental candidates,
+5109,F3_NO_DISAG,0,prefix_stratified,0,accepted supplemental candidates,
+5109,F4_NO_PROXY_SOURCES,0,prefix_stratified,0,accepted supplemental candidates,
+5109,F5_RANDOM_POOL,0,prefix_stratified,0,accepted supplemental candidates,
+5109,F6_SINGLE_MLP,0,prefix_stratified,900,accepted supplemental candidates,
+5109,F6_SINGLE_MLP,0,proxy_subset_dp,0,,23738
+5109,F6_SINGLE_MLP,0,proxy_ga_local,0,,3791
+5109,F7_RIDGE,0,prefix_stratified,901,accepted supplemental candidates,
+5109,F7_RIDGE,0,proxy_subset_dp,0,,27412
+5109,F7_RIDGE,0,proxy_ga_local,0,,3815
+5109,F9_NO_SURROGATE,1,prefix_stratified,0,accepted supplemental candidates,
+5109,F0_FULL,1,prefix_stratified,0,accepted supplemental candidates,
+5109,F1_NO_RESERVE,1,prefix_stratified,0,accepted supplemental candidates,
+5109,F2_NO_PREFIX,1,prefix_stratified,0,accepted supplemental candidates,
+5109,F3_NO_DISAG,1,prefix_stratified,0,accepted supplemental candidates,
+5109,F4_NO_PROXY_SOURCES,1,prefix_stratified,0,accepted supplemental candidates,
+5109,F5_RANDOM_POOL,1,prefix_stratified,0,accepted supplemental candidates,
+5109,F6_SINGLE_MLP,1,prefix_stratified,903,accepted supplemental candidates,
+5109,F6_SINGLE_MLP,1,proxy_subset_dp,0,,23262
+5109,F6_SINGLE_MLP,1,proxy_ga_local,0,,3754
+5109,F7_RIDGE,1,prefix_stratified,905,accepted supplemental candidates,
+5109,F7_RIDGE,1,proxy_subset_dp,0,,27623
+5109,F7_RIDGE,1,proxy_ga_local,0,,3830
+5109,F8_TREE,1,prefix_stratified,894,accepted supplemental candidates,
+5109,F8_TREE,1,proxy_subset_dp,0,,25280
+5109,F8_TREE,1,proxy_ga_local,0,,3764
+5109,F0_FULL,2,prefix_stratified,0,accepted supplemental candidates,
+5109,F1_NO_RESERVE,2,prefix_stratified,0,accepted supplemental candidates,
+5109,F2_NO_PREFIX,2,prefix_stratified,0,accepted supplemental candidates,
+5109,F3_NO_DISAG,2,prefix_stratified,0,accepted supplemental candidates,
+5109,F4_NO_PROXY_SOURCES,2,prefix_stratified,0,accepted supplemental candidates,
+5109,F5_RANDOM_POOL,2,prefix_stratified,0,accepted supplemental candidates,
+5109,F6_SINGLE_MLP,2,prefix_stratified,906,accepted supplemental candidates,
+5109,F6_SINGLE_MLP,2,proxy_subset_dp,0,,23882
+5109,F6_SINGLE_MLP,2,proxy_ga_local,0,,3768
+5109,F7_RIDGE,2,prefix_stratified,896,accepted supplemental candidates,
+5109,F7_RIDGE,2,proxy_subset_dp,0,,28047
+5109,F7_RIDGE,2,proxy_ga_local,0,,3789
+5109,F8_TREE,2,prefix_stratified,908,accepted supplemental candidates,
+5109,F8_TREE,2,proxy_subset_dp,0,,25428
+5109,F8_TREE,2,proxy_ga_local,0,,3744
+5109,F9_NO_SURROGATE,2,prefix_stratified,0,accepted supplemental candidates,
+5110,F9_NO_SURROGATE,0,prefix_stratified,0,accepted supplemental candidates,
+5110,F0_FULL,0,prefix_stratified,0,accepted supplemental candidates,
+5110,F1_NO_RESERVE,0,prefix_stratified,0,accepted supplemental candidates,
+5110,F2_NO_PREFIX,0,prefix_stratified,0,accepted supplemental candidates,
+5110,F3_NO_DISAG,0,prefix_stratified,0,accepted supplemental candidates,
+5110,F4_NO_PROXY_SOURCES,0,prefix_stratified,0,accepted supplemental candidates,
+5110,F5_RANDOM_POOL,0,prefix_stratified,0,accepted supplemental candidates,
+5110,F6_SINGLE_MLP,0,prefix_stratified,900,accepted supplemental candidates,
+5110,F6_SINGLE_MLP,0,proxy_subset_dp,0,,25518
+5110,F6_SINGLE_MLP,0,proxy_ga_local,0,,3754
+5110,F7_RIDGE,0,prefix_stratified,904,accepted supplemental candidates,
+5110,F7_RIDGE,0,proxy_subset_dp,0,,27512
+5110,F7_RIDGE,0,proxy_ga_local,0,,3767
+5110,F8_TREE,0,prefix_stratified,899,accepted supplemental candidates,
+5110,F8_TREE,0,proxy_subset_dp,0,,25667
+5110,F8_TREE,0,proxy_ga_local,0,,3762
+5110,F0_FULL,1,prefix_stratified,0,accepted supplemental candidates,
+5110,F1_NO_RESERVE,1,prefix_stratified,0,accepted supplemental candidates,
+5110,F2_NO_PREFIX,1,prefix_stratified,0,accepted supplemental candidates,
+5110,F3_NO_DISAG,1,prefix_stratified,0,accepted supplemental candidates,
+5110,F4_NO_PROXY_SOURCES,1,prefix_stratified,0,accepted supplemental candidates,
+5110,F5_RANDOM_POOL,1,prefix_stratified,0,accepted supplemental candidates,
+5110,F6_SINGLE_MLP,1,prefix_stratified,899,accepted supplemental candidates,
+5110,F6_SINGLE_MLP,1,proxy_subset_dp,0,,26373
+5110,F6_SINGLE_MLP,1,proxy_ga_local,0,,3790
+5110,F7_RIDGE,1,prefix_stratified,901,accepted supplemental candidates,
+5110,F7_RIDGE,1,proxy_subset_dp,0,,28871
+5110,F7_RIDGE,1,proxy_ga_local,0,,3835
+5110,F8_TREE,1,prefix_stratified,902,accepted supplemental candidates,
+5110,F8_TREE,1,proxy_subset_dp,0,,26593
+5110,F8_TREE,1,proxy_ga_local,0,,3825
+5110,F9_NO_SURROGATE,1,prefix_stratified,0,accepted supplemental candidates,
+5110,F0_FULL,2,prefix_stratified,0,accepted supplemental candidates,
+5110,F1_NO_RESERVE,2,prefix_stratified,0,accepted supplemental candidates,
+5110,F2_NO_PREFIX,2,prefix_stratified,0,accepted supplemental candidates,
+5110,F3_NO_DISAG,2,prefix_stratified,0,accepted supplemental candidates,
+5110,F4_NO_PROXY_SOURCES,2,prefix_stratified,0,accepted supplemental candidates,
+5110,F5_RANDOM_POOL,2,prefix_stratified,0,accepted supplemental candidates,
+5110,F6_SINGLE_MLP,2,prefix_stratified,902,accepted supplemental candidates,
+5110,F6_SINGLE_MLP,2,proxy_subset_dp,0,,25520
+5110,F6_SINGLE_MLP,2,proxy_ga_local,0,,3795
+5110,F7_RIDGE,2,prefix_stratified,899,accepted supplemental candidates,
+5110,F7_RIDGE,2,proxy_subset_dp,0,,27011
+5110,F7_RIDGE,2,proxy_ga_local,0,,3810
+5110,F8_TREE,2,prefix_stratified,911,accepted supplemental candidates,
+5110,F8_TREE,2,proxy_subset_dp,0,,25378
+5110,F8_TREE,2,proxy_ga_local,0,,3768
+5110,F9_NO_SURROGATE,2,prefix_stratified,0,accepted supplemental candidates,

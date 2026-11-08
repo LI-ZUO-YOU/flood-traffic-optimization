@@ -1,0 +1,11 @@
+﻿split_A,split_B,scenario_count_A,scenario_count_B,scenario_ID_overlap,physical_signature_overlap_count,status
+train,calibration,120,20,[],0,PASS
+train,internal_ID,120,20,[],0,PASS
+train,internal_severe,120,20,[],0,PASS
+train,historical_final,120,40,[],0,PASS
+calibration,internal_ID,20,20,[],0,PASS
+calibration,internal_severe,20,20,[],0,PASS
+calibration,historical_final,20,40,[],0,PASS
+internal_ID,internal_severe,20,20,[],0,PASS
+internal_ID,historical_final,20,40,[],0,PASS
+internal_severe,historical_final,20,40,[],0,PASS

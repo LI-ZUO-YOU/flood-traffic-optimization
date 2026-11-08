@@ -1,0 +1,28 @@
+﻿scenario_id,variant_id,source,mutation_attempts,random_completion_count,count_provenance
+3001,F6_SINGLE_MLP,proxy_subset_dp,24274,0,
+3001,F6_SINGLE_MLP,proxy_ga_local,3766,0,
+3001,F6_SINGLE_MLP,prefix_stratified,,901,source_detail in frozen pool; count of accepted supplemental candidates
+3001,F7_RIDGE,proxy_subset_dp,28317,0,
+3001,F7_RIDGE,proxy_ga_local,3773,0,
+3001,F7_RIDGE,prefix_stratified,,901,source_detail in frozen pool; count of accepted supplemental candidates
+3001,F8_TREE,proxy_subset_dp,26701,0,
+3001,F8_TREE,proxy_ga_local,3776,0,
+3001,F8_TREE,prefix_stratified,,904,source_detail in frozen pool; count of accepted supplemental candidates
+3002,F6_SINGLE_MLP,proxy_subset_dp,24977,0,
+3002,F6_SINGLE_MLP,proxy_ga_local,3768,0,
+3002,F6_SINGLE_MLP,prefix_stratified,,905,source_detail in frozen pool; count of accepted supplemental candidates
+3002,F7_RIDGE,proxy_subset_dp,28409,0,
+3002,F7_RIDGE,proxy_ga_local,3783,0,
+3002,F7_RIDGE,prefix_stratified,,907,source_detail in frozen pool; count of accepted supplemental candidates
+3002,F8_TREE,proxy_subset_dp,25935,0,
+3002,F8_TREE,proxy_ga_local,3794,0,
+3002,F8_TREE,prefix_stratified,,901,source_detail in frozen pool; count of accepted supplemental candidates
+3003,F6_SINGLE_MLP,proxy_subset_dp,25134,0,
+3003,F6_SINGLE_MLP,proxy_ga_local,3761,0,
+3003,F6_SINGLE_MLP,prefix_stratified,,905,source_detail in frozen pool; count of accepted supplemental candidates
+3003,F7_RIDGE,proxy_subset_dp,29179,0,
+3003,F7_RIDGE,proxy_ga_local,3817,0,
+3003,F7_RIDGE,prefix_stratified,,905,source_detail in frozen pool; count of accepted supplemental candidates
+3003,F8_TREE,proxy_subset_dp,26251,0,
+3003,F8_TREE,proxy_ga_local,3781,0,
+3003,F8_TREE,prefix_stratified,,902,source_detail in frozen pool; count of accepted supplemental candidates

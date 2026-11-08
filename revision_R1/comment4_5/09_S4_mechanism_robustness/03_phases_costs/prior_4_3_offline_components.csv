@@ -1,0 +1,10 @@
+﻿component,seconds,type,scope,provenance
+read_archived_training_tables,0.067546600010246038,current isolated measurement,data loading; original labels retained,"prior4.3 experiment, not S3/S4 retraining"
+3178_state_generation_current_UE,58.783555799629539,current isolated measurement,physical preparation plus fresh RG1e-9 solves; labels not used to retrain,"prior4.3 experiment, not S3/S4 retraining"
+features_preprocessor_bootstrap,0.017152300104498863,current isolated measurement,original source functions and identical original preprocessing values,"prior4.3 experiment, not S3/S4 retraining"
+ten_member_training_outer_loop,21.532151699997485,current isolated measurement,original labels/config; full member calls and file saves included; temporary checkpoints,"prior4.3 experiment, not S3/S4 retraining"
+ten_member_training_internal_timer_sum,21.431694800034165,nested current diagnostic,do not add to outer loop,"prior4.3 experiment, not S3/S4 retraining"
+same_host_measured_components_sum,80.400406399741769,component-based deployment estimate,not a single new-label-to-trained-model end-to-end run,"prior4.3 experiment, not S3/S4 retraining"
+current_observed_workflow_wall,80.702364199794829,current total workflow,"includes development UE warm-up; uses old labels for training, not new labels","prior4.3 experiment, not S3/S4 retraining"
+historical_training_loop,17.767865099998744,historical different context,"17.7679s archive, hardware provenance incomplete","prior4.3 experiment, not S3/S4 retraining"
+previous_mixed_offline_cost,70.093090599923016,historical mixed estimate,70.0931s not current measured end-to-end cost,"prior4.3 experiment, not S3/S4 retraining"

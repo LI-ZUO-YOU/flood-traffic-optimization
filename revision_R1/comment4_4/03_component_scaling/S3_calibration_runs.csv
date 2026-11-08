@@ -1,0 +1,4 @@
+﻿repeat,scenario_id,m,candidate_seed_index,candidate_wall,sampled_online_RSS_available,sampled_online_RSS_bytes,lifetime_kernel_peak_wset_bytes,monitor_samples,used_for_time_calibration_only
+0,3001,10,0,5.8422773000784218,True,411996160,421040128,153,True
+1,3001,10,0,8.2705091000534594,True,409432064,420044800,204,True
+2,3001,10,0,6.4549851999618113,False,,420110336,4,True

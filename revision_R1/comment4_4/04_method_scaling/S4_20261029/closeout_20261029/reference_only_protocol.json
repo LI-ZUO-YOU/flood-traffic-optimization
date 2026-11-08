@@ -1,0 +1,50 @@
+{
+  "frozen_at": "2026-10-29T17:27:47.852852+08:00",
+  "label": "supplemental reference completion",
+  "scenarios": [
+    4401,
+    4406
+  ],
+  "m": 14,
+  "reuse": "same scenario AND same m=14 recovery road order only; converged journal rows; loss/TSTT bitwise cross-check",
+  "masks": "only missing masks, ascending; cases sequential",
+  "solver": "unchanged frozen.Network; cold flow; target=1e-9; mode inherited unchanged; max_iter unchanged",
+  "processes": 1,
+  "CPU_core": 0,
+  "threads": 1,
+  "setup": "developer scenario 246 warm-up excluded",
+  "optimization_runs": 0,
+  "training_runs": 0,
+  "old_capped_timing": "immutable; supplemental cached completion has separate wall/kernel/DP costs and is not a fresh enumeration benchmark",
+  "supplemental_total_safety_timeout_seconds": 7200,
+  "on_solver_failure": "stop and retain original 4/6 denominator if incomplete",
+  "inventory": [
+    {
+      "scenario_id": 4401,
+      "m": 14,
+      "required_states": 16384,
+      "serial_unique": 4486,
+      "four_core_journal_unique": 14399,
+      "optimization_unique_including_interrupted": 1340,
+      "union_reusable_states": 15530,
+      "missing_states": 854,
+      "historical_UE_kernel_seconds_all_copies": 668.037874258589,
+      "estimated_new_kernel_seconds_from_observed_mean": 26.691290229439364,
+      "estimate_is_not_guarantee": true
+    },
+    {
+      "scenario_id": 4406,
+      "m": 14,
+      "required_states": 16384,
+      "serial_unique": 1273,
+      "four_core_journal_unique": 8838,
+      "optimization_unique_including_interrupted": 1288,
+      "union_reusable_states": 9317,
+      "missing_states": 7067,
+      "historical_UE_kernel_seconds_all_copies": 809.3100628172979,
+      "estimated_new_kernel_seconds_from_observed_mean": 401.63770662884224,
+      "estimate_is_not_guarantee": true
+    }
+  ],
+  "kappa": 2.816128890834728e-07
+}

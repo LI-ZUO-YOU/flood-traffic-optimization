@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scenarios": 10,
+  "checks_passed": 180,
+  "checks_total": 180,
+  "history_and_ledger_fully_compared": true,
+  "DP_recalculated": false,
+  "real_UE_calls": 0,
+  "objective_numeric_policy": "8eps relative to max(1, archived), fixed before run for decimal/float64 serialization; trajectories and masks exact",
+  "max_objective_error": 0.0
+}

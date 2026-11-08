@@ -1,0 +1,241 @@
+﻿variant_id,seed_index,stage,first_road,count,minimum_proxy_rank,best_observed_J,evidence
+F0_FULL,0,pool,18,2513,9017,63.952051488572735,"posthoc sealed-pool labels, not queried online"
+F0_FULL,0,pool,29,2494,6962,72.681575743121925,"posthoc sealed-pool labels, not queried online"
+F0_FULL,0,Primary60,18,0,,,"posthoc sealed-pool labels, not queried online"
+F0_FULL,0,Primary60,29,1,12636,81.46656118867584,"posthoc sealed-pool labels, not queried online"
+F0_FULL,0,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F0_FULL,0,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F0_FULL,0,C_completed,18,0,,,direct unique complete-sequence history
+F0_FULL,0,D_completed,18,0,,,direct unique complete-sequence history
+F0_FULL,0,final,18,0,,,direct final output
+F0_FULL,0,C_completed,29,0,,,direct unique complete-sequence history
+F0_FULL,0,D_completed,29,532,,72.613960763315333,direct unique complete-sequence history
+F0_FULL,0,final,29,1,,72.613960763315333,direct final output
+F0_FULL,1,pool,18,2553,9047,64.270101683065093,"posthoc sealed-pool labels, not queried online"
+F0_FULL,1,pool,29,2536,6975,72.965229249372328,"posthoc sealed-pool labels, not queried online"
+F0_FULL,1,Primary60,18,4,14159,71.624514723788053,"posthoc sealed-pool labels, not queried online"
+F0_FULL,1,Primary60,29,2,13600,91.086357364134614,"posthoc sealed-pool labels, not queried online"
+F0_FULL,1,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F0_FULL,1,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F0_FULL,1,C_completed,18,0,,,direct unique complete-sequence history
+F0_FULL,1,D_completed,18,66,,63.92912523405662,direct unique complete-sequence history
+F0_FULL,1,final,18,1,,63.92912523405662,direct final output
+F0_FULL,1,C_completed,29,0,,,direct unique complete-sequence history
+F0_FULL,1,D_completed,29,437,,72.613960763315333,direct unique complete-sequence history
+F0_FULL,1,final,29,0,,,direct final output
+F0_FULL,2,pool,18,2474,9017,64.097466570461364,"posthoc sealed-pool labels, not queried online"
+F0_FULL,2,pool,29,2517,6986,72.737413177838221,"posthoc sealed-pool labels, not queried online"
+F0_FULL,2,Primary60,18,0,,,"posthoc sealed-pool labels, not queried online"
+F0_FULL,2,Primary60,29,0,,,"posthoc sealed-pool labels, not queried online"
+F0_FULL,2,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F0_FULL,2,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F0_FULL,2,C_completed,18,0,,,direct unique complete-sequence history
+F0_FULL,2,D_completed,18,0,,,direct unique complete-sequence history
+F0_FULL,2,final,18,0,,,direct final output
+F0_FULL,2,C_completed,29,0,,,direct unique complete-sequence history
+F0_FULL,2,D_completed,29,262,,72.706698517589118,direct unique complete-sequence history
+F0_FULL,2,final,29,1,,72.706698517589118,direct final output
+F1_NO_RESERVE,0,pool,18,2513,9017,63.952051488572735,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,0,pool,29,2494,6962,72.681575743121925,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,0,Primary60,18,0,,,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,0,Primary60,29,1,12636,81.46656118867584,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,0,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,0,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,0,flat_eligible,18,2513,9017,63.952051488572735,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,0,flat_eligible,29,2494,6962,72.681575743121925,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,0,C_completed,18,0,,,direct unique complete-sequence history
+F1_NO_RESERVE,0,D_completed,18,144,,63.92912523405662,direct unique complete-sequence history
+F1_NO_RESERVE,0,final,18,1,,63.92912523405662,direct final output
+F1_NO_RESERVE,0,C_completed,29,0,,,direct unique complete-sequence history
+F1_NO_RESERVE,0,D_completed,29,19,,72.675829047583406,direct unique complete-sequence history
+F1_NO_RESERVE,0,final,29,0,,,direct final output
+F1_NO_RESERVE,1,pool,18,2553,9047,64.270101683065093,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,1,pool,29,2536,6975,72.965229249372328,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,1,Primary60,18,4,14159,71.624514723788053,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,1,Primary60,29,2,13600,91.086357364134614,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,1,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,1,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,1,flat_eligible,18,2553,9047,64.270101683065093,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,1,flat_eligible,29,2536,6975,72.965229249372328,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,1,C_completed,18,0,,,direct unique complete-sequence history
+F1_NO_RESERVE,1,D_completed,18,187,,63.92912523405662,direct unique complete-sequence history
+F1_NO_RESERVE,1,final,18,1,,63.92912523405662,direct final output
+F1_NO_RESERVE,1,C_completed,29,0,,,direct unique complete-sequence history
+F1_NO_RESERVE,1,D_completed,29,20,,72.675829047583406,direct unique complete-sequence history
+F1_NO_RESERVE,1,final,29,0,,,direct final output
+F1_NO_RESERVE,2,pool,18,2474,9017,64.097466570461364,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,2,pool,29,2517,6986,72.737413177838221,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,2,Primary60,18,0,,,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,2,Primary60,29,0,,,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,2,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,2,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,2,flat_eligible,18,2474,9017,64.097466570461364,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,2,flat_eligible,29,2517,6986,72.737413177838221,"posthoc sealed-pool labels, not queried online"
+F1_NO_RESERVE,2,C_completed,18,0,,,direct unique complete-sequence history
+F1_NO_RESERVE,2,D_completed,18,187,,63.92912523405662,direct unique complete-sequence history
+F1_NO_RESERVE,2,final,18,1,,63.92912523405662,direct final output
+F1_NO_RESERVE,2,C_completed,29,0,,,direct unique complete-sequence history
+F1_NO_RESERVE,2,D_completed,29,19,,72.675829047583406,direct unique complete-sequence history
+F1_NO_RESERVE,2,final,29,0,,,direct final output
+F3_NO_DISAG,0,pool,18,2513,9017,63.952051488572735,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,0,pool,29,2494,6962,72.681575743121925,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,0,Primary60,18,0,,,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,0,Primary60,29,1,12114,98.027477950346707,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,0,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,0,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,0,C_completed,18,0,,,direct unique complete-sequence history
+F3_NO_DISAG,0,D_completed,18,0,,,direct unique complete-sequence history
+F3_NO_DISAG,0,final,18,0,,,direct final output
+F3_NO_DISAG,0,C_completed,29,0,,,direct unique complete-sequence history
+F3_NO_DISAG,0,D_completed,29,532,,72.613960763315333,direct unique complete-sequence history
+F3_NO_DISAG,0,final,29,1,,72.613960763315333,direct final output
+F3_NO_DISAG,1,pool,18,2553,9047,64.270101683065093,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,1,pool,29,2536,6975,72.965229249372328,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,1,Primary60,18,4,13379,75.607947979150325,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,1,Primary60,29,2,13563,89.546749239877315,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,1,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,1,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,1,C_completed,18,0,,,direct unique complete-sequence history
+F3_NO_DISAG,1,D_completed,18,66,,63.92912523405662,direct unique complete-sequence history
+F3_NO_DISAG,1,final,18,1,,63.92912523405662,direct final output
+F3_NO_DISAG,1,C_completed,29,0,,,direct unique complete-sequence history
+F3_NO_DISAG,1,D_completed,29,437,,72.613960763315333,direct unique complete-sequence history
+F3_NO_DISAG,1,final,29,0,,,direct final output
+F3_NO_DISAG,2,pool,18,2474,9017,64.097466570461364,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,2,pool,29,2517,6986,72.737413177838221,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,2,Primary60,18,0,,,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,2,Primary60,29,0,,,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,2,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,2,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F3_NO_DISAG,2,C_completed,18,0,,,direct unique complete-sequence history
+F3_NO_DISAG,2,D_completed,18,0,,,direct unique complete-sequence history
+F3_NO_DISAG,2,final,18,0,,,direct final output
+F3_NO_DISAG,2,C_completed,29,0,,,direct unique complete-sequence history
+F3_NO_DISAG,2,D_completed,29,262,,72.706698517589118,direct unique complete-sequence history
+F3_NO_DISAG,2,final,29,1,,72.706698517589118,direct final output
+F6_SINGLE_MLP,0,pool,18,2561,12565,64.442160975373952,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,0,pool,29,2527,14014,73.542794078945732,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,0,Primary60,18,0,,,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,0,Primary60,29,2,25433,93.365715153776037,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,0,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,0,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,0,C_completed,18,0,,,direct unique complete-sequence history
+F6_SINGLE_MLP,0,D_completed,18,95,,64.343796322761449,direct unique complete-sequence history
+F6_SINGLE_MLP,0,final,18,1,,64.343796322761449,direct final output
+F6_SINGLE_MLP,0,C_completed,29,0,,,direct unique complete-sequence history
+F6_SINGLE_MLP,0,D_completed,29,0,,,direct unique complete-sequence history
+F6_SINGLE_MLP,0,final,29,0,,,direct final output
+F6_SINGLE_MLP,1,pool,18,2506,12677,64.751080149358955,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,1,pool,29,2489,14034,73.742334232529927,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,1,Primary60,18,1,20222,71.415089175046319,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,1,Primary60,29,1,17102,76.315602364957783,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,1,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,1,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,1,C_completed,18,0,,,direct unique complete-sequence history
+F6_SINGLE_MLP,1,D_completed,18,123,,64.356198785160856,direct unique complete-sequence history
+F6_SINGLE_MLP,1,final,18,1,,64.356198785160856,direct final output
+F6_SINGLE_MLP,1,C_completed,29,0,,,direct unique complete-sequence history
+F6_SINGLE_MLP,1,D_completed,29,0,,,direct unique complete-sequence history
+F6_SINGLE_MLP,1,final,29,0,,,direct final output
+F6_SINGLE_MLP,2,pool,18,2503,12654,64.317283487004318,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,2,pool,29,2473,14036,73.757707157637057,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,2,Primary60,18,1,28930,72.51555436367812,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,2,Primary60,29,1,25793,89.750546478038785,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,2,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,2,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F6_SINGLE_MLP,2,C_completed,18,0,,,direct unique complete-sequence history
+F6_SINGLE_MLP,2,D_completed,18,127,,64.343796322761449,direct unique complete-sequence history
+F6_SINGLE_MLP,2,final,18,1,,64.343796322761449,direct final output
+F6_SINGLE_MLP,2,C_completed,29,0,,,direct unique complete-sequence history
+F6_SINGLE_MLP,2,D_completed,29,0,,,direct unique complete-sequence history
+F6_SINGLE_MLP,2,final,29,0,,,direct final output
+F7_RIDGE,0,pool,18,2560,6599,64.000507783026123,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,0,pool,29,2507,6858,72.971176350708816,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,0,Primary60,18,2,12121,74.796733823662962,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,0,Primary60,29,1,11111,85.957759470711522,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,0,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,0,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,0,C_completed,18,0,,,direct unique complete-sequence history
+F7_RIDGE,0,D_completed,18,140,,64.000507783026123,direct unique complete-sequence history
+F7_RIDGE,0,final,18,1,,64.000507783026123,direct final output
+F7_RIDGE,0,C_completed,29,0,,,direct unique complete-sequence history
+F7_RIDGE,0,D_completed,29,6,,73.038738511090102,direct unique complete-sequence history
+F7_RIDGE,0,final,29,0,,,direct final output
+F7_RIDGE,1,pool,18,2509,6577,64.107816711391663,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,1,pool,29,2488,6855,73.670404774315372,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,1,Primary60,18,4,10162,66.99529918452545,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,1,Primary60,29,2,9528,88.372769848953624,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,1,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,1,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,1,C_completed,18,0,,,direct unique complete-sequence history
+F7_RIDGE,1,D_completed,18,187,,64.000507783026123,direct unique complete-sequence history
+F7_RIDGE,1,final,18,1,,64.000507783026123,direct final output
+F7_RIDGE,1,C_completed,29,0,,,direct unique complete-sequence history
+F7_RIDGE,1,D_completed,29,6,,73.038738511090102,direct unique complete-sequence history
+F7_RIDGE,1,final,29,0,,,direct final output
+F7_RIDGE,2,pool,18,2500,6615,64.059360416938276,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,2,pool,29,2470,6867,72.925903073887952,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,2,Primary60,18,3,10790,66.724020777629221,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,2,Primary60,29,2,12931,79.180171002425524,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,2,Reserve,18,0,,,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,2,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F7_RIDGE,2,C_completed,18,0,,,direct unique complete-sequence history
+F7_RIDGE,2,D_completed,18,184,,64.074540315945256,direct unique complete-sequence history
+F7_RIDGE,2,final,18,1,,64.074540315945256,direct final output
+F7_RIDGE,2,C_completed,29,0,,,direct unique complete-sequence history
+F7_RIDGE,2,D_completed,29,0,,,direct unique complete-sequence history
+F7_RIDGE,2,final,29,0,,,direct final output
+F9_NO_SURROGATE,0,pool,18,2952,2,64.080287011483762,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,0,pool,29,2929,7,72.896637676461637,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,0,Primary60,18,4,556,65.508944193564105,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,0,Primary60,29,3,1725,89.52843307655354,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,0,Reserve,18,80,2,64.43100082048764,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,0,Reserve,29,80,7,84.196535556950693,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,0,C_completed,18,32,,64.43100082048764,direct unique complete-sequence history
+F9_NO_SURROGATE,0,D_completed,18,375,,63.886415635141745,direct unique complete-sequence history
+F9_NO_SURROGATE,0,final,18,1,,63.886415635141745,direct final output
+F9_NO_SURROGATE,0,C_completed,29,0,,,direct unique complete-sequence history
+F9_NO_SURROGATE,0,D_completed,29,0,,,direct unique complete-sequence history
+F9_NO_SURROGATE,0,final,29,0,,,direct final output
+F9_NO_SURROGATE,1,pool,18,2926,4,64.370053927908216,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,1,pool,29,2988,18,72.925903073887952,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,1,Primary60,18,6,5779,73.630731943463758,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,1,Primary60,29,8,3250,80.987764471391614,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,1,Reserve,18,320,4,64.77672978660361,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,1,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,1,C_completed,18,29,,64.77672978660361,direct unique complete-sequence history
+F9_NO_SURROGATE,1,D_completed,18,377,,63.973406693877017,direct unique complete-sequence history
+F9_NO_SURROGATE,1,final,18,1,,63.973406693877017,direct final output
+F9_NO_SURROGATE,1,C_completed,29,0,,,direct unique complete-sequence history
+F9_NO_SURROGATE,1,D_completed,29,18,,73.206186509715394,direct unique complete-sequence history
+F9_NO_SURROGATE,1,final,29,0,,,direct final output
+F9_NO_SURROGATE,2,pool,18,3068,1,64.085760134709261,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,2,pool,29,3004,15,72.899593395941338,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,2,Primary60,18,6,3327,68.298886997747942,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,2,Primary60,29,8,618,79.655840197498478,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,2,Reserve,18,239,1,65.054165143657556,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,2,Reserve,29,0,,,"posthoc sealed-pool labels, not queried online"
+F9_NO_SURROGATE,2,C_completed,18,27,,65.054165143657556,direct unique complete-sequence history
+F9_NO_SURROGATE,2,D_completed,18,386,,63.880668939603233,direct unique complete-sequence history
+F9_NO_SURROGATE,2,final,18,1,,63.880668939603233,direct final output
+F9_NO_SURROGATE,2,C_completed,29,0,,,direct unique complete-sequence history
+F9_NO_SURROGATE,2,D_completed,29,0,,,direct unique complete-sequence history
+F9_NO_SURROGATE,2,final,29,0,,,direct final output
+Greedy-ILS,0,C_completed,18,0,,,direct unique complete-sequence history
+Greedy-ILS,0,D_completed,18,269,,63.886415635141745,direct unique complete-sequence history
+Greedy-ILS,0,final,18,1,,63.880668939603233,direct final output
+Greedy-ILS,0,C_completed,29,0,,,direct unique complete-sequence history
+Greedy-ILS,0,D_completed,29,10,,72.675829047583406,direct unique complete-sequence history
+Greedy-ILS,0,final,29,0,,,direct final output
+Greedy-ILS,1,C_completed,18,0,,,direct unique complete-sequence history
+Greedy-ILS,1,D_completed,18,269,,63.886415635141745,direct unique complete-sequence history
+Greedy-ILS,1,final,18,1,,63.880668939603233,direct final output
+Greedy-ILS,1,C_completed,29,0,,,direct unique complete-sequence history
+Greedy-ILS,1,D_completed,29,10,,72.675829047583406,direct unique complete-sequence history
+Greedy-ILS,1,final,29,0,,,direct final output
+Greedy-ILS,2,C_completed,18,0,,,direct unique complete-sequence history
+Greedy-ILS,2,D_completed,18,269,,63.886415635141745,direct unique complete-sequence history
+Greedy-ILS,2,final,18,1,,63.880668939603233,direct final output
+Greedy-ILS,2,C_completed,29,0,,,direct unique complete-sequence history
+Greedy-ILS,2,D_completed,29,10,,72.675829047583406,direct unique complete-sequence history
+Greedy-ILS,2,final,29,0,,,direct final output

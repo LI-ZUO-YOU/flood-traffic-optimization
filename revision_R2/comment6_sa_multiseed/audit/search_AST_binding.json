@@ -1,0 +1,14 @@
+{
+  "original_source_sha256": "3da1b9ff7c6b53f8153d49796d4e80d3ea991561c45ffe76bc32293606295272",
+  "search_body_AST_sha256": "57518d16da00af43ce59af10cba211c0b4efd7625e23b77e9e10bd0b0a56d9d3",
+  "original_search_lines": [
+    122,
+    186
+  ],
+  "excluded_after_search_line": 187,
+  "changes": "Only function name/return packaging and a passive oracle subclass; original search statements/propose retained verbatim",
+  "DP_calls_in_search": 0,
+  "UE_solver_imports": 0,
+  "training_imports": 0,
+  "source_code_unmodified": true
+}

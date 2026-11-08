@@ -1,0 +1,101 @@
+﻿scenario_id,replicate,target,sequence,oracle_regret_pct,proxy_rank,in_pool,in_primary,in_reserve,p2_in_reserve,reserve_p2_true_partial_rank,p3_in_reserve,p3_first_unique_state_query_phase,completed_online,completion_phase,queried_states_on_path
+3026,0,canonical_DP,29|19|14|17|15|28|26|13|12|24,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,0,pool_oracle_best,29|19|17|12|15|28|26|24|14|13,0.21904849293485015,14751.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,7
+3026,0,screened_oracle_best,28|14|17|19|15|29|26|13|24|12,6.055074240954062,70.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,0,best_completed_C,28|14|17|19|15|29|26|13|24|12,6.055074240954062,70.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,0,final_Proposed,28|14|17|19|15|29|26|13|12|24,6.048153135747753,92.0,True,False,False,True,1.0,True,B_prefix3_initial,True,D_local_search,10
+3026,1,canonical_DP,29|19|14|17|15|28|26|13|12|24,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,1,pool_oracle_best,29|19|17|12|15|26|28|13|14|24,0.2350460339977757,14986.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,6
+3026,1,screened_oracle_best,28|14|17|19|15|29|26|13|24|12,6.055074240954062,68.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,1,best_completed_C,28|14|17|19|15|29|26|13|24|12,6.055074240954062,68.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,1,final_Proposed,28|14|17|19|15|29|26|13|12|24,6.048153135747753,92.0,True,False,False,True,1.0,True,B_prefix3_initial,True,D_local_search,10
+3026,2,canonical_DP,29|19|14|17|15|28|26|13|12|24,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,2,pool_oracle_best,29|19|17|14|15|28|26|24|13|12,0.2572511597856681,13501.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,9
+3026,2,screened_oracle_best,28|14|17|19|15|29|26|13|24|12,6.055074240954062,69.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,2,best_completed_C,28|14|17|19|15|29|26|13|24|12,6.055074240954062,69.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,2,final_Proposed,28|14|17|19|15|29|26|13|12|24,6.048153135747753,,False,False,False,True,1.0,True,B_prefix3_initial,True,D_local_search,10
+3026,3,canonical_DP,29|19|14|17|15|28|26|13|12|24,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,3,pool_oracle_best,29|19|14|17|28|15|26|12|24|13,0.3401378674778195,13328.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,3,screened_oracle_best,28|14|17|19|15|29|26|13|24|12,6.055074240954062,75.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,3,best_completed_C,28|14|17|19|15|29|26|13|24|12,6.055074240954062,75.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,3,final_Proposed,28|14|17|19|15|29|26|13|12|24,6.048153135747753,103.0,True,False,False,True,1.0,True,B_prefix3_initial,True,D_local_search,10
+3026,4,canonical_DP,29|19|14|17|15|28|26|13|12|24,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,4,pool_oracle_best,29|19|14|17|15|12|26|13|28|24,0.3059491092504583,14103.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,4,screened_oracle_best,29|19|17|26|12|28|13|24|15|14,4.1826491596533,14973.0,True,True,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,4
+3026,4,best_completed_C,28|14|17|19|15|29|26|13|24|12,6.055074240954062,68.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,4,final_Proposed,28|14|17|19|15|29|26|13|12|24,6.048153135747753,88.0,True,False,False,True,1.0,True,B_prefix3_initial,True,D_local_search,10
+3026,5,canonical_DP,29|19|14|17|15|28|26|13|12|24,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,5,pool_oracle_best,29|19|14|17|15|13|28|26|12|24,0.05431279780032221,13764.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,5,screened_oracle_best,28|14|17|19|15|29|26|13|24|12,6.055074240954062,75.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,5,best_completed_C,28|14|17|19|15|29|26|13|24|12,6.055074240954062,75.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,5,final_Proposed,28|14|17|19|15|29|26|13|12|24,6.048153135747753,104.0,True,False,False,True,1.0,True,B_prefix3_initial,True,D_local_search,10
+3026,6,canonical_DP,29|19|14|17|15|28|26|13|12|24,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,6,pool_oracle_best,29|19|14|17|15|24|26|28|13|12,0.21607089288401427,13935.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,6
+3026,6,screened_oracle_best,29|19|28|12|17|13|24|26|14|15,3.892311388137661,13325.0,True,True,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,4
+3026,6,best_completed_C,28|14|17|19|15|29|26|13|24|12,6.055074240954062,71.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,6,final_Proposed,28|14|17|19|15|29|26|13|12|24,6.048153135747753,91.0,True,False,False,True,1.0,True,B_prefix3_initial,True,D_local_search,10
+3026,7,canonical_DP,29|19|14|17|15|28|26|13|12|24,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,7,pool_oracle_best,29|19|14|17|28|15|26|12|24|13,0.3401378674778195,13254.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,7,screened_oracle_best,28|14|17|19|15|29|26|13|24|12,6.055074240954062,77.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,7,best_completed_C,28|14|17|19|15|29|26|13|24|12,6.055074240954062,77.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,7,final_Proposed,28|14|17|19|15|29|26|13|12|24,6.048153135747753,101.0,True,False,False,True,1.0,True,B_prefix3_initial,True,D_local_search,10
+3026,8,canonical_DP,29|19|14|17|15|28|26|13|12|24,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,8,pool_oracle_best,29|19|17|14|15|28|26|12|24|13,0.24661996573274236,13439.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,9
+3026,8,screened_oracle_best,29|19|14|17|24|26|12|13|28|15,1.6173904692662202,14274.0,True,True,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,4
+3026,8,best_completed_C,28|14|17|19|15|29|26|13|12|24,6.048153135747753,100.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,8,final_Proposed,28|14|17|19|15|29|26|13|12|24,6.048153135747753,100.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,9,canonical_DP,29|19|14|17|15|28|26|13|12|24,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,9,pool_oracle_best,29|19|14|17|28|15|26|12|24|13,0.3401378674778195,13330.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3026,9,screened_oracle_best,28|14|17|19|15|29|26|13|24|12,6.055074240954062,72.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,9,best_completed_C,28|14|17|19|15|29|26|13|24|12,6.055074240954062,72.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3026,9,final_Proposed,28|14|17|19|15|29|26|13|12|24,6.048153135747753,99.0,True,False,False,True,1.0,True,B_prefix3_initial,True,D_local_search,10
+3029,0,canonical_DP,26|15|16|28|18|9|6|2|7|14,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3029,0,pool_oracle_best,26|15|16|28|9|7|18|6|2|14,0.7843139723836842,22603.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,7
+3029,0,screened_oracle_best,15|26|6|28|16|9|18|14|2|7,13.870918788570716,21841.0,True,True,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,6
+3029,0,best_completed_C,28|16|15|18|9|2|7|26|14|6,17.569002317878688,4806.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3029,0,final_Proposed,28|18|15|16|6|26|9|2|14|7,2.5203439404089503,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),True,D_local_search,10
+3029,1,canonical_DP,26|15|16|28|18|9|6|2|7|14,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,10
+3029,1,pool_oracle_best,26|15|16|28|2|18|14|9|6|7,0.8324351444674484,21801.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,10
+3029,1,screened_oracle_best,26|15|28|2|9|18|7|16|6|14,6.890525748432499,24911.0,True,True,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,6
+3029,1,best_completed_C,28|16|15|18|9|26|6|14|2|7,16.953545265687897,4995.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3029,1,final_Proposed,28|18|15|16|9|26|6|2|7|14,2.6392167647891154,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),True,D_local_search,10
+3029,2,canonical_DP,26|15|16|28|18|9|6|2|7|14,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3029,2,pool_oracle_best,26|15|16|28|2|18|14|9|6|7,0.8324351444674484,21827.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3029,2,screened_oracle_best,15|26|18|2|28|16|7|6|14|9,13.798667366539718,19396.0,True,True,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,7
+3029,2,best_completed_C,28|16|15|18|26|9|14|2|6|7,17.463398397803473,4906.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3029,2,final_Proposed,28|18|15|16|6|9|26|7|2|14,2.7858211404105244,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),True,D_local_search,10
+3029,3,canonical_DP,26|15|16|28|18|9|6|2|7|14,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3029,3,pool_oracle_best,26|15|16|28|9|18|14|6|7|2,0.5990060029973161,22230.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3029,3,screened_oracle_best,28|18|15|6|7|26|2|9|14|16,6.757857313636812,11882.0,True,True,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,5
+3029,3,best_completed_C,28|16|15|18|2|9|26|14|7|6,17.276696413713857,4713.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3029,3,final_Proposed,28|18|15|16|9|26|6|2|7|14,2.6392167647891154,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),True,D_local_search,10
+3029,4,canonical_DP,26|15|16|28|18|9|6|2|7|14,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3029,4,pool_oracle_best,26|15|16|28|6|18|7|2|14|9,0.4434433615606234,22809.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,7
+3029,4,screened_oracle_best,18|28|15|26|2|6|16|9|7|14,8.046874876282617,12153.0,True,True,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3029,4,best_completed_C,28|16|15|18|6|26|9|14|2|7,16.828007535230913,5138.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3029,4,final_Proposed,28|18|15|16|9|2|26|6|7|14,2.8646401025682056,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),True,D_local_search,10
+3029,5,canonical_DP,26|15|16|28|18|9|6|2|7|14,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,10
+3029,5,pool_oracle_best,26|15|16|28|2|18|14|9|6|7,0.8324351444674484,21879.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,10
+3029,5,screened_oracle_best,26|9|15|16|28|6|2|7|18|14,11.427952608990537,28345.0,True,True,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,7
+3029,5,best_completed_C,28|16|15|26|18|9|6|2|7|14,17.63852583472166,5639.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3029,5,final_Proposed,28|18|15|16|6|26|7|2|9|14,2.6863687651277006,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),True,D_local_search,10
+3029,6,canonical_DP,26|15|16|28|18|9|6|2|7|14,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3029,6,pool_oracle_best,26|15|16|28|18|6|9|2|7|14,0.06606504626698266,22339.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3029,6,screened_oracle_best,28|18|9|26|6|15|2|7|14|16,10.040440495877997,14037.0,True,True,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,5
+3029,6,best_completed_C,28|16|15|18|2|7|26|6|14|9,17.37843320313021,4864.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3029,6,final_Proposed,28|18|15|16|6|26|9|7|2|14,2.631028175801039,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),True,D_local_search,10
+3029,7,canonical_DP,26|15|16|28|18|9|6|2|7|14,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3029,7,pool_oracle_best,26|15|16|28|9|6|18|14|7|2,0.689102942150439,22649.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3029,7,screened_oracle_best,15|28|6|16|26|2|7|9|14|18,9.982658987407422,12942.0,True,True,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,9
+3029,7,best_completed_C,28|16|15|18|6|7|26|14|2|9,17.260833979246428,5318.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3029,7,final_Proposed,28|18|15|16|2|9|26|14|7|6,3.080312381161817,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),True,D_local_search,10
+3029,8,canonical_DP,26|15|16|28|18|9|6|2|7|14,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,7
+3029,8,pool_oracle_best,26|15|16|28|6|18|2|9|7|14,0.4693745079756481,22922.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3029,8,screened_oracle_best,26|18|15|2|28|7|9|14|16|6,11.308917347789547,25638.0,True,True,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,4
+3029,8,best_completed_C,28|16|15|18|9|26|7|2|14|6,17.15970044509953,4960.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3029,8,final_Proposed,28|18|15|16|6|26|7|14|2|9,2.860209691615926,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),True,D_local_search,10
+3029,9,canonical_DP,26|15|16|28|18|9|6|2|7|14,0.0,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3029,9,pool_oracle_best,26|15|16|28|2|18|9|6|7|14,0.34735844433334073,22194.0,True,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,8
+3029,9,screened_oracle_best,18|28|9|2|6|15|7|14|16|26,9.810533986440248,14360.0,True,True,False,False,,False,no unique request with this literal p3 reason (state may be cached),False,,5
+3029,9,best_completed_C,28|16|15|18|9|7|2|6|26|14,17.97522975574485,4849.0,True,False,True,True,1.0,True,B_prefix3_initial,True,C_true_ue_reranking,10
+3029,9,final_Proposed,28|18|15|6|9|26|16|2|7|14,2.3138556563847668,,False,False,False,False,,False,no unique request with this literal p3 reason (state may be cached),True,D_local_search,10

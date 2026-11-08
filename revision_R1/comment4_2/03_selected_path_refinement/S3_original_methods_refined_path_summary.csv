@@ -1,0 +1,3 @@
+﻿method,precision_scope,scenarios,mean_regret_pct,median_regret_pct,P90_regret_pct,max_regret_pct,empirical_hit_count
+Proposed_B256,1e-11 fixed paths against refined primary-reference path,10,0.24032837437663179,0.03836127179471642,0.46209872713460742,1.6909827282179701,4
+SA_original_fixed_seed,1e-11 fixed paths against refined primary-reference path,10,0.40376071206983,0,0.81607416722782311,3.5070690942407241,6

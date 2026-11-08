@@ -1,0 +1,104 @@
+{
+  "frozen_at": "2026-10-29T13:50:29.244634+08:00",
+  "authority": "User requested plan plus supplement; supplement overrides conflicting defaults",
+  "batch_scope": "S0-S3 first batch; deliver and stop for assessment before S4 as explicitly required in original plan",
+  "scenario_seed": 2026102904,
+  "scenario_ids": [
+    4401,
+    4402,
+    4403,
+    4404,
+    4405,
+    4406
+  ],
+  "extended_closed_count": 14,
+  "max_generation_draws": 10000,
+  "scenario_mechanism": "Frozen connectivity-constrained generate_final_holdout.load_generation_functions. Change severe blocked_min/max ONLY to 14/14. Other severe parameters unchanged.",
+  "scenario_label": "extended-severity exploratory scaling stress test, not original-distribution holdout",
+  "regression_scenarios": [
+    3001,
+    3002,
+    3003
+  ],
+  "regression_replicate_indices": [
+    0
+  ],
+  "regression_methods": [
+    "proposed",
+    "greedy_ils",
+    "ue_bibeam",
+    "sa_original"
+  ],
+  "regression_physical_cost_source": "archived 4.1 state table, no new UE solves, independent empty logical caches; logic reproducibility only",
+  "components_m": [
+    8,
+    10,
+    12,
+    14,
+    16
+  ],
+  "component_repeats": 3,
+  "optional_m_18_20": false,
+  "optional_m15": false,
+  "m16_fixture": "Extend each 14-closure feature vector with its first two open physical road IDs. Feature-only, disconnected, no UE or decision-quality claim.",
+  "candidate_target": 30000,
+  "source_quotas": {
+    "prefix_stratified": 16000,
+    "random": 5000,
+    "proxy_subset_dp": 4000,
+    "proxy_ga_local": 3000,
+    "sequence_diversity": 2000
+  },
+  "adapted_name": "size-adapted Proposed",
+  "m10_name": "Original Proposed (m=10)",
+  "prefix_rule_m_le_10": "unchanged exhaustive original 3-tail prefix generation and prefix5 random fill",
+  "prefix_rule_m_gt_10": "Seeded random ordering of cyclic road-index orbits: base prefixes (0,a,b,c), distinct nonzero a,b,c; random orbit order and rotation offset, visit all m rotations. Each visited prefix attempts mean/member/random tail in original order; stop adding at exactly 16000 unique source sequences. Last prefix may be partial. Record visited prefixes, position balance and all attempted tails. No quota increase.",
+  "prefix_rng": "same candidate RNG as original; seed 2026080702+sid+1000000*rep; orbit selection uses this RNG before tails",
+  "surrogate": "unchanged 10 weights, full 2^m matrix, full-state inference batch, unchanged float32 feature transform",
+  "primary": 60,
+  "reserve_prefix2_groups": 10,
+  "reserve_per_source_quantile_limit": 10,
+  "LS_early_positions": 5,
+  "LS_parents": 5,
+  "LS_stall_rounds": 2,
+  "LS_relative_threshold": 0.001,
+  "UE_budget": 256,
+  "seed_shares": [
+    0.55,
+    0.5,
+    0.5
+  ],
+  "checkpoints": [
+    64,
+    128,
+    256
+  ],
+  "future_S4_methods": [
+    "proposed",
+    "greedy_ils",
+    "ue_bibeam",
+    "sa_original"
+  ],
+  "future_S4_m": [
+    10,
+    12,
+    14
+  ],
+  "future_S4_rep_indices": [
+    0,
+    1,
+    2
+  ],
+  "future_S4_initialization": "Greedy Q=m(m+1)/2 incl R0, charged to B; checkpoints may have no complete sequence",
+  "future_S4_UE_target": 1e-09,
+  "future_S4_objective": "mean R0 through R(m-1); terminal zero weight",
+  "future_S4_exact_reference": "full independent 2^m UE table after all method outputs frozen; original m10 may reuse only if physical input and roads identical",
+  "inference_testing": "descriptive only, no significance tests, seeds technical repeats nested in scenario",
+  "runtime": "single active worker process, CPU0, one compute thread, sequential tasks, warm code fresh surrogate state; no other Python jobs",
+  "max_RSS_bytes": 4195565568,
+  "available_RAM_at_freeze": 5244456960,
+  "m10_calibration": "3 warm fresh-state component repetitions on predeclared original scenario3001, rep0. Freeze max task seconds =10*median calibration end-to-end candidate preparation; calibration before extended-scale results.",
+  "resource_failure_policy": "Record partial components and right-censored time/RSS, no deletion, no weakened generation rules, each planned repeat attempted",
+  "statistics": "scenario-level descriptive summaries, no p-values, no significance claims",
+  "packaging": "numerical CSV/CSV.GZ only; code/reports/figures remain outside numerical archive"
+}

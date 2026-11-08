@@ -1,0 +1,133 @@
+{
+  "at": "2026-10-30T16:49:07.817573+08:00",
+  "scope": "first batch S0-S1 plus new30 foundation and all30 basic LOSO only",
+  "source41": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\正式模拟_v2\\analysis_round2\\4.1数值结果_第二轮及最后收尾_20261028.zip",
+  "source42": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\4.2数值结果_原十情景与支持性核验_20261028.zip",
+  "provided_plan": "C:\\Users\\Wuzeqian.PC-20220914MSMS\\Downloads\\Reviewer1_4.6_尾部稳健性与分层不确定性_Codex执行方案.md",
+  "provided_plan_sha256": "b338e66c167df52b3e6ef609f6a83f5dc2798924d75d3841374458989e5bcef3",
+  "author_request_precedence": [
+    "No bootstrap this batch",
+    "No new UE/scenarios/training/optimizer or seed runs",
+    "No English response or manuscript text this batch",
+    "Stop after first-batch delivery",
+    "No new ZIP per prior user instruction"
+  ],
+  "legacy10": {
+    "IDs": [
+      1001,
+      1002,
+      1003,
+      1004,
+      1005,
+      1006,
+      1007,
+      1008,
+      1009,
+      1010
+    ],
+    "methods": [
+      "Proposed_B256",
+      "SA_original_fixed_seed"
+    ],
+    "precisions": [
+      "old_FW_5e-4",
+      "new_path_1e-9"
+    ],
+    "role": "historical observations, fixed existing paths; not independent confirmatory sample",
+    "SA_seed": "one archived fixed seed per scenario; no valid within-scenario seed variance estimate"
+  },
+  "new30": {
+    "IDs": [
+      3001,
+      3002,
+      3003,
+      3004,
+      3005,
+      3006,
+      3007,
+      3008,
+      3009,
+      3010,
+      3011,
+      3012,
+      3013,
+      3014,
+      3015,
+      3016,
+      3017,
+      3018,
+      3019,
+      3020,
+      3021,
+      3022,
+      3023,
+      3024,
+      3025,
+      3026,
+      3027,
+      3028,
+      3029,
+      3030
+    ],
+    "phase": "query_cap",
+    "source_total_rows": 2250,
+    "retained_rows": 1590,
+    "excluded_time_cap_rows": 660,
+    "stochastic_methods": [
+      "proposed",
+      "sa_original",
+      "sa_restart",
+      "greedy_ils",
+      "random_ls"
+    ],
+    "replicates": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "single_run_methods": [
+      "greedy_ls",
+      "ue_beam",
+      "ue_bibeam"
+    ],
+    "single_replicate": 0,
+    "unit": "independent scenario; average existing seeds within scenario first"
+  },
+  "statistics": {
+    "regret_pct": "retain archived max(0,100*(J-Jstar)/Jstar), normalized mean R0..R9 loss objective; no rescaling or new clipping rule",
+    "quantiles": "NumPy method=linear",
+    "P90_n10": "0.9*r_sorted[8]+0.1*r_sorted[9]",
+    "P90_n30": "0.9*r_sorted[26]+0.1*r_sorted[27]",
+    "seed_SD": "ddof1; NA for one-run methods; archived0 audited as storage convention only",
+    "pair_sign": "Proposed minus comparator; positive is unfavorable to Proposed",
+    "equivalence": "original empirical kappa rule, not new threshold or rigorous UE error bound",
+    "primary_test_policy": "preserve original4.1 R3; no new p tests or replacement Holm adjustment",
+    "LOSO": "all10 legacy omissions separately per precision, all30 new omissions; primary sample never replaced"
+  },
+  "future_gated": {
+    "bootstrap_seed": 2026103006,
+    "bootstrap_repetitions": 20000,
+    "scenario_only_and_nested": "not executed or implemented in this batch; require author acceptance",
+    "variance_decomposition": "deferred",
+    "optional45": "deferred, no pooled40",
+    "manuscript_and_response": "deferred"
+  },
+  "forbidden_operations": [
+    "UE solve",
+    "scenario generation",
+    "optimization replay",
+    "model fitting or prediction",
+    "new seeds",
+    "new ZIP"
+  ],
+  "frozen_kappa": 2.816128890834728e-07,
+  "original_normalized_objective": "mean(TSTT(Sk)/7480225.3449211195 - 1 for k=0..9), R10 weight=0",
+  "original_source_protocol_sha256": "4db0a0dbff78fbb111790270ca1da28dad8d41fecac1a6f141f7a6c17c35993c"
+}

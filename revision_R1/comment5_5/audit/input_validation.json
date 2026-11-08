@@ -1,0 +1,1995 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "original_selection_freeze_scenario_physical_sha256",
+      "status": "PASS",
+      "actual": "4c96f6cc4e414de87d75c8d6282ef37222a6057c96ab32487757bd7b8b336af4",
+      "expected": "4c96f6cc4e414de87d75c8d6282ef37222a6057c96ab32487757bd7b8b336af4",
+      "evidence": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\inputs\\historical_1001_1010.csv"
+    },
+    {
+      "check": "original_selection_freeze_surrogate_preprocessor_sha256",
+      "status": "PASS",
+      "actual": "771e6f0124ea19d74b2752d97f5bf05545cbfc575d5627aae1f455e45e82174c",
+      "expected": "771e6f0124ea19d74b2752d97f5bf05545cbfc575d5627aae1f455e45e82174c",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\frozen_inputs\\v2_surrogate\\preprocessor_v2.json"
+    },
+    {
+      "check": "original_selection_freeze_final_scenarios_sha256",
+      "status": "PASS",
+      "actual": "f58858918a0cfb2e600860ec66a33323e63a14f5d188481b4dfc4123265ad9da",
+      "expected": "f58858918a0cfb2e600860ec66a33323e63a14f5d188481b4dfc4123265ad9da",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\final_scenarios.json"
+    },
+    {
+      "check": "original_selection_freeze_candidate_road_selection_audit_sha256",
+      "status": "PASS",
+      "actual": "3e40ca5b3a9ee6ecc687fa317ad74407780690594b5cad6492c9726cfa229506",
+      "expected": "3e40ca5b3a9ee6ecc687fa317ad74407780690594b5cad6492c9726cfa229506",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "4_2_numerical_authority",
+      "status": "PASS",
+      "actual": true,
+      "expected": true,
+      "evidence": ""
+    },
+    {
+      "check": "frozen_static_metrics_38",
+      "status": "PASS",
+      "actual": 38,
+      "expected": 38,
+      "evidence": ""
+    },
+    {
+      "check": "formal_preprocessor_snapshot_identity",
+      "status": "PASS",
+      "actual": "771e6f0124ea19d74b2752d97f5bf05545cbfc575d5627aae1f455e45e82174c",
+      "expected": "771e6f0124ea19d74b2752d97f5bf05545cbfc575d5627aae1f455e45e82174c",
+      "evidence": ""
+    },
+    {
+      "check": "network_38_roads_76_arcs",
+      "status": "PASS",
+      "actual": 76,
+      "expected": 76,
+      "evidence": ""
+    },
+    {
+      "check": "OD_fixed",
+      "status": "PASS",
+      "actual": 360600.0,
+      "expected": 360600.0,
+      "evidence": ""
+    },
+    {
+      "check": "38_physical_rows_1001",
+      "status": "PASS",
+      "actual": 38,
+      "expected": 38,
+      "evidence": ""
+    },
+    {
+      "check": "closed_count_1001",
+      "status": "PASS",
+      "actual": 11,
+      "expected": 11,
+      "evidence": ""
+    },
+    {
+      "check": "closed_summary_1001",
+      "status": "PASS",
+      "actual": 11,
+      "expected": 11,
+      "evidence": ""
+    },
+    {
+      "check": "closed_metadata_1001",
+      "status": "PASS",
+      "actual": [
+        15,
+        17,
+        18,
+        19,
+        21,
+        24,
+        26,
+        29,
+        30,
+        31,
+        34
+      ],
+      "expected": [
+        15,
+        17,
+        18,
+        19,
+        21,
+        24,
+        26,
+        29,
+        30,
+        31,
+        34
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "original_A0_order_1001",
+      "status": "PASS",
+      "actual": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "expected": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "4_2_bit_order_1001",
+      "status": "PASS",
+      "actual": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "expected": "4.2 frozen paths",
+      "evidence": ""
+    },
+    {
+      "check": "original_metric_1001_physical_flow",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1001_betweenness",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1001_flow_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1001_betweenness_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1001_combined_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "valid_selected_set_1001_A0",
+      "status": "PASS",
+      "actual": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1001_A1",
+      "status": "PASS",
+      "actual": [
+        17,
+        15,
+        26,
+        31,
+        29,
+        18,
+        30,
+        21,
+        24,
+        19
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1001_A2",
+      "status": "PASS",
+      "actual": [
+        17,
+        31,
+        21,
+        15,
+        18,
+        29,
+        24,
+        19,
+        30,
+        34
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "38_physical_rows_1002",
+      "status": "PASS",
+      "actual": 38,
+      "expected": 38,
+      "evidence": ""
+    },
+    {
+      "check": "closed_count_1002",
+      "status": "PASS",
+      "actual": 10,
+      "expected": 10,
+      "evidence": ""
+    },
+    {
+      "check": "closed_summary_1002",
+      "status": "PASS",
+      "actual": 10,
+      "expected": 10,
+      "evidence": ""
+    },
+    {
+      "check": "closed_metadata_1002",
+      "status": "PASS",
+      "actual": [
+        5,
+        19,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        35,
+        37
+      ],
+      "expected": [
+        5,
+        19,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        35,
+        37
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "original_A0_order_1002",
+      "status": "PASS",
+      "actual": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "expected": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "4_2_bit_order_1002",
+      "status": "PASS",
+      "actual": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "expected": "4.2 frozen paths",
+      "evidence": ""
+    },
+    {
+      "check": "original_metric_1002_physical_flow",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1002_betweenness",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1002_flow_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1002_betweenness_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1002_combined_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "valid_selected_set_1002_A0",
+      "status": "PASS",
+      "actual": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1002_A1",
+      "status": "PASS",
+      "actual": [
+        26,
+        31,
+        27,
+        5,
+        30,
+        37,
+        24,
+        35,
+        25,
+        19
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1002_A2",
+      "status": "PASS",
+      "actual": [
+        31,
+        5,
+        27,
+        25,
+        24,
+        19,
+        30,
+        37,
+        26,
+        35
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "38_physical_rows_1003",
+      "status": "PASS",
+      "actual": 38,
+      "expected": 38,
+      "evidence": ""
+    },
+    {
+      "check": "closed_count_1003",
+      "status": "PASS",
+      "actual": 12,
+      "expected": 12,
+      "evidence": ""
+    },
+    {
+      "check": "closed_summary_1003",
+      "status": "PASS",
+      "actual": 12,
+      "expected": 12,
+      "evidence": ""
+    },
+    {
+      "check": "closed_metadata_1003",
+      "status": "PASS",
+      "actual": [
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        17,
+        19,
+        26,
+        27,
+        28,
+        29
+      ],
+      "expected": [
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        17,
+        19,
+        26,
+        27,
+        28,
+        29
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "original_A0_order_1003",
+      "status": "PASS",
+      "actual": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "expected": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "4_2_bit_order_1003",
+      "status": "PASS",
+      "actual": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "expected": "4.2 frozen paths",
+      "evidence": ""
+    },
+    {
+      "check": "original_metric_1003_physical_flow",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1003_betweenness",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1003_flow_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1003_betweenness_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1003_combined_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "valid_selected_set_1003_A0",
+      "status": "PASS",
+      "actual": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1003_A1",
+      "status": "PASS",
+      "actual": [
+        17,
+        26,
+        27,
+        9,
+        29,
+        11,
+        28,
+        8,
+        14,
+        19
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1003_A2",
+      "status": "PASS",
+      "actual": [
+        17,
+        7,
+        14,
+        29,
+        27,
+        11,
+        9,
+        8,
+        13,
+        19
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "38_physical_rows_1004",
+      "status": "PASS",
+      "actual": 38,
+      "expected": 38,
+      "evidence": ""
+    },
+    {
+      "check": "closed_count_1004",
+      "status": "PASS",
+      "actual": 11,
+      "expected": 11,
+      "evidence": ""
+    },
+    {
+      "check": "closed_summary_1004",
+      "status": "PASS",
+      "actual": 11,
+      "expected": 11,
+      "evidence": ""
+    },
+    {
+      "check": "closed_metadata_1004",
+      "status": "PASS",
+      "actual": [
+        2,
+        5,
+        7,
+        20,
+        21,
+        27,
+        30,
+        32,
+        33,
+        34,
+        35
+      ],
+      "expected": [
+        2,
+        5,
+        7,
+        20,
+        21,
+        27,
+        30,
+        32,
+        33,
+        34,
+        35
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "original_A0_order_1004",
+      "status": "PASS",
+      "actual": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "expected": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "4_2_bit_order_1004",
+      "status": "PASS",
+      "actual": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "expected": "4.2 frozen paths",
+      "evidence": ""
+    },
+    {
+      "check": "original_metric_1004_physical_flow",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1004_betweenness",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1004_flow_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1004_betweenness_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1004_combined_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "valid_selected_set_1004_A0",
+      "status": "PASS",
+      "actual": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1004_A1",
+      "status": "PASS",
+      "actual": [
+        27,
+        5,
+        30,
+        21,
+        32,
+        35,
+        20,
+        2,
+        34,
+        33
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1004_A2",
+      "status": "PASS",
+      "actual": [
+        20,
+        7,
+        21,
+        5,
+        2,
+        27,
+        33,
+        30,
+        32,
+        34
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "38_physical_rows_1005",
+      "status": "PASS",
+      "actual": 38,
+      "expected": 38,
+      "evidence": ""
+    },
+    {
+      "check": "closed_count_1005",
+      "status": "PASS",
+      "actual": 12,
+      "expected": 12,
+      "evidence": ""
+    },
+    {
+      "check": "closed_summary_1005",
+      "status": "PASS",
+      "actual": 12,
+      "expected": 12,
+      "evidence": ""
+    },
+    {
+      "check": "closed_metadata_1005",
+      "status": "PASS",
+      "actual": [
+        3,
+        5,
+        6,
+        10,
+        11,
+        14,
+        22,
+        29,
+        34,
+        35,
+        37,
+        38
+      ],
+      "expected": [
+        3,
+        5,
+        6,
+        10,
+        11,
+        14,
+        22,
+        29,
+        34,
+        35,
+        37,
+        38
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "original_A0_order_1005",
+      "status": "PASS",
+      "actual": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "expected": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "4_2_bit_order_1005",
+      "status": "PASS",
+      "actual": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "expected": "4.2 frozen paths",
+      "evidence": ""
+    },
+    {
+      "check": "original_metric_1005_physical_flow",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1005_betweenness",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1005_flow_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1005_betweenness_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1005_combined_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "valid_selected_set_1005_A0",
+      "status": "PASS",
+      "actual": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1005_A1",
+      "status": "PASS",
+      "actual": [
+        6,
+        29,
+        10,
+        22,
+        11,
+        5,
+        37,
+        35,
+        14,
+        38
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1005_A2",
+      "status": "PASS",
+      "actual": [
+        10,
+        22,
+        5,
+        14,
+        3,
+        29,
+        6,
+        11,
+        37,
+        34
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "38_physical_rows_1006",
+      "status": "PASS",
+      "actual": 38,
+      "expected": 38,
+      "evidence": ""
+    },
+    {
+      "check": "closed_count_1006",
+      "status": "PASS",
+      "actual": 10,
+      "expected": 10,
+      "evidence": ""
+    },
+    {
+      "check": "closed_summary_1006",
+      "status": "PASS",
+      "actual": 10,
+      "expected": 10,
+      "evidence": ""
+    },
+    {
+      "check": "closed_metadata_1006",
+      "status": "PASS",
+      "actual": [
+        4,
+        5,
+        6,
+        9,
+        13,
+        14,
+        16,
+        18,
+        19,
+        28
+      ],
+      "expected": [
+        4,
+        5,
+        6,
+        9,
+        13,
+        14,
+        16,
+        18,
+        19,
+        28
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "original_A0_order_1006",
+      "status": "PASS",
+      "actual": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "expected": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "4_2_bit_order_1006",
+      "status": "PASS",
+      "actual": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "expected": "4.2 frozen paths",
+      "evidence": ""
+    },
+    {
+      "check": "original_metric_1006_physical_flow",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1006_betweenness",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1006_flow_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1006_betweenness_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1006_combined_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "valid_selected_set_1006_A0",
+      "status": "PASS",
+      "actual": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1006_A1",
+      "status": "PASS",
+      "actual": [
+        6,
+        16,
+        9,
+        4,
+        28,
+        18,
+        5,
+        14,
+        19,
+        13
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1006_A2",
+      "status": "PASS",
+      "actual": [
+        16,
+        5,
+        14,
+        18,
+        6,
+        4,
+        9,
+        13,
+        19,
+        28
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "38_physical_rows_1007",
+      "status": "PASS",
+      "actual": 38,
+      "expected": 38,
+      "evidence": ""
+    },
+    {
+      "check": "closed_count_1007",
+      "status": "PASS",
+      "actual": 11,
+      "expected": 11,
+      "evidence": ""
+    },
+    {
+      "check": "closed_summary_1007",
+      "status": "PASS",
+      "actual": 11,
+      "expected": 11,
+      "evidence": ""
+    },
+    {
+      "check": "closed_metadata_1007",
+      "status": "PASS",
+      "actual": [
+        4,
+        5,
+        6,
+        8,
+        11,
+        15,
+        16,
+        17,
+        18,
+        20,
+        24
+      ],
+      "expected": [
+        4,
+        5,
+        6,
+        8,
+        11,
+        15,
+        16,
+        17,
+        18,
+        20,
+        24
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "original_A0_order_1007",
+      "status": "PASS",
+      "actual": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "expected": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "4_2_bit_order_1007",
+      "status": "PASS",
+      "actual": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "expected": "4.2 frozen paths",
+      "evidence": ""
+    },
+    {
+      "check": "original_metric_1007_physical_flow",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1007_betweenness",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1007_flow_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1007_betweenness_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1007_combined_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "valid_selected_set_1007_A0",
+      "status": "PASS",
+      "actual": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1007_A1",
+      "status": "PASS",
+      "actual": [
+        17,
+        15,
+        6,
+        16,
+        4,
+        11,
+        18,
+        5,
+        24,
+        8
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1007_A2",
+      "status": "PASS",
+      "actual": [
+        16,
+        17,
+        20,
+        15,
+        5,
+        18,
+        6,
+        4,
+        11,
+        24
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "38_physical_rows_1008",
+      "status": "PASS",
+      "actual": 38,
+      "expected": 38,
+      "evidence": ""
+    },
+    {
+      "check": "closed_count_1008",
+      "status": "PASS",
+      "actual": 12,
+      "expected": 12,
+      "evidence": ""
+    },
+    {
+      "check": "closed_summary_1008",
+      "status": "PASS",
+      "actual": 12,
+      "expected": 12,
+      "evidence": ""
+    },
+    {
+      "check": "closed_metadata_1008",
+      "status": "PASS",
+      "actual": [
+        6,
+        7,
+        9,
+        10,
+        13,
+        14,
+        16,
+        17,
+        18,
+        20,
+        24,
+        28
+      ],
+      "expected": [
+        6,
+        7,
+        9,
+        10,
+        13,
+        14,
+        16,
+        17,
+        18,
+        20,
+        24,
+        28
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "original_A0_order_1008",
+      "status": "PASS",
+      "actual": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "expected": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "4_2_bit_order_1008",
+      "status": "PASS",
+      "actual": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "expected": "4.2 frozen paths",
+      "evidence": ""
+    },
+    {
+      "check": "original_metric_1008_physical_flow",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1008_betweenness",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1008_flow_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1008_betweenness_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1008_combined_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "valid_selected_set_1008_A0",
+      "status": "PASS",
+      "actual": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1008_A1",
+      "status": "PASS",
+      "actual": [
+        17,
+        6,
+        16,
+        9,
+        10,
+        28,
+        18,
+        24,
+        14,
+        20
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1008_A2",
+      "status": "PASS",
+      "actual": [
+        16,
+        17,
+        20,
+        7,
+        10,
+        14,
+        18,
+        6,
+        24,
+        9
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "38_physical_rows_1009",
+      "status": "PASS",
+      "actual": 38,
+      "expected": 38,
+      "evidence": ""
+    },
+    {
+      "check": "closed_count_1009",
+      "status": "PASS",
+      "actual": 11,
+      "expected": 11,
+      "evidence": ""
+    },
+    {
+      "check": "closed_summary_1009",
+      "status": "PASS",
+      "actual": 11,
+      "expected": 11,
+      "evidence": ""
+    },
+    {
+      "check": "closed_metadata_1009",
+      "status": "PASS",
+      "actual": [
+        6,
+        9,
+        15,
+        16,
+        17,
+        20,
+        21,
+        23,
+        25,
+        27,
+        38
+      ],
+      "expected": [
+        6,
+        9,
+        15,
+        16,
+        17,
+        20,
+        21,
+        23,
+        25,
+        27,
+        38
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "original_A0_order_1009",
+      "status": "PASS",
+      "actual": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "expected": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "4_2_bit_order_1009",
+      "status": "PASS",
+      "actual": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "expected": "4.2 frozen paths",
+      "evidence": ""
+    },
+    {
+      "check": "original_metric_1009_physical_flow",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1009_betweenness",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1009_flow_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1009_betweenness_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1009_combined_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "valid_selected_set_1009_A0",
+      "status": "PASS",
+      "actual": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1009_A1",
+      "status": "PASS",
+      "actual": [
+        17,
+        15,
+        27,
+        6,
+        16,
+        9,
+        23,
+        21,
+        25,
+        20
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1009_A2",
+      "status": "PASS",
+      "actual": [
+        16,
+        17,
+        20,
+        21,
+        15,
+        23,
+        27,
+        6,
+        25,
+        9
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1009_A3",
+      "status": "PASS",
+      "actual": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        38
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "38_physical_rows_1010",
+      "status": "PASS",
+      "actual": 38,
+      "expected": 38,
+      "evidence": ""
+    },
+    {
+      "check": "closed_count_1010",
+      "status": "PASS",
+      "actual": 10,
+      "expected": 10,
+      "evidence": ""
+    },
+    {
+      "check": "closed_summary_1010",
+      "status": "PASS",
+      "actual": 10,
+      "expected": 10,
+      "evidence": ""
+    },
+    {
+      "check": "closed_metadata_1010",
+      "status": "PASS",
+      "actual": [
+        3,
+        6,
+        7,
+        8,
+        11,
+        13,
+        35,
+        36,
+        37,
+        38
+      ],
+      "expected": [
+        3,
+        6,
+        7,
+        8,
+        11,
+        13,
+        35,
+        36,
+        37,
+        38
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "original_A0_order_1010",
+      "status": "PASS",
+      "actual": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "expected": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "4_2_bit_order_1010",
+      "status": "PASS",
+      "actual": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "expected": "4.2 frozen paths",
+      "evidence": ""
+    },
+    {
+      "check": "original_metric_1010_physical_flow",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1010_betweenness",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1010_flow_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1010_betweenness_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "original_metric_1010_combined_score",
+      "status": "PASS",
+      "actual": 0.0,
+      "expected": "<=1e-12",
+      "evidence": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv"
+    },
+    {
+      "check": "valid_selected_set_1010_A0",
+      "status": "PASS",
+      "actual": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1010_A1",
+      "status": "PASS",
+      "actual": [
+        6,
+        11,
+        36,
+        37,
+        8,
+        35,
+        38,
+        13,
+        3,
+        7
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "valid_selected_set_1010_A2",
+      "status": "PASS",
+      "actual": [
+        7,
+        3,
+        36,
+        6,
+        11,
+        8,
+        13,
+        37,
+        38,
+        35
+      ],
+      "expected": "10 unique initially closed roads",
+      "evidence": ""
+    },
+    {
+      "check": "three_no_alternative_scenarios",
+      "status": "PASS",
+      "actual": [
+        1002,
+        1006,
+        1010
+      ],
+      "expected": [
+        1002,
+        1006,
+        1010
+      ],
+      "evidence": ""
+    },
+    {
+      "check": "prior_frozen_sources_still_identical",
+      "status": "PASS",
+      "actual": true,
+      "expected": true,
+      "evidence": ""
+    }
+  ],
+  "checks_passed": 152,
+  "checks_total": 152,
+  "new_DP_states": 4992,
+  "new_counterfactual_states": 7,
+  "n_unique_portfolios": 20,
+  "new_UE_started": false,
+  "DP_started": false
+}

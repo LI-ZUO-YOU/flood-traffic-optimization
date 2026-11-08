@@ -1,0 +1,11 @@
+﻿first_road,singleton_state_loss,conditional_optimum_J,conditional_optimum_regret_pct,evidence
+16,292.72969860067019,82.216019456151997,28.702502370293221,exact deduction from sealed state table; not an optimization replay
+10,328.03299431359022,87.179085495407392,36.471779244879158,exact deduction from sealed state table; not an optimization replay
+6,299.58521067994451,84.389696558564793,32.105217367639177,exact deduction from sealed state table; not an optimization replay
+29,173.14604414659638,72.613960763315347,13.67125919105376,exact deduction from sealed state table; not an optimization replay
+20,324.9948590559859,89.51168881502295,40.123280330162011,exact deduction from sealed state table; not an optimization replay
+26,219.87865070795081,82.236921682565068,28.73522310844459,exact deduction from sealed state table; not an optimization replay
+18,109.37619343518266,63.88066893960324,3.33689086646177e-14,exact deduction from sealed state table; not an optimization replay
+14,168.94404397268846,72.38804150659567,13.31760093970815,exact deduction from sealed state table; not an optimization replay
+4,326.20897807580354,89.716924060738094,40.444559441858836,exact deduction from sealed state table; not an optimization replay
+11,265.17603186661211,79.509109077199582,24.465053978023413,exact deduction from sealed state table; not an optimization replay

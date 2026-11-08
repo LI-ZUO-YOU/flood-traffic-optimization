@@ -1,0 +1,1599 @@
+{
+  "status": "FROZEN_BEFORE_NEW_UE_OR_DP",
+  "created_utc": "2026-11-02T13:51:09.568322+00:00",
+  "scenario_ids": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+  ],
+  "scenarios": [
+    {
+      "scenario_id": 1001,
+      "initially_closed_roads": [
+        15,
+        17,
+        18,
+        19,
+        21,
+        24,
+        26,
+        29,
+        30,
+        31,
+        34
+      ],
+      "n_closed": 11,
+      "original_roads": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "unique_portfolios": 2,
+      "A3_swap": null,
+      "wet_open_affected_roads": [
+        7,
+        9,
+        13,
+        14,
+        16,
+        20,
+        25,
+        27,
+        28,
+        32,
+        33,
+        35,
+        37
+      ],
+      "scenario_summary_hashes": {
+        "depth_sha256": "0563082cb95eaa1c60c85d943269dca1c006ba21c3d110b2348c377c2e72ffee",
+        "closed_mask_sha256": "178948a04f65679d41d5c5dee9015e1cb4282e45f34b7ef27f95a6a433dfea31",
+        "scenario_sha256": "f22d90f75542739308bd780426f6389e31d464aa3863033e8fe28d64c7263216"
+      }
+    },
+    {
+      "scenario_id": 1002,
+      "initially_closed_roads": [
+        5,
+        19,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        35,
+        37
+      ],
+      "n_closed": 10,
+      "original_roads": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "unique_portfolios": 1,
+      "A3_swap": null,
+      "wet_open_affected_roads": [
+        2,
+        17,
+        21,
+        22,
+        28,
+        32,
+        33,
+        34,
+        36,
+        38
+      ],
+      "scenario_summary_hashes": {
+        "depth_sha256": "39a95f14594da89f49d50a86a3cb814b2b37ec921026f0eb8ace6885cb9d822d",
+        "closed_mask_sha256": "d32a0f6f78c7079cbd48a0bcbd58aa6fe8430c232ed42bd14eebbf4545c03c8c",
+        "scenario_sha256": "f2fd9be11e8d156163280c3d96a25d679b63d179c7c7989c499fea42c6271802"
+      }
+    },
+    {
+      "scenario_id": 1003,
+      "initially_closed_roads": [
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        17,
+        19,
+        26,
+        27,
+        28,
+        29
+      ],
+      "n_closed": 12,
+      "original_roads": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "unique_portfolios": 3,
+      "A3_swap": null,
+      "wet_open_affected_roads": [
+        3,
+        6,
+        10,
+        12,
+        15,
+        16,
+        18,
+        30,
+        31,
+        32
+      ],
+      "scenario_summary_hashes": {
+        "depth_sha256": "4a3acff35a2bfb0b4e399a94ec33e57f790e8f6d2535ddc2f868be2970f4d5f7",
+        "closed_mask_sha256": "2c2334741233bcd4c603696ae0cb35374320a8ce287e059e08e6454ff0895a89",
+        "scenario_sha256": "32b2d8329d9cf28c095cea08fcc99162151cb97644351da7437d52686b6dc3a9"
+      }
+    },
+    {
+      "scenario_id": 1004,
+      "initially_closed_roads": [
+        2,
+        5,
+        7,
+        20,
+        21,
+        27,
+        30,
+        32,
+        33,
+        34,
+        35
+      ],
+      "n_closed": 11,
+      "original_roads": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "unique_portfolios": 3,
+      "A3_swap": null,
+      "wet_open_affected_roads": [
+        1,
+        4,
+        6,
+        16,
+        22,
+        23,
+        24,
+        25,
+        26,
+        31,
+        36,
+        37,
+        38
+      ],
+      "scenario_summary_hashes": {
+        "depth_sha256": "535101d319bc9d38a84a7949294e7e16b19e52e38cee3a33a92a87854f6c7e6d",
+        "closed_mask_sha256": "40292fb3e93f789a4dc7a4b4e763e75ea5000fc6cf46167d515f743a35226939",
+        "scenario_sha256": "35a008fc294f8f0a7ada0b79087e4af3d18fddc35bc7c224526f8f90cd8e3bfa"
+      }
+    },
+    {
+      "scenario_id": 1005,
+      "initially_closed_roads": [
+        3,
+        5,
+        6,
+        10,
+        11,
+        14,
+        22,
+        29,
+        34,
+        35,
+        37,
+        38
+      ],
+      "n_closed": 12,
+      "original_roads": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "unique_portfolios": 3,
+      "A3_swap": null,
+      "wet_open_affected_roads": [
+        1,
+        2,
+        4,
+        7,
+        8,
+        12,
+        13,
+        20,
+        21,
+        23,
+        24,
+        25,
+        27,
+        33,
+        36
+      ],
+      "scenario_summary_hashes": {
+        "depth_sha256": "e4bddef1d2c31e83d53771315f53d7d4bf7f9b712844f762d26a0f3b597db89a",
+        "closed_mask_sha256": "f9337828f47a61d051325cc6f43093bf5586cacbb312dc6ddfc1a0bc00493bd7",
+        "scenario_sha256": "aa000c78cb18e9e0620627381011cfeb2acd412b46eb3db9e531e34f885c387a"
+      }
+    },
+    {
+      "scenario_id": 1006,
+      "initially_closed_roads": [
+        4,
+        5,
+        6,
+        9,
+        13,
+        14,
+        16,
+        18,
+        19,
+        28
+      ],
+      "n_closed": 10,
+      "original_roads": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "unique_portfolios": 1,
+      "A3_swap": null,
+      "wet_open_affected_roads": [
+        2,
+        3,
+        7,
+        8,
+        10,
+        11,
+        12,
+        15,
+        17,
+        20,
+        26,
+        27,
+        29,
+        30,
+        33,
+        34,
+        35
+      ],
+      "scenario_summary_hashes": {
+        "depth_sha256": "0683577ac8f2b8fa6e5734472afd9aace3095a0aa7d725c6be450be2a6f3a155",
+        "closed_mask_sha256": "fd0baa49ba372db281b2eb8faba3bb53e3b8f7f28dfc3d12e3803b3d41c5c870",
+        "scenario_sha256": "bafb4c16ad3def8c7edd0adfbfedf84c98ac985ba94ffbfae631b2cdc89d63a5"
+      }
+    },
+    {
+      "scenario_id": 1007,
+      "initially_closed_roads": [
+        4,
+        5,
+        6,
+        8,
+        11,
+        15,
+        16,
+        17,
+        18,
+        20,
+        24
+      ],
+      "n_closed": 11,
+      "original_roads": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "unique_portfolios": 2,
+      "A3_swap": null,
+      "wet_open_affected_roads": [
+        1,
+        2,
+        3,
+        7,
+        9,
+        10,
+        13,
+        14,
+        19,
+        21,
+        22
+      ],
+      "scenario_summary_hashes": {
+        "depth_sha256": "8b20e7096f1cd633cd6de1726cb464a28dc75bb2749b77906d2b8247c8abf3f2",
+        "closed_mask_sha256": "e331be02385e18fb57def84ed8b553b010b2c06bed37cefce1e9e65082f1d2a2",
+        "scenario_sha256": "e6fbc0f01d67b893596f23e8627eafa2178d634b30d0065aa27f6d3932e6e98e"
+      }
+    },
+    {
+      "scenario_id": 1008,
+      "initially_closed_roads": [
+        6,
+        7,
+        9,
+        10,
+        13,
+        14,
+        16,
+        17,
+        18,
+        20,
+        24,
+        28
+      ],
+      "n_closed": 12,
+      "original_roads": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "unique_portfolios": 2,
+      "A3_swap": null,
+      "wet_open_affected_roads": [
+        2,
+        4,
+        5,
+        8,
+        11,
+        15,
+        19,
+        21,
+        22,
+        23,
+        25
+      ],
+      "scenario_summary_hashes": {
+        "depth_sha256": "34277a4adf824e429b057895106872f611aec8de6930a1b93acd63634ecdd697",
+        "closed_mask_sha256": "7e01e52e63f5ac95c4c0c69d6b1cd58097bca40a341ca2bef3be4a5c2d791393",
+        "scenario_sha256": "dbb5cb55a4d8383a86fe9140601a9065118246996594f213e401ca7161913083"
+      }
+    },
+    {
+      "scenario_id": 1009,
+      "initially_closed_roads": [
+        6,
+        9,
+        15,
+        16,
+        17,
+        20,
+        21,
+        23,
+        25,
+        27,
+        38
+      ],
+      "n_closed": 11,
+      "original_roads": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "unique_portfolios": 2,
+      "A3_swap": {
+        "road_in": 38,
+        "road_out": 25
+      },
+      "wet_open_affected_roads": [
+        4,
+        5,
+        7,
+        13,
+        18,
+        19,
+        22,
+        24,
+        26,
+        35,
+        36,
+        37
+      ],
+      "scenario_summary_hashes": {
+        "depth_sha256": "1730e264db5a8310af4626f23a1f8fef830dbb1ad39b04eb7d99a098b0715ab1",
+        "closed_mask_sha256": "18d3f1aa6ea1ca96aed09ee62cf58489a06c73f09de54943ead08739e18843b1",
+        "scenario_sha256": "5b62df69cd1cdba5fe140b8a55f000cd50509ebe52aa8a56c114da0685f795e0"
+      }
+    },
+    {
+      "scenario_id": 1010,
+      "initially_closed_roads": [
+        3,
+        6,
+        7,
+        8,
+        11,
+        13,
+        35,
+        36,
+        37,
+        38
+      ],
+      "n_closed": 10,
+      "original_roads": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "unique_portfolios": 1,
+      "A3_swap": null,
+      "wet_open_affected_roads": [
+        1,
+        2,
+        4,
+        9,
+        10,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        23,
+        24,
+        27,
+        33,
+        34
+      ],
+      "scenario_summary_hashes": {
+        "depth_sha256": "0b1fae5b4328dafeac5a32ce606d786bffab7b4095299ea8e22ab2422a20d88a",
+        "closed_mask_sha256": "ff36108c0fa7d325426bf53d0d3da3dfffd13b8fb3ccf1cbbbd54d477c97c1f0",
+        "scenario_sha256": "d610f0af9ec06c6c989e3850decd6f8ddaa69b9dffde88039323411e340a3a70"
+      }
+    }
+  ],
+  "portfolios": [
+    {
+      "portfolio_id": "1001_P00",
+      "scenario_id": 1001,
+      "road_bit_order": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "selected_roads_sorted": [
+        15,
+        17,
+        18,
+        19,
+        21,
+        24,
+        26,
+        29,
+        30,
+        31
+      ],
+      "selected_physical_mask": 1922514944,
+      "original": true,
+      "rule_labels": [
+        "A0",
+        "A1"
+      ],
+      "remaining_closed_ids": [
+        34
+      ],
+      "roads_in": [],
+      "roads_out": [],
+      "overlap_A0": 10
+    },
+    {
+      "portfolio_id": "1001_P01",
+      "scenario_id": 1001,
+      "road_bit_order": [
+        15,
+        17,
+        18,
+        19,
+        21,
+        24,
+        29,
+        30,
+        31,
+        34
+      ],
+      "selected_roads_sorted": [
+        15,
+        17,
+        18,
+        19,
+        21,
+        24,
+        29,
+        30,
+        31,
+        34
+      ],
+      "selected_physical_mask": 10478895104,
+      "original": false,
+      "rule_labels": [
+        "A2"
+      ],
+      "remaining_closed_ids": [
+        26
+      ],
+      "roads_in": [
+        34
+      ],
+      "roads_out": [
+        26
+      ],
+      "overlap_A0": 9
+    },
+    {
+      "portfolio_id": "1002_P00",
+      "scenario_id": 1002,
+      "road_bit_order": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "selected_roads_sorted": [
+        5,
+        19,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        35,
+        37
+      ],
+      "selected_physical_mask": 87636049936,
+      "original": true,
+      "rule_labels": [
+        "A0",
+        "A1",
+        "A2"
+      ],
+      "remaining_closed_ids": [],
+      "roads_in": [],
+      "roads_out": [],
+      "overlap_A0": 10
+    },
+    {
+      "portfolio_id": "1003_P00",
+      "scenario_id": 1003,
+      "road_bit_order": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "selected_roads_sorted": [
+        7,
+        8,
+        9,
+        11,
+        14,
+        17,
+        26,
+        27,
+        28,
+        29
+      ],
+      "selected_physical_mask": 503391680,
+      "original": true,
+      "rule_labels": [
+        "A0"
+      ],
+      "remaining_closed_ids": [
+        13,
+        19
+      ],
+      "roads_in": [],
+      "roads_out": [],
+      "overlap_A0": 10
+    },
+    {
+      "portfolio_id": "1003_P01",
+      "scenario_id": 1003,
+      "road_bit_order": [
+        8,
+        9,
+        11,
+        14,
+        17,
+        19,
+        26,
+        27,
+        28,
+        29
+      ],
+      "selected_roads_sorted": [
+        8,
+        9,
+        11,
+        14,
+        17,
+        19,
+        26,
+        27,
+        28,
+        29
+      ],
+      "selected_physical_mask": 503653760,
+      "original": false,
+      "rule_labels": [
+        "A1"
+      ],
+      "remaining_closed_ids": [
+        7,
+        13
+      ],
+      "roads_in": [
+        19
+      ],
+      "roads_out": [
+        7
+      ],
+      "overlap_A0": 9
+    },
+    {
+      "portfolio_id": "1003_P02",
+      "scenario_id": 1003,
+      "road_bit_order": [
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        17,
+        19,
+        27,
+        29
+      ],
+      "selected_roads_sorted": [
+        7,
+        8,
+        9,
+        11,
+        13,
+        14,
+        17,
+        19,
+        27,
+        29
+      ],
+      "selected_physical_mask": 335885760,
+      "original": false,
+      "rule_labels": [
+        "A2"
+      ],
+      "remaining_closed_ids": [
+        26,
+        28
+      ],
+      "roads_in": [
+        13,
+        19
+      ],
+      "roads_out": [
+        26,
+        28
+      ],
+      "overlap_A0": 8
+    },
+    {
+      "portfolio_id": "1004_P00",
+      "scenario_id": 1004,
+      "road_bit_order": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "selected_roads_sorted": [
+        2,
+        5,
+        7,
+        20,
+        21,
+        27,
+        30,
+        32,
+        33,
+        35
+      ],
+      "selected_physical_mask": 24227872850,
+      "original": true,
+      "rule_labels": [
+        "A0"
+      ],
+      "remaining_closed_ids": [
+        34
+      ],
+      "roads_in": [],
+      "roads_out": [],
+      "overlap_A0": 10
+    },
+    {
+      "portfolio_id": "1004_P01",
+      "scenario_id": 1004,
+      "road_bit_order": [
+        2,
+        5,
+        20,
+        21,
+        27,
+        30,
+        32,
+        33,
+        34,
+        35
+      ],
+      "selected_roads_sorted": [
+        2,
+        5,
+        20,
+        21,
+        27,
+        30,
+        32,
+        33,
+        34,
+        35
+      ],
+      "selected_physical_mask": 32817807378,
+      "original": false,
+      "rule_labels": [
+        "A1"
+      ],
+      "remaining_closed_ids": [
+        7
+      ],
+      "roads_in": [
+        34
+      ],
+      "roads_out": [
+        7
+      ],
+      "overlap_A0": 9
+    },
+    {
+      "portfolio_id": "1004_P02",
+      "scenario_id": 1004,
+      "road_bit_order": [
+        2,
+        5,
+        7,
+        20,
+        21,
+        27,
+        30,
+        32,
+        33,
+        34
+      ],
+      "selected_roads_sorted": [
+        2,
+        5,
+        7,
+        20,
+        21,
+        27,
+        30,
+        32,
+        33,
+        34
+      ],
+      "selected_physical_mask": 15637938258,
+      "original": false,
+      "rule_labels": [
+        "A2"
+      ],
+      "remaining_closed_ids": [
+        35
+      ],
+      "roads_in": [
+        34
+      ],
+      "roads_out": [
+        35
+      ],
+      "overlap_A0": 9
+    },
+    {
+      "portfolio_id": "1005_P00",
+      "scenario_id": 1005,
+      "road_bit_order": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "selected_roads_sorted": [
+        3,
+        5,
+        6,
+        10,
+        11,
+        14,
+        22,
+        29,
+        35,
+        37
+      ],
+      "selected_physical_mask": 86169888308,
+      "original": true,
+      "rule_labels": [
+        "A0"
+      ],
+      "remaining_closed_ids": [
+        34,
+        38
+      ],
+      "roads_in": [],
+      "roads_out": [],
+      "overlap_A0": 10
+    },
+    {
+      "portfolio_id": "1005_P01",
+      "scenario_id": 1005,
+      "road_bit_order": [
+        5,
+        6,
+        10,
+        11,
+        14,
+        22,
+        29,
+        35,
+        37,
+        38
+      ],
+      "selected_roads_sorted": [
+        5,
+        6,
+        10,
+        11,
+        14,
+        22,
+        29,
+        35,
+        37,
+        38
+      ],
+      "selected_physical_mask": 223608841776,
+      "original": false,
+      "rule_labels": [
+        "A1"
+      ],
+      "remaining_closed_ids": [
+        3,
+        34
+      ],
+      "roads_in": [
+        38
+      ],
+      "roads_out": [
+        3
+      ],
+      "overlap_A0": 9
+    },
+    {
+      "portfolio_id": "1005_P02",
+      "scenario_id": 1005,
+      "road_bit_order": [
+        3,
+        5,
+        6,
+        10,
+        11,
+        14,
+        22,
+        29,
+        34,
+        37
+      ],
+      "selected_roads_sorted": [
+        3,
+        5,
+        6,
+        10,
+        11,
+        14,
+        22,
+        29,
+        34,
+        37
+      ],
+      "selected_physical_mask": 77579953716,
+      "original": false,
+      "rule_labels": [
+        "A2"
+      ],
+      "remaining_closed_ids": [
+        35,
+        38
+      ],
+      "roads_in": [
+        34
+      ],
+      "roads_out": [
+        35
+      ],
+      "overlap_A0": 9
+    },
+    {
+      "portfolio_id": "1006_P00",
+      "scenario_id": 1006,
+      "road_bit_order": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "selected_roads_sorted": [
+        4,
+        5,
+        6,
+        9,
+        13,
+        14,
+        16,
+        18,
+        19,
+        28
+      ],
+      "selected_physical_mask": 134656312,
+      "original": true,
+      "rule_labels": [
+        "A0",
+        "A1",
+        "A2"
+      ],
+      "remaining_closed_ids": [],
+      "roads_in": [],
+      "roads_out": [],
+      "overlap_A0": 10
+    },
+    {
+      "portfolio_id": "1007_P00",
+      "scenario_id": 1007,
+      "road_bit_order": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "selected_roads_sorted": [
+        4,
+        5,
+        6,
+        11,
+        15,
+        16,
+        17,
+        18,
+        20,
+        24
+      ],
+      "selected_physical_mask": 9159736,
+      "original": true,
+      "rule_labels": [
+        "A0",
+        "A2"
+      ],
+      "remaining_closed_ids": [
+        8
+      ],
+      "roads_in": [],
+      "roads_out": [],
+      "overlap_A0": 10
+    },
+    {
+      "portfolio_id": "1007_P01",
+      "scenario_id": 1007,
+      "road_bit_order": [
+        4,
+        5,
+        6,
+        8,
+        11,
+        15,
+        16,
+        17,
+        18,
+        24
+      ],
+      "selected_roads_sorted": [
+        4,
+        5,
+        6,
+        8,
+        11,
+        15,
+        16,
+        17,
+        18,
+        24
+      ],
+      "selected_physical_mask": 8635576,
+      "original": false,
+      "rule_labels": [
+        "A1"
+      ],
+      "remaining_closed_ids": [
+        20
+      ],
+      "roads_in": [
+        8
+      ],
+      "roads_out": [
+        20
+      ],
+      "overlap_A0": 9
+    },
+    {
+      "portfolio_id": "1008_P00",
+      "scenario_id": 1008,
+      "road_bit_order": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "selected_roads_sorted": [
+        6,
+        7,
+        9,
+        10,
+        14,
+        16,
+        17,
+        18,
+        20,
+        24
+      ],
+      "selected_physical_mask": 9151328,
+      "original": true,
+      "rule_labels": [
+        "A0",
+        "A2"
+      ],
+      "remaining_closed_ids": [
+        13,
+        28
+      ],
+      "roads_in": [],
+      "roads_out": [],
+      "overlap_A0": 10
+    },
+    {
+      "portfolio_id": "1008_P01",
+      "scenario_id": 1008,
+      "road_bit_order": [
+        6,
+        9,
+        10,
+        14,
+        16,
+        17,
+        18,
+        20,
+        24,
+        28
+      ],
+      "selected_roads_sorted": [
+        6,
+        9,
+        10,
+        14,
+        16,
+        17,
+        18,
+        20,
+        24,
+        28
+      ],
+      "selected_physical_mask": 143368992,
+      "original": false,
+      "rule_labels": [
+        "A1"
+      ],
+      "remaining_closed_ids": [
+        7,
+        13
+      ],
+      "roads_in": [
+        28
+      ],
+      "roads_out": [
+        7
+      ],
+      "overlap_A0": 9
+    },
+    {
+      "portfolio_id": "1009_P00",
+      "scenario_id": 1009,
+      "road_bit_order": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "selected_roads_sorted": [
+        6,
+        9,
+        15,
+        16,
+        17,
+        20,
+        21,
+        23,
+        25,
+        27
+      ],
+      "selected_physical_mask": 89768224,
+      "original": true,
+      "rule_labels": [
+        "A0",
+        "A1",
+        "A2"
+      ],
+      "remaining_closed_ids": [
+        38
+      ],
+      "roads_in": [],
+      "roads_out": [],
+      "overlap_A0": 10
+    },
+    {
+      "portfolio_id": "1009_P01",
+      "scenario_id": 1009,
+      "road_bit_order": [
+        6,
+        9,
+        15,
+        16,
+        17,
+        20,
+        21,
+        23,
+        27,
+        38
+      ],
+      "selected_roads_sorted": [
+        6,
+        9,
+        15,
+        16,
+        17,
+        20,
+        21,
+        23,
+        27,
+        38
+      ],
+      "selected_physical_mask": 137511944480,
+      "original": false,
+      "rule_labels": [
+        "A3"
+      ],
+      "remaining_closed_ids": [
+        25
+      ],
+      "roads_in": [
+        38
+      ],
+      "roads_out": [
+        25
+      ],
+      "overlap_A0": 9
+    },
+    {
+      "portfolio_id": "1010_P00",
+      "scenario_id": 1010,
+      "road_bit_order": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "selected_roads_sorted": [
+        3,
+        6,
+        7,
+        8,
+        11,
+        13,
+        35,
+        36,
+        37,
+        38
+      ],
+      "selected_physical_mask": 257698043108,
+      "original": true,
+      "rule_labels": [
+        "A0",
+        "A1",
+        "A2"
+      ],
+      "remaining_closed_ids": [],
+      "roads_in": [],
+      "roads_out": [],
+      "overlap_A0": 10
+    }
+  ],
+  "rule_definitions": {
+    "A0": "min descending ranks normalized within initial closed set,0.5/0.5; score desc,flow desc,betweenness desc,ID asc",
+    "A1": "flow desc,betweenness desc,ID asc",
+    "A2": "betweenness desc,flow desc,ID asc",
+    "A3": "Only if >10 closed and A1=A2=A0: add deepest excluded closed road(tie ID asc), remove last selected in original combined ranking"
+  },
+  "seeds": "none; deterministic",
+  "DP_tie": "minimum float objective, tie ascending physical ID of last road; no tolerance-based replacement",
+  "n_original_portfolios": 10,
+  "n_unique_portfolios": 20,
+  "n_unique_alternatives": 10,
+  "new_DP_states": 4992,
+  "new_allclosed_states": 7,
+  "new_states_total": 4999,
+  "unique_requested_states": 15239,
+  "accepted_4_2_reused": 10240,
+  "state_identity": "scenario + actual restored physical road unordered mask + full model/OD/tolerance context; excludes portfolio identity",
+  "critical_sources": [
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\inputs\\historical_1001_1010.csv",
+      "sha256": "4c96f6cc4e414de87d75c8d6282ef37222a6057c96ab32487757bd7b8b336af4"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\frozen_inputs\\v2_surrogate\\preprocessor_v2.json",
+      "sha256": "771e6f0124ea19d74b2752d97f5bf05545cbfc575d5627aae1f455e45e82174c"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\final_scenarios.json",
+      "sha256": "f58858918a0cfb2e600860ec66a33323e63a14f5d188481b4dfc4123265ad9da"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_audit.csv",
+      "sha256": "3e40ca5b3a9ee6ecc687fa317ad74407780690594b5cad6492c9726cfa229506"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\01_road_selection\\candidate_road_selection_freeze.json",
+      "sha256": "c7fc7b08354d40a68d6b83ffb984eb682727d682509d44b21856fd206a310400"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day2_candidate_screening_v1.0\\frozen_inputs\\formal_code\\select_final_recoverable_roads.py",
+      "sha256": "e71a8c5361f0db263f2f125add4ff3912334f60265a93d226239ecc7e97e8816"
+    },
+    {
+      "path": "E:\\jcr2区意见\\老家\\sci-jcr2区交付\\第四周工作\\day1_final_untouched_scenarios_v1.0\\final_scenario_summary.csv",
+      "sha256": "3dff662f2b5a1dd5ef26c552baf51bffb4ace0d21a496b1d4b818d4d14e69926"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\code\\ue_solver.py",
+      "sha256": "75bd7b02524af14d9f405c1318468918823c870261699db276cef2b6255e31e4"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\code\\path_ue.py",
+      "sha256": "0a4e62aea36b78939475a9b877e951db5ecb480a7fb801d5db90fb7afef8973e"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\completion_check.json",
+      "sha256": "5b415f4cd20a501c7fb7c43c7f38b666aa58d5ea481c8ac013a9fa91e251275e"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\02_original_method_path_reevaluation\\frozen_paths.json",
+      "sha256": "b91fb4093cc7dae98a7061d73efaa6663b7198c3a5d108c4890f701346125f6b"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_2\\Table_terminal_residual.csv",
+      "sha256": "c24033bf9ca582e1cf254a7569d7437522c8c37a23548654510b8400aaf08b32"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_2\\unit_validation.json",
+      "sha256": "dcad05b3a5caa3991427bf2b40310f8be910469637448a151b7b2e7cb30ddf3a"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\source_snapshot\\code\\model_backend\\data_src\\SiouxFalls_flood_benchmark\\processed\\directed_links.csv",
+      "sha256": "da6465646a500bf48c46081f6267a1c9e9ef466da94096da462afa60e86f14b7"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\source_snapshot\\code\\model_backend\\data_src\\SiouxFalls_flood_benchmark\\processed\\od_long.csv",
+      "sha256": "17441d287ca7582342bf713f9bc0014d79081cb75060b7ce291fe6d815d42c39"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1001_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "5eb43a704bd716caa4fdfc013098b8595c1622f06ad864892d35885a03f5a8f8"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1002_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "98d8fb38ab6dd048edcd5bb2e1394268f1572f1f0ecafa0b23613a1b8876ca4b"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1003_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "70e429b5a8f063220efecc77698eec58cacba4c2a353f86c0d7cfe7c28669f33"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1004_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "d3c72348cf2a9070e753a7aef633d85c569133c58949b1fbfc6fcc199c62fb61"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1005_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "b53479ba9c4305997d05a9835c9abf46eabc5d5dfc7f29b27ddd2e7177f3974f"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1006_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "c569f13176258635f285599171c6e4498ae6ea465c3209392efce5486ec4abde"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1007_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "071f7488fbdddda17671534c0df6071e8d23837efc22db6dc5d4a726950088c7"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1008_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "ed7ba8b43c5e2c58770923ea2a6af35b34c1dceb2926ef43e2ff652235afe7ef"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1009_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "926d6092624dde0db6395ec739ee3c0c3269d6f90be0c0efa46e36c50d074c06"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1010_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "001fbca4e262f62c3f2b66f36038d64b20877d1360eb7adaf4b6a5adf802a9a7"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1001\\exact_solution.json",
+      "sha256": "b0de0068a366f854656eb28a3f654373e516e7f66a24dfa653b2ce31f80638db"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1002\\exact_solution.json",
+      "sha256": "36af529f9f054b7f7dc46ea67b2046beb755916e347783704105c83d80c0b1f0"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1003\\exact_solution.json",
+      "sha256": "be4ddd1bb26b2d41101e4c0a000877c2afe867229c7b5931825bc22f95b32a6f"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1004\\exact_solution.json",
+      "sha256": "51095dbe0552de890b2e875686fe6ba446addebbc98c5327884ddf4902290b14"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1005\\exact_solution.json",
+      "sha256": "e79962dbaf92f88fb5346f0272d0b2238430dae83fd07e1fa80c69670eee5a4c"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1006\\exact_solution.json",
+      "sha256": "21225be4e2d2ef3dcd5693dcd94d62ebb78042e86027f94d5deaab4d9c9ae162"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1007\\exact_solution.json",
+      "sha256": "ec6e9cd9fa10362824728e7125dfb62a55f4b84af182499e1ca49aa842eed18e"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1008\\exact_solution.json",
+      "sha256": "d91dd0eb6b2651ce4477f244272a6afe16f7d188e33b2e81e7d0287d20cd47da"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1009\\exact_solution.json",
+      "sha256": "401b8a1ae93f2eafec9a5defc9fee45c1c65c8183ce8d6f4d343d7d8fbda1e92"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1010\\exact_solution.json",
+      "sha256": "af3b7b3352cb16da0a1d0dd999895ed2be943ee9df0a40173d20ffd766f55788"
+    }
+  ],
+  "frozen_generated_files": [
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_5\\unique_requested_states.csv",
+      "sha256": "16f8426fb4f13dcd038229dae6a834c5cd06bb42b5f8b0bdca5ae7cd0cc44004"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_5\\raw\\portfolio_state_mapping.csv",
+      "sha256": "389d788e66753a481d2050f8e8cea648ed5e3d48c9e00ae7f70c4cb35a4d2ec9"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_5\\Table_selection_rules_all10.csv",
+      "sha256": "b28e1b2173126b212705d8d6aa26298a6b50fc5e71fb6b5704979b841bc6e5f2"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_5\\Table_unique_portfolios.csv",
+      "sha256": "0d8827611eab838bcc21aa42b75b5820f7ee114b3b003c3d447f0fd1a17794d3"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_5\\raw\\selection_manifest.csv",
+      "sha256": "ebf9e70ce0472a03c3316630595f4fe4b940dc878900a2975ddd1bf3db94e1b0"
+    }
+  ],
+  "frozen_code": [
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_5\\scripts\\common55.py",
+      "sha256": "87f81e0bdff70dba750afaf5b16d86bde13886e2e45e1fc20e44687060ca7004"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_5\\scripts\\setup55.py",
+      "sha256": "f4cb33d6b94f24b0804e82f83698b6a1aa72c6d0c22484923e6e9c850814eee7"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_5\\scripts\\solve55.py",
+      "sha256": "8ef8eeebff61c39868bdde2301117decbfacc92543a4080eeaec28a6b81ea094"
+    }
+  ],
+  "solver_version": "11fb49bedbbde7b9da7f16fbb2e00e2c906984c847a7b30e05150cf803c50cf4",
+  "UE_tolerance": 1e-09,
+  "max_outer": 20000,
+  "initialization": "cold per new physical state; single process/core; no relaxed tolerance/fallback",
+  "source_snapshot_sha256": "dd55465437509d5654aa1217f43f6731542098f5ec5fa686224e71d7aa7a3087",
+  "TSTT0_raw": 7480225.3449211195,
+  "dry_baseline_note": "Original4.2 denominator preserved; 5.2 recomputed dry denominator differs3.3178e-8 relative; physical TSTT/ATT match directly, do not substitute5.2 normalized ratio",
+  "Q": 360600.0,
+  "raw_time_to_hours": 0.01,
+  "weighted_stages": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "terminal_weight": 0,
+  "model_parameter_changes": false,
+  "validation": {
+    "archive_RG": 1e-09,
+    "new_RG": 1e-09,
+    "independent_RG": 1.000001e-09,
+    "flow_balance": 1e-05,
+    "DP_relative": 1e-12
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "platform": "Windows-10-10.0.19045-SP0"
+  }
+}

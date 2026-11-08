@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scenario_id": 5109,
+  "variant_id": "F9_NO_SURROGATE",
+  "seed_index": 1,
+  "actual_queries": 256,
+  "at": "2026-10-29T23:54:09.083447+08:00",
+  "v2_protocol_sha256": "dc7602d9d6819805b0fc402f77bd1e96fc742c11fb2c2444b41db82dd176808e",
+  "no_reference_access": true,
+  "model_file_reads": [],
+  "failure": null
+}

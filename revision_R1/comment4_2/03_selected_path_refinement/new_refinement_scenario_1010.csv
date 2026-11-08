@@ -1,0 +1,2 @@
+﻿scenario_id,subset_mask,tstt_1e9,tstt_1e11,relative_TSTT_change,actual_RG_1e11,converged_1e11,iterations_1e11,solver_seconds_1e11,metadata_origin,solver,new_UE_solve,refinement_reason
+1010,1023,34060558.958468996,34060559.453084864,1.4521660115866302e-08,9.8415609437630675e-12,True,30,0.011138400062918663,new minimal missing competitive-path state,path_column_generation_pairwise,True,"fixed original methods, both references, second-best and archived near competitors"

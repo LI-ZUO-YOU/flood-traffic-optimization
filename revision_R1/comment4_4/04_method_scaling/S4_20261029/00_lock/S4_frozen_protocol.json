@@ -1,0 +1,71 @@
+{
+  "frozen_at": "2026-10-29T14:50:26.314626+08:00",
+  "supplement_SHA256": "2101d518124418f81bc95669117c94b350a74460a21ca1c082cd4bef38a8f1b0",
+  "scenario_ids": [
+    4401,
+    4402,
+    4403,
+    4404,
+    4405,
+    4406
+  ],
+  "m": [
+    10,
+    12,
+    14
+  ],
+  "optimization_tasks": 180,
+  "full_tables_per_resource": 18,
+  "full_states_per_resource": 129024,
+  "method_replicates": {
+    "proposed": [
+      0,
+      1,
+      2
+    ],
+    "greedy_ils": [
+      0,
+      1,
+      2
+    ],
+    "sa_original": [
+      0,
+      1,
+      2
+    ],
+    "ue_bibeam": [
+      0
+    ]
+  },
+  "B": 256,
+  "source_code": "S3 components44 and frozen search_adapter44, no strategy modifications",
+  "seed_rules": {
+    "candidate": "2026080702 + scenario_id + 1000000*r",
+    "screen": "2026080703 + scenario_id + 1000000*r",
+    "sa": "2026081000 + scenario_id + 1000000*r",
+    "correction_restart": "2026102603 + scenario_id + 1000000*r",
+    "r": "0..9"
+  },
+  "UE_target": 1e-09,
+  "kappa": 2.816128890834728e-07,
+  "max_task_seconds": 128.81961927800955,
+  "cap_baseline_definition": "S3 m14 arithmetic mean over6 scenario means, each3repeats",
+  "cap_baseline_seconds": 12.881961927800957,
+  "cap_scope": "all measured optimization tasks and each full serial/4core enumeration+DP task. Startup/JIT/input loads/export excluded; no tiling/restarts to evade cap. If full single-core table censored, 4core table may independently supply exact reference; single-core time remains censored.",
+  "solver_failure_policy": "stop affected task, keep successful journal and scenario, no retry/looser tolerance/substitution; remaining tasks attempted",
+  "RSS_limit_bytes": 4195565568,
+  "information_firewall": "ALL180 optimization output folders hashed before any full-state reference solves; inference and output only after search. Full references never read by optimizer.",
+  "timing": "one computing process CPU0, library threads1, warm-code/fresh physical cache per run. Parent monitor onCPU8. Separate 4core stage, one scenario at a time, 4 disjoint contiguous mask chunks onCPUs0,2,4,6; cold-pool startup excluded and separately recorded.",
+  "reference_selection": "prefer complete valid serial table, otherwise complete valid4core table; all overlaps bitwise checked. Incomplete tables never exact. No reference=>only shared best-observed gap, no exact regret/hit.",
+  "comparison": "aggregate stochastic repeats inside each scenario; n6 descriptive only. Pairwise J differences tied if abs<=kappa*max(1,abs(Jexact)); count W/T/L for Proposed. Report failures and complete-case denominators, no p-values or CI.",
+  "interpretation_rules_verbatim": [
+    "若 m=12 或14 Proposed相对Greedy胜加平不少于负，只能写更大规模上出现有利迹象，6个探索性情景需要独立验证，不推翻4.1/4.3。",
+    "若仍劣于Greedy或双向beam，写在已检验规模m≤14内没有证据表明代理引导优于UE-only搜索；若对两对照方向混合，逐对照明确报告而不混成全面优势。",
+    "无论结果如何报告m14完整枚举与Proposed时间差；被删失的单核只报告实测下界，不能当完整耗时。",
+    "SiouxFalls连通模型m≤15是必要上界，更大m需更大网络，列未来工作。"
+  ],
+  "no_retraining_or_retuning": true,
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python": "3.11.15 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:12:53) [MSC v.1942 64 bit (AMD64)]",
+  "numeric_archive_only": true
+}

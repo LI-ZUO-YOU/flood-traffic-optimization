@@ -2,7 +2,21 @@
 
 This repository contains the code, frozen configurations, final synthetic flood scenarios, method-specific high-fidelity query ledgers, exact dynamic-programming reference outputs, statistical tables, and figure source data supporting the manuscript *Surrogate-Guided Road Reopening Sequencing under Urban Flooding with Budgeted User-Equilibrium Correction*.
 
-## Scope of the artifact
+## Reviewer 1 and Reviewer 2 revision materials
+
+The original study-phase files remain in their existing locations. Revision scripts, frozen protocols and selected numerical tables are added under `revision_R1/` and `revision_R2/`; no original algorithm, checkpoint or experimental result is replaced by this update.
+
+- [Revision guide](REVISION_README.md): scope, archived limitations and inspection commands.
+- [Manuscript/Supplement/response source crosswalk](REVISION_RESULTS_CROSSWALK.csv).
+- [Full-archive file index](REVISION_ARCHIVE_FILE_INDEX.csv): paths, sizes and hashes of revision payload files retained in the complete archive rather than this lightweight GitHub increment.
+- [Archive locations](config/revision_archive_locations.json): the original version DOI and the separately pending new revision-version DOI.
+- [Revision checksum inventory](REVISION_FILES_SHA256.csv). The root `MANIFEST.sha256` is regenerated for the merged old-plus-new repository, not just the increment.
+
+The S14/Table S20 source is [frozen_v2_descriptive_paired_bootstrap.csv](revision_R1/comment4_5/09_S4_mechanism_robustness/01_statistics/frozen_v2_descriptive_paired_bootstrap.csv): 10,000 paired scenario resamples, seed 2026102906; descriptive intervals, not significance tests.
+
+Large candidate pools, full raw ledgers, replay arrays and bootstrap distributions belong to the complete Zenodo revision artifact. The old version DOI [10.5281/zenodo.22669165](https://doi.org/10.5281/zenodo.22669165) identifies v1.0.1 only. The [version-family landing page](https://doi.org/10.5281/zenodo.22664565) must be checked for the intended revision version; this update does not invent a new DOI or assert that new data have already been published.
+
+## Original study-phase scope (v1.0.1)
 
 The study evaluates a fixed 10-road reopening problem on ten held-out severe-flood scenarios (IDs 1001-1010). Candidate generation and screening use a frozen surrogate-guided protocol. Final ranking and local correction use method-specific high-fidelity user-equilibrium queries under budgets of 64, 128, 256, and 512 unique restored-subset states. The complete 1,024-state tables and conditional exact dynamic-programming references were produced only after method outputs were frozen.
 
@@ -53,7 +67,7 @@ This end-to-end calculation can be computationally expensive because every scena
 
 `config/formal_code_manifest_v1.1.json` contains SHA-256 hashes for the frozen pipeline source files. The scenario and method-output directories contain additional hash-chain and freeze records. These records distinguish method-visible logical queries from physical cache reuse and document that the exact reference was generated after search outputs were fixed.
 
-The post-study permutation-SA directory contains the complete frozen configuration, tuning summaries, method-specific query ledgers, per-iteration histories, and final outputs found in the archived research materials. The archived materials did not contain the standalone SA implementation source file. The SA results are therefore fully auditable from their recorded histories and ledgers but are not independently executable from this repository alone. The proposed method and the five predeclared baselines are represented by the frozen source files in `code/final_pipeline/`.
+The post-study permutation-SA directory contains the complete frozen configuration, tuning summaries, method-specific query ledgers, per-iteration histories, and final outputs found in the archived research materials. The original v1.0.1 artifact did not contain the standalone SA implementation source file. The revision recovered and verified the original implementation; see `revision_R1/comment4_1/source_snapshot/legacy_sa/run_permutation_sa.py` and the binding/replay records in `revision_R2/comment6_sa_multiseed/`. That earlier executable-source limitation describes the original artifact; complete relocated execution of the recovered revision scripts has not been newly certified by this update. The proposed method and the five predeclared baselines are represented by the frozen source files in `code/final_pipeline/`.
 
 All workstation-specific paths, local account names, and contact email addresses were removed from the public artifact before release v1.0.1. Path-only sanitation did not alter the numerical data, method outputs, model parameters, or reported results. The repository-wide SHA-256 manifest was regenerated after sanitation.
 

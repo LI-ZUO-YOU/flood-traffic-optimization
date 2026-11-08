@@ -1,0 +1,11 @@
+﻿variant_id,change,status,primary_new_scenarios,seeds_per_scenario,planned_primary_runs,retrospective_scenarios,planned_retrospective_runs
+F0_FULL,original full workflow,FROZEN,10,3,30,30,90
+F1_NO_RESERVE,"flat no-reserve priority, same full pool",FROZEN,10,3,30,30,90
+F2_NO_PREFIX,replace prefix source with labelled random candidates,FROZEN,10,3,30,30,90
+F3_NO_DISAG,"primary quotas25/0/15/10/10, identical full pool",FROZEN,10,3,30,30,90
+F4_NO_PROXY_SOURCES,replace proxy DP/GA sources with labelled random candidates,FROZEN,10,3,30,30,90
+F5_RANDOM_POOL,"30k random pool, retain ensemble scoring and correction",FROZEN,10,3,30,30,90
+F6_SINGLE_MLP,"filename-first member_01, single-model generation adaptation",FROZEN,10,3,30,30,90
+F7_RIDGE,fixed Ridge alpha1 original split,FROZEN,10,3,30,30,90
+F8_TREE,fixed HGB150/15/.05/20/.1 original split,FROZEN,10,3,30,30,90
+F9_NO_SURROGATE,"30k random, no model inference or surrogate DP; AB true-UE priority pending clarification",FROZEN,10,3,30,30,90

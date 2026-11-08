@@ -1,0 +1,181 @@
+method,scenario_id,online_seconds,regret_pct,queries,seed_runs,batch
+enum_serial,3001,19.224030000157654,0.0,1024.0,1,new measurement
+enum_serial,3002,12.827253700233996,0.0,1024.0,1,new measurement
+enum_serial,3003,12.279966100119054,0.0,1024.0,1,new measurement
+enum_serial,3004,18.249478599987924,0.0,1024.0,1,new measurement
+enum_serial,3005,14.861777099780738,0.0,1024.0,1,new measurement
+enum_serial,3006,24.679676400031894,0.0,1024.0,1,new measurement
+enum_serial,3007,21.972608999814838,0.0,1024.0,1,new measurement
+enum_serial,3008,19.20226139994338,0.0,1024.0,1,new measurement
+enum_serial,3009,8.989391199778765,0.0,1024.0,1,new measurement
+enum_serial,3010,10.10213389992714,0.0,1024.0,1,new measurement
+enum_serial,3011,14.745330900419503,0.0,1024.0,1,new measurement
+enum_serial,3012,15.869846699759364,0.0,1024.0,1,new measurement
+enum_serial,3013,10.385301699861884,0.0,1024.0,1,new measurement
+enum_serial,3014,18.910523999948055,0.0,1024.0,1,new measurement
+enum_serial,3015,22.016387300100178,0.0,1024.0,1,new measurement
+enum_serial,3016,12.308123299852014,0.0,1024.0,1,new measurement
+enum_serial,3017,10.994587500113994,0.0,1024.0,1,new measurement
+enum_serial,3018,13.808482899796218,0.0,1024.0,1,new measurement
+enum_serial,3019,23.265899300109595,0.0,1024.0,1,new measurement
+enum_serial,3020,15.242552599869668,0.0,1024.0,1,new measurement
+enum_serial,3021,29.205453200265765,0.0,1024.0,1,new measurement
+enum_serial,3022,10.163970699999481,0.0,1024.0,1,new measurement
+enum_serial,3023,19.34098510025069,0.0,1024.0,1,new measurement
+enum_serial,3024,23.037542399950325,0.0,1024.0,1,new measurement
+enum_serial,3025,9.358768499922007,0.0,1024.0,1,new measurement
+enum_serial,3026,25.04885059967637,0.0,1024.0,1,new measurement
+enum_serial,3027,16.86945979995653,0.0,1024.0,1,new measurement
+enum_serial,3028,13.941426299978048,0.0,1024.0,1,new measurement
+enum_serial,3029,13.620281899813563,0.0,1024.0,1,new measurement
+enum_serial,3030,21.471152799669653,0.0,1024.0,1,new measurement
+enum_parallel4,3001,23.46405619988218,0.0,1024.0,1,new measurement
+enum_parallel4,3008,21.86257930006832,0.0,1024.0,1,new measurement
+enum_parallel4,3012,17.610884599853307,0.0,1024.0,1,new measurement
+enum_parallel4,3018,15.191047499887645,0.0,1024.0,1,new measurement
+enum_parallel4,3022,11.225007699802518,0.0,1024.0,1,new measurement
+enum_parallel4,3026,27.231034699827433,0.0,1024.0,1,new measurement
+enum_parallel4,3002,13.936159200035036,0.0,1024.0,1,new measurement
+enum_parallel4,3006,26.288138400297612,0.0,1024.0,1,new measurement
+enum_parallel4,3010,11.31467860005796,0.0,1024.0,1,new measurement
+enum_parallel4,3014,20.61198899988085,0.0,1024.0,1,new measurement
+enum_parallel4,3017,11.90508359996602,0.0,1024.0,1,new measurement
+enum_parallel4,3021,30.756233499851078,0.0,1024.0,1,new measurement
+enum_parallel4,3025,9.849259700160474,0.0,1024.0,1,new measurement
+enum_parallel4,3029,14.472286299802363,0.0,1024.0,1,new measurement
+enum_parallel4,3004,19.43925409996882,0.0,1024.0,1,new measurement
+enum_parallel4,3007,23.804182500112802,0.0,1024.0,1,new measurement
+enum_parallel4,3011,15.868234899826348,0.0,1024.0,1,new measurement
+enum_parallel4,3015,23.204287900123745,0.0,1024.0,1,new measurement
+enum_parallel4,3019,24.240017999894917,0.0,1024.0,1,new measurement
+enum_parallel4,3023,20.141079700086266,0.0,1024.0,1,new measurement
+enum_parallel4,3028,14.452735599596053,0.0,1024.0,1,new measurement
+enum_parallel4,3003,12.857463699765503,0.0,1024.0,1,new measurement
+enum_parallel4,3005,15.742545600049198,0.0,1024.0,1,new measurement
+enum_parallel4,3009,9.541902900207788,0.0,1024.0,1,new measurement
+enum_parallel4,3013,11.324236600194126,0.0,1024.0,1,new measurement
+enum_parallel4,3016,13.162882099859416,0.0,1024.0,1,new measurement
+enum_parallel4,3020,16.278578100260347,0.0,1024.0,1,new measurement
+enum_parallel4,3024,24.314172000158578,0.0,1024.0,1,new measurement
+enum_parallel4,3027,17.862460299860686,0.0,1024.0,1,new measurement
+enum_parallel4,3030,22.069740399718285,0.0,1024.0,1,new measurement
+greedy_ils,3001,12.874295189976692,0.0,445.0,10,original fresh time-cap group
+greedy_ils,3002,10.501313319988549,0.0,634.3,10,original fresh time-cap group
+greedy_ils,3003,10.149727340042592,1.7617745648272018e-14,624.6,10,original fresh time-cap group
+greedy_ils,3004,11.642211350006983,0.0,597.4,10,original fresh time-cap group
+greedy_ils,3005,11.15053155994974,0.0,614.4,10,original fresh time-cap group
+greedy_ils,3006,11.823211290035397,0.0,526.4,10,original fresh time-cap group
+greedy_ils,3007,12.471153769968078,1.6210929265937823e-14,519.5,10,original fresh time-cap group
+greedy_ils,3008,14.742370099946857,1.581353072179887e-14,453.3,10,original fresh time-cap group
+greedy_ils,3009,8.613368869991973,0.0,635.2,10,original fresh time-cap group
+greedy_ils,3010,9.217969710053875,0.0,634.8,10,original fresh time-cap group
+greedy_ils,3011,9.874877079995349,0.7642088557186624,634.5,10,original fresh time-cap group
+greedy_ils,3012,16.113378059957178,0.014173195825922611,644.7,10,original fresh time-cap group
+greedy_ils,3013,8.794500189879908,0.0,634.6,10,original fresh time-cap group
+greedy_ils,3014,10.971084709977731,0.0,569.9,10,original fresh time-cap group
+greedy_ils,3015,11.38514066003263,1.5572370302073085e-14,442.8,10,original fresh time-cap group
+greedy_ils,3016,9.670763560011983,1.536538223791159e-14,617.4,10,original fresh time-cap group
+greedy_ils,3017,10.079721759958193,0.031938156817052955,683.4,10,original fresh time-cap group
+greedy_ils,3018,10.230486069992185,2.258401085463054e-14,575.1,10,original fresh time-cap group
+greedy_ils,3019,10.487349699949846,0.0,533.5,10,original fresh time-cap group
+greedy_ils,3020,9.479187280125917,0.0,558.3,10,original fresh time-cap group
+greedy_ils,3021,11.68524418999441,0.0,469.6,10,original fresh time-cap group
+greedy_ils,3022,10.6632982800249,2.1708161072414565e-14,672.9,10,original fresh time-cap group
+greedy_ils,3023,12.880606749886647,0.0,551.8,10,original fresh time-cap group
+greedy_ils,3024,9.927101780055091,1.565475505783789e-14,502.0,10,original fresh time-cap group
+greedy_ils,3025,8.92481606011279,1.69460244162602e-14,631.1,10,original fresh time-cap group
+greedy_ils,3026,14.300166250066832,0.0,587.3,10,original fresh time-cap group
+greedy_ils,3027,9.97161216000095,0.0,536.6,10,original fresh time-cap group
+greedy_ils,3028,10.062789280060679,0.0,601.3,10,original fresh time-cap group
+greedy_ils,3029,9.984340859996156,0.0,611.3,10,original fresh time-cap group
+greedy_ils,3030,11.010341459931805,0.0,640.6,10,original fresh time-cap group
+proposed,3001,12.79922639997676,0.0,256.0,1,original fresh time-cap group
+proposed,3002,10.634476699866354,0.04648971102715416,256.0,1,original fresh time-cap group
+proposed,3003,10.144531699828804,1.761774564827202e-14,256.0,1,original fresh time-cap group
+proposed,3004,11.60724369995296,0.746293551896909,256.0,1,original fresh time-cap group
+proposed,3005,11.144426700193435,0.0,256.0,1,original fresh time-cap group
+proposed,3006,11.771353399846703,0.0,256.0,1,original fresh time-cap group
+proposed,3007,12.45864349976182,1.6210929265937823e-14,256.0,1,original fresh time-cap group
+proposed,3008,14.705405899789184,0.1319719508842458,256.0,1,original fresh time-cap group
+proposed,3009,9.655632399953902,0.0,256.0,1,original fresh time-cap group
+proposed,3010,9.795850000344217,1.110017562053885,256.0,1,original fresh time-cap group
+proposed,3011,10.187543000094593,0.13976554830186258,256.0,1,original fresh time-cap group
+proposed,3012,19.873897300101817,0.1417319582592261,256.0,1,original fresh time-cap group
+proposed,3013,8.79287979984656,0.48569136189111695,256.0,1,original fresh time-cap group
+proposed,3014,10.964900800026953,0.11860422436035592,256.0,1,original fresh time-cap group
+proposed,3015,11.34816600009799,1.5572370302073085e-14,256.0,1,original fresh time-cap group
+proposed,3016,9.668252700008452,0.14581996146034332,256.0,1,original fresh time-cap group
+proposed,3017,10.074621200095862,0.060089449303946635,256.0,1,original fresh time-cap group
+proposed,3018,10.2142576999031,2.258401085463054e-14,256.0,1,original fresh time-cap group
+proposed,3019,10.474271500017494,0.0,256.0,1,original fresh time-cap group
+proposed,3020,9.45910600014031,0.015485787018235884,256.0,1,original fresh time-cap group
+proposed,3021,11.57157150004059,0.006002249043149444,256.0,1,original fresh time-cap group
+proposed,3022,10.660473600029945,0.7255152146313237,256.0,1,original fresh time-cap group
+proposed,3023,12.845036199782044,0.9481512252233296,256.0,1,original fresh time-cap group
+proposed,3024,9.766964000184089,0.14910055203094513,256.0,1,original fresh time-cap group
+proposed,3025,8.922272599767894,1.1563085923904879,256.0,1,original fresh time-cap group
+proposed,3026,14.24106749985367,6.048153135747753,256.0,1,original fresh time-cap group
+proposed,3027,9.957475299946964,0.04701334701946568,256.0,1,original fresh time-cap group
+proposed,3028,10.055317599792033,0.0014528696819774937,256.0,1,original fresh time-cap group
+proposed,3029,9.97868900001049,2.5203439404089503,256.0,1,original fresh time-cap group
+proposed,3030,12.669158099684864,0.3230080577960416,256.0,1,original fresh time-cap group
+sa_restart,3001,12.819122810009867,0.0,570.1,10,original fresh time-cap group
+sa_restart,3002,10.642483859974892,0.0,757.2,10,original fresh time-cap group
+sa_restart,3003,10.157076109945773,1.7617745648272018e-14,750.1,10,original fresh time-cap group
+sa_restart,3004,11.626848500035702,0.0,631.9,10,original fresh time-cap group
+sa_restart,3005,11.16252231001854,0.0,676.5,10,original fresh time-cap group
+sa_restart,3006,11.807587750023231,0.0,604.3,10,original fresh time-cap group
+sa_restart,3007,12.486823610030115,1.6210929265937823e-14,620.3,10,original fresh time-cap group
+sa_restart,3008,14.719877220038324,1.581353072179887e-14,598.4,10,original fresh time-cap group
+sa_restart,3009,9.660575669957325,0.0,869.1,10,original fresh time-cap group
+sa_restart,3010,9.80388406002894,0.0,794.2,10,original fresh time-cap group
+sa_restart,3011,10.20322278002277,0.0,651.6,10,original fresh time-cap group
+sa_restart,3012,18.769878249894827,0.0,1014.0,10,original fresh time-cap group
+sa_restart,3013,8.80870158006437,0.0,776.2,10,original fresh time-cap group
+sa_restart,3014,10.98296443996951,0.0,561.6,10,original fresh time-cap group
+sa_restart,3015,11.386997229838745,1.5572370302073085e-14,501.1,10,original fresh time-cap group
+sa_restart,3016,9.683357180049644,1.536538223791159e-14,711.7,10,original fresh time-cap group
+sa_restart,3017,10.086230029957369,0.0,818.2,10,original fresh time-cap group
+sa_restart,3018,10.22377064996399,2.258401085463054e-14,612.8,10,original fresh time-cap group
+sa_restart,3019,10.523949589999393,0.0,553.1,10,original fresh time-cap group
+sa_restart,3020,9.486146769998594,0.0,617.1,10,original fresh time-cap group
+sa_restart,3021,11.670337800029666,0.0,480.4,10,original fresh time-cap group
+sa_restart,3022,10.66517716003582,2.1708161072414565e-14,870.0,10,original fresh time-cap group
+sa_restart,3023,12.8584888800513,0.0,543.8,10,original fresh time-cap group
+sa_restart,3024,9.88489645998925,1.565475505783789e-14,560.7,10,original fresh time-cap group
+sa_restart,3025,8.928327980078757,1.69460244162602e-14,813.4,10,original fresh time-cap group
+sa_restart,3026,14.269786100136116,0.037551691977855406,492.4,10,original fresh time-cap group
+sa_restart,3027,9.967006639949977,0.0,588.8,10,original fresh time-cap group
+sa_restart,3028,10.064150389935822,0.0,677.7,10,original fresh time-cap group
+sa_restart,3029,9.986183199938386,0.0,657.4,10,original fresh time-cap group
+sa_restart,3030,12.701845219917596,0.0,692.6,10,original fresh time-cap group
+ue_bibeam,3001,12.824265100061893,0.0,524.0,1,original fresh time-cap group
+ue_bibeam,3002,10.23207169957459,0.0,712.0,1,original fresh time-cap group
+ue_bibeam,3003,10.172992500010878,1.761774564827202e-14,706.0,1,original fresh time-cap group
+ue_bibeam,3004,11.607937599997967,0.0,600.0,1,original fresh time-cap group
+ue_bibeam,3005,11.144491999875754,0.0,719.0,1,original fresh time-cap group
+ue_bibeam,3006,11.773321399930865,0.0,591.0,1,original fresh time-cap group
+ue_bibeam,3007,12.469757200218737,1.6210929265937823e-14,583.0,1,original fresh time-cap group
+ue_bibeam,3008,14.717236299999058,1.5813530721798874e-14,535.0,1,original fresh time-cap group
+ue_bibeam,3009,7.080438999924809,0.0,675.0,1,original fresh time-cap group
+ue_bibeam,3010,8.652598399668932,0.0,751.0,1,original fresh time-cap group
+ue_bibeam,3011,10.10473129991442,0.0,712.0,1,original fresh time-cap group
+ue_bibeam,3012,14.393923200201243,0.0,724.0,1,original fresh time-cap group
+ue_bibeam,3013,8.418568700086325,0.0,749.0,1,original fresh time-cap group
+ue_bibeam,3014,11.333624500315636,0.0,606.0,1,original fresh time-cap group
+ue_bibeam,3015,11.353996800258756,1.5572370302073085e-14,500.0,1,original fresh time-cap group
+ue_bibeam,3016,9.669720199890435,1.536538223791159e-14,706.0,1,original fresh time-cap group
+ue_bibeam,3017,9.957980700302869,0.0,786.0,1,original fresh time-cap group
+ue_bibeam,3018,10.21607490023598,2.258401085463054e-14,495.0,1,original fresh time-cap group
+ue_bibeam,3019,10.481167600024492,0.0,555.0,1,original fresh time-cap group
+ue_bibeam,3020,9.47446919977665,0.0,635.0,1,original fresh time-cap group
+ue_bibeam,3021,11.614431799855083,0.0,480.0,1,original fresh time-cap group
+ue_bibeam,3022,9.231260099913925,2.1708161072414565e-14,736.0,1,original fresh time-cap group
+ue_bibeam,3023,12.851124099921435,0.0,556.0,1,original fresh time-cap group
+ue_bibeam,3024,9.770880999974906,1.565475505783789e-14,642.0,1,original fresh time-cap group
+ue_bibeam,3025,8.459359100088477,1.69460244162602e-14,733.0,1,original fresh time-cap group
+ue_bibeam,3026,14.247847099788487,0.0,550.0,1,original fresh time-cap group
+ue_bibeam,3027,9.96384200034663,0.0,629.0,1,original fresh time-cap group
+ue_bibeam,3028,10.058441299945116,0.0,700.0,1,original fresh time-cap group
+ue_bibeam,3029,9.983600299805403,0.0,683.0,1,original fresh time-cap group
+ue_bibeam,3030,12.703308400232345,0.0,725.0,1,original fresh time-cap group

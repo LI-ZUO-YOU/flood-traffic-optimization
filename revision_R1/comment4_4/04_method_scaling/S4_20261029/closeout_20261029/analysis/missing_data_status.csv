@@ -1,0 +1,7 @@
+﻿item,original_status,final_status,remaining_missing,treatment
+4401 m14 complete numerical reference,missing under 128.819619278 s cap,supplemental reference completion; 16384 states,False,original timing remains censored; new reference is posthoc only
+4406 m14 complete numerical reference,missing under 128.819619278 s cap,supplemental reference completion; 16384 states,False,original timing remains censored; new reference is posthoc only
+4406 m14 Greedy-ILS replicate index 1,concurrency guard interrupted after ready,not rerun; final output and timing missing,True,exclude from 3-seed primary mean; available indices 0 and 2 descriptive only
+identity of external Python process triggering guard,not logged,unknown,True,cannot attribute interruption to a named program/user or infer prior effect
+"fresh complete m14 serial enumeration times, all 6",0/6 complete,still 0/6 complete in original benchmark,True,supplemental cached completion cannot replace fresh timings
+"fresh complete m14 four-core enumeration times, 4401 and 4406",4/6 complete,still 4/6 complete in original benchmark,True,retain right censoring and lower-bound comparisons

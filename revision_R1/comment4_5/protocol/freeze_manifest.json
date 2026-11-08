@@ -1,0 +1,89 @@
+{
+  "at": "2026-10-29T22:14:13.420821+08:00",
+  "version": "v2",
+  "files": {
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\code\\audit_inputs.py": {
+      "sha256": "9ea51ed8beb660b59f0fc1d21fe38eb01c0509ed2c48735f93b5880d2042e2e8",
+      "bytes": 9154
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\code\\candidate_factory.py": {
+      "sha256": "a0afaf06af185e11cc15573423d8978ad1572712e39533d5ae79cceab4416a60",
+      "bytes": 9810
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\code\\common45.py": {
+      "sha256": "814222e2eccb094c037f6af95d75503957cc23574337fe6ee71e7d71a30dde6d",
+      "bytes": 2677
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\code\\freeze_protocol.py": {
+      "sha256": "30816fbf4698c4811481448d0d869228c85e6e892dd525955c04be7a42c35558",
+      "bytes": 6434
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\code\\predictor_adapters.py": {
+      "sha256": "d2b6712d83f88d2f5b06c40103ffc7518ee0624549a9dd00facf20814de262a4",
+      "bytes": 1841
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\code\\run_sealed.py": {
+      "sha256": "fa7e211baa22705cebda56043e07477613cf209d8ce03c4b8f8d28ff2111c02d",
+      "bytes": 3124
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\code\\sealed_worker.py": {
+      "sha256": "e1a1be90bb34022fba2717133b20a035803e547fed97fb8e8d7a18298e86de0d",
+      "bytes": 4511
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\code\\search_adapter.py": {
+      "sha256": "1521bf003afcf5575defa93d2ebecbedbd6da7a7488762eff6c4d9074160cc7e",
+      "bytes": 6224
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\code\\train_simple_surrogates.py": {
+      "sha256": "aba48e916b105fa26f6f0325f87cdc124cda1267072a50928c7461aaeb20ac9b",
+      "bytes": 3703
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\code\\ue_provider.py": {
+      "sha256": "42b06ad30b02a3e1fc85bd708f4310fc028af9a4b495ab82979bbeccad6882d4",
+      "bytes": 548
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\code\\verify_batch.py": {
+      "sha256": "d50e66394e94ca9f58f86c03d0ec133d98dd3d61ab2cf246b5e6c718ae2dce6a",
+      "bytes": 6440
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\tests\\test_acceptance.py": {
+      "sha256": "4ae554e9f4c741f5f3721865a4883eee9aaeb1ac5ac34e5361c73d572be15036",
+      "bytes": 4265
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\01_freeze_and_regression\\simple_models\\F7_RIDGE.joblib": {
+      "sha256": "379b3c02c8f558203f5d8141669d45ddf25bcf1f8118a764ccb8f77b17ae3a51",
+      "bytes": 1029
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\01_freeze_and_regression\\simple_models\\F8_TREE.joblib": {
+      "sha256": "5ec729e660b2a6fd94433f9137418f78b4e593b075cb60fb8a4bd29a37405264",
+      "bytes": 301238
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\01_freeze_and_regression\\simple_models\\training_firewall_validation.json": {
+      "sha256": "74c1f1a2e2de215c57c1289a2c115ac814334d74c60c1c39d43913c13c6196a7",
+      "bytes": 4227
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\01_freeze_and_regression\\simple_models\\training_record.csv": {
+      "sha256": "bae5368496a01d629fbc3649e2c23e181ee1c83a7ce42adff6000a812ffcc9a2",
+      "bytes": 1481
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\protocol\\freeze_v2\\frozen_protocol.json": {
+      "sha256": "dc7602d9d6819805b0fc402f77bd1e96fc742c11fb2c2444b41db82dd176808e",
+      "bytes": 6316
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\protocol\\F9_resolution.json": {
+      "sha256": "19e2863aadeef3744fb67810fd47914b2a0fbc9e68687396c0509a6a6da1632c",
+      "bytes": 367
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\00_audit\\source_manifest.csv": {
+      "sha256": "23027022f911a85b9e2e124a5435ef2dfe9a840d1bf8dd5351ef9cdf4ec2e26c",
+      "bytes": 261551
+    },
+    "E:\\jcr2区意见\\返稿\\revision_4_5_ablation\\00_audit\\environment_versions.json": {
+      "sha256": "e732a29e7fe08710a261891a48924811ffe7540194ac480e864b75967ebfaa6a",
+      "bytes": 252
+    }
+  },
+  "new_scenarios_generated": false,
+  "old_smoke_started": false,
+  "development_only_before_this_freeze": true
+}

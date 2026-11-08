@@ -1,0 +1,5 @@
+﻿source,status,limitation
+S2_fresh_timing.csv,existing; not reused as primary B256 timing,serial and four-scenario parallel enumeration from a different batch
+S2_online_comparison.csv,existing; not reused as primary B256 timing,"old competitors use scenario-specific elapsed caps, not commonB256"
+S2_Proposed_components.csv,existing; not reused as primary B256 timing,inference is nested in candidate time
+S2_amortization.csv,existing; not reused as primary B256 timing,70.093s combines current labels with historical training loop; not same-run offline wall

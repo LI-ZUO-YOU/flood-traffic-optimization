@@ -1,0 +1,5 @@
+﻿synthetic_unit_m,DP_value,exhaustive_value,sequence,passed,UE_calls,scope
+2,8.5,8.5,2|1,True,0,"pure DP unit verification, not traffic experiment"
+3,6,6,3|2|1,True,0,"pure DP unit verification, not traffic experiment"
+4,3.75,3.75,4|3|2|1,True,0,"pure DP unit verification, not traffic experiment"
+5,4,4,4|3|2|1|5,True,0,"pure DP unit verification, not traffic experiment"

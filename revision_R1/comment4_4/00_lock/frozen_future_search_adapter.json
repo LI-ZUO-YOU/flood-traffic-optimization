@@ -1,0 +1,16 @@
+{
+  "frozen_at": "2026-10-29T14:22:50.331073+08:00",
+  "before_any_extended_scale_UE_or_quality_results": true,
+  "reason": "nested original SA propose used module-global N_ROADS=10, which m10-only tests cannot reveal",
+  "entry_point": "search_adapter44.install",
+  "source_sha256": {
+    "E:\\jcr2区意见\\返稿\\revision_4_4_scaling\\code\\search_adapter44.py": "05ed43e500adebf78f72cf0bdd754179c5c2fbeb8a7648018a0482a8332950f0",
+    "E:\\jcr2区意见\\返稿\\revision_4_4_scaling\\code\\methods_generalized.py": "8e4042d048c72386550b50b91765fc49e72f9f5cf1a33981f53d87f64a084e07",
+    "E:\\jcr2区意见\\返稿\\revision_4_4_scaling\\code\\candidate_generalized.py": "11e4e2e8e25428b4e75b9ba15f034221d3c30cb49cd62ee977550cf7484fe085",
+    "E:\\jcr2区意见\\返稿\\revision_4_4_scaling\\code\\components44.py": "3bf5ef25f8cfdc694d949542cb6148c81bfc90a82cc21d85db5a4d1148793112"
+  },
+  "SA_m10_replays_pass": 3,
+  "m12_m14_proposal_dimension_checks": true,
+  "new_UE_calls": 0,
+  "component_timing_code_unchanged": true
+}

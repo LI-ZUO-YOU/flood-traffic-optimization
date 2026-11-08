@@ -1,0 +1,6125 @@
+{
+  "status": "FROZEN_BEFORE_OPTIMIZATION_RESULT_READ",
+  "created_utc": "2026-11-02T12:36:57.591559+00:00",
+  "output_root": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_4",
+  "scenario_ids": [
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010
+  ],
+  "configs": [
+    {
+      "config_id": "1001_uniform_uniform",
+      "scenario_id": 1001,
+      "level": "uniform",
+      "allocation": "uniform",
+      "assignment_order": [
+        15,
+        17,
+        18,
+        19,
+        21,
+        24,
+        26,
+        29,
+        30,
+        31
+      ],
+      "durations_original_bit_order": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "roads_original_bit_order": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 15,
+          "duration": 1.0
+        },
+        {
+          "road_id": 17,
+          "duration": 1.0
+        },
+        {
+          "road_id": 18,
+          "duration": 1.0
+        },
+        {
+          "road_id": 19,
+          "duration": 1.0
+        },
+        {
+          "road_id": 21,
+          "duration": 1.0
+        },
+        {
+          "road_id": 24,
+          "duration": 1.0
+        },
+        {
+          "road_id": 26,
+          "duration": 1.0
+        },
+        {
+          "road_id": 29,
+          "duration": 1.0
+        },
+        {
+          "road_id": 30,
+          "duration": 1.0
+        },
+        {
+          "road_id": 31,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "config_id": "1001_moderate_depth_rank",
+      "scenario_id": 1001,
+      "level": "moderate",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        29,
+        21,
+        31,
+        24,
+        15,
+        18,
+        19,
+        30,
+        17,
+        26
+      ],
+      "durations_original_bit_order": [
+        1.25,
+        1,
+        0.75,
+        0.5,
+        1,
+        0.75,
+        1.5,
+        1.25,
+        1,
+        1
+      ],
+      "roads_original_bit_order": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 15,
+          "duration": 1
+        },
+        {
+          "road_id": 17,
+          "duration": 1.25
+        },
+        {
+          "road_id": 18,
+          "duration": 1
+        },
+        {
+          "road_id": 19,
+          "duration": 1
+        },
+        {
+          "road_id": 21,
+          "duration": 0.75
+        },
+        {
+          "road_id": 24,
+          "duration": 1
+        },
+        {
+          "road_id": 26,
+          "duration": 1.5
+        },
+        {
+          "road_id": 29,
+          "duration": 0.5
+        },
+        {
+          "road_id": 30,
+          "duration": 1.25
+        },
+        {
+          "road_id": 31,
+          "duration": 0.75
+        }
+      ]
+    },
+    {
+      "config_id": "1001_moderate_permutation_seed_1",
+      "scenario_id": 1001,
+      "level": "moderate",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        31,
+        26,
+        24,
+        15,
+        30,
+        19,
+        29,
+        21,
+        17,
+        18
+      ],
+      "durations_original_bit_order": [
+        1.25,
+        1,
+        0.5,
+        1,
+        1.5,
+        1.25,
+        0.75,
+        1,
+        0.75,
+        1
+      ],
+      "roads_original_bit_order": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 15,
+          "duration": 1
+        },
+        {
+          "road_id": 17,
+          "duration": 1.25
+        },
+        {
+          "road_id": 18,
+          "duration": 1.5
+        },
+        {
+          "road_id": 19,
+          "duration": 1
+        },
+        {
+          "road_id": 21,
+          "duration": 1.25
+        },
+        {
+          "road_id": 24,
+          "duration": 0.75
+        },
+        {
+          "road_id": 26,
+          "duration": 0.75
+        },
+        {
+          "road_id": 29,
+          "duration": 1
+        },
+        {
+          "road_id": 30,
+          "duration": 1
+        },
+        {
+          "road_id": 31,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1001_moderate_permutation_seed_2",
+      "scenario_id": 1001,
+      "level": "moderate",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        19,
+        21,
+        30,
+        15,
+        26,
+        24,
+        31,
+        17,
+        18,
+        29
+      ],
+      "durations_original_bit_order": [
+        1.25,
+        1,
+        1,
+        1.5,
+        1.25,
+        0.75,
+        1,
+        0.75,
+        1,
+        0.5
+      ],
+      "roads_original_bit_order": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 15,
+          "duration": 1
+        },
+        {
+          "road_id": 17,
+          "duration": 1.25
+        },
+        {
+          "road_id": 18,
+          "duration": 1.25
+        },
+        {
+          "road_id": 19,
+          "duration": 0.5
+        },
+        {
+          "road_id": 21,
+          "duration": 0.75
+        },
+        {
+          "road_id": 24,
+          "duration": 1
+        },
+        {
+          "road_id": 26,
+          "duration": 1
+        },
+        {
+          "road_id": 29,
+          "duration": 1.5
+        },
+        {
+          "road_id": 30,
+          "duration": 0.75
+        },
+        {
+          "road_id": 31,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1001_strong_depth_rank",
+      "scenario_id": 1001,
+      "level": "strong",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        29,
+        21,
+        31,
+        24,
+        15,
+        18,
+        19,
+        30,
+        17,
+        26
+      ],
+      "durations_original_bit_order": [
+        1.75,
+        0.75,
+        0.5,
+        0.25,
+        1,
+        0.5,
+        2,
+        1.5,
+        0.75,
+        1
+      ],
+      "roads_original_bit_order": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 15,
+          "duration": 0.75
+        },
+        {
+          "road_id": 17,
+          "duration": 1.75
+        },
+        {
+          "road_id": 18,
+          "duration": 1
+        },
+        {
+          "road_id": 19,
+          "duration": 1
+        },
+        {
+          "road_id": 21,
+          "duration": 0.5
+        },
+        {
+          "road_id": 24,
+          "duration": 0.75
+        },
+        {
+          "road_id": 26,
+          "duration": 2
+        },
+        {
+          "road_id": 29,
+          "duration": 0.25
+        },
+        {
+          "road_id": 30,
+          "duration": 1.5
+        },
+        {
+          "road_id": 31,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1001_strong_permutation_seed_1",
+      "scenario_id": 1001,
+      "level": "strong",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        31,
+        26,
+        24,
+        15,
+        30,
+        19,
+        29,
+        21,
+        17,
+        18
+      ],
+      "durations_original_bit_order": [
+        1.75,
+        0.75,
+        0.25,
+        1,
+        2,
+        1.5,
+        0.5,
+        0.75,
+        0.5,
+        1
+      ],
+      "roads_original_bit_order": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 15,
+          "duration": 0.75
+        },
+        {
+          "road_id": 17,
+          "duration": 1.75
+        },
+        {
+          "road_id": 18,
+          "duration": 2
+        },
+        {
+          "road_id": 19,
+          "duration": 1
+        },
+        {
+          "road_id": 21,
+          "duration": 1.5
+        },
+        {
+          "road_id": 24,
+          "duration": 0.5
+        },
+        {
+          "road_id": 26,
+          "duration": 0.5
+        },
+        {
+          "road_id": 29,
+          "duration": 1
+        },
+        {
+          "road_id": 30,
+          "duration": 0.75
+        },
+        {
+          "road_id": 31,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "config_id": "1001_strong_permutation_seed_2",
+      "scenario_id": 1001,
+      "level": "strong",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        19,
+        21,
+        30,
+        15,
+        26,
+        24,
+        31,
+        17,
+        18,
+        29
+      ],
+      "durations_original_bit_order": [
+        1.5,
+        0.75,
+        1,
+        2,
+        1.75,
+        0.5,
+        0.75,
+        0.5,
+        1,
+        0.25
+      ],
+      "roads_original_bit_order": [
+        17,
+        15,
+        31,
+        29,
+        18,
+        21,
+        26,
+        30,
+        24,
+        19
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 15,
+          "duration": 0.75
+        },
+        {
+          "road_id": 17,
+          "duration": 1.5
+        },
+        {
+          "road_id": 18,
+          "duration": 1.75
+        },
+        {
+          "road_id": 19,
+          "duration": 0.25
+        },
+        {
+          "road_id": 21,
+          "duration": 0.5
+        },
+        {
+          "road_id": 24,
+          "duration": 1
+        },
+        {
+          "road_id": 26,
+          "duration": 0.75
+        },
+        {
+          "road_id": 29,
+          "duration": 2
+        },
+        {
+          "road_id": 30,
+          "duration": 0.5
+        },
+        {
+          "road_id": 31,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1002_uniform_uniform",
+      "scenario_id": 1002,
+      "level": "uniform",
+      "allocation": "uniform",
+      "assignment_order": [
+        5,
+        19,
+        24,
+        25,
+        26,
+        27,
+        30,
+        31,
+        35,
+        37
+      ],
+      "durations_original_bit_order": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "roads_original_bit_order": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 5,
+          "duration": 1.0
+        },
+        {
+          "road_id": 19,
+          "duration": 1.0
+        },
+        {
+          "road_id": 24,
+          "duration": 1.0
+        },
+        {
+          "road_id": 25,
+          "duration": 1.0
+        },
+        {
+          "road_id": 26,
+          "duration": 1.0
+        },
+        {
+          "road_id": 27,
+          "duration": 1.0
+        },
+        {
+          "road_id": 30,
+          "duration": 1.0
+        },
+        {
+          "road_id": 31,
+          "duration": 1.0
+        },
+        {
+          "road_id": 35,
+          "duration": 1.0
+        },
+        {
+          "road_id": 37,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "config_id": "1002_moderate_depth_rank",
+      "scenario_id": 1002,
+      "level": "moderate",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        19,
+        5,
+        35,
+        31,
+        37,
+        24,
+        30,
+        25,
+        27,
+        26
+      ],
+      "durations_original_bit_order": [
+        1,
+        1.25,
+        0.75,
+        1.5,
+        1,
+        1,
+        1.25,
+        1,
+        0.5,
+        0.75
+      ],
+      "roads_original_bit_order": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 5,
+          "duration": 0.75
+        },
+        {
+          "road_id": 19,
+          "duration": 0.5
+        },
+        {
+          "road_id": 24,
+          "duration": 1
+        },
+        {
+          "road_id": 25,
+          "duration": 1.25
+        },
+        {
+          "road_id": 26,
+          "duration": 1.5
+        },
+        {
+          "road_id": 27,
+          "duration": 1.25
+        },
+        {
+          "road_id": 30,
+          "duration": 1
+        },
+        {
+          "road_id": 31,
+          "duration": 1
+        },
+        {
+          "road_id": 35,
+          "duration": 0.75
+        },
+        {
+          "road_id": 37,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1002_moderate_permutation_seed_1",
+      "scenario_id": 1002,
+      "level": "moderate",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        37,
+        30,
+        27,
+        5,
+        35,
+        25,
+        31,
+        26,
+        19,
+        24
+      ],
+      "durations_original_bit_order": [
+        1,
+        0.75,
+        1,
+        1.25,
+        0.75,
+        1.5,
+        1,
+        0.5,
+        1.25,
+        1
+      ],
+      "roads_original_bit_order": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 5,
+          "duration": 1
+        },
+        {
+          "road_id": 19,
+          "duration": 1.25
+        },
+        {
+          "road_id": 24,
+          "duration": 1.5
+        },
+        {
+          "road_id": 25,
+          "duration": 1
+        },
+        {
+          "road_id": 26,
+          "duration": 1.25
+        },
+        {
+          "road_id": 27,
+          "duration": 0.75
+        },
+        {
+          "road_id": 30,
+          "duration": 0.75
+        },
+        {
+          "road_id": 31,
+          "duration": 1
+        },
+        {
+          "road_id": 35,
+          "duration": 1
+        },
+        {
+          "road_id": 37,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1002_moderate_permutation_seed_2",
+      "scenario_id": 1002,
+      "level": "moderate",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        25,
+        26,
+        35,
+        5,
+        30,
+        27,
+        37,
+        19,
+        24,
+        31
+      ],
+      "durations_original_bit_order": [
+        1.5,
+        1,
+        1,
+        0.75,
+        1,
+        1.25,
+        0.5,
+        1,
+        1.25,
+        0.75
+      ],
+      "roads_original_bit_order": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 5,
+          "duration": 1
+        },
+        {
+          "road_id": 19,
+          "duration": 1.25
+        },
+        {
+          "road_id": 24,
+          "duration": 1.25
+        },
+        {
+          "road_id": 25,
+          "duration": 0.5
+        },
+        {
+          "road_id": 26,
+          "duration": 0.75
+        },
+        {
+          "road_id": 27,
+          "duration": 1
+        },
+        {
+          "road_id": 30,
+          "duration": 1
+        },
+        {
+          "road_id": 31,
+          "duration": 1.5
+        },
+        {
+          "road_id": 35,
+          "duration": 0.75
+        },
+        {
+          "road_id": 37,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1002_strong_depth_rank",
+      "scenario_id": 1002,
+      "level": "strong",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        19,
+        5,
+        35,
+        31,
+        37,
+        24,
+        30,
+        25,
+        27,
+        26
+      ],
+      "durations_original_bit_order": [
+        0.75,
+        1.75,
+        0.5,
+        2,
+        1,
+        1,
+        1.5,
+        0.75,
+        0.25,
+        0.5
+      ],
+      "roads_original_bit_order": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 5,
+          "duration": 0.5
+        },
+        {
+          "road_id": 19,
+          "duration": 0.25
+        },
+        {
+          "road_id": 24,
+          "duration": 1
+        },
+        {
+          "road_id": 25,
+          "duration": 1.5
+        },
+        {
+          "road_id": 26,
+          "duration": 2
+        },
+        {
+          "road_id": 27,
+          "duration": 1.75
+        },
+        {
+          "road_id": 30,
+          "duration": 1
+        },
+        {
+          "road_id": 31,
+          "duration": 0.75
+        },
+        {
+          "road_id": 35,
+          "duration": 0.5
+        },
+        {
+          "road_id": 37,
+          "duration": 0.75
+        }
+      ]
+    },
+    {
+      "config_id": "1002_strong_permutation_seed_1",
+      "scenario_id": 1002,
+      "level": "strong",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        37,
+        30,
+        27,
+        5,
+        35,
+        25,
+        31,
+        26,
+        19,
+        24
+      ],
+      "durations_original_bit_order": [
+        1,
+        0.5,
+        0.75,
+        1.5,
+        0.5,
+        2,
+        1,
+        0.25,
+        1.75,
+        0.75
+      ],
+      "roads_original_bit_order": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 5,
+          "duration": 0.75
+        },
+        {
+          "road_id": 19,
+          "duration": 1.75
+        },
+        {
+          "road_id": 24,
+          "duration": 2
+        },
+        {
+          "road_id": 25,
+          "duration": 1
+        },
+        {
+          "road_id": 26,
+          "duration": 1.5
+        },
+        {
+          "road_id": 27,
+          "duration": 0.5
+        },
+        {
+          "road_id": 30,
+          "duration": 0.5
+        },
+        {
+          "road_id": 31,
+          "duration": 1
+        },
+        {
+          "road_id": 35,
+          "duration": 0.75
+        },
+        {
+          "road_id": 37,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "config_id": "1002_strong_permutation_seed_2",
+      "scenario_id": 1002,
+      "level": "strong",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        25,
+        26,
+        35,
+        5,
+        30,
+        27,
+        37,
+        19,
+        24,
+        31
+      ],
+      "durations_original_bit_order": [
+        2,
+        1,
+        0.75,
+        0.5,
+        0.75,
+        1.75,
+        0.25,
+        1,
+        1.5,
+        0.5
+      ],
+      "roads_original_bit_order": [
+        31,
+        27,
+        5,
+        26,
+        30,
+        24,
+        25,
+        37,
+        19,
+        35
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 5,
+          "duration": 0.75
+        },
+        {
+          "road_id": 19,
+          "duration": 1.5
+        },
+        {
+          "road_id": 24,
+          "duration": 1.75
+        },
+        {
+          "road_id": 25,
+          "duration": 0.25
+        },
+        {
+          "road_id": 26,
+          "duration": 0.5
+        },
+        {
+          "road_id": 27,
+          "duration": 1
+        },
+        {
+          "road_id": 30,
+          "duration": 0.75
+        },
+        {
+          "road_id": 31,
+          "duration": 2
+        },
+        {
+          "road_id": 35,
+          "duration": 0.5
+        },
+        {
+          "road_id": 37,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1003_uniform_uniform",
+      "scenario_id": 1003,
+      "level": "uniform",
+      "allocation": "uniform",
+      "assignment_order": [
+        7,
+        8,
+        9,
+        11,
+        14,
+        17,
+        26,
+        27,
+        28,
+        29
+      ],
+      "durations_original_bit_order": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "roads_original_bit_order": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 7,
+          "duration": 1.0
+        },
+        {
+          "road_id": 8,
+          "duration": 1.0
+        },
+        {
+          "road_id": 9,
+          "duration": 1.0
+        },
+        {
+          "road_id": 11,
+          "duration": 1.0
+        },
+        {
+          "road_id": 14,
+          "duration": 1.0
+        },
+        {
+          "road_id": 17,
+          "duration": 1.0
+        },
+        {
+          "road_id": 26,
+          "duration": 1.0
+        },
+        {
+          "road_id": 27,
+          "duration": 1.0
+        },
+        {
+          "road_id": 28,
+          "duration": 1.0
+        },
+        {
+          "road_id": 29,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "config_id": "1003_moderate_depth_rank",
+      "scenario_id": 1003,
+      "level": "moderate",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        27,
+        7,
+        17,
+        26,
+        8,
+        9,
+        28,
+        29,
+        14,
+        11
+      ],
+      "durations_original_bit_order": [
+        0.75,
+        0.5,
+        1.25,
+        1,
+        1.5,
+        1.25,
+        1,
+        0.75,
+        1,
+        1
+      ],
+      "roads_original_bit_order": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 7,
+          "duration": 0.75
+        },
+        {
+          "road_id": 8,
+          "duration": 1
+        },
+        {
+          "road_id": 9,
+          "duration": 1
+        },
+        {
+          "road_id": 11,
+          "duration": 1.5
+        },
+        {
+          "road_id": 14,
+          "duration": 1.25
+        },
+        {
+          "road_id": 17,
+          "duration": 0.75
+        },
+        {
+          "road_id": 26,
+          "duration": 1
+        },
+        {
+          "road_id": 27,
+          "duration": 0.5
+        },
+        {
+          "road_id": 28,
+          "duration": 1
+        },
+        {
+          "road_id": 29,
+          "duration": 1.25
+        }
+      ]
+    },
+    {
+      "config_id": "1003_moderate_permutation_seed_1",
+      "scenario_id": 1003,
+      "level": "moderate",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        29,
+        26,
+        17,
+        7,
+        28,
+        11,
+        27,
+        14,
+        8,
+        9
+      ],
+      "durations_original_bit_order": [
+        0.75,
+        1,
+        0.5,
+        1.5,
+        1,
+        1.25,
+        0.75,
+        1,
+        1.25,
+        1
+      ],
+      "roads_original_bit_order": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 7,
+          "duration": 1
+        },
+        {
+          "road_id": 8,
+          "duration": 1.25
+        },
+        {
+          "road_id": 9,
+          "duration": 1.5
+        },
+        {
+          "road_id": 11,
+          "duration": 1
+        },
+        {
+          "road_id": 14,
+          "duration": 1.25
+        },
+        {
+          "road_id": 17,
+          "duration": 0.75
+        },
+        {
+          "road_id": 26,
+          "duration": 0.75
+        },
+        {
+          "road_id": 27,
+          "duration": 1
+        },
+        {
+          "road_id": 28,
+          "duration": 1
+        },
+        {
+          "road_id": 29,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1003_moderate_permutation_seed_2",
+      "scenario_id": 1003,
+      "level": "moderate",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        11,
+        14,
+        28,
+        7,
+        26,
+        17,
+        29,
+        8,
+        9,
+        27
+      ],
+      "durations_original_bit_order": [
+        1,
+        1.5,
+        1,
+        1.25,
+        0.5,
+        0.75,
+        1,
+        1,
+        1.25,
+        0.75
+      ],
+      "roads_original_bit_order": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 7,
+          "duration": 1
+        },
+        {
+          "road_id": 8,
+          "duration": 1.25
+        },
+        {
+          "road_id": 9,
+          "duration": 1.25
+        },
+        {
+          "road_id": 11,
+          "duration": 0.5
+        },
+        {
+          "road_id": 14,
+          "duration": 0.75
+        },
+        {
+          "road_id": 17,
+          "duration": 1
+        },
+        {
+          "road_id": 26,
+          "duration": 1
+        },
+        {
+          "road_id": 27,
+          "duration": 1.5
+        },
+        {
+          "road_id": 28,
+          "duration": 0.75
+        },
+        {
+          "road_id": 29,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1003_strong_depth_rank",
+      "scenario_id": 1003,
+      "level": "strong",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        27,
+        7,
+        17,
+        26,
+        8,
+        9,
+        28,
+        29,
+        14,
+        11
+      ],
+      "durations_original_bit_order": [
+        0.5,
+        0.25,
+        1.5,
+        1,
+        2,
+        1.75,
+        0.75,
+        0.5,
+        0.75,
+        1
+      ],
+      "roads_original_bit_order": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 7,
+          "duration": 0.5
+        },
+        {
+          "road_id": 8,
+          "duration": 0.75
+        },
+        {
+          "road_id": 9,
+          "duration": 1
+        },
+        {
+          "road_id": 11,
+          "duration": 2
+        },
+        {
+          "road_id": 14,
+          "duration": 1.75
+        },
+        {
+          "road_id": 17,
+          "duration": 0.5
+        },
+        {
+          "road_id": 26,
+          "duration": 0.75
+        },
+        {
+          "road_id": 27,
+          "duration": 0.25
+        },
+        {
+          "road_id": 28,
+          "duration": 1
+        },
+        {
+          "road_id": 29,
+          "duration": 1.5
+        }
+      ]
+    },
+    {
+      "config_id": "1003_strong_permutation_seed_1",
+      "scenario_id": 1003,
+      "level": "strong",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        29,
+        26,
+        17,
+        7,
+        28,
+        11,
+        27,
+        14,
+        8,
+        9
+      ],
+      "durations_original_bit_order": [
+        0.5,
+        1,
+        0.25,
+        2,
+        1,
+        1.5,
+        0.5,
+        0.75,
+        1.75,
+        0.75
+      ],
+      "roads_original_bit_order": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 7,
+          "duration": 0.75
+        },
+        {
+          "road_id": 8,
+          "duration": 1.75
+        },
+        {
+          "road_id": 9,
+          "duration": 2
+        },
+        {
+          "road_id": 11,
+          "duration": 1
+        },
+        {
+          "road_id": 14,
+          "duration": 1.5
+        },
+        {
+          "road_id": 17,
+          "duration": 0.5
+        },
+        {
+          "road_id": 26,
+          "duration": 0.5
+        },
+        {
+          "road_id": 27,
+          "duration": 1
+        },
+        {
+          "road_id": 28,
+          "duration": 0.75
+        },
+        {
+          "road_id": 29,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "config_id": "1003_strong_permutation_seed_2",
+      "scenario_id": 1003,
+      "level": "strong",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        11,
+        14,
+        28,
+        7,
+        26,
+        17,
+        29,
+        8,
+        9,
+        27
+      ],
+      "durations_original_bit_order": [
+        1,
+        2,
+        1,
+        1.75,
+        0.25,
+        0.5,
+        0.75,
+        0.75,
+        1.5,
+        0.5
+      ],
+      "roads_original_bit_order": [
+        17,
+        27,
+        29,
+        9,
+        11,
+        14,
+        26,
+        7,
+        8,
+        28
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 7,
+          "duration": 0.75
+        },
+        {
+          "road_id": 8,
+          "duration": 1.5
+        },
+        {
+          "road_id": 9,
+          "duration": 1.75
+        },
+        {
+          "road_id": 11,
+          "duration": 0.25
+        },
+        {
+          "road_id": 14,
+          "duration": 0.5
+        },
+        {
+          "road_id": 17,
+          "duration": 1
+        },
+        {
+          "road_id": 26,
+          "duration": 0.75
+        },
+        {
+          "road_id": 27,
+          "duration": 2
+        },
+        {
+          "road_id": 28,
+          "duration": 0.5
+        },
+        {
+          "road_id": 29,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1004_uniform_uniform",
+      "scenario_id": 1004,
+      "level": "uniform",
+      "allocation": "uniform",
+      "assignment_order": [
+        2,
+        5,
+        7,
+        20,
+        21,
+        27,
+        30,
+        32,
+        33,
+        35
+      ],
+      "durations_original_bit_order": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "roads_original_bit_order": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 2,
+          "duration": 1.0
+        },
+        {
+          "road_id": 5,
+          "duration": 1.0
+        },
+        {
+          "road_id": 7,
+          "duration": 1.0
+        },
+        {
+          "road_id": 20,
+          "duration": 1.0
+        },
+        {
+          "road_id": 21,
+          "duration": 1.0
+        },
+        {
+          "road_id": 27,
+          "duration": 1.0
+        },
+        {
+          "road_id": 30,
+          "duration": 1.0
+        },
+        {
+          "road_id": 32,
+          "duration": 1.0
+        },
+        {
+          "road_id": 33,
+          "duration": 1.0
+        },
+        {
+          "road_id": 35,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "config_id": "1004_moderate_depth_rank",
+      "scenario_id": 1004,
+      "level": "moderate",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        30,
+        27,
+        21,
+        35,
+        7,
+        32,
+        33,
+        20,
+        5,
+        2
+      ],
+      "durations_original_bit_order": [
+        1.25,
+        0.75,
+        0.75,
+        1.25,
+        0.5,
+        1,
+        1.5,
+        1,
+        1,
+        1
+      ],
+      "roads_original_bit_order": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 2,
+          "duration": 1.5
+        },
+        {
+          "road_id": 5,
+          "duration": 1.25
+        },
+        {
+          "road_id": 7,
+          "duration": 1
+        },
+        {
+          "road_id": 20,
+          "duration": 1.25
+        },
+        {
+          "road_id": 21,
+          "duration": 0.75
+        },
+        {
+          "road_id": 27,
+          "duration": 0.75
+        },
+        {
+          "road_id": 30,
+          "duration": 0.5
+        },
+        {
+          "road_id": 32,
+          "duration": 1
+        },
+        {
+          "road_id": 33,
+          "duration": 1
+        },
+        {
+          "road_id": 35,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1004_moderate_permutation_seed_1",
+      "scenario_id": 1004,
+      "level": "moderate",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        35,
+        30,
+        27,
+        2,
+        33,
+        20,
+        32,
+        21,
+        5,
+        7
+      ],
+      "durations_original_bit_order": [
+        1.25,
+        0.75,
+        1.25,
+        1,
+        0.75,
+        1.5,
+        1,
+        1,
+        0.5,
+        1
+      ],
+      "roads_original_bit_order": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 2,
+          "duration": 1
+        },
+        {
+          "road_id": 5,
+          "duration": 1.25
+        },
+        {
+          "road_id": 7,
+          "duration": 1.5
+        },
+        {
+          "road_id": 20,
+          "duration": 1
+        },
+        {
+          "road_id": 21,
+          "duration": 1.25
+        },
+        {
+          "road_id": 27,
+          "duration": 0.75
+        },
+        {
+          "road_id": 30,
+          "duration": 0.75
+        },
+        {
+          "road_id": 32,
+          "duration": 1
+        },
+        {
+          "road_id": 33,
+          "duration": 1
+        },
+        {
+          "road_id": 35,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1004_moderate_permutation_seed_2",
+      "scenario_id": 1004,
+      "level": "moderate",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        20,
+        21,
+        33,
+        2,
+        30,
+        27,
+        35,
+        5,
+        7,
+        32
+      ],
+      "durations_original_bit_order": [
+        1.25,
+        1,
+        0.75,
+        0.5,
+        1,
+        1.25,
+        1,
+        1.5,
+        1,
+        0.75
+      ],
+      "roads_original_bit_order": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 2,
+          "duration": 1
+        },
+        {
+          "road_id": 5,
+          "duration": 1.25
+        },
+        {
+          "road_id": 7,
+          "duration": 1.25
+        },
+        {
+          "road_id": 20,
+          "duration": 0.5
+        },
+        {
+          "road_id": 21,
+          "duration": 0.75
+        },
+        {
+          "road_id": 27,
+          "duration": 1
+        },
+        {
+          "road_id": 30,
+          "duration": 1
+        },
+        {
+          "road_id": 32,
+          "duration": 1.5
+        },
+        {
+          "road_id": 33,
+          "duration": 0.75
+        },
+        {
+          "road_id": 35,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1004_strong_depth_rank",
+      "scenario_id": 1004,
+      "level": "strong",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        30,
+        27,
+        21,
+        35,
+        7,
+        32,
+        33,
+        20,
+        5,
+        2
+      ],
+      "durations_original_bit_order": [
+        1.75,
+        0.5,
+        0.5,
+        1.5,
+        0.25,
+        0.75,
+        2,
+        1,
+        0.75,
+        1
+      ],
+      "roads_original_bit_order": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 2,
+          "duration": 2
+        },
+        {
+          "road_id": 5,
+          "duration": 1.75
+        },
+        {
+          "road_id": 7,
+          "duration": 0.75
+        },
+        {
+          "road_id": 20,
+          "duration": 1.5
+        },
+        {
+          "road_id": 21,
+          "duration": 0.5
+        },
+        {
+          "road_id": 27,
+          "duration": 0.5
+        },
+        {
+          "road_id": 30,
+          "duration": 0.25
+        },
+        {
+          "road_id": 32,
+          "duration": 1
+        },
+        {
+          "road_id": 33,
+          "duration": 1
+        },
+        {
+          "road_id": 35,
+          "duration": 0.75
+        }
+      ]
+    },
+    {
+      "config_id": "1004_strong_permutation_seed_1",
+      "scenario_id": 1004,
+      "level": "strong",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        35,
+        30,
+        27,
+        2,
+        33,
+        20,
+        32,
+        21,
+        5,
+        7
+      ],
+      "durations_original_bit_order": [
+        1.75,
+        0.5,
+        1.5,
+        1,
+        0.5,
+        2,
+        0.75,
+        1,
+        0.25,
+        0.75
+      ],
+      "roads_original_bit_order": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 2,
+          "duration": 0.75
+        },
+        {
+          "road_id": 5,
+          "duration": 1.75
+        },
+        {
+          "road_id": 7,
+          "duration": 2
+        },
+        {
+          "road_id": 20,
+          "duration": 1
+        },
+        {
+          "road_id": 21,
+          "duration": 1.5
+        },
+        {
+          "road_id": 27,
+          "duration": 0.5
+        },
+        {
+          "road_id": 30,
+          "duration": 0.5
+        },
+        {
+          "road_id": 32,
+          "duration": 1
+        },
+        {
+          "road_id": 33,
+          "duration": 0.75
+        },
+        {
+          "road_id": 35,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "config_id": "1004_strong_permutation_seed_2",
+      "scenario_id": 1004,
+      "level": "strong",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        20,
+        21,
+        33,
+        2,
+        30,
+        27,
+        35,
+        5,
+        7,
+        32
+      ],
+      "durations_original_bit_order": [
+        1.5,
+        1,
+        0.5,
+        0.25,
+        0.75,
+        1.75,
+        0.75,
+        2,
+        1,
+        0.5
+      ],
+      "roads_original_bit_order": [
+        5,
+        27,
+        21,
+        20,
+        30,
+        7,
+        2,
+        32,
+        35,
+        33
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 2,
+          "duration": 0.75
+        },
+        {
+          "road_id": 5,
+          "duration": 1.5
+        },
+        {
+          "road_id": 7,
+          "duration": 1.75
+        },
+        {
+          "road_id": 20,
+          "duration": 0.25
+        },
+        {
+          "road_id": 21,
+          "duration": 0.5
+        },
+        {
+          "road_id": 27,
+          "duration": 1
+        },
+        {
+          "road_id": 30,
+          "duration": 0.75
+        },
+        {
+          "road_id": 32,
+          "duration": 2
+        },
+        {
+          "road_id": 33,
+          "duration": 0.5
+        },
+        {
+          "road_id": 35,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1005_uniform_uniform",
+      "scenario_id": 1005,
+      "level": "uniform",
+      "allocation": "uniform",
+      "assignment_order": [
+        3,
+        5,
+        6,
+        10,
+        11,
+        14,
+        22,
+        29,
+        35,
+        37
+      ],
+      "durations_original_bit_order": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "roads_original_bit_order": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 3,
+          "duration": 1.0
+        },
+        {
+          "road_id": 5,
+          "duration": 1.0
+        },
+        {
+          "road_id": 6,
+          "duration": 1.0
+        },
+        {
+          "road_id": 10,
+          "duration": 1.0
+        },
+        {
+          "road_id": 11,
+          "duration": 1.0
+        },
+        {
+          "road_id": 14,
+          "duration": 1.0
+        },
+        {
+          "road_id": 22,
+          "duration": 1.0
+        },
+        {
+          "road_id": 29,
+          "duration": 1.0
+        },
+        {
+          "road_id": 35,
+          "duration": 1.0
+        },
+        {
+          "road_id": 37,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "config_id": "1005_moderate_depth_rank",
+      "scenario_id": 1005,
+      "level": "moderate",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        29,
+        14,
+        6,
+        35,
+        11,
+        37,
+        10,
+        5,
+        22,
+        3
+      ],
+      "durations_original_bit_order": [
+        1,
+        1.25,
+        0.75,
+        0.5,
+        1.25,
+        1,
+        0.75,
+        1,
+        1.5,
+        1
+      ],
+      "roads_original_bit_order": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 3,
+          "duration": 1.5
+        },
+        {
+          "road_id": 5,
+          "duration": 1.25
+        },
+        {
+          "road_id": 6,
+          "duration": 0.75
+        },
+        {
+          "road_id": 10,
+          "duration": 1
+        },
+        {
+          "road_id": 11,
+          "duration": 1
+        },
+        {
+          "road_id": 14,
+          "duration": 0.75
+        },
+        {
+          "road_id": 22,
+          "duration": 1.25
+        },
+        {
+          "road_id": 29,
+          "duration": 0.5
+        },
+        {
+          "road_id": 35,
+          "duration": 1
+        },
+        {
+          "road_id": 37,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1005_moderate_permutation_seed_1",
+      "scenario_id": 1005,
+      "level": "moderate",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        37,
+        22,
+        14,
+        3,
+        35,
+        10,
+        29,
+        11,
+        5,
+        6
+      ],
+      "durations_original_bit_order": [
+        1,
+        0.75,
+        1.5,
+        1,
+        1.25,
+        1.25,
+        0.75,
+        0.5,
+        1,
+        1
+      ],
+      "roads_original_bit_order": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 3,
+          "duration": 1
+        },
+        {
+          "road_id": 5,
+          "duration": 1.25
+        },
+        {
+          "road_id": 6,
+          "duration": 1.5
+        },
+        {
+          "road_id": 10,
+          "duration": 1
+        },
+        {
+          "road_id": 11,
+          "duration": 1.25
+        },
+        {
+          "road_id": 14,
+          "duration": 0.75
+        },
+        {
+          "road_id": 22,
+          "duration": 0.75
+        },
+        {
+          "road_id": 29,
+          "duration": 1
+        },
+        {
+          "road_id": 35,
+          "duration": 1
+        },
+        {
+          "road_id": 37,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1005_moderate_permutation_seed_2",
+      "scenario_id": 1005,
+      "level": "moderate",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        10,
+        11,
+        35,
+        3,
+        22,
+        14,
+        37,
+        5,
+        6,
+        29
+      ],
+      "durations_original_bit_order": [
+        0.5,
+        1,
+        1.25,
+        1.5,
+        1.25,
+        0.75,
+        1,
+        1,
+        1,
+        0.75
+      ],
+      "roads_original_bit_order": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 3,
+          "duration": 1
+        },
+        {
+          "road_id": 5,
+          "duration": 1.25
+        },
+        {
+          "road_id": 6,
+          "duration": 1.25
+        },
+        {
+          "road_id": 10,
+          "duration": 0.5
+        },
+        {
+          "road_id": 11,
+          "duration": 0.75
+        },
+        {
+          "road_id": 14,
+          "duration": 1
+        },
+        {
+          "road_id": 22,
+          "duration": 1
+        },
+        {
+          "road_id": 29,
+          "duration": 1.5
+        },
+        {
+          "road_id": 35,
+          "duration": 0.75
+        },
+        {
+          "road_id": 37,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1005_strong_depth_rank",
+      "scenario_id": 1005,
+      "level": "strong",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        29,
+        14,
+        6,
+        35,
+        11,
+        37,
+        10,
+        5,
+        22,
+        3
+      ],
+      "durations_original_bit_order": [
+        1,
+        1.75,
+        0.5,
+        0.25,
+        1.5,
+        0.75,
+        0.5,
+        1,
+        2,
+        0.75
+      ],
+      "roads_original_bit_order": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 3,
+          "duration": 2
+        },
+        {
+          "road_id": 5,
+          "duration": 1.5
+        },
+        {
+          "road_id": 6,
+          "duration": 0.5
+        },
+        {
+          "road_id": 10,
+          "duration": 1
+        },
+        {
+          "road_id": 11,
+          "duration": 0.75
+        },
+        {
+          "road_id": 14,
+          "duration": 0.5
+        },
+        {
+          "road_id": 22,
+          "duration": 1.75
+        },
+        {
+          "road_id": 29,
+          "duration": 0.25
+        },
+        {
+          "road_id": 35,
+          "duration": 0.75
+        },
+        {
+          "road_id": 37,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1005_strong_permutation_seed_1",
+      "scenario_id": 1005,
+      "level": "strong",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        37,
+        22,
+        14,
+        3,
+        35,
+        10,
+        29,
+        11,
+        5,
+        6
+      ],
+      "durations_original_bit_order": [
+        1,
+        0.5,
+        2,
+        1,
+        1.75,
+        1.5,
+        0.5,
+        0.25,
+        0.75,
+        0.75
+      ],
+      "roads_original_bit_order": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 3,
+          "duration": 0.75
+        },
+        {
+          "road_id": 5,
+          "duration": 1.75
+        },
+        {
+          "road_id": 6,
+          "duration": 2
+        },
+        {
+          "road_id": 10,
+          "duration": 1
+        },
+        {
+          "road_id": 11,
+          "duration": 1.5
+        },
+        {
+          "road_id": 14,
+          "duration": 0.5
+        },
+        {
+          "road_id": 22,
+          "duration": 0.5
+        },
+        {
+          "road_id": 29,
+          "duration": 1
+        },
+        {
+          "road_id": 35,
+          "duration": 0.75
+        },
+        {
+          "road_id": 37,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "config_id": "1005_strong_permutation_seed_2",
+      "scenario_id": 1005,
+      "level": "strong",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        10,
+        11,
+        35,
+        3,
+        22,
+        14,
+        37,
+        5,
+        6,
+        29
+      ],
+      "durations_original_bit_order": [
+        0.25,
+        0.75,
+        1.75,
+        2,
+        1.5,
+        0.5,
+        1,
+        1,
+        0.75,
+        0.5
+      ],
+      "roads_original_bit_order": [
+        10,
+        22,
+        6,
+        29,
+        5,
+        11,
+        14,
+        37,
+        3,
+        35
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 3,
+          "duration": 0.75
+        },
+        {
+          "road_id": 5,
+          "duration": 1.5
+        },
+        {
+          "road_id": 6,
+          "duration": 1.75
+        },
+        {
+          "road_id": 10,
+          "duration": 0.25
+        },
+        {
+          "road_id": 11,
+          "duration": 0.5
+        },
+        {
+          "road_id": 14,
+          "duration": 1
+        },
+        {
+          "road_id": 22,
+          "duration": 0.75
+        },
+        {
+          "road_id": 29,
+          "duration": 2
+        },
+        {
+          "road_id": 35,
+          "duration": 0.5
+        },
+        {
+          "road_id": 37,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1006_uniform_uniform",
+      "scenario_id": 1006,
+      "level": "uniform",
+      "allocation": "uniform",
+      "assignment_order": [
+        4,
+        5,
+        6,
+        9,
+        13,
+        14,
+        16,
+        18,
+        19,
+        28
+      ],
+      "durations_original_bit_order": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "roads_original_bit_order": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 4,
+          "duration": 1.0
+        },
+        {
+          "road_id": 5,
+          "duration": 1.0
+        },
+        {
+          "road_id": 6,
+          "duration": 1.0
+        },
+        {
+          "road_id": 9,
+          "duration": 1.0
+        },
+        {
+          "road_id": 13,
+          "duration": 1.0
+        },
+        {
+          "road_id": 14,
+          "duration": 1.0
+        },
+        {
+          "road_id": 16,
+          "duration": 1.0
+        },
+        {
+          "road_id": 18,
+          "duration": 1.0
+        },
+        {
+          "road_id": 19,
+          "duration": 1.0
+        },
+        {
+          "road_id": 28,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "config_id": "1006_moderate_depth_rank",
+      "scenario_id": 1006,
+      "level": "moderate",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        16,
+        28,
+        19,
+        18,
+        14,
+        13,
+        9,
+        6,
+        5,
+        4
+      ],
+      "durations_original_bit_order": [
+        0.5,
+        1.25,
+        1.25,
+        1,
+        1.5,
+        1,
+        1,
+        0.75,
+        0.75,
+        1
+      ],
+      "roads_original_bit_order": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 4,
+          "duration": 1.5
+        },
+        {
+          "road_id": 5,
+          "duration": 1.25
+        },
+        {
+          "road_id": 6,
+          "duration": 1.25
+        },
+        {
+          "road_id": 9,
+          "duration": 1
+        },
+        {
+          "road_id": 13,
+          "duration": 1
+        },
+        {
+          "road_id": 14,
+          "duration": 1
+        },
+        {
+          "road_id": 16,
+          "duration": 0.5
+        },
+        {
+          "road_id": 18,
+          "duration": 1
+        },
+        {
+          "road_id": 19,
+          "duration": 0.75
+        },
+        {
+          "road_id": 28,
+          "duration": 0.75
+        }
+      ]
+    },
+    {
+      "config_id": "1006_moderate_permutation_seed_1",
+      "scenario_id": 1006,
+      "level": "moderate",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        28,
+        16,
+        14,
+        4,
+        19,
+        9,
+        18,
+        13,
+        5,
+        6
+      ],
+      "durations_original_bit_order": [
+        0.75,
+        1.5,
+        1.25,
+        1,
+        1,
+        1,
+        0.75,
+        0.5,
+        1,
+        1.25
+      ],
+      "roads_original_bit_order": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 4,
+          "duration": 1
+        },
+        {
+          "road_id": 5,
+          "duration": 1.25
+        },
+        {
+          "road_id": 6,
+          "duration": 1.5
+        },
+        {
+          "road_id": 9,
+          "duration": 1
+        },
+        {
+          "road_id": 13,
+          "duration": 1.25
+        },
+        {
+          "road_id": 14,
+          "duration": 0.75
+        },
+        {
+          "road_id": 16,
+          "duration": 0.75
+        },
+        {
+          "road_id": 18,
+          "duration": 1
+        },
+        {
+          "road_id": 19,
+          "duration": 1
+        },
+        {
+          "road_id": 28,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1006_moderate_permutation_seed_2",
+      "scenario_id": 1006,
+      "level": "moderate",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        9,
+        13,
+        19,
+        4,
+        16,
+        14,
+        28,
+        5,
+        6,
+        18
+      ],
+      "durations_original_bit_order": [
+        1,
+        1.25,
+        1.25,
+        0.5,
+        1,
+        1.5,
+        1,
+        1,
+        0.75,
+        0.75
+      ],
+      "roads_original_bit_order": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 4,
+          "duration": 1
+        },
+        {
+          "road_id": 5,
+          "duration": 1.25
+        },
+        {
+          "road_id": 6,
+          "duration": 1.25
+        },
+        {
+          "road_id": 9,
+          "duration": 0.5
+        },
+        {
+          "road_id": 13,
+          "duration": 0.75
+        },
+        {
+          "road_id": 14,
+          "duration": 1
+        },
+        {
+          "road_id": 16,
+          "duration": 1
+        },
+        {
+          "road_id": 18,
+          "duration": 1.5
+        },
+        {
+          "road_id": 19,
+          "duration": 0.75
+        },
+        {
+          "road_id": 28,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1006_strong_depth_rank",
+      "scenario_id": 1006,
+      "level": "strong",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        16,
+        28,
+        19,
+        18,
+        14,
+        13,
+        9,
+        6,
+        5,
+        4
+      ],
+      "durations_original_bit_order": [
+        0.25,
+        1.5,
+        1.75,
+        1,
+        2,
+        0.75,
+        0.75,
+        0.5,
+        0.5,
+        1
+      ],
+      "roads_original_bit_order": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 4,
+          "duration": 2
+        },
+        {
+          "road_id": 5,
+          "duration": 1.75
+        },
+        {
+          "road_id": 6,
+          "duration": 1.5
+        },
+        {
+          "road_id": 9,
+          "duration": 1
+        },
+        {
+          "road_id": 13,
+          "duration": 1
+        },
+        {
+          "road_id": 14,
+          "duration": 0.75
+        },
+        {
+          "road_id": 16,
+          "duration": 0.25
+        },
+        {
+          "road_id": 18,
+          "duration": 0.75
+        },
+        {
+          "road_id": 19,
+          "duration": 0.5
+        },
+        {
+          "road_id": 28,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1006_strong_permutation_seed_1",
+      "scenario_id": 1006,
+      "level": "strong",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        28,
+        16,
+        14,
+        4,
+        19,
+        9,
+        18,
+        13,
+        5,
+        6
+      ],
+      "durations_original_bit_order": [
+        0.5,
+        2,
+        1.75,
+        1,
+        0.75,
+        1,
+        0.5,
+        0.25,
+        0.75,
+        1.5
+      ],
+      "roads_original_bit_order": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 4,
+          "duration": 0.75
+        },
+        {
+          "road_id": 5,
+          "duration": 1.75
+        },
+        {
+          "road_id": 6,
+          "duration": 2
+        },
+        {
+          "road_id": 9,
+          "duration": 1
+        },
+        {
+          "road_id": 13,
+          "duration": 1.5
+        },
+        {
+          "road_id": 14,
+          "duration": 0.5
+        },
+        {
+          "road_id": 16,
+          "duration": 0.5
+        },
+        {
+          "road_id": 18,
+          "duration": 1
+        },
+        {
+          "road_id": 19,
+          "duration": 0.75
+        },
+        {
+          "road_id": 28,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "config_id": "1006_strong_permutation_seed_2",
+      "scenario_id": 1006,
+      "level": "strong",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        9,
+        13,
+        19,
+        4,
+        16,
+        14,
+        28,
+        5,
+        6,
+        18
+      ],
+      "durations_original_bit_order": [
+        0.75,
+        1.75,
+        1.5,
+        0.25,
+        0.75,
+        2,
+        1,
+        1,
+        0.5,
+        0.5
+      ],
+      "roads_original_bit_order": [
+        16,
+        6,
+        5,
+        9,
+        4,
+        18,
+        14,
+        28,
+        19,
+        13
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 4,
+          "duration": 0.75
+        },
+        {
+          "road_id": 5,
+          "duration": 1.5
+        },
+        {
+          "road_id": 6,
+          "duration": 1.75
+        },
+        {
+          "road_id": 9,
+          "duration": 0.25
+        },
+        {
+          "road_id": 13,
+          "duration": 0.5
+        },
+        {
+          "road_id": 14,
+          "duration": 1
+        },
+        {
+          "road_id": 16,
+          "duration": 0.75
+        },
+        {
+          "road_id": 18,
+          "duration": 2
+        },
+        {
+          "road_id": 19,
+          "duration": 0.5
+        },
+        {
+          "road_id": 28,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1007_uniform_uniform",
+      "scenario_id": 1007,
+      "level": "uniform",
+      "allocation": "uniform",
+      "assignment_order": [
+        4,
+        5,
+        6,
+        11,
+        15,
+        16,
+        17,
+        18,
+        20,
+        24
+      ],
+      "durations_original_bit_order": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 4,
+          "duration": 1.0
+        },
+        {
+          "road_id": 5,
+          "duration": 1.0
+        },
+        {
+          "road_id": 6,
+          "duration": 1.0
+        },
+        {
+          "road_id": 11,
+          "duration": 1.0
+        },
+        {
+          "road_id": 15,
+          "duration": 1.0
+        },
+        {
+          "road_id": 16,
+          "duration": 1.0
+        },
+        {
+          "road_id": 17,
+          "duration": 1.0
+        },
+        {
+          "road_id": 18,
+          "duration": 1.0
+        },
+        {
+          "road_id": 20,
+          "duration": 1.0
+        },
+        {
+          "road_id": 24,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "config_id": "1007_moderate_depth_rank",
+      "scenario_id": 1007,
+      "level": "moderate",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        24,
+        17,
+        18,
+        11,
+        15,
+        16,
+        6,
+        20,
+        5,
+        4
+      ],
+      "durations_original_bit_order": [
+        0.75,
+        1,
+        1,
+        1,
+        0.75,
+        1.5,
+        1.25,
+        1.25,
+        1,
+        0.5
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 4,
+          "duration": 1.5
+        },
+        {
+          "road_id": 5,
+          "duration": 1.25
+        },
+        {
+          "road_id": 6,
+          "duration": 1
+        },
+        {
+          "road_id": 11,
+          "duration": 1
+        },
+        {
+          "road_id": 15,
+          "duration": 1
+        },
+        {
+          "road_id": 16,
+          "duration": 1
+        },
+        {
+          "road_id": 17,
+          "duration": 0.75
+        },
+        {
+          "road_id": 18,
+          "duration": 0.75
+        },
+        {
+          "road_id": 20,
+          "duration": 1.25
+        },
+        {
+          "road_id": 24,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1007_moderate_permutation_seed_1",
+      "scenario_id": 1007,
+      "level": "moderate",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        24,
+        17,
+        16,
+        4,
+        20,
+        11,
+        18,
+        15,
+        5,
+        6
+      ],
+      "durations_original_bit_order": [
+        0.75,
+        0.75,
+        1.25,
+        1.5,
+        1,
+        1,
+        1.25,
+        1,
+        1,
+        0.5
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 4,
+          "duration": 1
+        },
+        {
+          "road_id": 5,
+          "duration": 1.25
+        },
+        {
+          "road_id": 6,
+          "duration": 1.5
+        },
+        {
+          "road_id": 11,
+          "duration": 1
+        },
+        {
+          "road_id": 15,
+          "duration": 1.25
+        },
+        {
+          "road_id": 16,
+          "duration": 0.75
+        },
+        {
+          "road_id": 17,
+          "duration": 0.75
+        },
+        {
+          "road_id": 18,
+          "duration": 1
+        },
+        {
+          "road_id": 20,
+          "duration": 1
+        },
+        {
+          "road_id": 24,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1007_moderate_permutation_seed_2",
+      "scenario_id": 1007,
+      "level": "moderate",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        11,
+        15,
+        20,
+        4,
+        17,
+        16,
+        24,
+        5,
+        6,
+        18
+      ],
+      "durations_original_bit_order": [
+        1,
+        1,
+        0.75,
+        1.25,
+        1.5,
+        1,
+        1.25,
+        0.75,
+        0.5,
+        1
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 4,
+          "duration": 1
+        },
+        {
+          "road_id": 5,
+          "duration": 1.25
+        },
+        {
+          "road_id": 6,
+          "duration": 1.25
+        },
+        {
+          "road_id": 11,
+          "duration": 0.5
+        },
+        {
+          "road_id": 15,
+          "duration": 0.75
+        },
+        {
+          "road_id": 16,
+          "duration": 1
+        },
+        {
+          "road_id": 17,
+          "duration": 1
+        },
+        {
+          "road_id": 18,
+          "duration": 1.5
+        },
+        {
+          "road_id": 20,
+          "duration": 0.75
+        },
+        {
+          "road_id": 24,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1007_strong_depth_rank",
+      "scenario_id": 1007,
+      "level": "strong",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        24,
+        17,
+        18,
+        11,
+        15,
+        16,
+        6,
+        20,
+        5,
+        4
+      ],
+      "durations_original_bit_order": [
+        0.5,
+        1,
+        0.75,
+        1,
+        0.5,
+        2,
+        1.75,
+        1.5,
+        0.75,
+        0.25
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 4,
+          "duration": 2
+        },
+        {
+          "road_id": 5,
+          "duration": 1.75
+        },
+        {
+          "road_id": 6,
+          "duration": 1
+        },
+        {
+          "road_id": 11,
+          "duration": 0.75
+        },
+        {
+          "road_id": 15,
+          "duration": 0.75
+        },
+        {
+          "road_id": 16,
+          "duration": 1
+        },
+        {
+          "road_id": 17,
+          "duration": 0.5
+        },
+        {
+          "road_id": 18,
+          "duration": 0.5
+        },
+        {
+          "road_id": 20,
+          "duration": 1.5
+        },
+        {
+          "road_id": 24,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "config_id": "1007_strong_permutation_seed_1",
+      "scenario_id": 1007,
+      "level": "strong",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        24,
+        17,
+        16,
+        4,
+        20,
+        11,
+        18,
+        15,
+        5,
+        6
+      ],
+      "durations_original_bit_order": [
+        0.5,
+        0.5,
+        1.5,
+        2,
+        1,
+        0.75,
+        1.75,
+        0.75,
+        1,
+        0.25
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 4,
+          "duration": 0.75
+        },
+        {
+          "road_id": 5,
+          "duration": 1.75
+        },
+        {
+          "road_id": 6,
+          "duration": 2
+        },
+        {
+          "road_id": 11,
+          "duration": 1
+        },
+        {
+          "road_id": 15,
+          "duration": 1.5
+        },
+        {
+          "road_id": 16,
+          "duration": 0.5
+        },
+        {
+          "road_id": 17,
+          "duration": 0.5
+        },
+        {
+          "road_id": 18,
+          "duration": 1
+        },
+        {
+          "road_id": 20,
+          "duration": 0.75
+        },
+        {
+          "road_id": 24,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "config_id": "1007_strong_permutation_seed_2",
+      "scenario_id": 1007,
+      "level": "strong",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        11,
+        15,
+        20,
+        4,
+        17,
+        16,
+        24,
+        5,
+        6,
+        18
+      ],
+      "durations_original_bit_order": [
+        0.75,
+        1,
+        0.5,
+        1.75,
+        2,
+        0.75,
+        1.5,
+        0.5,
+        0.25,
+        1
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        15,
+        6,
+        18,
+        4,
+        5,
+        20,
+        11,
+        24
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 4,
+          "duration": 0.75
+        },
+        {
+          "road_id": 5,
+          "duration": 1.5
+        },
+        {
+          "road_id": 6,
+          "duration": 1.75
+        },
+        {
+          "road_id": 11,
+          "duration": 0.25
+        },
+        {
+          "road_id": 15,
+          "duration": 0.5
+        },
+        {
+          "road_id": 16,
+          "duration": 1
+        },
+        {
+          "road_id": 17,
+          "duration": 0.75
+        },
+        {
+          "road_id": 18,
+          "duration": 2
+        },
+        {
+          "road_id": 20,
+          "duration": 0.5
+        },
+        {
+          "road_id": 24,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1008_uniform_uniform",
+      "scenario_id": 1008,
+      "level": "uniform",
+      "allocation": "uniform",
+      "assignment_order": [
+        6,
+        7,
+        9,
+        10,
+        14,
+        16,
+        17,
+        18,
+        20,
+        24
+      ],
+      "durations_original_bit_order": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 6,
+          "duration": 1.0
+        },
+        {
+          "road_id": 7,
+          "duration": 1.0
+        },
+        {
+          "road_id": 9,
+          "duration": 1.0
+        },
+        {
+          "road_id": 10,
+          "duration": 1.0
+        },
+        {
+          "road_id": 14,
+          "duration": 1.0
+        },
+        {
+          "road_id": 16,
+          "duration": 1.0
+        },
+        {
+          "road_id": 17,
+          "duration": 1.0
+        },
+        {
+          "road_id": 18,
+          "duration": 1.0
+        },
+        {
+          "road_id": 20,
+          "duration": 1.0
+        },
+        {
+          "road_id": 24,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "config_id": "1008_moderate_depth_rank",
+      "scenario_id": 1008,
+      "level": "moderate",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        24,
+        17,
+        14,
+        10,
+        18,
+        20,
+        9,
+        16,
+        7,
+        6
+      ],
+      "durations_original_bit_order": [
+        0.75,
+        1.25,
+        1.5,
+        1,
+        1,
+        1,
+        1,
+        0.75,
+        1.25,
+        0.5
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 6,
+          "duration": 1.5
+        },
+        {
+          "road_id": 7,
+          "duration": 1.25
+        },
+        {
+          "road_id": 9,
+          "duration": 1
+        },
+        {
+          "road_id": 10,
+          "duration": 1
+        },
+        {
+          "road_id": 14,
+          "duration": 0.75
+        },
+        {
+          "road_id": 16,
+          "duration": 1.25
+        },
+        {
+          "road_id": 17,
+          "duration": 0.75
+        },
+        {
+          "road_id": 18,
+          "duration": 1
+        },
+        {
+          "road_id": 20,
+          "duration": 1
+        },
+        {
+          "road_id": 24,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1008_moderate_permutation_seed_1",
+      "scenario_id": 1008,
+      "level": "moderate",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        24,
+        17,
+        16,
+        6,
+        20,
+        10,
+        18,
+        14,
+        7,
+        9
+      ],
+      "durations_original_bit_order": [
+        0.75,
+        0.75,
+        1,
+        1,
+        1,
+        1.5,
+        1,
+        1.25,
+        1.25,
+        0.5
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 6,
+          "duration": 1
+        },
+        {
+          "road_id": 7,
+          "duration": 1.25
+        },
+        {
+          "road_id": 9,
+          "duration": 1.5
+        },
+        {
+          "road_id": 10,
+          "duration": 1
+        },
+        {
+          "road_id": 14,
+          "duration": 1.25
+        },
+        {
+          "road_id": 16,
+          "duration": 0.75
+        },
+        {
+          "road_id": 17,
+          "duration": 0.75
+        },
+        {
+          "road_id": 18,
+          "duration": 1
+        },
+        {
+          "road_id": 20,
+          "duration": 1
+        },
+        {
+          "road_id": 24,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1008_moderate_permutation_seed_2",
+      "scenario_id": 1008,
+      "level": "moderate",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        10,
+        14,
+        20,
+        6,
+        17,
+        16,
+        24,
+        7,
+        9,
+        18
+      ],
+      "durations_original_bit_order": [
+        1,
+        1,
+        1,
+        0.5,
+        0.75,
+        1.25,
+        1.5,
+        0.75,
+        1.25,
+        1
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 6,
+          "duration": 1
+        },
+        {
+          "road_id": 7,
+          "duration": 1.25
+        },
+        {
+          "road_id": 9,
+          "duration": 1.25
+        },
+        {
+          "road_id": 10,
+          "duration": 0.5
+        },
+        {
+          "road_id": 14,
+          "duration": 0.75
+        },
+        {
+          "road_id": 16,
+          "duration": 1
+        },
+        {
+          "road_id": 17,
+          "duration": 1
+        },
+        {
+          "road_id": 18,
+          "duration": 1.5
+        },
+        {
+          "road_id": 20,
+          "duration": 0.75
+        },
+        {
+          "road_id": 24,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1008_strong_depth_rank",
+      "scenario_id": 1008,
+      "level": "strong",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        24,
+        17,
+        14,
+        10,
+        18,
+        20,
+        9,
+        16,
+        7,
+        6
+      ],
+      "durations_original_bit_order": [
+        0.5,
+        1.5,
+        2,
+        0.75,
+        1,
+        1,
+        0.75,
+        0.5,
+        1.75,
+        0.25
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 6,
+          "duration": 2
+        },
+        {
+          "road_id": 7,
+          "duration": 1.75
+        },
+        {
+          "road_id": 9,
+          "duration": 1
+        },
+        {
+          "road_id": 10,
+          "duration": 0.75
+        },
+        {
+          "road_id": 14,
+          "duration": 0.5
+        },
+        {
+          "road_id": 16,
+          "duration": 1.5
+        },
+        {
+          "road_id": 17,
+          "duration": 0.5
+        },
+        {
+          "road_id": 18,
+          "duration": 0.75
+        },
+        {
+          "road_id": 20,
+          "duration": 1
+        },
+        {
+          "road_id": 24,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "config_id": "1008_strong_permutation_seed_1",
+      "scenario_id": 1008,
+      "level": "strong",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        24,
+        17,
+        16,
+        6,
+        20,
+        10,
+        18,
+        14,
+        7,
+        9
+      ],
+      "durations_original_bit_order": [
+        0.5,
+        0.5,
+        0.75,
+        1,
+        0.75,
+        2,
+        1,
+        1.5,
+        1.75,
+        0.25
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 6,
+          "duration": 0.75
+        },
+        {
+          "road_id": 7,
+          "duration": 1.75
+        },
+        {
+          "road_id": 9,
+          "duration": 2
+        },
+        {
+          "road_id": 10,
+          "duration": 1
+        },
+        {
+          "road_id": 14,
+          "duration": 1.5
+        },
+        {
+          "road_id": 16,
+          "duration": 0.5
+        },
+        {
+          "road_id": 17,
+          "duration": 0.5
+        },
+        {
+          "road_id": 18,
+          "duration": 1
+        },
+        {
+          "road_id": 20,
+          "duration": 0.75
+        },
+        {
+          "road_id": 24,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "config_id": "1008_strong_permutation_seed_2",
+      "scenario_id": 1008,
+      "level": "strong",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        10,
+        14,
+        20,
+        6,
+        17,
+        16,
+        24,
+        7,
+        9,
+        18
+      ],
+      "durations_original_bit_order": [
+        0.75,
+        1,
+        0.75,
+        0.25,
+        0.5,
+        1.75,
+        2,
+        0.5,
+        1.5,
+        1
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        6,
+        10,
+        20,
+        9,
+        18,
+        14,
+        7,
+        24
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 6,
+          "duration": 0.75
+        },
+        {
+          "road_id": 7,
+          "duration": 1.5
+        },
+        {
+          "road_id": 9,
+          "duration": 1.75
+        },
+        {
+          "road_id": 10,
+          "duration": 0.25
+        },
+        {
+          "road_id": 14,
+          "duration": 0.5
+        },
+        {
+          "road_id": 16,
+          "duration": 1
+        },
+        {
+          "road_id": 17,
+          "duration": 0.75
+        },
+        {
+          "road_id": 18,
+          "duration": 2
+        },
+        {
+          "road_id": 20,
+          "duration": 0.5
+        },
+        {
+          "road_id": 24,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1009_uniform_uniform",
+      "scenario_id": 1009,
+      "level": "uniform",
+      "allocation": "uniform",
+      "assignment_order": [
+        6,
+        9,
+        15,
+        16,
+        17,
+        20,
+        21,
+        23,
+        25,
+        27
+      ],
+      "durations_original_bit_order": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 6,
+          "duration": 1.0
+        },
+        {
+          "road_id": 9,
+          "duration": 1.0
+        },
+        {
+          "road_id": 15,
+          "duration": 1.0
+        },
+        {
+          "road_id": 16,
+          "duration": 1.0
+        },
+        {
+          "road_id": 17,
+          "duration": 1.0
+        },
+        {
+          "road_id": 20,
+          "duration": 1.0
+        },
+        {
+          "road_id": 21,
+          "duration": 1.0
+        },
+        {
+          "road_id": 23,
+          "duration": 1.0
+        },
+        {
+          "road_id": 25,
+          "duration": 1.0
+        },
+        {
+          "road_id": 27,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "config_id": "1009_moderate_depth_rank",
+      "scenario_id": 1009,
+      "level": "moderate",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        6,
+        27,
+        15,
+        9,
+        17,
+        20,
+        16,
+        25,
+        21,
+        23
+      ],
+      "durations_original_bit_order": [
+        1,
+        1,
+        0.75,
+        0.75,
+        0.5,
+        1.25,
+        1.5,
+        1,
+        1,
+        1.25
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 6,
+          "duration": 0.5
+        },
+        {
+          "road_id": 9,
+          "duration": 1
+        },
+        {
+          "road_id": 15,
+          "duration": 0.75
+        },
+        {
+          "road_id": 16,
+          "duration": 1
+        },
+        {
+          "road_id": 17,
+          "duration": 1
+        },
+        {
+          "road_id": 20,
+          "duration": 1
+        },
+        {
+          "road_id": 21,
+          "duration": 1.25
+        },
+        {
+          "road_id": 23,
+          "duration": 1.5
+        },
+        {
+          "road_id": 25,
+          "duration": 1.25
+        },
+        {
+          "road_id": 27,
+          "duration": 0.75
+        }
+      ]
+    },
+    {
+      "config_id": "1009_moderate_permutation_seed_1",
+      "scenario_id": 1009,
+      "level": "moderate",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        27,
+        21,
+        20,
+        6,
+        25,
+        16,
+        23,
+        17,
+        9,
+        15
+      ],
+      "durations_original_bit_order": [
+        1.25,
+        1,
+        1.5,
+        0.5,
+        1,
+        0.75,
+        1,
+        0.75,
+        1.25,
+        1
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 6,
+          "duration": 1
+        },
+        {
+          "road_id": 9,
+          "duration": 1.25
+        },
+        {
+          "road_id": 15,
+          "duration": 1.5
+        },
+        {
+          "road_id": 16,
+          "duration": 1
+        },
+        {
+          "road_id": 17,
+          "duration": 1.25
+        },
+        {
+          "road_id": 20,
+          "duration": 0.75
+        },
+        {
+          "road_id": 21,
+          "duration": 0.75
+        },
+        {
+          "road_id": 23,
+          "duration": 1
+        },
+        {
+          "road_id": 25,
+          "duration": 1
+        },
+        {
+          "road_id": 27,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1009_moderate_permutation_seed_2",
+      "scenario_id": 1009,
+      "level": "moderate",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        16,
+        17,
+        25,
+        6,
+        21,
+        20,
+        27,
+        9,
+        15,
+        23
+      ],
+      "durations_original_bit_order": [
+        0.75,
+        0.5,
+        1.25,
+        1,
+        1,
+        1,
+        1.5,
+        1,
+        1.25,
+        0.75
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 6,
+          "duration": 1
+        },
+        {
+          "road_id": 9,
+          "duration": 1.25
+        },
+        {
+          "road_id": 15,
+          "duration": 1.25
+        },
+        {
+          "road_id": 16,
+          "duration": 0.5
+        },
+        {
+          "road_id": 17,
+          "duration": 0.75
+        },
+        {
+          "road_id": 20,
+          "duration": 1
+        },
+        {
+          "road_id": 21,
+          "duration": 1
+        },
+        {
+          "road_id": 23,
+          "duration": 1.5
+        },
+        {
+          "road_id": 25,
+          "duration": 0.75
+        },
+        {
+          "road_id": 27,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1009_strong_depth_rank",
+      "scenario_id": 1009,
+      "level": "strong",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        6,
+        27,
+        15,
+        9,
+        17,
+        20,
+        16,
+        25,
+        21,
+        23
+      ],
+      "durations_original_bit_order": [
+        0.75,
+        1,
+        0.5,
+        0.5,
+        0.25,
+        1.75,
+        2,
+        1,
+        0.75,
+        1.5
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 6,
+          "duration": 0.25
+        },
+        {
+          "road_id": 9,
+          "duration": 0.75
+        },
+        {
+          "road_id": 15,
+          "duration": 0.5
+        },
+        {
+          "road_id": 16,
+          "duration": 1
+        },
+        {
+          "road_id": 17,
+          "duration": 0.75
+        },
+        {
+          "road_id": 20,
+          "duration": 1
+        },
+        {
+          "road_id": 21,
+          "duration": 1.75
+        },
+        {
+          "road_id": 23,
+          "duration": 2
+        },
+        {
+          "road_id": 25,
+          "duration": 1.5
+        },
+        {
+          "road_id": 27,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1009_strong_permutation_seed_1",
+      "scenario_id": 1009,
+      "level": "strong",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        27,
+        21,
+        20,
+        6,
+        25,
+        16,
+        23,
+        17,
+        9,
+        15
+      ],
+      "durations_original_bit_order": [
+        1.5,
+        1,
+        2,
+        0.25,
+        0.75,
+        0.5,
+        1,
+        0.5,
+        1.75,
+        0.75
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 6,
+          "duration": 0.75
+        },
+        {
+          "road_id": 9,
+          "duration": 1.75
+        },
+        {
+          "road_id": 15,
+          "duration": 2
+        },
+        {
+          "road_id": 16,
+          "duration": 1
+        },
+        {
+          "road_id": 17,
+          "duration": 1.5
+        },
+        {
+          "road_id": 20,
+          "duration": 0.5
+        },
+        {
+          "road_id": 21,
+          "duration": 0.5
+        },
+        {
+          "road_id": 23,
+          "duration": 1
+        },
+        {
+          "road_id": 25,
+          "duration": 0.75
+        },
+        {
+          "road_id": 27,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "config_id": "1009_strong_permutation_seed_2",
+      "scenario_id": 1009,
+      "level": "strong",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        16,
+        17,
+        25,
+        6,
+        21,
+        20,
+        27,
+        9,
+        15,
+        23
+      ],
+      "durations_original_bit_order": [
+        0.5,
+        0.25,
+        1.75,
+        1,
+        0.75,
+        0.75,
+        2,
+        1,
+        1.5,
+        0.5
+      ],
+      "roads_original_bit_order": [
+        17,
+        16,
+        15,
+        27,
+        6,
+        21,
+        23,
+        20,
+        9,
+        25
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 6,
+          "duration": 0.75
+        },
+        {
+          "road_id": 9,
+          "duration": 1.5
+        },
+        {
+          "road_id": 15,
+          "duration": 1.75
+        },
+        {
+          "road_id": 16,
+          "duration": 0.25
+        },
+        {
+          "road_id": 17,
+          "duration": 0.5
+        },
+        {
+          "road_id": 20,
+          "duration": 1
+        },
+        {
+          "road_id": 21,
+          "duration": 0.75
+        },
+        {
+          "road_id": 23,
+          "duration": 2
+        },
+        {
+          "road_id": 25,
+          "duration": 0.5
+        },
+        {
+          "road_id": 27,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1010_uniform_uniform",
+      "scenario_id": 1010,
+      "level": "uniform",
+      "allocation": "uniform",
+      "assignment_order": [
+        3,
+        6,
+        7,
+        8,
+        11,
+        13,
+        35,
+        36,
+        37,
+        38
+      ],
+      "durations_original_bit_order": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "roads_original_bit_order": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 3,
+          "duration": 1.0
+        },
+        {
+          "road_id": 6,
+          "duration": 1.0
+        },
+        {
+          "road_id": 7,
+          "duration": 1.0
+        },
+        {
+          "road_id": 8,
+          "duration": 1.0
+        },
+        {
+          "road_id": 11,
+          "duration": 1.0
+        },
+        {
+          "road_id": 13,
+          "duration": 1.0
+        },
+        {
+          "road_id": 35,
+          "duration": 1.0
+        },
+        {
+          "road_id": 36,
+          "duration": 1.0
+        },
+        {
+          "road_id": 37,
+          "duration": 1.0
+        },
+        {
+          "road_id": 38,
+          "duration": 1.0
+        }
+      ]
+    },
+    {
+      "config_id": "1010_moderate_depth_rank",
+      "scenario_id": 1010,
+      "level": "moderate",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        37,
+        38,
+        35,
+        7,
+        36,
+        13,
+        6,
+        11,
+        8,
+        3
+      ],
+      "durations_original_bit_order": [
+        1,
+        1,
+        1.25,
+        1.25,
+        1.5,
+        1,
+        0.5,
+        1,
+        0.75,
+        0.75
+      ],
+      "roads_original_bit_order": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 3,
+          "duration": 1.5
+        },
+        {
+          "road_id": 6,
+          "duration": 1
+        },
+        {
+          "road_id": 7,
+          "duration": 1
+        },
+        {
+          "road_id": 8,
+          "duration": 1.25
+        },
+        {
+          "road_id": 11,
+          "duration": 1.25
+        },
+        {
+          "road_id": 13,
+          "duration": 1
+        },
+        {
+          "road_id": 35,
+          "duration": 0.75
+        },
+        {
+          "road_id": 36,
+          "duration": 1
+        },
+        {
+          "road_id": 37,
+          "duration": 0.5
+        },
+        {
+          "road_id": 38,
+          "duration": 0.75
+        }
+      ]
+    },
+    {
+      "config_id": "1010_moderate_permutation_seed_1",
+      "scenario_id": 1010,
+      "level": "moderate",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        38,
+        35,
+        13,
+        3,
+        37,
+        8,
+        36,
+        11,
+        6,
+        7
+      ],
+      "durations_original_bit_order": [
+        1.25,
+        1,
+        1.25,
+        1,
+        1,
+        1.5,
+        1,
+        0.75,
+        0.75,
+        0.5
+      ],
+      "roads_original_bit_order": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 3,
+          "duration": 1
+        },
+        {
+          "road_id": 6,
+          "duration": 1.25
+        },
+        {
+          "road_id": 7,
+          "duration": 1.5
+        },
+        {
+          "road_id": 8,
+          "duration": 1
+        },
+        {
+          "road_id": 11,
+          "duration": 1.25
+        },
+        {
+          "road_id": 13,
+          "duration": 0.75
+        },
+        {
+          "road_id": 35,
+          "duration": 0.75
+        },
+        {
+          "road_id": 36,
+          "duration": 1
+        },
+        {
+          "road_id": 37,
+          "duration": 1
+        },
+        {
+          "road_id": 38,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1010_moderate_permutation_seed_2",
+      "scenario_id": 1010,
+      "level": "moderate",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        8,
+        11,
+        37,
+        3,
+        35,
+        13,
+        38,
+        6,
+        7,
+        36
+      ],
+      "durations_original_bit_order": [
+        1.25,
+        1.5,
+        0.75,
+        0.5,
+        1,
+        1.25,
+        0.75,
+        1,
+        1,
+        1
+      ],
+      "roads_original_bit_order": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 3,
+          "duration": 1
+        },
+        {
+          "road_id": 6,
+          "duration": 1.25
+        },
+        {
+          "road_id": 7,
+          "duration": 1.25
+        },
+        {
+          "road_id": 8,
+          "duration": 0.5
+        },
+        {
+          "road_id": 11,
+          "duration": 0.75
+        },
+        {
+          "road_id": 13,
+          "duration": 1
+        },
+        {
+          "road_id": 35,
+          "duration": 1
+        },
+        {
+          "road_id": 36,
+          "duration": 1.5
+        },
+        {
+          "road_id": 37,
+          "duration": 0.75
+        },
+        {
+          "road_id": 38,
+          "duration": 1
+        }
+      ]
+    },
+    {
+      "config_id": "1010_strong_depth_rank",
+      "scenario_id": 1010,
+      "level": "strong",
+      "allocation": "depth_rank",
+      "assignment_order": [
+        37,
+        38,
+        35,
+        7,
+        36,
+        13,
+        6,
+        11,
+        8,
+        3
+      ],
+      "durations_original_bit_order": [
+        1,
+        0.75,
+        1.5,
+        1.75,
+        2,
+        0.75,
+        0.25,
+        1,
+        0.5,
+        0.5
+      ],
+      "roads_original_bit_order": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 3,
+          "duration": 2
+        },
+        {
+          "road_id": 6,
+          "duration": 1
+        },
+        {
+          "road_id": 7,
+          "duration": 0.75
+        },
+        {
+          "road_id": 8,
+          "duration": 1.75
+        },
+        {
+          "road_id": 11,
+          "duration": 1.5
+        },
+        {
+          "road_id": 13,
+          "duration": 1
+        },
+        {
+          "road_id": 35,
+          "duration": 0.5
+        },
+        {
+          "road_id": 36,
+          "duration": 0.75
+        },
+        {
+          "road_id": 37,
+          "duration": 0.25
+        },
+        {
+          "road_id": 38,
+          "duration": 0.5
+        }
+      ]
+    },
+    {
+      "config_id": "1010_strong_permutation_seed_1",
+      "scenario_id": 1010,
+      "level": "strong",
+      "allocation": "permutation_seed_1",
+      "assignment_order": [
+        38,
+        35,
+        13,
+        3,
+        37,
+        8,
+        36,
+        11,
+        6,
+        7
+      ],
+      "durations_original_bit_order": [
+        1.75,
+        1,
+        1.5,
+        1,
+        0.75,
+        2,
+        0.75,
+        0.5,
+        0.5,
+        0.25
+      ],
+      "roads_original_bit_order": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 3,
+          "duration": 0.75
+        },
+        {
+          "road_id": 6,
+          "duration": 1.75
+        },
+        {
+          "road_id": 7,
+          "duration": 2
+        },
+        {
+          "road_id": 8,
+          "duration": 1
+        },
+        {
+          "road_id": 11,
+          "duration": 1.5
+        },
+        {
+          "road_id": 13,
+          "duration": 0.5
+        },
+        {
+          "road_id": 35,
+          "duration": 0.5
+        },
+        {
+          "road_id": 36,
+          "duration": 1
+        },
+        {
+          "road_id": 37,
+          "duration": 0.75
+        },
+        {
+          "road_id": 38,
+          "duration": 0.25
+        }
+      ]
+    },
+    {
+      "config_id": "1010_strong_permutation_seed_2",
+      "scenario_id": 1010,
+      "level": "strong",
+      "allocation": "permutation_seed_2",
+      "assignment_order": [
+        8,
+        11,
+        37,
+        3,
+        35,
+        13,
+        38,
+        6,
+        7,
+        36
+      ],
+      "durations_original_bit_order": [
+        1.5,
+        2,
+        0.5,
+        0.25,
+        0.75,
+        1.75,
+        0.5,
+        1,
+        0.75,
+        1
+      ],
+      "roads_original_bit_order": [
+        6,
+        36,
+        11,
+        8,
+        3,
+        7,
+        37,
+        13,
+        35,
+        38
+      ],
+      "road_duration_mapping": [
+        {
+          "road_id": 3,
+          "duration": 0.75
+        },
+        {
+          "road_id": 6,
+          "duration": 1.5
+        },
+        {
+          "road_id": 7,
+          "duration": 1.75
+        },
+        {
+          "road_id": 8,
+          "duration": 0.25
+        },
+        {
+          "road_id": 11,
+          "duration": 0.5
+        },
+        {
+          "road_id": 13,
+          "duration": 1
+        },
+        {
+          "road_id": 35,
+          "duration": 0.75
+        },
+        {
+          "road_id": 36,
+          "duration": 2
+        },
+        {
+          "road_id": 37,
+          "duration": 0.5
+        },
+        {
+          "road_id": 38,
+          "duration": 1
+        }
+      ]
+    }
+  ],
+  "config_count": 70,
+  "heterogeneous_count": 60,
+  "independent_flood_scenarios": 10,
+  "weights": {
+    "uniform": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "moderate": [
+      0.5,
+      0.75,
+      0.75,
+      1,
+      1,
+      1,
+      1,
+      1.25,
+      1.25,
+      1.5
+    ],
+    "strong": [
+      0.25,
+      0.5,
+      0.5,
+      0.75,
+      0.75,
+      1,
+      1,
+      1.5,
+      1.75,
+      2
+    ]
+  },
+  "random_generator": "NumPy Generator(PCG64)",
+  "seeds": [
+    2026110201,
+    2026110202
+  ],
+  "randomization_rule": "Initialize each fixed seed separately for each scenario on sorted physical road IDs; same positional permutation across scenarios and across severity levels. No scenario-dependent seed adjustment.",
+  "tie_break": "Exact floating objective minimum; ties use ascending physical ID of last action in forward recurrence, then predecessor rank. No tolerance-based replacement.",
+  "near_tie_reporting_relative": 1e-12,
+  "validation_relative_tolerance": 1e-12,
+  "original_dry_TSTT_raw": 7480225.3449211195,
+  "Q": 360600.0,
+  "raw_time_to_hours": 0.01,
+  "allowed_new_UE_calls": 0,
+  "allowed_model_predictions": 0,
+  "allowed_training": 0,
+  "algorithms": {
+    "forward": "two-best distinct sequence subset DP; predecessor-state C",
+    "independent": "reverse remaining-actions Bellman recurrence",
+    "small_tests": "m1..7 exhaustive permutations with fixed deterministic costs"
+  },
+  "absolute_metric": "Duration-weighted average stage model-implied per-trip minutes; not engineering duration, realized cumulative delay or project cost",
+  "source_snapshot_sha256": "5972b8245c5cf86497d35a61dbaa041efe235f445e4c96749b66120d314f99b8",
+  "critical_sources": [
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\inputs\\historical_1001_1010.csv",
+      "sha256": "4c96f6cc4e414de87d75c8d6282ef37222a6057c96ab32487757bd7b8b336af4"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\02_original_method_path_reevaluation\\frozen_paths.json",
+      "sha256": "b91fb4093cc7dae98a7061d73efaa6663b7198c3a5d108c4890f701346125f6b"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_2\\final_validation.json",
+      "sha256": "1afabbf7db608140d13f800d81a864d3fae9dbdcd214f8b850bf7dedfe06a227"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_2\\unit_validation.json",
+      "sha256": "dcad05b3a5caa3991427bf2b40310f8be910469637448a151b7b2e7cb30ddf3a"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_2\\raw\\dry_baselines.csv",
+      "sha256": "42fb4eadcab50ac860eb0ffd83827504c28e271be25a1d3e9f856156442e04a3"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_2\\stage_metrics_all10.csv",
+      "sha256": "4ae0220a1a712f70f4b2e305ed88317fd18b3d5ed0b2b4202b1389200c055e4b"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_2\\raw\\all_new_UE_open_arc_flows.csv.gz",
+      "sha256": "52250cd72574cf5d10ae0dd6b506d53e6487dac16ff272f9f623d1c035b43903"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\source_snapshot\\code\\model_backend\\data_src\\SiouxFalls_flood_benchmark\\processed\\od_long.csv",
+      "sha256": "17441d287ca7582342bf713f9bc0014d79081cb75060b7ce291fe6d815d42c39"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\completion_check.json",
+      "sha256": "5b415f4cd20a501c7fb7c43c7f38b666aa58d5ea481c8ac013a9fa91e251275e"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\00_protocol_and_input_audit\\source_records\\archive\\exact_dp_solution.json",
+      "sha256": "d794cdb241ac96fb50470e14027f29e5f5b63a3db043b598c0bf1f62220e9ccc"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1001_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "5eb43a704bd716caa4fdfc013098b8595c1622f06ad864892d35885a03f5a8f8"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1002_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "98d8fb38ab6dd048edcd5bb2e1394268f1572f1f0ecafa0b23613a1b8876ca4b"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1003_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "70e429b5a8f063220efecc77698eec58cacba4c2a353f86c0d7cfe7c28669f33"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1004_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "d3c72348cf2a9070e753a7aef633d85c569133c58949b1fbfc6fcc199c62fb61"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1005_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "b53479ba9c4305997d05a9835c9abf46eabc5d5dfc7f29b27ddd2e7177f3974f"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1006_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "c569f13176258635f285599171c6e4498ae6ea465c3209392efce5486ec4abde"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1007_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "071f7488fbdddda17671534c0df6071e8d23837efc22db6dc5d4a726950088c7"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1008_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "ed7ba8b43c5e2c58770923ea2a6af35b34c1dceb2926ef43e2ff652235afe7ef"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1009_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "926d6092624dde0db6395ec739ee3c0c3269d6f90be0c0efa46e36c50d074c06"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\reviewer_4_2\\01_legacy_ue_state_comparison\\source_state_tables\\scenario_1010_path_solver_1e9_1024_states.csv.gz",
+      "sha256": "001fbca4e262f62c3f2b66f36038d64b20877d1360eb7adaf4b6a5adf802a9a7"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1001\\exact_solution.json",
+      "sha256": "b0de0068a366f854656eb28a3f654373e516e7f66a24dfa653b2ce31f80638db"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1002\\exact_solution.json",
+      "sha256": "36af529f9f054b7f7dc46ea67b2046beb755916e347783704105c83d80c0b1f0"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1003\\exact_solution.json",
+      "sha256": "be4ddd1bb26b2d41101e4c0a000877c2afe867229c7b5931825bc22f95b32a6f"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1004\\exact_solution.json",
+      "sha256": "51095dbe0552de890b2e875686fe6ba446addebbc98c5327884ddf4902290b14"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1005\\exact_solution.json",
+      "sha256": "e79962dbaf92f88fb5346f0272d0b2238430dae83fd07e1fa80c69670eee5a4c"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1006\\exact_solution.json",
+      "sha256": "21225be4e2d2ef3dcd5693dcd94d62ebb78042e86027f94d5deaab4d9c9ae162"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1007\\exact_solution.json",
+      "sha256": "ec6e9cd9fa10362824728e7125dfb62a55f4b84af182499e1ca49aa842eed18e"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1008\\exact_solution.json",
+      "sha256": "d91dd0eb6b2651ce4477f244272a6afe16f7d188e33b2e81e7d0287d20cd47da"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1009\\exact_solution.json",
+      "sha256": "401b8a1ae93f2eafec9a5defc9fee45c1c65c8183ce8d6f4d343d7d8fbda1e92"
+    },
+    {
+      "path": "E:\\jcr2区意见\\返稿\\4.1专项返修_20261026\\development\\legacy_precision\\scenario_1010\\exact_solution.json",
+      "sha256": "af3b7b3352cb16da0a1d0dd999895ed2be943ee9df0a40173d20ffd766f55788"
+    }
+  ],
+  "audit_code": [
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_4\\scripts\\audit_setup54.py",
+      "sha256": "9e45a33b876c62a6c2e5bf99ccf85a133dadb384d5d4aa82d9b49b2cf4fa93ca"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_4\\scripts\\experiment54.py",
+      "sha256": "e83f84116e4192cb9f1acced67a5da38331167098c9e23bc1c2fc88eeac06fc6"
+    },
+    {
+      "path": "E:\\jcr2区意见\\urban-flood-road-reopening-reproducibility-v1.0-public\\revision_R1\\comment5_4\\scripts\\od_diagnostic54.py",
+      "sha256": "e86e19221c573603d8ad79de40cb027508ea52fee7d4e7c9751d4f9b02cd8d27"
+    }
+  ],
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "executable": "C:\\Users\\Wuzeqian.PC-20220914MSMS\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe"
+  },
+  "optional_OD": {
+    "scenarios": [
+      1006,
+      1003,
+      1008
+    ],
+    "rho": 1,
+    "stages": [
+      0,
+      5,
+      9
+    ],
+    "policies": [
+      "full_method",
+      "exact_DP_original_rho1"
+    ],
+    "percentile": "Smallest OD shortest-time value with demand-weighted CDF >= p",
+    "top10": "Fractional-demand weighted upper-decile mean",
+    "method": "Dijkstra on archived 5.2 congested open-arc times; no UE call"
+  }
+}

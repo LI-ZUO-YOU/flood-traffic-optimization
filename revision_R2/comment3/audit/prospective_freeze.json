@@ -1,0 +1,5 @@
+{
+  "run_manifest_sha256": "24f756c0d5ea7d0c4c238183c296d02bfe092e628c31e3e67328755bffd1ae26",
+  "new_UE_calls_before_freeze": 0,
+  "reason": "All representatives, levels, fields, E and states fixed before UE"
+}

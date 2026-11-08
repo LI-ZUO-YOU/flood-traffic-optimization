@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "runs": 330,
+  "all_phase_sums_256": true,
+  "cache_misses_equal_unique_states": true,
+  "unique_final_path_states_each_run": 10,
+  "all_final_J_reconstructed": true,
+  "duplicate_local_move_rows_total": 50714,
+  "duplicate_move_fields_never_used_for_UE_billing": true,
+  "initial_solution_not_counted_as_strict_improvement": true
+}

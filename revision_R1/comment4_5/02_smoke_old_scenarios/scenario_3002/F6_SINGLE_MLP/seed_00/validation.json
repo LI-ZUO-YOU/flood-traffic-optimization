@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "candidate_count": 30000,
+  "primary_count": 60,
+  "unique_queries": 256,
+  "phase_identity": true,
+  "firewall_probe_denied": true,
+  "at": "2026-10-29T22:20:33.337794+08:00"
+}

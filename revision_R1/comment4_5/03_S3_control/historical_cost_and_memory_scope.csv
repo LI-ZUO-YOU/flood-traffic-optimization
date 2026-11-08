@@ -1,0 +1,9 @@
+field,meaning
+historical_4_3_offline_cost_context.csv,"Copied from completed Reviewer1 4.3 measurements; original 'current measurement' wording refers to that prior experiment, not a new S3 measurement. No new ensemble training was performed."
+ten_member_training_outer_loop,"Prior 4.3 isolated timing with original labels and config; temporary checkpoints were not used to replace frozen decision weights."
+historical_4_3_member_training_costs.csv,"Prior 4.3 per-member timing only, including member_01; copied without retraining or selection. Temporary timing checkpoints are not new S3 decision models."
+same_host_measured_components_sum,"Prior component sum only; not new-label-to-trained-model end-to-end time; nested internal timer must not be added twice."
+fixed_surrogate_training_costs.csv,"First-batch Ridge/HGB fitting and shared loading/feature transformation measurements; reused models, no S3 fitting."
+peak_RSS_bytes,"Sampled total resident memory of persistent single computation process, including cached models from earlier tasks; not method-exclusive memory or incremental deployment memory."
+timestamp_elapsed,"Raw request/incumbent timestamps are relative to search-oracle creation after candidate preparation; use fresh_online_seconds for the complete measured online scope."
+original_prefix_supplementation,"Original ensemble prefix5 supplementation is part of its frozen generator and is visible as supplemental_prefix5_random_tail in source_detail. Adapter fallback counts in source_fallback_records primarily track the declared single-model supplemental_random_tail and DP/GA fallback."

@@ -1,0 +1,10 @@
+﻿m,comparator,primary_complete_pairs,wins,ties,losses,mean_paired_regret_difference_pp,mean_paired_online_difference_s,available_mean_scenarios,available_wins,available_ties,available_losses,incomplete_available_means_are_secondary_only
+10,Greedy-ILS,6,0,1,5,1.397173148502211,7.675800444454782,6,0,1,5,True
+10,UE-BiBeam,6,1,0,5,0.91348012029129899,6.3935938611264449,6,1,0,5,True
+10,SA,6,0,1,5,1.0589774690530762,7.3971138832987195,6,0,1,5,True
+12,Greedy-ILS,6,0,0,6,2.0416674254981282,9.4593964500818402,6,0,0,6,True
+12,UE-BiBeam,6,1,0,5,1.5174085030419573,7.2105391056069896,6,1,0,5,True
+12,SA,6,1,0,5,0.58625476516615715,9.6939672834446853,6,1,0,5,True
+14,Greedy-ILS,5,0,0,5,2.75748227040238,13.262490393314511,6,0,0,6,True
+14,UE-BiBeam,6,0,0,6,2.3712889395203351,13.44805999436519,6,0,0,6,True
+14,SA,6,2,0,4,-0.46769973400689241,13.732357233245338,6,2,0,4,True

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "main_scenarios": 10,
+  "individual_runs": 330,
+  "scenario_method_rows": 110,
+  "LOSO_rows": 110,
+  "5102_retained_in_primary": true,
+  "statistical_tests": 0
+}
