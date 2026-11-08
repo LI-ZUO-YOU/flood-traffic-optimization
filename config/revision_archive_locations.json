@@ -3,12 +3,28 @@
   "repository": "https://github.com/LI-ZUO-YOU/flood-traffic-optimization",
   "original_version_doi": "10.5281/zenodo.22669165",
   "concept_doi": "10.5281/zenodo.22664565",
-  "new_revision_version_doi": null,
-  "new_revision_availability": "UNCONFIRMED_UNTIL_NEW_VERSION_DOI_IS_ENTERED_AND_VERIFIED",
+  "new_revision_version_doi": "10.5281/zenodo.24060645",
+  "new_revision_availability": "PUBLISHED_OPEN_ZENODO_V1_1_0",
   "original_doi_contains_revision_data": false,
   "complete_archive_relative_layout": "public_release root",
   "archive_manifest_sha256": "ca4b22a02cb5812aec4ae28128b8af59598184edf7a07d6bd3612aa28c3d4e8e",
   "github_is_selected_increment": true,
-  "large_raw_outputs_location": "Zenodo revision artifact; use exact new version once confirmed",
-  "frozen_algorithms_modified": false
+  "large_raw_outputs_location": "public_release.rar at https://doi.org/10.5281/zenodo.24060645; complete revision payload, not the optional slim archive",
+  "frozen_algorithms_modified": false,
+  "new_revision_version": "v1.1.0",
+  "new_revision_record_url": "https://zenodo.org/records/24060645",
+  "new_revision_publication_date": "2026-11-08",
+  "published_archive_files": [
+    {
+      "name": "LI-ZUO-YOU/flood-traffic-optimization-v1.0.1.zip",
+      "bytes": 74177797,
+      "checksum": "md5:b40cead7eb9e2d630622d772ffa2b3cd"
+    },
+    {
+      "name": "public_release.rar",
+      "bytes": 5439183033,
+      "checksum": "md5:57d2982b5958792c54e9e29ed5f464a6"
+    }
+  ],
+  "publication_verification_scope": "Official Zenodo record metadata verified; no new download and per-file remote RAR verification or complete experiment rerun certified"
 }

@@ -27,7 +27,7 @@ This is a selected, lightweight source-and-summary increment, not the complete n
 
 `REVISION_ARCHIVE_FILE_INDEX.csv` lists the relative full-archive paths, sizes and SHA256 hashes of revision files not duplicated here. Some listed files are small but are raw records or editorial/provenance details rather than GitHub entry-point material. The full archive's layout is the earlier `public_release` root, not a directory to paste wholesale into this Git repository.
 
-The original DOI https://doi.org/10.5281/zenodo.22669165 identifies v1.0.1. It must not be presented as containing these revision data. The new revision DOI has not been entered in this increment; `config/revision_archive_locations.json` explicitly records that status. The family DOI https://doi.org/10.5281/zenodo.22664565 may be used to locate versions, but check the actual revision version before claiming the complete new archive is publicly available.
+The complete revision archive is openly published as **v1.1.0** (8 November 2026), DOI https://doi.org/10.5281/zenodo.24060645 . Its `public_release.rar` contains the complete revision payload with the `public_release` layout described above; the same record also retains the original v1.0.1 ZIP. `config/revision_archive_locations.json` records the published version, official file metadata and availability. The original DOI https://doi.org/10.5281/zenodo.22669165 still identifies v1.0.1 and must not be presented as containing the revision data. The family DOI https://doi.org/10.5281/zenodo.22664565 links the version series. This GitHub synchronization verifies the official record metadata; it does not certify a fresh download and per-file verification of the entire 5.4 GB remote RAR or complete relocated execution of the experiments.
 
 ## Offline inspection
 
@@ -63,4 +63,4 @@ Revision scripts are exact archived scientific sources and retain original files
 - Heterogeneous-duration analysis tests transfer of frozen orders. Best among tested recovery sets is not a global joint optimum.
 - No overall surrogate advantage or statistical significance claim is introduced by this release preparation.
 
-No old data, checkpoint, algorithm, source protocol or marked Word document was overwritten, and no remote changes, new DOI or new release were created during local preparation.
+The initial local increment preparation did not overwrite old data, checkpoints, algorithms, source protocols or marked Word documents. Following the author's Zenodo publication, this documentation update binds the GitHub materials to the existing v1.1.0 DOI and updates the two affected checksum inventories. It changes no scientific result and creates no additional Zenodo version or GitHub release.

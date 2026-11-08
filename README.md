@@ -9,12 +9,12 @@ The original study-phase files remain in their existing locations. Revision scri
 - [Revision guide](REVISION_README.md): scope, archived limitations and inspection commands.
 - [Manuscript/Supplement/response source crosswalk](REVISION_RESULTS_CROSSWALK.csv).
 - [Full-archive file index](REVISION_ARCHIVE_FILE_INDEX.csv): paths, sizes and hashes of revision payload files retained in the complete archive rather than this lightweight GitHub increment.
-- [Archive locations](config/revision_archive_locations.json): the original version DOI and the separately pending new revision-version DOI.
+- [Archive locations](config/revision_archive_locations.json): the original v1.0.1 DOI and the published v1.1.0 revision DOI.
 - [Revision checksum inventory](REVISION_FILES_SHA256.csv). The root `MANIFEST.sha256` is regenerated for the merged old-plus-new repository, not just the increment.
 
 The S14/Table S20 source is [frozen_v2_descriptive_paired_bootstrap.csv](revision_R1/comment4_5/09_S4_mechanism_robustness/01_statistics/frozen_v2_descriptive_paired_bootstrap.csv): 10,000 paired scenario resamples, seed 2026102906; descriptive intervals, not significance tests.
 
-Large candidate pools, full raw ledgers, replay arrays and bootstrap distributions belong to the complete Zenodo revision artifact. The old version DOI [10.5281/zenodo.22669165](https://doi.org/10.5281/zenodo.22669165) identifies v1.0.1 only. The [version-family landing page](https://doi.org/10.5281/zenodo.22664565) must be checked for the intended revision version; this update does not invent a new DOI or assert that new data have already been published.
+The complete revision artifact is publicly available as **v1.1.0**, published on 8 November 2026: [10.5281/zenodo.24060645](https://doi.org/10.5281/zenodo.24060645). Download `public_release.rar` for the complete revision materials, including large candidate pools, full raw ledgers, replay arrays and bootstrap distributions that are not duplicated in this lightweight GitHub collection. The record also retains the original v1.0.1 ZIP. The earlier DOI [10.5281/zenodo.22669165](https://doi.org/10.5281/zenodo.22669165) identifies v1.0.1 only; the [version-family DOI](https://doi.org/10.5281/zenodo.22664565) links the version series. Publication does not remove the historical execution and evidence limitations described below and in the revision guide.
 
 ## Original study-phase scope (v1.0.1)
 
